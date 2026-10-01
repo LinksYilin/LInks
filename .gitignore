@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 .venv/
 results/*.tmp
+
+# 路径修复工具的临时备份（不发布）
+_pathfix_backup*/
+
