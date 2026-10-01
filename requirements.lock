@@ -1,0 +1,59 @@
+# =====================================================================
+# ΔΔG 接触图基准 — 环境锁定文件
+# =====================================================================
+# ★ 为什么需要这个文件
+# ---------------------------------------------------------------------
+# 原 requirements.lock 只列了包名与版本，缺少：
+#   - Python 版本
+#   - 平台信息
+#   - PyTorch CUDA wheel 的索引地址（不指定会装到 CPU 版，行为不同）
+#   - 安装顺序（torch 必须先装）
+# 外部审稿人按原文件无法直接安装，故补充以下说明。
+#
+# ★ 快速安装
+# ---------------------------------------------------------------------
+#   # 1) 建虚拟环境（Python 3.11）
+#   python -m venv .venv
+#   .venv\Scripts\activate            # Windows
+#   # source .venv/bin/activate       # Linux / macOS
+#
+#   # 2) 先装 PyTorch（必须指定索引）
+#   pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+#   # 无 GPU 时改用：
+#   # pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+#
+#   # 3) 再装其余依赖
+#   pip install -r requirements.lock
+#
+# ★ 已验证平台
+# ---------------------------------------------------------------------
+#   OS:      Windows 11 (10.0.22631)
+#   Python:  3.11.9
+#   CUDA:    12.4（libtorch cu124 wheel；torch.version.cuda == '12.4'）
+#   训练设备: CPU（训练脚本未调用 .to('cuda')）
+#
+# ★ 关于 torch 的本地版本号
+# ---------------------------------------------------------------------
+#   torch==2.6.0+cu124 含本地版本标签，直接 pip install -r 本文件
+#   通常找不到该 wheel，因此务必先执行上面第 2 步。
+#
+# ★ 复现性
+# ---------------------------------------------------------------------
+#   种子控制见 src/seed_utils.py：
+#     set_seed() 同时设置 random / numpy / torch / CUDA / cuDNN，
+#     并在导入 torch 之前设置 CUBLAS_WORKSPACE_CONFIG，
+#     同时启用 torch.use_deterministic_algorithms。
+#   可复现性由 src/test_determinism.py 实测验证（同 seed 两次训练逐元素相同）。
+# =====================================================================
+
+numpy==2.4.6
+pandas==3.0.6
+scipy==1.17.1
+torch==2.6.0+cu124
+torch-geometric==2.8.0.post1
+scikit-learn==1.9.1
+biopython==1.88
+matplotlib==3.11.2
+pyarrow==25.0.1
+python-docx==1.2.0
+openpyxl==3.1.5

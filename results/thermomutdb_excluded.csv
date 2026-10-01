@@ -1,0 +1,4564 @@
+mutation_code,ddg,reason
+"W138Y,W126Y,W158Y",-1.77,多点突变或缺失mutation_code
+"W138Y,W126Y,W158Y",-1.82,多点突变或缺失mutation_code
+"S54G,P55N",-0.9,多点突变或缺失mutation_code
+"D127A,E128A,V131A,N132A",1.01,多点突变或缺失mutation_code
+"E128A,V131A,N132A",0.91,多点突变或缺失mutation_code
+"V131A,N132A",0.57,多点突变或缺失mutation_code
+"E128A,V131A",0.44,多点突变或缺失mutation_code
+"D127A,E128A",0.24,多点突变或缺失mutation_code
+"D127A,E128A,V131A,N132A,L133A",-2.27,多点突变或缺失mutation_code
+"E128A,V131A,N132A,L133A",-2.59,多点突变或缺失mutation_code
+"P30A,Y67F",-2.41,多点突变或缺失mutation_code
+P30A,,ddg缺失或非数值
+Y67F,,ddg缺失或非数值
+"P30A,Y67F",,多点突变或缺失mutation_code
+"K91R,D94E,K95G",-1.2,多点突变或缺失mutation_code
+"Y28F,R29H,G30A,R31H",0.7,多点突变或缺失mutation_code
+"K91R,D94E,K95G",-1.5,多点突变或缺失mutation_code
+"Y28F,R29H,G30A,R31H",0.9,多点突变或缺失mutation_code
+"K91R,K95G",1.6,多点突变或缺失mutation_code
+"K91R,K95G",1.6,多点突变或缺失mutation_code
+"D94R,K95G",1.5,多点突变或缺失mutation_code
+"D94R,K95G",1.1,多点突变或缺失mutation_code
+"K91R,D94E",-0.5,多点突变或缺失mutation_code
+"K91R,D94E",-0.6,多点突变或缺失mutation_code
+C102T,,ddg缺失或非数值
+V20C,,ddg缺失或非数值
+"P93A,P114G",-4.2,多点突变或缺失mutation_code
+"R111Q,R131Q",4.7,多点突变或缺失mutation_code
+"H18N,W94L",-1.77,多点突变或缺失mutation_code
+"H18R,W94L",-2.13,多点突变或缺失mutation_code
+"H18K,W94L",-2.34,多点突变或缺失mutation_code
+"H18A,W94L",-2.36,多点突变或缺失mutation_code
+"H18S,W94L",-2.59,多点突变或缺失mutation_code
+A146C,,ddg缺失或非数值
+T142C,,ddg缺失或非数值
+D159C,,ddg缺失或非数值
+N55C,,ddg缺失或非数值
+R96C,,ddg缺失或非数值
+L79C,,ddg缺失或非数值
+R119C,,ddg缺失或非数值
+K135C,,ddg缺失或非数值
+"C77A,C95A",-4.6,多点突变或缺失mutation_code
+"C77A,C95A",-5.7,多点突变或缺失mutation_code
+"C77A,C95A",-5.8,多点突变或缺失mutation_code
+"W94L,H18G",0.33,多点突变或缺失mutation_code
+"T26H,D54N",-4.27,多点突变或缺失mutation_code
+"T26H,D54N",-5.74,多点突变或缺失mutation_code
+"L99A,F153A",-8.3,多点突变或缺失mutation_code
+W288S,,ddg缺失或非数值
+W288L,,ddg缺失或非数值
+W288F,,ddg缺失或非数值
+W288Y,,ddg缺失或非数值
+"V36L,M40L,V47I",0.5,多点突变或缺失mutation_code
+"V36I,M40V,V47I",-0.8,多点突变或缺失mutation_code
+"V36I,M40V,V47L",-0.9,多点突变或缺失mutation_code
+"M40V,V47L",-1.1,多点突变或缺失mutation_code
+"V36L,M40V,V47I",-1.1,多点突变或缺失mutation_code
+"V36F,M40L",-1.4,多点突变或缺失mutation_code
+"V36F,M40F,V47I,L65F",-1.6,多点突变或缺失mutation_code
+"V36F,M40F,V47I",-2.2,多点突变或缺失mutation_code
+"V36F,M40F,V47F",-3.0,多点突变或缺失mutation_code
+V36I,,ddg缺失或非数值
+M40A,,ddg缺失或非数值
+"M40V,V47L",,多点突变或缺失mutation_code
+"V36L,M40V,V47I",,多点突变或缺失mutation_code
+"V36I,M40V,V47L",,多点突变或缺失mutation_code
+"V36I,M40V,V47I",,多点突变或缺失mutation_code
+"V36L,M40L,V47I",,多点突变或缺失mutation_code
+"V36F,M40L",,多点突变或缺失mutation_code
+"V36F,M40F,V47I",,多点突变或缺失mutation_code
+"V36F,M40F,V47F",,多点突变或缺失mutation_code
+"V36F,M40F,V47I,L65F",,多点突变或缺失mutation_code
+"D8A,D12A",-0.89,多点突变或缺失mutation_code
+"D8A,R110A",-0.47,多点突变或缺失mutation_code
+"D8A,D12A,R110A",0.11,多点突变或缺失mutation_code
+"D12A,R110A",0.45,多点突变或缺失mutation_code
+"H18G,W94L",0.31,多点突变或缺失mutation_code
+"H18G,W94L",-1.17,多点突变或缺失mutation_code
+"D12A,R110A",-0.41,多点突变或缺失mutation_code
+"D8A,D12A,R110A",-0.1,多点突变或缺失mutation_code
+"D8A,V10A",0.42,多点突变或缺失mutation_code
+"D8A,D12A",0.8,多点突变或缺失mutation_code
+"Y17A,T16A",2.15,多点突变或缺失mutation_code
+"Y13A,Y17A",4.18,多点突变或缺失mutation_code
+"Y13A,Y17A",-5.0,多点突变或缺失mutation_code
+"T16S,Y17A",-2.55,多点突变或缺失mutation_code
+"L99F,F153L",0.21,多点突变或缺失mutation_code
+"L99F,F153L",0.03,多点突变或缺失mutation_code
+"L99F,M102L,F153L",-0.21,多点突变或缺失mutation_code
+"L99F,M102L,F153L",-0.22,多点突变或缺失mutation_code
+"L99F,V111I,F153L",-0.43,多点突变或缺失mutation_code
+"L99F,M102L,V111I,F153L",-0.54,多点突变或缺失mutation_code
+"L99F,V111I,F153L",-0.55,多点突变或缺失mutation_code
+"L99F,M102L,V111I,F153L",-0.65,多点突变或缺失mutation_code
+"L99F,M102L",-0.71,多点突变或缺失mutation_code
+"L99F,M102L",-0.75,多点突变或缺失mutation_code
+"L99F,V111I",-0.82,多点突变或缺失mutation_code
+"L99F,V111I",-0.93,多点突变或缺失mutation_code
+"V111I,F153L",-1.09,多点突变或缺失mutation_code
+"V111I,F153L",-1.09,多点突变或缺失mutation_code
+"L99F,M102L,V111I",-1.15,多点突变或缺失mutation_code
+"L99F,M102L,V111I",-1.2,多点突变或缺失mutation_code
+"M102L,V111F",-1.51,多点突变或缺失mutation_code
+"M102L,V111F",-2.11,多点突变或缺失mutation_code
+"E45A,K48A",0.38,多点突变或缺失mutation_code
+"E45A,K48A",0.01,多点突变或缺失mutation_code
+"R44L,P66A",0.9,多点突变或缺失mutation_code
+"P28W,K29P",-3.9,多点突变或缺失mutation_code
+"L37A,L38A",-1.8,多点突变或缺失mutation_code
+"M32A,T33A",-3.3,多点突变或缺失mutation_code
+"L38A,V39A",-4.0,多点突变或缺失mutation_code
+"L25A,M26A",-4.4,多点突变或缺失mutation_code
+"M65A,V66A",-4.5,多点突变或缺失mutation_code
+"F61A,T62A",-4.6,多点突变或缺失mutation_code
+"E73A,V74A",-5.2,多点突变或缺失mutation_code
+"P71G,P103G",-1.6,多点突变或缺失mutation_code
+"N52I,C102A",6.2,多点突变或缺失mutation_code
+"N52A,C102A",3.9,多点突变或缺失mutation_code
+"N52G,C102A",0.9,多点突变或缺失mutation_code
+"H33P,N52I",-0.8,多点突变或缺失mutation_code
+"G29S,N52I",-1.5,多点突变或缺失mutation_code
+"K14E,K32E",-1.3,多点突变或缺失mutation_code
+"C14A,C38A",0.0,多点突变或缺失mutation_code
+"C30A,C51A",-0.5,多点突变或缺失mutation_code
+"C30T,C51A",-2.0,多点突变或缺失mutation_code
+M101V,,ddg缺失或非数值
+M101T,,ddg缺失或非数值
+M101I,,ddg缺失或非数值
+T24M,,ddg缺失或非数值
+P78L,,ddg缺失或非数值
+Y102C,,ddg缺失或非数值
+Y102H,,ddg缺失或非数值
+F22S,,ddg缺失或非数值
+Q65R,,ddg缺失或非数值
+P62Q,,ddg缺失或非数值
+P78S,,ddg缺失或非数值
+E49G,,ddg缺失或非数值
+D56G,,ddg缺失或非数值
+Y115C,,ddg缺失或非数值
+D60G,,ddg缺失或非数值
+A67V,,ddg缺失或非数值
+D112N,,ddg缺失或非数值
+F114L,,ddg缺失或非数值
+P53H,,ddg缺失或非数值
+T63K,,ddg缺失或非数值
+P53T,,ddg缺失或非数值
+P21S,,ddg缺失或非数值
+G51D,,ddg缺失或非数值
+P28L,,ddg缺失或非数值
+D112G,,ddg缺失或非数值
+S6P,,ddg缺失或非数值
+P28S,,ddg缺失或非数值
+S33L,,ddg缺失或非数值
+"C82A,C191A,C192A,C270A,C401A",-1.0,多点突变或缺失mutation_code
+A82P,,ddg缺失或非数值
+P37A,,ddg缺失或非数值
+P86A,,ddg缺失或非数值
+L39P,,ddg缺失或非数值
+P143A,,ddg缺失或非数值
+I3V,,ddg缺失或非数值
+I3F,,ddg缺失或非数值
+I3A,,ddg缺失或非数值
+I3G,,ddg缺失或非数值
+A82P,,ddg缺失或非数值
+P37A,,ddg缺失或非数值
+P86A,,ddg缺失或非数值
+L39P,,ddg缺失或非数值
+P143A,,ddg缺失或非数值
+I3V,,ddg缺失或非数值
+I3F,,ddg缺失或非数值
+I3A,,ddg缺失或非数值
+I3G,,ddg缺失或非数值
+"C54T,C97A",-0.34,多点突变或缺失mutation_code
+"C54T,C97A",-0.77,多点突变或缺失mutation_code
+"C54T,C97A",-1.27,多点突变或缺失mutation_code
+"N89D,E92K",-0.764307,多点突变或缺失mutation_code
+A166S,,ddg缺失或非数值
+V55C,,ddg缺失或非数值
+"S90H,Q122D",-1.4,多点突变或缺失mutation_code
+"K83H,A112D",-1.2,多点突变或缺失mutation_code
+"C54T,C97A",0.0,多点突变或缺失mutation_code
+"C54T,C97A",0.0,多点突变或缺失mutation_code
+"C54T,C97A",0.0,多点突变或缺失mutation_code
+"K83H,A112D",-1.3,多点突变或缺失mutation_code
+"K83H,A112D",-1.5,多点突变或缺失mutation_code
+"N144E,K147M",0.3,多点突变或缺失mutation_code
+"N144E,K147M",0.5,多点突变或缺失mutation_code
+"N144E,K147M",0.4,多点突变或缺失mutation_code
+"K60H,L13D",-1.5,多点突变或缺失mutation_code
+"S90H,Q122D",-1.6,多点突变或缺失mutation_code
+"S90H,Q122D",-2.2,多点突变或缺失mutation_code
+"K60H,L13D",-2.8,多点突变或缺失mutation_code
+"K60H,L13D",-2.8,多点突变或缺失mutation_code
+"S28E, A32K",0.522,多点突变或缺失mutation_code
+H274G,,ddg缺失或非数值
+H274R,,ddg缺失或非数值
+D375G,,ddg缺失或非数值
+D375N,,ddg缺失或非数值
+D375E,,ddg缺失或非数值
+D375Q,,ddg缺失或非数值
+"N116D,R119M",-0.6,多点突变或缺失mutation_code
+"N116D,R119M",0.3,多点突变或缺失mutation_code
+"P71G,P103G",1.1,多点突变或缺失mutation_code
+"A98V,V149C,T152S",-4.4,多点突变或缺失mutation_code
+"A98V,V149I,T152S",-4.4,多点突变或缺失mutation_code
+"A98V,T152S",-4.8,多点突变或缺失mutation_code
+"K16E,R119E",0.56,多点突变或缺失mutation_code
+"K16E,K135E",0.9,多点突变或缺失mutation_code
+"K16E,R154E",-0.1,多点突变或缺失mutation_code
+"R119E,K135E",0.5,多点突变或缺失mutation_code
+"K135E,K147E",0.3,多点突变或缺失mutation_code
+"K16E,K135E,K147E",0.8,多点突变或缺失mutation_code
+"R119E,K135E,K147E",0.3,多点突变或缺失mutation_code
+"K16E,R119E,K135E,K147E",0.9,多点突变或缺失mutation_code
+"K16E,R119E",-0.4,多点突变或缺失mutation_code
+"K16E,K135E",0.7,多点突变或缺失mutation_code
+"K16E,R154E",0.8,多点突变或缺失mutation_code
+"R119E,K135E",1.1,多点突变或缺失mutation_code
+"K135E,K147E",1.5,多点突变或缺失mutation_code
+"K16E,K135E,K147E",1.7,多点突变或缺失mutation_code
+"R119E,K135E,K147E",1.6,多点突变或缺失mutation_code
+"K16E,R119E,K135E,K147E",1.0,多点突变或缺失mutation_code
+K234E,,ddg缺失或非数值
+K234A,,ddg缺失或非数值
+K234E,,ddg缺失或非数值
+K234E,,ddg缺失或非数值
+K234A,,ddg缺失或非数值
+K234E,,ddg缺失或非数值
+K234A,,ddg缺失或非数值
+"T155A,T157I",-4.31,多点突变或缺失mutation_code
+"A98V,T152S",-5.5,多点突变或缺失mutation_code
+P117G,,ddg缺失或非数值
+P117T,,ddg缺失或非数值
+H124L,,ddg缺失或非数值
+K116G,,ddg缺失或非数值
+T26Q,,ddg缺失或非数值
+"T26Q,Y18H",,多点突变或缺失mutation_code
+"T26Q,Y18D",,多点突变或缺失mutation_code
+"E128A,V131A,N132A",0.94,多点突变或缺失mutation_code
+"E128A,V131A",0.41,多点突变或缺失mutation_code
+"V131A,N132A",0.62,多点突变或缺失mutation_code
+"V35I,I47L",-1.1,多点突变或缺失mutation_code
+"V35M,I47L",-1.6,多点突变或缺失mutation_code
+"V35I,I47F",-2.0,多点突变或缺失mutation_code
+"V35M,I47F",-2.3,多点突变或缺失mutation_code
+"V35I,I47M",-2.8,多点突变或缺失mutation_code
+"V35A,I47L",-2.9,多点突变或缺失mutation_code
+"V35I,I47V",-3.0,多点突变或缺失mutation_code
+"V35L,I47L",-3.5,多点突变或缺失mutation_code
+"V35M,I47M",-3.5,多点突变或缺失mutation_code
+"V35A,I47F",-3.6,多点突变或缺失mutation_code
+"V35L,I47F",-3.94,多点突变或缺失mutation_code
+"V35F,I47L",-4.1,多点突变或缺失mutation_code
+"V35A,I47V",-4.4,多点突变或缺失mutation_code
+"V35A,I47M",-4.4,多点突变或缺失mutation_code
+"V35L,I47V",-5.0,多点突变或缺失mutation_code
+"V35L,I47M",-5.3,多点突变或缺失mutation_code
+"V35C,I47C",-7.1,多点突变或缺失mutation_code
+"Y13F,Y17F",-1.23,多点突变或缺失mutation_code
+"Y13A,Y17A",-4.76,多点突变或缺失mutation_code
+"Y13A,Y17A",-4.64,多点突变或缺失mutation_code
+"T16S,Y17A",-2.39,多点突变或缺失mutation_code
+"G46A,G48A",1.7,多点突变或缺失mutation_code
+"G46A,G48A,P78A",0.2,多点突变或缺失mutation_code
+"E17Q,D19N",1.19,多点突变或缺失mutation_code
+"E17Q,D19N,E26Q",0.91,多点突变或缺失mutation_code
+"D19N,E26Q",0.52,多点突变或缺失mutation_code
+"E17Q,E26Q",0.24,多点突变或缺失mutation_code
+"D12A,T16R",-0.28,多点突变或缺失mutation_code
+"C6A,C111S",0.5,多点突变或缺失mutation_code
+"C6A,C111S",0.5,多点突变或缺失mutation_code
+"D12A,R110A",0.45,多点突变或缺失mutation_code
+"D8A,D12A,R110A",0.11,多点突变或缺失mutation_code
+"D8A,R110A",-0.47,多点突变或缺失mutation_code
+"D8A,D12A",-0.89,多点突变或缺失mutation_code
+"A41V,V131A",0.6,多点突变或缺失mutation_code
+"A41V,V131A",0.56,多点突变或缺失mutation_code
+"I3C,C54V",,多点突变或缺失mutation_code
+"H31N,D70N",-4.0,多点突变或缺失mutation_code
+"F76V,H124L",0.0,多点突变或缺失mutation_code
+L57P,,ddg缺失或非数值
+L57C,,ddg缺失或非数值
+L57A,,ddg缺失或非数值
+"Q25K,E58A",-0.835,多点突变或缺失mutation_code
+"Q25K,E58A",0.06,多点突变或缺失mutation_code
+R96H,,ddg缺失或非数值
+R96H,,ddg缺失或非数值
+R96H,,ddg缺失或非数值
+R96H,,ddg缺失或非数值
+R96H,,ddg缺失或非数值
+R96H,,ddg缺失或非数值
+R96H,,ddg缺失或非数值
+"L28R,E139Q",-0.68,多点突变或缺失mutation_code
+"I30L, Y26C",1.8,多点突变或缺失mutation_code
+"I30L, Q27P",0.3,多点突变或缺失mutation_code
+"I30L, A36S",0.3,多点突变或缺失mutation_code
+"K2T,G3A,S5N,M7T,P8Q",2.9,多点突变或缺失mutation_code
+"K2T,M4R,S5R,K6E,P8T",2.8,多点突变或缺失mutation_code
+"Q9R,F10L,N11I,R13K,R16G",0.4,多点突变或缺失mutation_code
+"K46R,E48V,I51S,A53K",-0.9,多点突变或缺失mutation_code
+"F45L,R50G,I51S",-1.2,多点突变或缺失mutation_code
+"L12R,R13T",-1.8,多点突变或缺失mutation_code
+"N34S,S35C,Q39E",,多点突变或缺失mutation_code
+"V18M,L19V,D20R",,多点突变或缺失mutation_code
+"Y88C,G46A,G48A",4.2,多点突变或缺失mutation_code
+"G46A,G48A",1.9,多点突变或缺失mutation_code
+C81S,,ddg缺失或非数值
+C118S,,ddg缺失或非数值
+"V66L,G88V",-0.94,多点突变或缺失mutation_code
+"I18M,A90S",-2.676666667,多点突变或缺失mutation_code
+"V66L,G79S,G88V",-3.0,多点突变或缺失mutation_code
+"C54V,C97S",-2.1,多点突变或缺失mutation_code
+P86A,,ddg缺失或非数值
+P86R,,ddg缺失或非数值
+P86D,,ddg缺失或非数值
+P86C,,ddg缺失或非数值
+P86G,,ddg缺失或非数值
+P86H,,ddg缺失或非数值
+P86I,,ddg缺失或非数值
+P86L,,ddg缺失或非数值
+P86S,,ddg缺失或非数值
+P86T,,ddg缺失或非数值
+P86R,,ddg缺失或非数值
+P86D,,ddg缺失或非数值
+P86G,,ddg缺失或非数值
+P86R,,ddg缺失或非数值
+P86D,,ddg缺失或非数值
+P86H,,ddg缺失或非数值
+P39C,,ddg缺失或非数值
+R96H,,ddg缺失或非数值
+A98V,,ddg缺失或非数值
+M102T,,ddg缺失或非数值
+A146T,,ddg缺失或非数值
+G156D,,ddg缺失或非数值
+T157I,,ddg缺失或非数值
+N218A,,ddg缺失或非数值
+N218S,,ddg缺失或非数值
+"G46A,G48A",1.1,多点突变或缺失mutation_code
+"V66L,G79S",-3.6,多点突变或缺失mutation_code
+"I18M,A69T",-3.8,多点突变或缺失mutation_code
+"V66L,G88V",-1.4,多点突变或缺失mutation_code
+"I18M,A90S",-2.8,多点突变或缺失mutation_code
+"V66L,G79S,G88V",-3.0,多点突变或缺失mutation_code
+"T22C,S87C",,多点突变或缺失mutation_code
+S87C,,ddg缺失或非数值
+T22C,,ddg缺失或非数值
+Y85C,,ddg缺失或非数值
+"Y175C,G211E",-0.7,多点突变或缺失mutation_code
+"M6I,R96H",-5.08,多点突变或缺失mutation_code
+"W138Y,W126Y,W158Y",-3.0,多点突变或缺失mutation_code
+"G76A,F14N",3.4,多点突变或缺失mutation_code
+"K91G,F14N",3.4,多点突变或缺失mutation_code
+"K91A,F14N",3.3,多点突变或缺失mutation_code
+"D64G,F14N",2.6,多点突变或缺失mutation_code
+"D38G,F14N",1.9,多点突变或缺失mutation_code
+"T112G,F14N",1.9,多点突变或缺失mutation_code
+"D64A,F14N",1.7,多点突变或缺失mutation_code
+"A98G,F14N",1.6,多点突变或缺失mutation_code
+"A97G,F14N",1.5,多点突变或缺失mutation_code
+"T112A,F14N",1.4,多点突变或缺失mutation_code
+"A103G,F14N",1.2,多点突变或缺失mutation_code
+"D38A,F14N",1.0,多点突变或缺失mutation_code
+"A42G,F14N",0.6,多点突变或缺失mutation_code
+"A36G,F14N",-0.2,多点突变或缺失mutation_code
+"K21A,E26A",-1.1,多点突变或缺失mutation_code
+"Q47M,M59L",0.32,多点突变或缺失mutation_code
+"E33A,E34A",-0.76,多点突变或缺失mutation_code
+"R62A,D64A",-1.22,多点突变或缺失mutation_code
+"S31G,E33A,E34A",-1.63,多点突变或缺失mutation_code
+"S31A,E33A,E34A",-1.67,多点突变或缺失mutation_code
+"L51V,V57A",-1.85,多点突变或缺失mutation_code
+"L51V,F69L",-2.42,多点突变或缺失mutation_code
+"V57A,F69L",-2.58,多点突变或缺失mutation_code
+"P25A,A35G",-2.65,多点突变或缺失mutation_code
+"L51V,V57A,F69L",-2.72,多点突变或缺失mutation_code
+"L51A,V57A",-3.16,多点突变或缺失mutation_code
+"L51V,F69A",-3.41,多点突变或缺失mutation_code
+"L51A,F69L",-3.42,多点突变或缺失mutation_code
+"L51A,V57A,F69L",-3.48,多点突变或缺失mutation_code
+"V57A,V79A",-4.37,多点突变或缺失mutation_code
+"L51A,F69A",-4.79,多点突变或缺失mutation_code
+"R80K,R119H",-0.47,多点突变或缺失mutation_code
+R14K,,ddg缺失或非数值
+E22K,,ddg缺失或非数值
+T26S,,ddg缺失或非数值
+N40D,,ddg缺失或非数值
+A41D,,ddg缺失或非数值
+R80K,,ddg缺失或非数值
+"R80K,R119H",,多点突变或缺失mutation_code
+A93T,,ddg缺失或非数值
+G113E,,ddg缺失或非数值
+R119H,,ddg缺失或非数值
+T151S,,ddg缺失或非数值
+F153L,,ddg缺失或非数值
+N163D,,ddg缺失或非数值
+"L65P, F68L",-4.3,多点突变或缺失mutation_code
+"I6V, M77I",-0.3,多点突变或缺失mutation_code
+"L32Y, R82C",-0.1,多点突变或缺失mutation_code
+"I6V, M77V",0.0,多点突变或缺失mutation_code
+"V45C, R82C",-1.0,多点突变或缺失mutation_code
+"C33V, V35C",-1.6,多点突变或缺失mutation_code
+"V35M, I47L",-1.7,多点突变或缺失mutation_code
+"V35I, I47F",-2.1,多点突变或缺失mutation_code
+"V35M, I47F",-2.4,多点突变或缺失mutation_code
+"V35I, I47L",-2.8,多点突变或缺失mutation_code
+"V35I, I47M",-2.8,多点突变或缺失mutation_code
+"V35A, I47L",-3.0,多点突变或缺失mutation_code
+"V35I, I47V",-3.1,多点突变或缺失mutation_code
+"L28V, F68L",-3.5,多点突变或缺失mutation_code
+"V35L, I47L",-3.6,多点突变或缺失mutation_code
+"V35M, I47M",-3.6,多点突变或缺失mutation_code
+"V35A, I47F",-3.7,多点突变或缺失mutation_code
+"V35L, I47F",-4.0,多点突变或缺失mutation_code
+"H64C, F68L",-4.1,多点突变或缺失mutation_code
+"V35F, I47L",-4.2,多点突变或缺失mutation_code
+"V35A, I47M",-4.5,多点突变或缺失mutation_code
+"V35A, I47V",-4.5,多点突变或缺失mutation_code
+"V35L, I47V",-5.1,多点突变或缺失mutation_code
+"V35L, I47M",-5.4,多点突变或缺失mutation_code
+"C33M, I47C",-5.7,多点突变或缺失mutation_code
+"V35C, I47C",-7.2,多点突变或缺失mutation_code
+"V35A,I47A",-10.8,多点突变或缺失mutation_code
+"I75M,N52I",1.1,多点突变或缺失mutation_code
+"P30A,N52I",-0.2,多点突变或缺失mutation_code
+"H26V,N52I",-1.86,多点突变或缺失mutation_code
+"H26V,H33F",-2.15,多点突变或缺失mutation_code
+"P30A,Y67F",-2.76,多点突变或缺失mutation_code
+"Y48W,W333Y",-1.81,多点突变或缺失mutation_code
+"Y48W,W308Y",-0.15,多点突变或缺失mutation_code
+W48Q,,ddg缺失或非数值
+A108V,,ddg缺失或非数值
+T294I,,ddg缺失或非数值
+F353L,,ddg缺失或非数值
+"F139W,F258W",0.33,多点突变或缺失mutation_code
+Q48E,,ddg缺失或非数值
+T77H,,ddg缺失或非数值
+T110H,,ddg缺失或非数值
+T110H,,ddg缺失或非数值
+"L48W,L106W",3.1,多点突变或缺失mutation_code
+"F34W,F92W",2.7,多点突变或缺失mutation_code
+"I35W,I93W",2.7,多点突变或缺失mutation_code
+"Y18W,Y76W",1.55,多点突变或缺失mutation_code
+"I20W,I78W",1.55,多点突变或缺失mutation_code
+"T277S, D272G",-5.2,多点突变或缺失mutation_code
+"T277S, D272G",-3.4,多点突变或缺失mutation_code
+H62A,,ddg缺失或非数值
+H83A,,ddg缺失或非数值
+H114A,,ddg缺失或非数值
+H124A,,ddg缺失或非数值
+H127A,,ddg缺失或非数值
+"H62A,H83A",,多点突变或缺失mutation_code
+"H124A,H127A",,多点突变或缺失mutation_code
+"H62A,H83A,H124A,H127A",,多点突变或缺失mutation_code
+H83A,,ddg缺失或非数值
+H124A,,ddg缺失或非数值
+"H124A,H127A",,多点突变或缺失mutation_code
+H62A,,ddg缺失或非数值
+H83A,,ddg缺失或非数值
+H114A,,ddg缺失或非数值
+H124A,,ddg缺失或非数值
+"H62A,H83A",,多点突变或缺失mutation_code
+"H124A,H127A",,多点突变或缺失mutation_code
+"H62A,H83A,H124A,H127A",,多点突变或缺失mutation_code
+"G6A,N52I",-0.16,多点突变或缺失mutation_code
+"G6A,N52I",-1.26,多点突变或缺失mutation_code
+"G6A,N52I",-1.26,多点突变或缺失mutation_code
+"T16S,E61G",-1.5,多点突变或缺失mutation_code
+"S117I,N132M",2.0,多点突变或缺失mutation_code
+"S117A,N132I",2.0,多点突变或缺失mutation_code
+"S117A,N132M",1.8,多点突变或缺失mutation_code
+"S117I,N132I",1.4,多点突变或缺失mutation_code
+D128G,,ddg缺失或非数值
+D128A,,ddg缺失或非数值
+D128N,,ddg缺失或非数值
+D128Q,,ddg缺失或非数值
+D128V,,ddg缺失或非数值
+D128G,,ddg缺失或非数值
+D128A,,ddg缺失或非数值
+D128N,,ddg缺失或非数值
+D128Q,,ddg缺失或非数值
+D128V,,ddg缺失或非数值
+"V66A,L135A",-4.79,多点突变或缺失mutation_code
+"V114A,L149A,G129A",-1.4,多点突变或缺失mutation_code
+"V66A,L149A",-0.97,多点突变或缺失mutation_code
+"V66A,V114A,V13A",-0.97,多点突变或缺失mutation_code
+"V114A,G129A,V66A,L149A",-0.72,多点突变或缺失mutation_code
+"V66A,V114A,G129A",-0.64,多点突变或缺失mutation_code
+"V66A,V114A",-0.62,多点突变或缺失mutation_code
+"L11A,V66A",-0.57,多点突变或缺失mutation_code
+"V66A,L137A",-0.42,多点突变或缺失mutation_code
+"V114A,V66A,G129A,L149A,G23A",-0.31,多点突变或缺失mutation_code
+"V66A,G129A,L149A",0.16,多点突变或缺失mutation_code
+"V66A,V114A,G129A,L149A,G23A,V13A",0.37,多点突变或缺失mutation_code
+"V66A,G23A",0.45,多点突变或缺失mutation_code
+"V114A,H116A,S117A,G23A",0.48,多点突变或缺失mutation_code
+"V114A,H116A,S117A",0.7,多点突变或缺失mutation_code
+"V66A,G129A,G23A,V13A",0.75,多点突变或缺失mutation_code
+"V66A,V13A",0.86,多点突变或缺失mutation_code
+"G129A,V114A",0.92,多点突变或缺失mutation_code
+"V114A,H116A,S117A,V66A,G129A,L149A",0.92,多点突变或缺失mutation_code
+"V66A,G129A,G23A",1.1,多点突变或缺失mutation_code
+"G129A,V66A",1.36,多点突变或缺失mutation_code
+"V66A,V114A,V13A,G23A",1.48,多点突变或缺失mutation_code
+"E33A,E34A",-0.76,多点突变或缺失mutation_code
+S31A,-0.89,温度异常(592.75K)
+E33N,-0.7,温度异常(592.75K)
+K36A,-0.49,温度异常(592.75K)
+K37A,0.23,温度异常(592.75K)
+K37G,-0.97,温度异常(592.75K)
+K43A,-0.65,温度异常(592.75K)
+L27A,-2.68,温度异常(592.75K)
+V38A,-0.48,温度异常(592.75K)
+I39V,-1.3,温度异常(592.75K)
+I48V,-1.11,温度异常(592.75K)
+I49A,-2.12,温度异常(592.75K)
+I49V,0.08,温度异常(592.75K)
+V70A,-1.95,温度异常(592.75K)
+I76V,0.19,温度异常(592.75K)
+T22A,-0.85,温度异常(592.75K)
+V53A,-0.63,温度异常(592.75K)
+V53T,-1.03,温度异常(592.75K)
+L51A,-2.37,温度异常(592.75K)
+L51V,-0.5,温度异常(592.75K)
+F69L,-2.11,温度异常(592.75K)
+"S31A,E33A,E34A",-1.67,多点突变或缺失mutation_code
+"V66L,G79S,G88V",3.2,多点突变或缺失mutation_code
+"W5F,W16F",-4.4,多点突变或缺失mutation_code
+"S117A,R119A",1.16,多点突变或缺失mutation_code
+"L118A, L121A",1.0,多点突变或缺失mutation_code
+"T115A,S117A",0.95,多点突变或缺失mutation_code
+"N116A,M120A",0.21,多点突变或缺失mutation_code
+"T115A,R119A",-0.17,多点突变或缺失mutation_code
+"R119A,Q123A",-0.17,多点突变或缺失mutation_code
+"M120A,Q122A",-0.25,多点突变或缺失mutation_code
+L94T,,ddg缺失或非数值
+L94A,,ddg缺失或非数值
+"L94I,Y97F",-0.76,多点突变或缺失mutation_code
+"L94A,Y97F",-4.5,多点突变或缺失mutation_code
+E303K,,ddg缺失或非数值
+T313I,,ddg缺失或非数值
+S327L,,ddg缺失或非数值
+V348M,,ddg缺失或非数值
+V435I,,ddg缺失或非数值
+A438V,,ddg缺失或非数值
+S463L,,ddg缺失或非数值
+"K43A,E45A",-0.72,多点突变或缺失mutation_code
+"K43A,E45A",-0.95,多点突变或缺失mutation_code
+"H62P,T40A,K122R",0.85,多点突变或缺失mutation_code
+"E119V,K60R",0.63,多点突变或缺失mutation_code
+"E119V,R41C",1.2,多点突变或缺失mutation_code
+"H62P,T40A,K122R",-0.5,多点突变或缺失mutation_code
+"Q80L,K117R",-0.03,多点突变或缺失mutation_code
+"E119V,K60R",-0.06,多点突变或缺失mutation_code
+"E119V,R41C",0.09,多点突变或缺失mutation_code
+A52V,,ddg缺失或非数值
+Q76L,,ddg缺失或非数值
+"Q80L,K117R",,多点突变或缺失mutation_code
+Q80L,,ddg缺失或非数值
+"E33A,E34A",-0.64,多点突变或缺失mutation_code
+"E33A,E34A",-0.83,多点突变或缺失mutation_code
+"S31G,E33A,E34A",-1.28,多点突变或缺失mutation_code
+"S31A,E33A,E34A",-1.33,多点突变或缺失mutation_code
+"S31G,E33A,E34A",-1.67,多点突变或缺失mutation_code
+"S31A,E33A,E34A",-1.71,多点突变或缺失mutation_code
+"T58D,E60A",-0.25,多点突变或缺失mutation_code
+"T58A,E60A",-0.87,多点突变或缺失mutation_code
+D83C,,ddg缺失或非数值
+D83C,,ddg缺失或非数值
+D83C,,ddg缺失或非数值
+D83C,,ddg缺失或非数值
+D83C,,ddg缺失或非数值
+D83C,,ddg缺失或非数值
+D83C,,ddg缺失或非数值
+D83C,,ddg缺失或非数值
+D83N,,ddg缺失或非数值
+D83N,,ddg缺失或非数值
+D83N,,ddg缺失或非数值
+D83N,,ddg缺失或非数值
+D83N,,ddg缺失或非数值
+D83N,,ddg缺失或非数值
+D83N,,ddg缺失或非数值
+D83N,,ddg缺失或非数值
+D83N,,ddg缺失或非数值
+D83N,,ddg缺失或非数值
+D83N,,ddg缺失或非数值
+D83N,,ddg缺失或非数值
+"D90C,C102T",0.907615,多点突变或缺失mutation_code
+"R13C,C102T",4.20369,多点突变或缺失mutation_code
+"R13C,D90C,C102T",0.907615,多点突变或缺失mutation_code
+"S71A,E74A",-1.28,多点突变或缺失mutation_code
+"S71Q,E74S",-1.64,多点突变或缺失mutation_code
+"S71V,E74L",-4.88,多点突变或缺失mutation_code
+V66L,,ddg缺失或非数值
+V66A,,ddg缺失或非数值
+V66W,,ddg缺失或非数值
+"Y45W,W59Y",,多点突变或缺失mutation_code
+W59Y,,ddg缺失或非数值
+Y45W,,ddg缺失或非数值
+D77A,,ddg缺失或非数值
+"C30S,C33S",2.0,多点突变或缺失mutation_code
+"W308F,W333F",-7.525,多点突变或缺失mutation_code
+"Y24W,W59Y",0.2866,多点突变或缺失mutation_code
+"Y45W,W59Y",-0.9076,多点突变或缺失mutation_code
+"H40T,W59Y",-0.9315,多点突变或缺失mutation_code
+"Y42W,W59Y",-1.027,多点突变或缺失mutation_code
+"W59Y,H92A",-1.5286,多点突变或缺失mutation_code
+Q25K,,ddg缺失或非数值
+Q25K,,ddg缺失或非数值
+Q25K,,ddg缺失或非数值
+Q25K,,ddg缺失或非数值
+Q25K,,ddg缺失或非数值
+Q25K,,ddg缺失或非数值
+"R53E,E373R",-0.9,多点突变或缺失mutation_code
+"C32S,C35S",3.1,多点突变或缺失mutation_code
+"H24V,H119F",0.575,多点突变或缺失mutation_code
+"P110G,F14N",1.1,多点突变或缺失mutation_code
+"I48A,I76V",-4.17,多点突变或缺失mutation_code
+"I48A,I76V",-4.69,多点突变或缺失mutation_code
+"C32S,C35S,L78C",0.81,多点突变或缺失mutation_code
+"C85S,C152E",-1.6,多点突变或缺失mutation_code
+"I4A,I76V",-1.86,多点突变或缺失mutation_code
+"I4A,Y78F",-2.53,多点突变或缺失mutation_code
+"I4A,I51V",-2.63,多点突变或缺失mutation_code
+"I4A,I25V,I51V,Y78F",-5.2,多点突变或缺失mutation_code
+"L121A,A129M,F153L",-1.1,多点突变或缺失mutation_code
+"L121M,A129L,L133M,V149I,F153W",-1.3,多点突变或缺失mutation_code
+"L121I,A129L,L133M,F153W",-1.3,多点突变或缺失mutation_code
+"L121A,A129M,V149I",-1.4,多点突变或缺失mutation_code
+"L121I,A129W,L133M",-1.4,多点突变或缺失mutation_code
+"L121A,A129V,L133M,F153L",-2.3,多点突变或缺失mutation_code
+"L121M,L133V,F153L",-2.5,多点突变或缺失mutation_code
+"L121A,A129L,L133A,F153L",-3.5,多点突变或缺失mutation_code
+T26S,,ddg缺失或非数值
+A93T,,ddg缺失或非数值
+T151S,,ddg缺失或非数值
+W50F,,ddg缺失或非数值
+W50Y,,ddg缺失或非数值
+"Q15I,T16R,K19R,G65S,K66A,K108R",3.44,多点突变或缺失mutation_code
+"Q15I,T16R,K19R",1.66,多点突变或缺失mutation_code
+"E30F,A86V",2.05,多点突变或缺失mutation_code
+"F13T,E30F",1.59,多点突变或缺失mutation_code
+"E30F,A86T",1.17,多点突变或缺失mutation_code
+"I6V,E30F",0.71,多点突变或缺失mutation_code
+"I6V,M77I",0.34,多点突变或缺失mutation_code
+"L32Y,R82C",0.15,多点突变或缺失mutation_code
+"I6V,M77V",-0.04,多点突变或缺失mutation_code
+"Y41F,F73W",-0.66,多点突变或缺失mutation_code
+"V45C,R82C",-1.05,多点突变或缺失mutation_code
+"V35I,I47L",-1.18,多点突变或缺失mutation_code
+"C33V,V35C",-1.57,多点突变或缺失mutation_code
+"V35M,I47L",-1.7,多点突变或缺失mutation_code
+"V35I,I47F",-2.08,多点突变或缺失mutation_code
+"V35M,I47F",-2.35,多点突变或缺失mutation_code
+"V35I,I47M",-2.85,多点突变或缺失mutation_code
+"V35A,I47L",-2.97,多点突变或缺失mutation_code
+"V35I,I47V",-3.12,多点突变或缺失mutation_code
+"V35L,I47L",-3.58,多点突变或缺失mutation_code
+"V35M,I47M",-3.62,多点突变或缺失mutation_code
+"V35A,I47F",-3.67,多点突变或缺失mutation_code
+"L28V,F68L",-3.86,多点突变或缺失mutation_code
+"V35L,I47F",-4.0,多点突变或缺失mutation_code
+"H64C,F68L",-4.07,多点突变或缺失mutation_code
+"V35F,I47L",-4.22,多点突变或缺失mutation_code
+"L65P,F68L",-4.25,多点突变或缺失mutation_code
+"V35A,I47M",-4.51,多点突变或缺失mutation_code
+"V35A,I47V",-4.52,多点突变或缺失mutation_code
+"V35L,I47V",-5.1,多点突变或缺失mutation_code
+"V35L,I47M",-5.41,多点突变或缺失mutation_code
+"C33M,I47C",-5.73,多点突变或缺失mutation_code
+"V35C,I47C",-7.2,多点突变或缺失mutation_code
+"I15V,I72V",-2.0,多点突变或缺失mutation_code
+"Y85A,Y113A",-0.23,多点突变或缺失mutation_code
+"I15V,Y113A",-0.62,多点突变或缺失mutation_code
+"I72V,Y113A",-0.94,多点突变或缺失mutation_code
+"P117L,N118D",-1.0,多点突变或缺失mutation_code
+"I15V,Y85V",-1.06,多点突变或缺失mutation_code
+"L7A,Y113A",-1.1,多点突变或缺失mutation_code
+"L37A,Y113A",-1.46,多点突变或缺失mutation_code
+"L7A,I92V",-1.54,多点突变或缺失mutation_code
+"E75V,Y113A",-1.55,多点突变或缺失mutation_code
+"I72V,Y85A",-1.6,多点突变或缺失mutation_code
+"L7A,Y85A",-1.6,多点突变或缺失mutation_code
+"E75V,P117L",-1.61,多点突变或缺失mutation_code
+"L7A,L37A",-1.65,多点突变或缺失mutation_code
+"L37A,P117L",-1.69,多点突变或缺失mutation_code
+"L37A,N118D",-1.72,多点突变或缺失mutation_code
+"L37A,I92V",-1.77,多点突变或缺失mutation_code
+"L37A,G79S",-1.83,多点突变或缺失mutation_code
+"V23F,Y113A",-1.89,多点突变或缺失mutation_code
+"L37A,Y85A",-1.98,多点突变或缺失mutation_code
+"I18M,T33S",-2.0,多点突变或缺失mutation_code
+"V66L,G88V",-2.0,多点突变或缺失mutation_code
+"V23F,I92V",-2.01,多点突变或缺失mutation_code
+"E75V,I92V",-2.05,多点突变或缺失mutation_code
+"G79S,P117L",-2.08,多点突变或缺失mutation_code
+"L7A,I15V",-2.08,多点突变或缺失mutation_code
+"L37A,I15V",-2.17,多点突变或缺失mutation_code
+"L37A,T33S",-2.21,多点突变或缺失mutation_code
+"G79S,Y113A",-2.22,多点突变或缺失mutation_code
+"T62A,V66L",-2.4,多点突变或缺失mutation_code
+"L7A,I72V",-2.41,多点突变或缺失mutation_code
+"L7A,A130G",-2.46,多点突变或缺失mutation_code
+"L37A,E75V",-2.47,多点突变或缺失mutation_code
+"V23F,Y85A",-2.51,多点突变或缺失mutation_code
+"E75V,Y85A",-2.51,多点突变或缺失mutation_code
+"L37A,A130G",-2.53,多点突变或缺失mutation_code
+"G79S,I92V",-2.55,多点突变或缺失mutation_code
+"G79D,N118D",-2.58,多点突变或缺失mutation_code
+"V23F,I15V",-2.59,多点突变或缺失mutation_code
+"G79S,Y85A",-2.69,多点突变或缺失mutation_code
+"I18M,A90S",-2.7,多点突变或缺失mutation_code
+"V23F,T33S",-2.72,多点突变或缺失mutation_code
+"L7A,G79S",-2.77,多点突变或缺失mutation_code
+"L37A,I72V",-2.78,多点突变或缺失mutation_code
+"G79S,N118D",-2.79,多点突变或缺失mutation_code
+"E75V,I15V",-2.83,多点突变或缺失mutation_code
+"V23F,I72V",-2.9,多点突变或缺失mutation_code
+"G79S,I15V",-3.1,多点突变或缺失mutation_code
+"E75V,I72V",-3.12,多点突变或缺失mutation_code
+"T33S,A90S",-3.16,多点突变或缺失mutation_code
+"V23F,L37A",-3.17,多点突变或缺失mutation_code
+"T62A,G88V",-3.2,多点突变或缺失mutation_code
+"E75V,T33S",-3.21,多点突变或缺失mutation_code
+"I18M,A69T",-3.3,多点突变或缺失mutation_code
+"V23F,A90S",-3.31,多点突变或缺失mutation_code
+"L37A,A90S",-3.32,多点突变或缺失mutation_code
+"E75V,A130G",-3.4,多点突变或缺失mutation_code
+"V23F,A130G",-3.5,多点突变或缺失mutation_code
+"E75V,A90S",-3.6,多点突变或缺失mutation_code
+"G79S,I72V",-3.61,多点突变或缺失mutation_code
+"L7A,E75V",-3.64,多点突变或缺失mutation_code
+"L7A,V23F",-3.65,多点突变或缺失mutation_code
+"T62G,G88V",-3.66,多点突变或缺失mutation_code
+"G79S,A130G",-3.68,多点突变或缺失mutation_code
+"V23F,A69T",-4.0,多点突变或缺失mutation_code
+"L37A,A69T",-4.13,多点突变或缺失mutation_code
+"E75V,A69T",-4.35,多点突变或缺失mutation_code
+"E75V,G79S",-4.67,多点突变或缺失mutation_code
+"A69T,A90S",-4.7,多点突变或缺失mutation_code
+"V23F,G79S",-4.75,多点突变或缺失mutation_code
+"V23F,E75V",-4.79,多点突变或缺失mutation_code
+"T8H,H10D,F25H",3.14,多点突变或缺失mutation_code
+"S56C,C206S",0.4,多点突变或缺失mutation_code
+"I256C,C206S",3.0,多点突变或缺失mutation_code
+"V68C,C206S",-5.3,多点突变或缺失mutation_code
+"W123C,C206S",0.8,多点突变或缺失mutation_code
+"L99A,F153A",-8.3,多点突变或缺失mutation_code
+"L99A,F153A",-6.9,多点突变或缺失mutation_code
+"D101G,G102P",0.9,多点突变或缺失mutation_code
+"S85C,H102C",4.1,多点突变或缺失mutation_code
+"A43C,S80C",1.21,多点突变或缺失mutation_code
+"A18G,I232V",-0.6,多点突变或缺失mutation_code
+"Y175Q,L209V",-0.9,多点突变或缺失mutation_code
+"A18V,I232V",-1.3,多点突变或缺失mutation_code
+"V66L,G88V",1.2,多点突变或缺失mutation_code
+"V66L,G88V",1.0,多点突变或缺失mutation_code
+"V66L,G79S,G88V",0.5,多点突变或缺失mutation_code
+"V66L,G79S,G88V",0.3,多点突变或缺失mutation_code
+"T40S,S91T",0.61,多点突变或缺失mutation_code
+"I55V,S91T",0.0,多点突变或缺失mutation_code
+"T40S,I55V,S91T",-0.3,多点突变或缺失mutation_code
+"T40S,S91V",-0.53,多点突变或缺失mutation_code
+"T40S,S91A",-0.87,多点突变或缺失mutation_code
+"I55V,S91A",-1.25,多点突变或缺失mutation_code
+"I55V,S91V",-1.25,多点突变或缺失mutation_code
+"T40S,I55V",-1.33,多点突变或缺失mutation_code
+"T40S,I55V,S91A",-1.67,多点突变或缺失mutation_code
+"I55A,S91T",-2.77,多点突变或缺失mutation_code
+"I55L,S91T",,多点突变或缺失mutation_code
+"R162S, E237K",0.73,多点突变或缺失mutation_code
+V103L,,ddg缺失或非数值
+Y12F,,ddg缺失或非数值
+Y12F,,ddg缺失或非数值
+Y12F,,ddg缺失或非数值
+Y12F,,ddg缺失或非数值
+Y12W,,ddg缺失或非数值
+Y12H,,ddg缺失或非数值
+Y12H,,ddg缺失或非数值
+A26I,,ddg缺失或非数值
+A26V,,ddg缺失或非数值
+Y45A,,ddg缺失或非数值
+Y45V,,ddg缺失或非数值
+Y45I,,ddg缺失或非数值
+"Q7K,L33I,L63I",0.429923,多点突变或缺失mutation_code
+"Q7K,L33I,L63I",0.28183800000000003,多点突变或缺失mutation_code
+W183F,,ddg缺失或非数值
+"G32D,I33P",4.0,多点突变或缺失mutation_code
+P42A,,ddg缺失或非数值
+P93A,,ddg缺失或非数值
+P114A,,ddg缺失或非数值
+P117A,,ddg缺失或非数值
+"R69S,D93N",-3.49,多点突变或缺失mutation_code
+"R83K,D75N",-5.4,多点突变或缺失mutation_code
+"P93A,H244A",-4.8,多点突变或缺失mutation_code
+"F51L,M374I",3.6,多点突变或缺失mutation_code
+"T59A,T68A,A70G",3.4,多点突变或缺失mutation_code
+"S381A,K387R",2.1,多点突变或缺失mutation_code
+P105G,,ddg缺失或非数值
+"Q179D,K193A,A215P",3.0,多点突变或缺失mutation_code
+"M14Q, R98Q, Q179D, K193A,
+A215P",1.4,多点突变或缺失mutation_code
+"M14Q, R98Q, Q179D, K193A, A215P",1.4,多点突变或缺失mutation_code
+"N29A,S44A,E48A",1.32,多点突变或缺失mutation_code
+E48A,,ddg缺失或非数值
+N29A,,ddg缺失或非数值
+S44A,,ddg缺失或非数值
+"N29A,S44A,E48A",,多点突变或缺失mutation_code
+"L121A,A129M",-1.0,多点突变或缺失mutation_code
+"L121A,A129L",-1.1,多点突变或缺失mutation_code
+"A129M,F153A",-4.3,多点突变或缺失mutation_code
+"P70G,G71P",-1.0,多点突变或缺失mutation_code
+"Q121G,A122P",-1.7,多点突变或缺失mutation_code
+"G117P,T118G",-2.6,多点突变或缺失mutation_code
+"Q121P,A122G",-2.8,多点突变或缺失mutation_code
+"V92A,S103A",0.26,多点突变或缺失mutation_code
+"C2A,C10A",-2.79,多点突变或缺失mutation_code
+"G79S,H124L",2.53,多点突变或缺失mutation_code
+"G79S,H124L",1.01,多点突变或缺失mutation_code
+"S38D,A82P,N144D,I3L,V131A,A41V,N116D",3.57,多点突变或缺失mutation_code
+"S38D,A82P,N144D,I3L,V131A,A41V,N116D",2.92,多点突变或缺失mutation_code
+"S38D,A82P,N144D,I3L,V131A,A41V",2.87,多点突变或缺失mutation_code
+"S38D,A82P,N144D,I3L,V131A,A41V",2.62,多点突变或缺失mutation_code
+"S38D,A82P,N144D,I3L,V131A",2.57,多点突变或缺失mutation_code
+"S38D,A82P,N144D,I3L",2.32,多点突变或缺失mutation_code
+"S38D,A82P,N144D,I3L,V131A",2.25,多点突变或缺失mutation_code
+"S38D,A82P,N144D,I3L",1.95,多点突变或缺失mutation_code
+"S38D,A82P,N144D",1.59,多点突变或缺失mutation_code
+"S38D,A82P,N144D",1.05,多点突变或缺失mutation_code
+"S38D,N144D",1.03,多点突变或缺失mutation_code
+"V131A,A41V",0.76,多点突变或缺失mutation_code
+"V131A,A41V",0.66,多点突变或缺失mutation_code
+"S38D,N144D",0.6,多点突变或缺失mutation_code
+"G102A,G104A",-2.0,多点突变或缺失mutation_code
+I18A,,ddg缺失或非数值
+F33A,,ddg缺失或非数值
+G12A,,ddg缺失或非数值
+Y35A,,ddg缺失或非数值
+G37A,,ddg缺失或非数值
+G36A,,ddg缺失或非数值
+K15A,,ddg缺失或非数值
+R17A,,ddg缺失或非数值
+I19A,,ddg缺失或非数值
+T11A,,ddg缺失或非数值
+R39A,,ddg缺失或非数值
+K109N,,ddg缺失或非数值
+"A30I,T33I",0.49,多点突变或缺失mutation_code
+S55H,,ddg缺失或非数值
+K86Q,,ddg缺失或非数值
+R319A,,ddg缺失或非数值
+A325G,,ddg缺失或非数值
+"G137A,G139A",-1.671922,多点突变或缺失mutation_code
+S44A,,ddg缺失或非数值
+A42K,,ddg缺失或非数值
+A42K,,ddg缺失或非数值
+A42K,,ddg缺失或非数值
+A42K,,ddg缺失或非数值
+K48A,,ddg缺失或非数值
+K48A,,ddg缺失或非数值
+S44A,,ddg缺失或非数值
+S44A,,ddg缺失或非数值
+S44A,,ddg缺失或非数值
+"I217A,L221A",7.5,多点突变或缺失mutation_code
+"L5V,I6V,L7F,V54L",-2.82,多点突变或缺失mutation_code
+"I6V,F52V",-3.59,多点突变或缺失mutation_code
+"I6V,L7V,F52L",-3.81,多点突变或缺失mutation_code
+"L5F,I6L,L7I,F52V",-4.44,多点突变或缺失mutation_code
+"L5M,L7I,F52L,V54I",-4.65,多点突变或缺失mutation_code
+"G65A,V66F",-0.57,多点突变或缺失mutation_code
+"G65D,V66H",-0.82,多点突变或缺失mutation_code
+"G65A,V66R",-2.16,多点突变或缺失mutation_code
+"G65D,V66F",-2.47,多点突变或缺失mutation_code
+"G65A,V66W",-4.17,多点突变或缺失mutation_code
+"L64S,G65A,V66N",-4.67,多点突变或缺失mutation_code
+"L64T,G65A,V66G",-4.75,多点突变或缺失mutation_code
+"L64K,G65V,V66D",-5.08,多点突变或缺失mutation_code
+"L64T,G65V,V66P",-5.3,多点突变或缺失mutation_code
+"L64R,G65A,V66C",-5.53,多点突变或缺失mutation_code
+"L64G,G65A,V66F",-5.65,多点突变或缺失mutation_code
+E17G,,ddg缺失或非数值
+K73W,,ddg缺失或非数值
+K73V,,ddg缺失或非数值
+K73I,,ddg缺失或非数值
+K73W,,ddg缺失或非数值
+K73V,,ddg缺失或非数值
+K73I,,ddg缺失或非数值
+K73W,,ddg缺失或非数值
+K73V,,ddg缺失或非数值
+K73I,,ddg缺失或非数值
+K73W,,ddg缺失或非数值
+K73V,,ddg缺失或非数值
+K73I,,ddg缺失或非数值
+K73W,,ddg缺失或非数值
+K73V,,ddg缺失或非数值
+K73I,,ddg缺失或非数值
+K73W,,ddg缺失或非数值
+K73V,,ddg缺失或非数值
+K73I,,ddg缺失或非数值
+K73W,,ddg缺失或非数值
+K73V,,ddg缺失或非数值
+K73I,,ddg缺失或非数值
+K73W,,ddg缺失或非数值
+K73V,,ddg缺失或非数值
+K73I,,ddg缺失或非数值
+K73W,,ddg缺失或非数值
+K73V,,ddg缺失或非数值
+K73I,,ddg缺失或非数值
+"G46A,G48A",1.79,多点突变或缺失mutation_code
+"A63G,G46A,G48A",1.49,多点突变或缺失mutation_code
+"A49G,G46A,G48A",1.25,多点突变或缺失mutation_code
+"A20G,G46A,G48A",0.87,多点突变或缺失mutation_code
+"A81G,G46A,G48A",0.77,多点突变或缺失mutation_code
+"A37G,G46A,G48A",0.62,多点突变或缺失mutation_code
+"A66G,G46A,G48A",0.07,多点突变或缺失mutation_code
+"A15G,G46A,G48A",-0.55,多点突变或缺失mutation_code
+"C30G,C51A",-5.95,多点突变或缺失mutation_code
+"C30V,C51A",-6.14,多点突变或缺失mutation_code
+"C30T,C51A",-7.81,多点突变或缺失mutation_code
+"C30S,C51A",-8.0,多点突变或缺失mutation_code
+"C30A,C51A",-8.74,多点突变或缺失mutation_code
+"C30A,C51S",-8.93,多点突变或缺失mutation_code
+"H31A,W34A",4.1,多点突变或缺失mutation_code
+"H31A,W34A",-2.2,多点突变或缺失mutation_code
+F31A,,ddg缺失或非数值
+F31Y,,ddg缺失或非数值
+"A52V,V74L",2.43,多点突变或缺失mutation_code
+"A52L,V74L",1.49,多点突变或缺失mutation_code
+"A52I,V74A",1.19,多点突变或缺失mutation_code
+"A52I,V74L",1.19,多点突变或缺失mutation_code
+"A52L,V74A",0.36,多点突变或缺失mutation_code
+"A52F,V74L",0.03,多点突变或缺失mutation_code
+"A52V,V74A",-0.52,多点突变或缺失mutation_code
+"A52F,V74A",-1.4,多点突变或缺失mutation_code
+"A52G,V74L",-1.4,多点突变或缺失mutation_code
+"T75R,G76Q",,多点突变或缺失mutation_code
+N67D,,ddg缺失或非数值
+N67D,,ddg缺失或非数值
+N67D,,ddg缺失或非数值
+N67D,,ddg缺失或非数值
+N67D,,ddg缺失或非数值
+N67D,,ddg缺失或非数值
+N67D,,ddg缺失或非数值
+"W22Y,S74L",-0.23,多点突变或缺失mutation_code
+"W22Y,S74L",-0.92,多点突变或缺失mutation_code
+"E32Q,K57E",-1.3,多点突变或缺失mutation_code
+"Q40L,K57E",-2.1,多点突变或缺失mutation_code
+"Q32E,Q40L,K57E",-2.5,多点突变或缺失mutation_code
+"Y14A, Y18A",-4.64,多点突变或缺失mutation_code
+"F20L,F31L",-0.48,多点突变或缺失mutation_code
+"F18L,F20L",-0.88,多点突变或缺失mutation_code
+"F18L,F20L,F31L",-0.88,多点突变或缺失mutation_code
+"F20S,F31S",-0.96,多点突变或缺失mutation_code
+"F18S,F31S",-1.39,多点突变或缺失mutation_code
+"F18L,F31L",-1.56,多点突变或缺失mutation_code
+"F18S,F20S,F31S",-1.77,多点突变或缺失mutation_code
+"F18S,F20S",-1.97,多点突变或缺失mutation_code
+T8A,,ddg缺失或非数值
+T8V,,ddg缺失或非数值
+E10A,,ddg缺失或非数值
+E10V,,ddg缺失或非数值
+L12A,,ddg缺失或非数值
+L12V,,ddg缺失或非数值
+E23A,,ddg缺失或非数值
+E23V,,ddg缺失或非数值
+"T8A,E23A",,多点突变或缺失mutation_code
+"T8V,E23V",,多点突变或缺失mutation_code
+"T8A,E10A,L12A,E23A",,多点突变或缺失mutation_code
+"T8V,E10V,L12V,E23V",,多点突变或缺失mutation_code
+F31A,,ddg缺失或非数值
+F31A,,ddg缺失或非数值
+F31A,,ddg缺失或非数值
+F31Y,,ddg缺失或非数值
+F31Y,,ddg缺失或非数值
+F31Y,,ddg缺失或非数值
+F31Y,,ddg缺失或非数值
+W23A,,ddg缺失或非数值
+W23A,,ddg缺失或非数值
+W23A,,ddg缺失或非数值
+"E15G,S27A,D34E,N38K,I42V",2.98,多点突变或缺失mutation_code
+G15E,,ddg缺失或非数值
+E34D,,ddg缺失或非数值
+"D34E,N38K",0.45,多点突变或缺失mutation_code
+E34D,,ddg缺失或非数值
+K38N,,ddg缺失或非数值
+G15E,,ddg缺失或非数值
+A27S,,ddg缺失或非数值
+K38N,,ddg缺失或非数值
+V42I,,ddg缺失或非数值
+"T138E,D167T",,多点突变或缺失mutation_code
+D167T,,ddg缺失或非数值
+T138E,,ddg缺失或非数值
+"E24A, S41L",-0.43,多点突变或缺失mutation_code
+"E24A,S41K",-1.17,多点突变或缺失mutation_code
+"E24R, S41D",-1.34,多点突变或缺失mutation_code
+"E24A, S41A",-1.48,多点突变或缺失mutation_code
+"E24L,S41A",-2.71,多点突变或缺失mutation_code
+E24D,,ddg缺失或非数值
+E24T,,ddg缺失或非数值
+E24Q,,ddg缺失或非数值
+E24H,,ddg缺失或非数值
+E24K,,ddg缺失或非数值
+E24A,,ddg缺失或非数值
+E24S,,ddg缺失或非数值
+E24F,,ddg缺失或非数值
+E24V,,ddg缺失或非数值
+E24P,,ddg缺失或非数值
+E24Y,,ddg缺失或非数值
+E24I,,ddg缺失或非数值
+E24L,,ddg缺失或非数值
+E24R,,ddg缺失或非数值
+S41K,,ddg缺失或非数值
+S41R,,ddg缺失或非数值
+S41N,,ddg缺失或非数值
+S41L,,ddg缺失或非数值
+S41H,,ddg缺失或非数值
+S41A,,ddg缺失或非数值
+S41I,,ddg缺失或非数值
+S41V,,ddg缺失或非数值
+S41T,,ddg缺失或非数值
+S41F,,ddg缺失或非数值
+S41Y,,ddg缺失或非数值
+S41D,,ddg缺失或非数值
+S41G,,ddg缺失或非数值
+"E24A, S41A",,多点突变或缺失mutation_code
+"E24A,S41K",,多点突变或缺失mutation_code
+"E24A, S41L",,多点突变或缺失mutation_code
+"E24L,S41A",,多点突变或缺失mutation_code
+"E24R, S41D",,多点突变或缺失mutation_code
+"H19R, N22E",0.22,多点突变或缺失mutation_code
+"S15A, H19E, N22A",0.76,多点突变或缺失mutation_code
+"S15R, H19A, N22A",1.07,多点突变或缺失mutation_code
+"S15A, H19A, N22A",1.07,多点突变或缺失mutation_code
+"S15R, H19A, N22R",1.15,多点突变或缺失mutation_code
+"S15A, H19E, N22R",1.15,多点突变或缺失mutation_code
+"S15A, H19A, N22R",1.23,多点突变或缺失mutation_code
+"S15R, H19E, N22A",1.64,多点突变或缺失mutation_code
+"S15R,H19E,N22R",1.72,多点突变或缺失mutation_code
+A22P,,ddg缺失或非数值
+S24P,,ddg缺失或非数值
+T149P,,ddg缺失或非数值
+A177P,,ddg缺失或非数值
+H222P,,ddg缺失或非数值
+L275P,,ddg缺失或非数值
+L316P,,ddg缺失或非数值
+A347P,,ddg缺失或非数值
+"A22P,S24P",,多点突变或缺失mutation_code
+"S24P,L316P",,多点突变或缺失mutation_code
+"M133L, V203A, N239Y, N268D",2.65,多点突变或缺失mutation_code
+"V203A, N239Y, N268D",2.41,多点突变或缺失mutation_code
+"M113L, N239Y, N268D",2.23,多点突变或缺失mutation_code
+"N239Y, N268D",2.04,多点突变或缺失mutation_code
+"M133L, V203A",0.65,多点突变或缺失mutation_code
+"C142S,C188S",0.525461,多点突变或缺失mutation_code
+"Y13F, Q54N",0.1,多点突变或缺失mutation_code
+"Y13F, F56W",-0.5,多点突变或缺失mutation_code
+"Y13F, Q54E",-0.5,多点突变或缺失mutation_code
+"Y13F, F56Y",-1.1,多点突变或缺失mutation_code
+"N132G,E136G",0.3,多点突变或缺失mutation_code
+F20L,,ddg缺失或非数值
+"I18V,V78A",-5.06,多点突变或缺失mutation_code
+"V78A,L89V",-4.06,多点突变或缺失mutation_code
+"L16V,L95V",-2.01,多点突变或缺失mutation_code
+"A40G,L50V",-0.72,多点突变或缺失mutation_code
+"I52L,L105V",1.61,多点突变或缺失mutation_code
+"I52L, M55L",-0.08,多点突变或缺失mutation_code
+"I52L, L105V",-0.08,多点突变或缺失mutation_code
+"M55L, L105V",-0.09,多点突变或缺失mutation_code
+"I52L,M55L,L105V",-0.1,多点突变或缺失mutation_code
+"W28F,W101F",-1.51,多点突变或缺失mutation_code
+"W28F,W101F",-5.8,多点突变或缺失mutation_code
+"W28F,W101F",-8.03,多点突变或缺失mutation_code
+W59Y,,ddg缺失或非数值
+"K52M,K54M",1.01,多点突变或缺失mutation_code
+Q39L,,ddg缺失或非数值
+"G3A,M4A,S5A,K6A,M7A,Q9A,N11A",,多点突变或缺失mutation_code
+"E43A,K46A,G52A",,多点突变或缺失mutation_code
+"R16A,E17A,V18A,D20A,R23A,K24A,V25A,E27A,E28A,S35A,Q39A",,多点突变或缺失mutation_code
+"R16A,E17A,V18A,D20A,R23A,K24A,V25A,E27A,E28A,N34A,S35A,Q39A",5.0,多点突变或缺失mutation_code
+"R16A,E17A,V18A,D20A,R23A,K24A,V25A,E27A,E28A,N34A,S35A,Q39A,E43A,K46A,G52A",4.2,多点突变或缺失mutation_code
+"D178N,M129V",-1.910768,多点突变或缺失mutation_code
+"D178N,M129N",-1.719691,多点突变或缺失mutation_code
+"C40A,C82A",,多点突变或缺失mutation_code
+C82A,,ddg缺失或非数值
+C40A,,ddg缺失或非数值
+"I332V,F341L,L344I",-0.1,多点突变或缺失mutation_code
+"F341L,L344I",-1.3,多点突变或缺失mutation_code
+"I332V,F341L",-2.2,多点突变或缺失mutation_code
+"I332V,M340I,F341L",-3.1,多点突变或缺失mutation_code
+"F328L,I332V,F341L,L344I",-5.7,多点突变或缺失mutation_code
+"F341L,L344F",-8.4,多点突变或缺失mutation_code
+K18G,,ddg缺失或非数值
+R82E,,ddg缺失或非数值
+"K18G,R82E",,多点突变或缺失mutation_code
+K18G,,ddg缺失或非数值
+R82E,,ddg缺失或非数值
+"K18G,R82E",,多点突变或缺失mutation_code
+A2023V,,ddg缺失或非数值
+W2061R,,ddg缺失或非数值
+W2024R,,ddg缺失或非数值
+"S23C,R52C",0.6,多点突变或缺失mutation_code
+S23C,,ddg缺失或非数值
+"S23C,R52C",,多点突变或缺失mutation_code
+E75G,,ddg缺失或非数值
+E57G,,ddg缺失或非数值
+D184A,,ddg缺失或非数值
+R241A,,ddg缺失或非数值
+S242F,,ddg缺失或非数值
+Y214W,,ddg缺失或非数值
+"R74C,L177I",,多点突变或缺失mutation_code
+"R74C,Q149W",,多点突变或缺失mutation_code
+S128R,,ddg缺失或非数值
+"S128R,T158E",,多点突变或缺失mutation_code
+"S128R,T158E,N117R",,多点突变或缺失mutation_code
+"S128R,T158E,N117R,S160E",,多点突变或缺失mutation_code
+T158E,,ddg缺失或非数值
+N117R,,ddg缺失或非数值
+"S128R,T158E,S160E",,多点突变或缺失mutation_code
+"T69E,C102T",1.5,多点突变或缺失mutation_code
+"T69E,C102T",1.4,多点突变或缺失mutation_code
+"T69E,T96A,C102T",1.4,多点突变或缺失mutation_code
+"T69E,T96A,C102T",1.3,多点突变或缺失mutation_code
+"T96A,C102T",1.0,多点突变或缺失mutation_code
+"T96A,C102T",0.8,多点突变或缺失mutation_code
+H12N,,ddg缺失或非数值
+K13G,,ddg缺失或非数值
+"H12N,K13G",,多点突变或缺失mutation_code
+"H12N,K13G",,多点突变或缺失mutation_code
+"H34A,F7L",1.64,多点突变或缺失mutation_code
+"H34A,Y47F",1.54,多点突变或缺失mutation_code
+"H34A,F7L",0.71,多点突变或缺失mutation_code
+"H34A,Y47F",0.63,多点突变或缺失mutation_code
+C71S,,ddg缺失或非数值
+"W12F,W69F",-0.477692,多点突变或缺失mutation_code
+"W12F,W33F",-0.238846,多点突变或缺失mutation_code
+"W33F,W69F",5.254612,多点突变或缺失mutation_code
+"C3A,C26A",-6.472727,多点突变或缺失mutation_code
+N27L,,ddg缺失或非数值
+F31A,,ddg缺失或非数值
+"L99A,E108V",-3.3,多点突变或缺失mutation_code
+"L99G,E108V",-6.2,多点突变或缺失mutation_code
+"L99A,E108V",-3.1,多点突变或缺失mutation_code
+"L99G,E108V",-5.6,多点突变或缺失mutation_code
+"I27M,L33M",-3.1,多点突变或缺失mutation_code
+"M102A,M106A",-3.7,多点突变或缺失mutation_code
+"L84M,L91M,L99M",,多点突变或缺失mutation_code
+"L84M,L91M,L99M,L118M,L121M",,多点突变或缺失mutation_code
+"L84M,L91M,L99M,L118M,L121M,L133M,F153M",,多点突变或缺失mutation_code
+"L84M,L91M,L99M,L118M,L121M,V111M,L133M",,多点突变或缺失mutation_code
+"L84M,L91M,L99M,L118M,L121M,L133M,F153M,V87M,V111M",,多点突变或缺失mutation_code
+I56G,,ddg缺失或非数值
+"H31N,H137N",1.8,多点突变或缺失mutation_code
+H31D,,ddg缺失或非数值
+"H31N,H137N",,多点突变或缺失mutation_code
+H48N,,ddg缺失或非数值
+"W8F,W50F,W72F,W108F",-1.14,多点突变或缺失mutation_code
+"I6V,T53F",3.73,多点突变或缺失mutation_code
+"I6V,T53F",3.5,多点突变或缺失mutation_code
+"I6V,T53I",3.35,多点突变或缺失mutation_code
+"I6L,T53I",3.34,多点突变或缺失mutation_code
+"I6F,T53Y",3.14,多点突变或缺失mutation_code
+"I6F,T53F",3.0,多点突变或缺失mutation_code
+"I6V,T53V",2.99,多点突变或缺失mutation_code
+"I6F,T53F",2.97,多点突变或缺失mutation_code
+"I6V,T53I",2.91,多点突变或缺失mutation_code
+"I6L,T53I",2.8,多点突变或缺失mutation_code
+"I6F,T53Y",2.8,多点突变或缺失mutation_code
+"I6F,T53I",2.7,多点突变或缺失mutation_code
+"I6V,T53V",2.5,多点突变或缺失mutation_code
+"I6F,T53V",2.43,多点突变或缺失mutation_code
+"I6K,T53E",2.23,多点突变或缺失mutation_code
+"I6K,T53E",2.23,多点突变或缺失mutation_code
+"I6K,T53R",2.1,多点突变或缺失mutation_code
+"I6F,T53I",2.1,多点突变或缺失mutation_code
+"I6F,T53V",2.1,多点突变或缺失mutation_code
+"I6K,T53R",1.94,多点突变或缺失mutation_code
+"I6T,T53Y",1.83,多点突变或缺失mutation_code
+"I6E,T53R",1.79,多点突变或缺失mutation_code
+"I6E,T53R",1.79,多点突变或缺失mutation_code
+"I6T,T53F",1.68,多点突变或缺失mutation_code
+"I6K,T53A",1.61,多点突变或缺失mutation_code
+"I6K,T53A",1.6,多点突变或缺失mutation_code
+"I6T,T53I",1.59,多点突变或缺失mutation_code
+"I6T,T53F",1.5,多点突变或缺失mutation_code
+"I6T,T53I",1.28,多点突变或缺失mutation_code
+"I6T,T53V",1.28,多点突变或缺失mutation_code
+"I6T,T53V",1.11,多点突变或缺失mutation_code
+"I6A,T53R",1.04,多点突变或缺失mutation_code
+"I6A,T53R",0.84,多点突变或缺失mutation_code
+"I6A,T53E",0.26,多点突变或缺失mutation_code
+"I6A,T53E",0.25,多点突变或缺失mutation_code
+"I6E,T53A",0.16,多点突变或缺失mutation_code
+"I6E,T53A",0.16,多点突变或缺失mutation_code
+"I6A,T53A",0.0,多点突变或缺失mutation_code
+"I6A,T53A",0.0,多点突变或缺失mutation_code
+"I6E,T53E",-0.59,多点突变或缺失mutation_code
+"I6E,T53E",-0.68,多点突变或缺失mutation_code
+"C40A,C95A",-4.55,多点突变或缺失mutation_code
+"A21G,G23A",-2.2,多点突变或缺失mutation_code
+"F34Y,E43Y",3.21,多点突变或缺失mutation_code
+"F7A,V13M",2.46,多点突变或缺失mutation_code
+"F34Y,E43Y",2.4,多点突变或缺失mutation_code
+"F34Y,Q37R,E43Y",2.0,多点突变或缺失mutation_code
+"F34Y,Q37R",1.5,多点突变或缺失mutation_code
+"F7A,V13M",1.4,多点突变或缺失mutation_code
+"Q37R,E43Y",0.5,多点突变或缺失mutation_code
+A42V,,ddg缺失或非数值
+A42L,,ddg缺失或非数值
+A42I,,ddg缺失或非数值
+A42F,,ddg缺失或非数值
+A98C,,ddg缺失或非数值
+A98V,,ddg缺失或非数值
+A98L,,ddg缺失或非数值
+A98I,,ddg缺失或非数值
+A98M,,ddg缺失或非数值
+A98F,,ddg缺失或非数值
+A98W,,ddg缺失或非数值
+A129L,,ddg缺失或非数值
+A129M,,ddg缺失或非数值
+A129F,,ddg缺失或非数值
+A129W,,ddg缺失或非数值
+"F82Y,L85A",-2.9,多点突变或缺失mutation_code
+"F82Y,L85A",-3.1,多点突变或缺失mutation_code
+"R19I,T20I",-0.5,多点突变或缺失mutation_code
+D251A,,ddg缺失或非数值
+D251A,,ddg缺失或非数值
+"D251A,F71A",,多点突变或缺失mutation_code
+"D251A,F71A",,多点突变或缺失mutation_code
+H211A,,ddg缺失或非数值
+H211A,,ddg缺失或非数值
+D251A,,ddg缺失或非数值
+D251A,,ddg缺失或非数值
+F30H,,ddg缺失或非数值
+W48Q,,ddg缺失或非数值
+A108V,,ddg缺失或非数值
+D174G,,ddg缺失或非数值
+D174N,,ddg缺失或非数值
+G232D,,ddg缺失或非数值
+G282D,,ddg缺失或非数值
+D302G,,ddg缺失或非数值
+Y411H,,ddg缺失或非数值
+"G245S, N239Y",0.0,多点突变或缺失mutation_code
+"R249S, H168R",-1.72,多点突变或缺失mutation_code
+"R249S, T123A, H168R",-1.91,多点突变或缺失mutation_code
+"R249S, T123A",-2.09,多点突变或缺失mutation_code
+"V143A, N268D",-2.25,多点突变或缺失mutation_code
+"T123A, H168R",-3.12,多点突变或缺失mutation_code
+"C5L,C8T,C38A,C41T,E49A",-0.5,多点突变或缺失mutation_code
+"C5L,C8T,C38A,C41T,K6A",-0.6,多点突变或缺失mutation_code
+"C5L,C8T,C38A,C41T,K6A,E49A",-0.8,多点突变或缺失mutation_code
+"C5L,C8T,C38A,C41T,A1Q",-1.1,多点突变或缺失mutation_code
+"C5L,C8T,C38A,C41T,E14Q",-1.9,多点突变或缺失mutation_code
+"C5L,C8T,C38A,C41T,A1Q,E14Q",-2.5,多点突变或缺失mutation_code
+"C5L,C8T,C38A,C41T,A1Q,E14T",-2.9,多点突变或缺失mutation_code
+"C5L,C8T,C38A,C41T,E14T",-3.3,多点突变或缺失mutation_code
+"I59A, V70A",4.66,多点突变或缺失mutation_code
+"I20A, V70A",0.0,多点突变或缺失mutation_code
+F134L,,ddg缺失或非数值
+F270C,,ddg缺失或非数值
+P151S,,ddg缺失或非数值
+I195T,,ddg缺失或非数值
+Y220C,,ddg缺失或非数值
+V157F,,ddg缺失或非数值
+R175H,,ddg缺失或非数值
+V143A,,ddg缺失或非数值
+R282W,,ddg缺失或非数值
+I255F,,ddg缺失或非数值
+I232T,,ddg缺失或非数值
+M237I,,ddg缺失或非数值
+C242S,,ddg缺失或非数值
+L145Q,,ddg缺失或非数值
+R249S,,ddg缺失或非数值
+R248Q,,ddg缺失或非数值
+G245S,,ddg缺失或非数值
+R175A,,ddg缺失或非数值
+R273H,,ddg缺失或非数值
+"W64C,C65A",-2.2,多点突变或缺失mutation_code
+"A4C,G88R,V118C",,多点突变或缺失mutation_code
+G88R,,ddg缺失或非数值
+"A4C,C65A,C72A,G88R,V118C",,多点突变或缺失mutation_code
+"C65A,C72A,G88R",,多点突变或缺失mutation_code
+"C40A,G88R,C95A",,多点突变或缺失mutation_code
+T11Y,,ddg缺失或非数值
+S33P,,ddg缺失或非数值
+"A82R,Y170D",,多点突变或缺失mutation_code
+"S33P,T11Y",,多点突变或缺失mutation_code
+"T11Y,A82R,Y170D",,多点突变或缺失mutation_code
+"S33P,T11Y,A82R,Y170D",,多点突变或缺失mutation_code
+"H33N,H39K",0.0,多点突变或缺失mutation_code
+"Y32F,Y57F",0.0,多点突变或缺失mutation_code
+"Y32F,V101L",6.5,多点突变或缺失mutation_code
+"Y57F,V101L",7.9,多点突变或缺失mutation_code
+V40S,,ddg缺失或非数值
+L50W,,ddg缺失或非数值
+V52L,,ddg缺失或非数值
+V52W,,ddg缺失或非数值
+"L60C,S173C",-3.3,多点突变或缺失mutation_code
+"E32G, A35G, T39G",3.0,多点突变或缺失mutation_code
+"E3R, E66L",1.72,多点突变或缺失mutation_code
+L66L,,ddg缺失或非数值
+"R3E, L66E",,多点突变或缺失mutation_code
+"T89A,N93A,I98A",-1.37,多点突变或缺失mutation_code
+"T89A,N93A,S100A",-1.96,多点突变或缺失mutation_code
+"N93A,I98A,S100A",-2.22,多点突变或缺失mutation_code
+"R73A, H15A,T89A,N93A,I98A,S100A",-2.25,多点突变或缺失mutation_code
+"T89A,N93A,I98A,S100A",-2.48,多点突变或缺失mutation_code
+"H15A,T89A,N93A,I98A,S100A",-2.74,多点突变或缺失mutation_code
+Q143H,,ddg缺失或非数值
+Q143A,,ddg缺失或非数值
+Q143V,,ddg缺失或非数值
+Q143E,,ddg缺失或非数值
+Q143S,,ddg缺失或非数值
+Q143N,,ddg缺失或非数值
+"C83S,C117S",-2.149614,多点突变或缺失mutation_code
+"C16S,H93G",-0.8359610000000001,多点突变或缺失mutation_code
+"C83S,C117S",-1.81523,多点突变或缺失mutation_code
+"C16S,H93G",-1.385307,多点突变或缺失mutation_code
+"C83S, C117S",-1.791345,多点突变或缺失mutation_code
+"C16S, H93G",-0.931499,多点突变或缺失mutation_code
+"F22S,A29E",0.57323,多点突变或缺失mutation_code
+"Q9A,N11A,R13A",1.21,多点突变或缺失mutation_code
+"Q9G,N11G,R13G",0.2,多点突变或缺失mutation_code
+"V9I,N16I,V23N,V30I",3.7,多点突变或缺失mutation_code
+"V9I,V23I,V30I",1.9,多点突变或缺失mutation_code
+"V9I,N16I,V23N,V30N",1.1,多点突变或缺失mutation_code
+"V9I,V23N,V30I",-0.7,多点突变或缺失mutation_code
+"V9I,V23I,V30N",-0.9,多点突变或缺失mutation_code
+"V9N,N16I,V23N,V30I",-1.1,多点突变或缺失mutation_code
+"V9N,V23N,V30I",-5.6,多点突变或缺失mutation_code
+"F7A,V13M,F34Y,E43Y,V78I",5.86,多点突变或缺失mutation_code
+"P90G,P92G",0.88,多点突变或缺失mutation_code
+"P90A,P92A",0.93,多点突变或缺失mutation_code
+"I30L,I36F",-1.289768,多点突变或缺失mutation_code
+"I30L,I36V",-1.409191,多点突变或缺失mutation_code
+"I30V,I36L",-1.576384,多点突变或缺失mutation_code
+"I30V,I36V",-1.862999,多点突变或缺失mutation_code
+"I30L,I36L",-1.934653,多点突变或缺失mutation_code
+"I30V,I36F",-2.483998,多点突变或缺失mutation_code
+"I30F,I36V",-3.1766520000000003,多点突变或缺失mutation_code
+"I30F,I36L",-3.3199589999999994,多点突变或缺失mutation_code
+"A30I,T33I",0.4,多点突变或缺失mutation_code
+"G185P,G186P",0.4,多点突变或缺失mutation_code
+"L222K,F225K,F229K",0.2,多点突变或缺失mutation_code
+E11A,,ddg缺失或非数值
+R25A,,ddg缺失或非数值
+"E11A,R25A",,多点突变或缺失mutation_code
+K1W,,ddg缺失或非数值
+F8W,,ddg缺失或非数值
+D38W,,ddg缺失或非数值
+Y73W,,ddg缺失或非数值
+Y76W,,ddg缺失或非数值
+Y92W,,ddg缺失或非数值
+K104W,,ddg缺失或非数值
+Y115W,,ddg缺失或非数值
+V124W,,ddg缺失或非数值
+"V42C,R52C",1.0,多点突变或缺失mutation_code
+"E38C,W54C",-1.0,多点突变或缺失mutation_code
+"C3S,C48S",-4.0,多点突变或缺失mutation_code
+"Q41L, K75I",2.8,多点突变或缺失mutation_code
+"Q41A, K75A",1.0,多点突变或缺失mutation_code
+"M12F,L56F",1.49,多点突变或缺失mutation_code
+"M12L,L56F",1.12,多点突变或缺失mutation_code
+"T22G,Q23D",,多点突变或缺失mutation_code
+Y115W,,ddg缺失或非数值
+I106A,,ddg缺失或非数值
+I106L,,ddg缺失或非数值
+I106V,,ddg缺失或非数值
+I107A,,ddg缺失或非数值
+V108A,,ddg缺失或非数值
+V108G,,ddg缺失或非数值
+V116G,,ddg缺失或非数值
+V118A,,ddg缺失或非数值
+V118G,,ddg缺失或非数值
+V15I,,ddg缺失或非数值
+V126M,,ddg缺失或非数值
+S92F,,ddg缺失或非数值
+"G23A,G25A",0.76,多点突变或缺失mutation_code
+"G65A,G73A",-0.125,多点突变或缺失mutation_code
+K300R,,ddg缺失或非数值
+N150D,,ddg缺失或非数值
+V196F,,ddg缺失或非数值
+"N150D,V196F",,多点突变或缺失mutation_code
+"Q164I,V196F",,多点突变或缺失mutation_code
+Q164I,,ddg缺失或非数值
+T232V,,ddg缺失或非数值
+N288V,,ddg缺失或非数值
+M379V,,ddg缺失或非数值
+R64E,,ddg缺失或非数值
+L219R,,ddg缺失或非数值
+N12R,,ddg缺失或非数值
+E279W,,ddg缺失或非数值
+"M91L,I95L",,多点突变或缺失mutation_code
+"K152R,G154A",,多点突变或缺失mutation_code
+K152R,,ddg缺失或非数值
+G154A,,ddg缺失或非数值
+"A259S,F261P",,多点突变或缺失mutation_code
+Y282L,,ddg缺失或非数值
+"M91L,I95L,K152R,G154A,A259S,F261P,Y282L",,多点突变或缺失mutation_code
+"G28A,G149A,G150A",6.16,多点突变或缺失mutation_code
+"G149A,G150A",4.2,多点突变或缺失mutation_code
+"G26A,G149A,G150A",3.46,多点突变或缺失mutation_code
+"G26A,G28A",2.74,多点突变或缺失mutation_code
+"A20R,L30Y,D34T",2.26,多点突变或缺失mutation_code
+"A20R,L30Y",1.805,多点突变或缺失mutation_code
+"A20R,D34T",1.29,多点突变或缺失mutation_code
+"Q22E, P43M",-2.269037,多点突变或缺失mutation_code
+"Q22N, P43M",-1.958537,多点突变或缺失mutation_code
+"D26I, C32A, C35A, 
+T66L, T77V",-5.1,多点突变或缺失mutation_code
+"C32A, C35A, T66L, T77V",-6.2,多点突变或缺失mutation_code
+"D26I, C32A, C35A,  T66L, T77V",-5.1,多点突变或缺失mutation_code
+"V35I, D50N",0.215,多点突变或缺失mutation_code
+"G40E, D50N",-0.21,多点突变或缺失mutation_code
+"V15I,V126M",-1.8,多点突变或缺失mutation_code
+"S92F,V126M",-1.43,多点突变或缺失mutation_code
+"V15I,S92F",-1.11,多点突变或缺失mutation_code
+"I11V,V15I",-1.09,多点突变或缺失mutation_code
+"I11V,V15I,S92F",-1.02,多点突变或缺失mutation_code
+"I11V,S92F",-0.57,多点突变或缺失mutation_code
+E73G,,ddg缺失或非数值
+D77G,,ddg缺失或非数值
+"E73G,D77G",,多点突变或缺失mutation_code
+"E73G,E75G",,多点突变或缺失mutation_code
+"E75G,D77G",,多点突变或缺失mutation_code
+"E73G,E75G,D77G",,多点突变或缺失mutation_code
+"L39F, Q41L, K75I",1.6,多点突变或缺失mutation_code
+"L39F, Q41L",0.3,多点突变或缺失mutation_code
+"L39F, K75I",0.2,多点突变或缺失mutation_code
+W24Y,,ddg缺失或非数值
+W24F,,ddg缺失或非数值
+W24L,,ddg缺失或非数值
+"G22A,W24F",,多点突变或缺失mutation_code
+W91H,,ddg缺失或非数值
+W105F,,ddg缺失或非数值
+"W67L,W91H",,多点突变或缺失mutation_code
+"W67L,W91L,W105F",,多点突变或缺失mutation_code
+"W24Y,W67L,W105F",,多点突变或缺失mutation_code
+R139Q,,ddg缺失或非数值
+W194F,,ddg缺失或非数值
+W238F,,ddg缺失或非数值
+"V66L,I92V",0.1,多点突变或缺失mutation_code
+"V66L,V99L",0.0,多点突变或缺失mutation_code
+"V23L,I72L",-0.4,多点突变或缺失mutation_code
+"V66L,I72V",-0.5,多点突变或缺失mutation_code
+"V23I,I72L",-0.5,多点突变或缺失mutation_code
+"I72L,V99I",-0.5,多点突变或缺失mutation_code
+"V66L,V99I",-0.6,多点突变或缺失mutation_code
+"I92V,V99I",-0.7,多点突变或缺失mutation_code
+"V66I,I92V",-0.7,多点突变或缺失mutation_code
+"V66I,V99I",-0.7,多点突变或缺失mutation_code
+"I72L,I92L",-0.7,多点突变或缺失mutation_code
+"I72L,I92V",-0.7,多点突变或缺失mutation_code
+"I72L,V99L",-0.8,多点突变或缺失mutation_code
+"V66L,I72L",-0.9,多点突变或缺失mutation_code
+"I92L,V99I",-0.9,多点突变或缺失mutation_code
+"I92V,V99L",-0.9,多点突变或缺失mutation_code
+"V23I,V66L",-1.0,多点突变或缺失mutation_code
+"V66L,I92L",-1.0,多点突变或缺失mutation_code
+"V23L,V66L",-1.1,多点突变或缺失mutation_code
+"V23I,I72V",-1.1,多点突变或缺失mutation_code
+"V23L,I72V",-1.1,多点突变或缺失mutation_code
+"V66I,I72V",-1.2,多点突变或缺失mutation_code
+"I72V,V99I",-1.2,多点突变或缺失mutation_code
+"I92L,V99L",-1.3,多点突变或缺失mutation_code
+"V66I,V99L",-1.3,多点突变或缺失mutation_code
+"V23I,L25V",-1.4,多点突变或缺失mutation_code
+"V23L,L25I",-1.5,多点突变或缺失mutation_code
+"V23I,V66I",-1.5,多点突变或缺失mutation_code
+"V23L,V66I",-1.5,多点突变或缺失mutation_code
+"L25V,I72L",-1.6,多点突变或缺失mutation_code
+"V23I,L25I",-1.7,多点突变或缺失mutation_code
+"V66I,I72L",-1.7,多点突变或缺失mutation_code
+"L25I,I72L",-1.7,多点突变或缺失mutation_code
+"I72V,I92V",-1.7,多点突变或缺失mutation_code
+"I72V,V99L",-1.7,多点突变或缺失mutation_code
+"V23L,L25V",-1.8,多点突变或缺失mutation_code
+"L25V,V66L",-1.8,多点突变或缺失mutation_code
+"I72V,I92L",-1.8,多点突变或缺失mutation_code
+"L25I,V66L",-1.9,多点突变或缺失mutation_code
+"V66I,I92L",-1.9,多点突变或缺失mutation_code
+"L25V,V66I",-2.9,多点突变或缺失mutation_code
+"L25V,I72V",-2.9,多点突变或缺失mutation_code
+"L25I,V66I",-3.0,多点突变或缺失mutation_code
+"L25I,I72V",-3.0,多点突变或缺失mutation_code
+"V66L,I92V,V99L",0.1,多点突变或缺失mutation_code
+"V66L,I92V,V99I",-0.4,多点突变或缺失mutation_code
+"V66I,I92V,V99I",-0.5,多点突变或缺失mutation_code
+"V66L,I72V,I92V",-0.5,多点突变或缺失mutation_code
+"V66L,I72V,V99L",-0.5,多点突变或缺失mutation_code
+"V66L,I92L,V99L",-0.7,多点突变或缺失mutation_code
+"I72L,I92V,V99I",-0.7,多点突变或缺失mutation_code
+"V66L,I72V,I92V,V99L",-0.7,多点突变或缺失mutation_code
+"V66L,I72L,I92V,V99L",-0.7,多点突变或缺失mutation_code
+"V66L,I72L,I92V",-0.8,多点突变或缺失mutation_code
+"V66L,I72L,V99L",-0.8,多点突变或缺失mutation_code
+"V66I,I72V,V99I",-0.8,多点突变或缺失mutation_code
+"V66L,I72V,V99I",-0.8,多点突变或缺失mutation_code
+"V66L,I72V,I92V,V99I",-0.8,多点突变或缺失mutation_code
+"V66I,I92V,V99L",-0.9,多点突变或缺失mutation_code
+"V23I,V66L,I72V",-0.9,多点突变或缺失mutation_code
+"V66L,I72L,V99I",-1.0,多点突变或缺失mutation_code
+"V66I,I72V,I92V,V99I",-1.0,多点突变或缺失mutation_code
+"V66L,I72L,I92V,V99I",-1.0,多点突变或缺失mutation_code
+"V23I,L25V,I72L",-1.1,多点突变或缺失mutation_code
+"I72L,I92V,V99L",-1.1,多点突变或缺失mutation_code
+"V23L,V66L,I72L",-1.3,多点突变或缺失mutation_code
+"V23L,V66L,I72V",-1.3,多点突变或缺失mutation_code
+"V66L,I72V,I92L",-1.3,多点突变或缺失mutation_code
+"V66L,I72L,I92L,V99L",-1.3,多点突变或缺失mutation_code
+"V23L,L25I,I72L",-1.4,多点突变或缺失mutation_code
+"V66L,I92L,V99I",-1.4,多点突变或缺失mutation_code
+"I72V,I92V,V99I",-1.4,多点突变或缺失mutation_code
+"I72L,I92L,V99L",-1.4,多点突变或缺失mutation_code
+"I72L,I92L,V99I",-1.4,多点突变或缺失mutation_code
+"V23I,V66L,I72L",-1.4,多点突变或缺失mutation_code
+"V66I,I72L,I92V",-1.4,多点突变或缺失mutation_code
+"V66I,I72V,I92V",-1.4,多点突变或缺失mutation_code
+"V66L,I72V,I92L,V99L",-1.4,多点突变或缺失mutation_code
+"V23L,L25V,I72L",-1.5,多点突变或缺失mutation_code
+"V66L,I72L,I92L",-1.5,多点突变或缺失mutation_code
+"V23I,V66I,I72V",-1.6,多点突变或缺失mutation_code
+"V23L,V66I,I72V",-1.6,多点突变或缺失mutation_code
+"V66I,I72V,V99L",-1.6,多点突变或缺失mutation_code
+"V66I,I72L,I92V,V99I",-1.6,多点突变或缺失mutation_code
+"V23I,L25I,I72L",-1.7,多点突变或缺失mutation_code
+"V66I,I72V,I92V,V99L",-1.7,多点突变或缺失mutation_code
+"V66I,I72L,I92V,V99L",-1.8,多点突变或缺失mutation_code
+"V66L,I72V,I92L,V99I",-1.8,多点突变或缺失mutation_code
+"V66I,I72L,V99L",-1.9,多点突变或缺失mutation_code
+"V66I,I72L,V99I",-1.9,多点突变或缺失mutation_code
+"V66L,I72L,I92L,V99I",-1.9,多点突变或缺失mutation_code
+"V23L,L25V,V66L",-2.0,多点突变或缺失mutation_code
+"I72V,I92V,V99L",-2.0,多点突变或缺失mutation_code
+"V23I,V66I,I72L",-2.0,多点突变或缺失mutation_code
+"V23L,V66I,I72L",-2.0,多点突变或缺失mutation_code
+"L25V,V66L,I72V",-2.0,多点突变或缺失mutation_code
+"V66I,I72V,I92L",-2.0,多点突变或缺失mutation_code
+"V23L,L25V,V66L,I72L",-2.0,多点突变或缺失mutation_code
+"V66I,I72V,I92L,V99I",-2.0,多点突变或缺失mutation_code
+"V23I,L25V,V66L",-2.1,多点突变或缺失mutation_code
+"V66I,I92L,V99L",-2.1,多点突变或缺失mutation_code
+"V66I,I92L,V99I",-2.1,多点突变或缺失mutation_code
+"I72V,I92L,V99I",-2.1,多点突变或缺失mutation_code
+"V23I,L25V,V66L,I72V",-2.1,多点突变或缺失mutation_code
+"L25I,V66L,I72V",-2.2,多点突变或缺失mutation_code
+"L25V,V66L,I72L",-2.2,多点突变或缺失mutation_code
+"V23I,L25V,I72V",-2.3,多点突变或缺失mutation_code
+"L25I,V66L,I72L",-2.3,多点突变或缺失mutation_code
+"V66I,I72L,I92L",-2.3,多点突变或缺失mutation_code
+"V23L,L25I,V66L",-2.4,多点突变或缺失mutation_code
+"I72V,I92L,V99L",-2.4,多点突变或缺失mutation_code
+"V23L,L25I,V66L,I72L",-2.4,多点突变或缺失mutation_code
+"V66I,I72V,I92L,V99L",-2.4,多点突变或缺失mutation_code
+"V23I,L25I,V66L",-2.5,多点突变或缺失mutation_code
+"V23L,L25I,I72V",-2.5,多点突变或缺失mutation_code
+"V23I,L25V,V66L,I72L",-2.5,多点突变或缺失mutation_code
+"V23L,L25V,V66L,I72V",-2.5,多点突变或缺失mutation_code
+"V23I,L25I,V66L,I72V",-2.6,多点突变或缺失mutation_code
+"V23L,L25I,V66L,I72V",-2.6,多点突变或缺失mutation_code
+"V23I,L25V,V66I",-2.7,多点突变或缺失mutation_code
+"V23I,L25I,V66L,I72L",-2.7,多点突变或缺失mutation_code
+"V23L,L25V,V66I",-2.8,多点突变或缺失mutation_code
+"V23I,L25I,I72V",-2.8,多点突变或缺失mutation_code
+"V23L,L25V,I72V",-2.8,多点突变或缺失mutation_code
+"V23I,L25V,V66I,I72L",-2.8,多点突变或缺失mutation_code
+"V23L,L25V,V66I,I72L",-2.8,多点突变或缺失mutation_code
+"V23I,L25I,V66I",-2.9,多点突变或缺失mutation_code
+"L25I,V66I,I72L",-3.0,多点突变或缺失mutation_code
+"L25V,V66I,I72L",-3.0,多点突变或缺失mutation_code
+"V23I,L25V,V66I,I72V",-3.0,多点突变或缺失mutation_code
+"V66I,I72L,I92L,V99L",-3.0,多点突变或缺失mutation_code
+"V23L,L25I,V66I",-3.1,多点突变或缺失mutation_code
+"L25V,V66I,I72V",-3.1,多点突变或缺失mutation_code
+"L25I,V66I,I72V",-3.2,多点突变或缺失mutation_code
+"V23I,L25I,V66I,I72V",-3.2,多点突变或缺失mutation_code
+"V23I,L25I,V66I,I72L",-3.2,多点突变或缺失mutation_code
+"V23L,L25I,V66I,I72L",-3.2,多点突变或缺失mutation_code
+"V66I,I72L,I92L,V99I",-3.3,多点突变或缺失mutation_code
+"V23L,L25I,V66I,I72V",-3.4,多点突变或缺失mutation_code
+"V23L,L25V,V66I,I72V",-3.4,多点突变或缺失mutation_code
+"L44P,L73V,V109L",-0.143308,多点突变或缺失mutation_code
+"L73V,V109L",-0.8837299999999999,多点突变或缺失mutation_code
+"V23I,V66L,I72V,I92V",-0.6,多点突变或缺失mutation_code
+"V23I,L25V,V66L,I72V,I92V",-1.9,多点突变或缺失mutation_code
+"V23L,L25V,V66L,I72V,I92V",-2.2,多点突变或缺失mutation_code
+"V23I,L25I,V66L,I72V,I92V",-2.3,多点突变或缺失mutation_code
+"V23I,L25V,I72V,I92V",-2.4,多点突变或缺失mutation_code
+"V23I,L25V,I72V,I92V,V99I",-2.7,多点突变或缺失mutation_code
+"V23I,L25V,I72V,I92V,V99L",-3.0,多点突变或缺失mutation_code
+D87N,,ddg缺失或非数值
+"A122G, V138F",-1.35,多点突变或缺失mutation_code
+"A122G, V138I",-1.21,多点突变或缺失mutation_code
+"A122G, V138L",-0.94,多点突变或缺失mutation_code
+"A122V, V138F",-1.36,多点突变或缺失mutation_code
+"A122V, V138I",0.54,多点突变或缺失mutation_code
+"A122V, V138L",0.07,多点突变或缺失mutation_code
+"A89V, F103L",-2.76,多点突变或缺失mutation_code
+"V64T,L66E,L66LA",-1.552499,多点突变或缺失mutation_code
+"R3E,L66E",-4.9441120000000005,多点突变或缺失mutation_code
+"R3E,E46A,L66E",-4.084267,多点突变或缺失mutation_code
+"R3E,E46A",-1.958537,多点突变或缺失mutation_code
+"R3E,E21A",-2.69896,多点突变或缺失mutation_code
+"G23Q,S24D",-0.119423,多点突变或缺失mutation_code
+"E46A,L66LA",-0.286615,多点突变或缺失mutation_code
+"E46A,L66E",-1.385307,多点突变或缺失mutation_code
+"E3R,T64V,E66L",3.702113,多点突变或缺失mutation_code
+"E3R,E66L",3.3916129999999995,多点突变或缺失mutation_code
+"V64T,L66E,L66LA",-1.50473,多点突变或缺失mutation_code
+"R3E,L66E",-1.934653,多点突变或缺失mutation_code
+"R3E,E46A,L66E",-1.648037,多点突变或缺失mutation_code
+"R3E,E46A",-0.429923,多点突变或缺失mutation_code
+"G23Q,S24D",0.0716538,多点突变或缺失mutation_code
+"E46A,L66E",-0.8359610000000001,多点突变或缺失mutation_code
+"E3R,E66L",1.528614,多点突变或缺失mutation_code
+V109K,,ddg缺失或非数值
+H21G,,ddg缺失或非数值
+I56L,,ddg缺失或非数值
+A93S,,ddg缺失或非数值
+V109K,,ddg缺失或非数值
+H21G,,ddg缺失或非数值
+I56L,,ddg缺失或非数值
+A93S,,ddg缺失或非数值
+L558S,,ddg缺失或非数值
+V571L,,ddg缺失或非数值
+K573T,,ddg缺失或非数值
+T586I,,ddg缺失或非数值
+E641K,,ddg缺失或非数值
+T340P,,ddg缺失或非数值
+T340P,,ddg缺失或非数值
+"T53E,T44R",0.18,多点突变或缺失mutation_code
+"T53E,T44A",-0.27,多点突变或缺失mutation_code
+"I6R,T53E,T44A",-0.45,多点突变或缺失mutation_code
+"T53A,T44A",-0.47,多点突变或缺失mutation_code
+"T53A,T44R",-0.53,多点突变或缺失mutation_code
+"I6R,T53A,T44A",-1.23,多点突变或缺失mutation_code
+"I6R,T53A,T44R",-1.35,多点突变或缺失mutation_code
+"L3A,I11A",-5.08742,多点突变或缺失mutation_code
+"L3A,F14A",-8.932839999999997,多点突变或缺失mutation_code
+"H81A,E89D",2.1,多点突变或缺失mutation_code
+C14F,,ddg缺失或非数值
+"K18Y,K59F",0.121,多点突变或缺失mutation_code
+"Y13F,K18Y,K59F",0.064,多点突变或缺失mutation_code
+"K18Y,K59F,Y57F",0.046,多点突变或缺失mutation_code
+"Y13F,K18Y,K59F,Y57F",-0.07200000000000001,多点突变或缺失mutation_code
+"Y13F,Y57F",-0.087,多点突变或缺失mutation_code
+"Y13F,Y57F",-0.25,多点突变或缺失mutation_code
+"Y57F,K59Y",-0.97,多点突变或缺失mutation_code
+"K18Y,F52Y,K59Y",-2.11,多点突变或缺失mutation_code
+"K18Y,K59F",-2.39,多点突变或缺失mutation_code
+"Y13F,K18F,K59F",-2.44,多点突变或缺失mutation_code
+"K18Y,K59F,Y57F",-2.46,多点突变或缺失mutation_code
+"Y13F,K18F,K59F,Y57F",-2.48,多点突变或缺失mutation_code
+"K18Y,K27Y,F52Y,K59Y",-4.75,多点突变或缺失mutation_code
+E11A,,ddg缺失或非数值
+D160A,,ddg缺失或非数值
+"E11A,D160A",,多点突变或缺失mutation_code
+E23A,,ddg缺失或非数值
+E26A,,ddg缺失或非数值
+D29A,,ddg缺失或非数值
+F56A,,ddg缺失或非数值
+D227N,,ddg缺失或非数值
+D227A,,ddg缺失或非数值
+R191S,,ddg缺失或非数值
+R191A,,ddg缺失或非数值
+"A11V,M25I,V58L",2.2,多点突变或缺失mutation_code
+"A11V,V23L,M25I,V58L",2.0,多点突变或缺失mutation_code
+"A11V,V23L,M25V,V53I,V58L",1.7,多点突变或缺失mutation_code
+"A11V,M25V,V44I,V58L",1.5,多点突变或缺失mutation_code
+"A11V,V23L,M25V,V44I,V58L",1.0,多点突变或缺失mutation_code
+"A11V,M25I,V44I,V58L",0.5,多点突变或缺失mutation_code
+"A11V,V23L,M25I,V44I,V58L",0.2,多点突变或缺失mutation_code
+"A11V,V23L,M25I,V53I,V58L",-0.1,多点突变或缺失mutation_code
+"V9I,A11I,V23I,M25I,V44I,V53I,V58I",-1.5,多点突变或缺失mutation_code
+"V9I,A11V,V23L,M25I,V44I,V53I,V58I",-2.0,多点突变或缺失mutation_code
+"V9L,A11V,V23L,M25I,L33I,V44I,V53I,V58I",-2.4,多点突变或缺失mutation_code
+"V9L,A11V,V23L,M25I,L33I,V53I,V58I",-2.5,多点突变或缺失mutation_code
+"V9I,A11V,V23L,M25I,V53F,V58L",-2.6,多点突变或缺失mutation_code
+"V9L,A11V,V23L,M25L,V53L,V58L",-2.8,多点突变或缺失mutation_code
+"V9L,A11V,V23L,M25I,L31I,L33I,V44L,V53F,V58L",-3.1,多点突变或缺失mutation_code
+"A11V,V23L,M25L,V44A,V53F,V58L",-3.3,多点突变或缺失mutation_code
+"V9I,V23L,M25V,V44I,V58N",-4.1,多点突变或缺失mutation_code
+"I98V,N102A",-0.14,多点突变或缺失mutation_code
+"I98L,N102D,G106R",-0.23,多点突变或缺失mutation_code
+"I98V,N102G",-1.7,多点突变或缺失mutation_code
+"I98K,N102I,G106L",-2.39,多点突变或缺失mutation_code
+E63S,,ddg缺失或非数值
+R66S,,ddg缺失或非数值
+"E63S,R66S,D69S",,多点突变或缺失mutation_code
+"Q89D,Y27DD,M4L,T94H",1.2,多点突变或缺失mutation_code
+"Q89N,Y27DD",-1.0,多点突变或缺失mutation_code
+"Q38D,Y27DD",-1.5,多点突变或缺失mutation_code
+"Q38N,Y27DD",-1.9,多点突变或缺失mutation_code
+"Q89D,Y27DD",-2.6,多点突变或缺失mutation_code
+"Q89N,Y27DD,M4L,T94H",-3.3,多点突变或缺失mutation_code
+"E24A, S41L",-0.65,多点突变或缺失mutation_code
+"E24A, S41D",-0.88,多点突变或缺失mutation_code
+"E24A, S41K",-1.11,多点突变或缺失mutation_code
+"E24A, S41A",-1.47,多点突变或缺失mutation_code
+"E24A, S41R",-1.54,多点突变或缺失mutation_code
+"T44A, S41K",-3.17,多点突变或缺失mutation_code
+"G45A, S41K",-2.4,多点突变或缺失mutation_code
+"C47S,C63S",-4.299228,多点突变或缺失mutation_code
+"F7A,V13M,F34Y,E43Y,V78I",4.55,多点突变或缺失mutation_code
+"F7A,V13M,F34Y,E43Y",3.02,多点突变或缺失mutation_code
+"F7A,V13M,V78I",2.61,多点突变或缺失mutation_code
+"F34Y,E43Y,V78I",2.21,多点突变或缺失mutation_code
+"F7A,V13M",1.88,多点突变或缺失mutation_code
+"F34Y,E43Y",1.26,多点突变或缺失mutation_code
+V126G,,ddg缺失或非数值
+V126A,,ddg缺失或非数值
+V126S,,ddg缺失或非数值
+V126E,,ddg缺失或非数值
+V126M,,ddg缺失或非数值
+V126L,,ddg缺失或非数值
+V126I,,ddg缺失或非数值
+V126F,,ddg缺失或非数值
+"E125K,E128K,K133E,E139K",0.45,多点突变或缺失mutation_code
+F11W,,ddg缺失或非数值
+F43W,,ddg缺失或非数值
+F59W,,ddg缺失或非数值
+F64W,,ddg缺失或非数值
+Y82W,,ddg缺失或非数值
+"M2V,Y17W",,多点突变或缺失mutation_code
+"RV1V,Y17W",,多点突变或缺失mutation_code
+"A18S,I32L,L47R",-0.3,多点突变或缺失mutation_code
+I25L,,ddg缺失或非数值
+"A18S,I32L,L47R",,多点突变或缺失mutation_code
+"A18S,I32L,L47R,L71S",,多点突变或缺失mutation_code
+L71S,,ddg缺失或非数值
+"A18S,I25L,I32L,L47R,L71S",,多点突变或缺失mutation_code
+"Q58C,A99C",1.87,多点突变或缺失mutation_code
+"Q58C,A99C",0.3,多点突变或缺失mutation_code
+"Q58C,A99C",,多点突变或缺失mutation_code
+"W7D,L10G,L14G,V16G,I17G",,多点突变或缺失mutation_code
+W5R,,ddg缺失或非数值
+T85F,,ddg缺失或非数值
+H108L,,ddg缺失或非数值
+"V224E,S254K",,多点突变或缺失mutation_code
+"Q165E,M304R",,多点突变或缺失mutation_code
+"V224E,S254K,Q165E,M304R",,多点突变或缺失mutation_code
+"V224E,S254K,Q165E,M304R,R238A",,多点突变或缺失mutation_code
+V224E,,ddg缺失或非数值
+S254K,,ddg缺失或非数值
+Q165E,,ddg缺失或非数值
+M304R,,ddg缺失或非数值
+I122H,,ddg缺失或非数值
+G123H,,ddg缺失或非数值
+N135H,,ddg缺失或非数值
+P52G,,ddg缺失或非数值
+"N40A,S44A,E45A,D47A,K48A,D127A,E128A,V131A,N132A",1.75,多点突变或缺失mutation_code
+"E128A,V131A,N132A",0.9,多点突变或缺失mutation_code
+"D127A,E128A,V131A,N132A",0.85,多点突变或缺失mutation_code
+"T34A,K35A,S36A,P37A,E128A,V131A,N132A",-0.2,多点突变或缺失mutation_code
+"E128A,V131A,N132A,K135A,S136A,R137A",-0.5,多点突变或缺失mutation_code
+"D127A,E128A,V131A,N132A,K135A,S136A",-0.5,多点突变或缺失mutation_code
+"D127A,E128A,V131A,N132A,K135A,S136A,R137A,Y139A,N140A,Q141A",-0.5,多点突变或缺失mutation_code
+"E128A,V131A,N132A,K135A,S136A,R137A,Y139A,N140A,Q141A",-0.5,多点突变或缺失mutation_code
+"T34A,K35A,S36A,P37A",-0.7,多点突变或缺失mutation_code
+"N53A,N55A,V57A,E128A,V131A,N132A",-0.8,多点突变或缺失mutation_code
+"N53A,N55A,V57A",-1.5,多点突变或缺失mutation_code
+"E128A,V131A,N132A,L133A",-2.5,多点突变或缺失mutation_code
+"D127A,E128A,V131A,N132A,L133A",-2.5,多点突变或缺失mutation_code
+"N53A,C54A,N55A,G56A,V57A,I58A,E62A",,多点突变或缺失mutation_code
+"K193A,E231A",0.92,多点突变或缺失mutation_code
+"R190A,K193A",0.68,多点突变或缺失mutation_code
+"K193A,E231A",0.26,多点突变或缺失mutation_code
+"R190A,E231A,K193A",0.2,多点突变或缺失mutation_code
+"R190A,E231A,K193A",0.04,多点突变或缺失mutation_code
+"R190A,E231A",-0.15,多点突变或缺失mutation_code
+"R190A,K193",-0.31,多点突变或缺失mutation_code
+"R190A,E231A",-0.53,多点突变或缺失mutation_code
+"Q37E, D44G, S45N",,多点突变或缺失mutation_code
+R32A,,ddg缺失或非数值
+K34A,,ddg缺失或非数值
+Q37E,,ddg缺失或非数值
+S45N,,ddg缺失或非数值
+D44G,,ddg缺失或非数值
+"K4Q,K5Q",-2.5556520000000003,多点突变或缺失mutation_code
+"K54Q,K55Q",-2.722844,多点突变或缺失mutation_code
+A35V,,ddg缺失或非数值
+W7Y,,ddg缺失或非数值
+"T11S,T16I",,多点突变或缺失mutation_code
+A35S,,ddg缺失或非数值
+S39N,,ddg缺失或非数值
+G41A,,ddg缺失或非数值
+S63V,,ddg缺失或非数值
+A66N,,ddg缺失或非数值
+S77G,,ddg缺失或非数值
+N91D,,ddg缺失或非数值
+S143T,,ddg缺失或非数值
+T163S,,ddg缺失或非数值
+N167S,,ddg缺失或非数值
+A188G,,ddg缺失或非数值
+"K11A,E34S",0.119423,多点突变或缺失mutation_code
+"K11A,E34L",1.648037,多点突变或缺失mutation_code
+"E34S,K11E",0.453807,多点突变或缺失mutation_code
+"E34K,K11E",-0.525461,多点突变或缺失mutation_code
+"E34K,K11A",-1.7674599999999998,多点突变或缺失mutation_code
+"A11V,V23L,M25V,V44I,V58L",1.480845,多点突变或缺失mutation_code
+"A11V,V23L,M25V,V44I,V58L",0.8359610000000001,多点突变或缺失mutation_code
+"A11V,V23L,M25V,V44I,V58L",0.788192,多点突变或缺失mutation_code
+"A11V,V23L,M25V,V44I,V58L",0.597115,多点突变或缺失mutation_code
+"L18M,L19S",0.0,多点突变或缺失mutation_code
+"L18M,L19S",-0.4,多点突变或缺失mutation_code
+F22W,,ddg缺失或非数值
+H93G,1.791345,温度异常(571.15K)
+N106G,0.382154,温度异常(571.15K)
+H93N,0.286615,温度异常(571.15K)
+A103G,-0.406038,温度异常(571.15K)
+H93A,-0.429923,温度异常(571.15K)
+G62N,-0.788192,温度异常(571.15K)
+G62A,-1.433076,温度异常(571.15K)
+W71F,,ddg缺失或非数值
+"W71F,R14H",,多点突变或缺失mutation_code
+"W71F,N115K",,多点突变或缺失mutation_code
+N135A,,ddg缺失或非数值
+"N135A,F77L",,多点突变或缺失mutation_code
+"V210I,A281E",,多点突变或缺失mutation_code
+"V210I,A281E,V221D",,多点突变或缺失mutation_code
+V210I,,ddg缺失或非数值
+V221D,,ddg缺失或非数值
+A281E,,ddg缺失或非数值
+M256V,,ddg缺失或非数值
+M256A,,ddg缺失或非数值
+M256I,,ddg缺失或非数值
+M256L,,ddg缺失或非数值
+M256F,,ddg缺失或非数值
+"A22P, K81S",0.45,多点突变或缺失mutation_code
+"A22P, H27P",-0.5,多点突变或缺失mutation_code
+"P22A,P27A",-1.77,多点突变或缺失mutation_code
+"K300R,N150D,V196F,Q164I,T232V",,多点突变或缺失mutation_code
+K300R,,ddg缺失或非数值
+N150D,,ddg缺失或非数值
+V196F,,ddg缺失或非数值
+Q164I,,ddg缺失或非数值
+"S85C,H102C",4.6,多点突变或缺失mutation_code
+"S85C,H102C",4.5,多点突变或缺失mutation_code
+"S85C,H102C",4.3,多点突变或缺失mutation_code
+"A43C,S80C",1.9,多点突变或缺失mutation_code
+"A43C,S80C",1.9,多点突变或缺失mutation_code
+"A43C,S80C",1.8,多点突变或缺失mutation_code
+"W308F,W333F,Y122W",0.406038,多点突变或缺失mutation_code
+V55S,,ddg缺失或非数值
+"F20L, F26V",,多点突变或缺失mutation_code
+"A6V, F20L",,多点突变或缺失mutation_code
+"A6V,F26V",,多点突变或缺失mutation_code
+"A6V,F20L,F26V",,多点突变或缺失mutation_code
+"F26I, A39G",,多点突变或缺失mutation_code
+"F26I,I50F",,多点突变或缺失mutation_code
+"A39G,I50F",,多点突变或缺失mutation_code
+"F26I,A39G,I50F",,多点突变或缺失mutation_code
+G170C,,ddg缺失或非数值
+P201C,,ddg缺失或非数值
+V210C,,ddg缺失或非数值
+"G170C,P201C",,多点突变或缺失mutation_code
+"P201C,V210C",,多点突变或缺失mutation_code
+"P201C,V210C,G170C",,多点突变或缺失mutation_code
+C175G,,ddg缺失或非数值
+C175S,,ddg缺失或非数值
+C206P,,ddg缺失或非数值
+C206S,,ddg缺失或非数值
+C216V,,ddg缺失或非数值
+C216S,,ddg缺失或非数值
+P48S,,ddg缺失或非数值
+P48S,,ddg缺失或非数值
+P48S,,ddg缺失或非数值
+P48S,,ddg缺失或非数值
+P48S,,ddg缺失或非数值
+P48S,,ddg缺失或非数值
+P48S,,ddg缺失或非数值
+P48S,,ddg缺失或非数值
+P48S,,ddg缺失或非数值
+P133S,,ddg缺失或非数值
+P133S,,ddg缺失或非数值
+P133S,,ddg缺失或非数值
+P133S,,ddg缺失或非数值
+P133S,,ddg缺失或非数值
+P133S,,ddg缺失或非数值
+P159S,,ddg缺失或非数值
+P159S,,ddg缺失或非数值
+P159S,,ddg缺失或非数值
+P159S,,ddg缺失或非数值
+P159S,,ddg缺失或非数值
+P159S,,ddg缺失或非数值
+P48A,,ddg缺失或非数值
+P48A,,ddg缺失或非数值
+P48A,,ddg缺失或非数值
+P48A,,ddg缺失或非数值
+P48A,,ddg缺失或非数值
+P48A,,ddg缺失或非数值
+P48A,,ddg缺失或非数值
+P48A,,ddg缺失或非数值
+P133A,,ddg缺失或非数值
+P133A,,ddg缺失或非数值
+P133A,,ddg缺失或非数值
+P133A,,ddg缺失或非数值
+P133A,,ddg缺失或非数值
+P159A,,ddg缺失或非数值
+P159A,,ddg缺失或非数值
+P159A,,ddg缺失或非数值
+P159A,,ddg缺失或非数值
+P159A,,ddg缺失或非数值
+P159A,,ddg缺失或非数值
+T187C,,ddg缺失或非数值
+"A74Q,A78N,A81Q",0.63,多点突变或缺失mutation_code
+"A74L,A78V,A81L",0.85,多点突变或缺失mutation_code
+"A74L,A78V,A81L",1.29,多点突变或缺失mutation_code
+"A74L,A78V,A81L",1.31,多点突变或缺失mutation_code
+"A74Q,A78N,A81Q",1.38,多点突变或缺失mutation_code
+"A74L,A78V,A81L",3.06,多点突变或缺失mutation_code
+"A74Q,A78N,A81Q",3.75,多点突变或缺失mutation_code
+"A74L,A78V,A81L",,多点突变或缺失mutation_code
+"A74Q,A78N,A81Q",,多点突变或缺失mutation_code
+"A74L,A78V,A81L",,多点突变或缺失mutation_code
+"A74Q,A78N,A81Q",,多点突变或缺失mutation_code
+"A74L,A78V,A81L",,多点突变或缺失mutation_code
+"F38W,L66C",0.0477692,多点突变或缺失mutation_code
+"E50W,S24C",0.0,多点突变或缺失mutation_code
+"F38W,N11C",-0.0477692,多点突变或缺失mutation_code
+"E50W,Q2C",-0.269896,多点突变或缺失mutation_code
+"E50W,L66C",-0.764307,多点突变或缺失mutation_code
+"D69A,G49E",-0.7,多点突变或缺失mutation_code
+"D69A,G49E",,多点突变或缺失mutation_code
+"L26A,L33A",-0.37,多点突变或缺失mutation_code
+"I30A,L33A",0.46,多点突变或缺失mutation_code
+"L26A,I30A",0.57,多点突变或缺失mutation_code
+"L26A,I30A,L33A",2.16,多点突变或缺失mutation_code
+"R10E,L14R,H21R,F22R",0.585,多点突变或缺失mutation_code
+"K15A,E20Q",0.82,多点突变或缺失mutation_code
+"E11Q,K15A",-0.14,多点突变或缺失mutation_code
+"K8A,E11Q",-0.57,多点突变或缺失mutation_code
+"E20Q,E22Q",-1.72,多点突变或缺失mutation_code
+"E11Q,E20Q,E22Q",-2.37,多点突变或缺失mutation_code
+"E22Q,K27A",-2.8,多点突变或缺失mutation_code
+"F76W,W140H",-1.0,多点突变或缺失mutation_code
+"R33E,E60R",,多点突变或缺失mutation_code
+A167E,,ddg缺失或非数值
+T81P,,ddg缺失或非数值
+E81Q,,ddg缺失或非数值
+W74C,,ddg缺失或非数值
+"E81Q,D148N",,多点突变或缺失mutation_code
+"H10D,P28K,K29P,V12T",-0.1,多点突变或缺失mutation_code
+"H10D,P28K,K29P",-0.3,多点突变或缺失mutation_code
+"H10D,P28K,K29P,V12A",-0.8,多点突变或缺失mutation_code
+"V37L,E41V,V71I",1.050922,多点突变或缺失mutation_code
+"V37L,E41V,V71I",0.525461,多点突变或缺失mutation_code
+E165Q,,ddg缺失或非数值
+E165K,,ddg缺失或非数值
+E165Q,,ddg缺失或非数值
+E165K,,ddg缺失或非数值
+E165Q,,ddg缺失或非数值
+E165K,,ddg缺失或非数值
+"R14A,K16A,I17A,K19A,T21A,E22A",-3.0,多点突变或缺失mutation_code
+"L32A,L33A,T34A,E108V",-3.0,多点突变或缺失mutation_code
+"Y24A,Y25A,T26A,I27A",-5.5,多点突变或缺失mutation_code
+"G28A,I29A,G30A",-5.5,多点突变或缺失mutation_code
+"L27A,V54A",-1.97,多点突变或缺失mutation_code
+"V14A,V18A",-2.519,多点突变或缺失mutation_code
+"V54A,V62A",-2.867,多点突变或缺失mutation_code
+"D23E,K128R",,多点突变或缺失mutation_code
+K24R,,ddg缺失或非数值
+"D23E,K128R,K24R",,多点突变或缺失mutation_code
+"D62C,K74C",,多点突变或缺失mutation_code
+"D23E,K128R",,多点突变或缺失mutation_code
+K24R,,ddg缺失或非数值
+"D23E,K128R,K24R",,多点突变或缺失mutation_code
+"D62C,K74C",,多点突变或缺失mutation_code
+"D23E,K128R",,多点突变或缺失mutation_code
+K24R,,ddg缺失或非数值
+"D23E,K128R,K24R",,多点突变或缺失mutation_code
+"D62C,K74C",,多点突变或缺失mutation_code
+"D23E,K128R",,多点突变或缺失mutation_code
+K24R,,ddg缺失或非数值
+"D23E,K128R,K24R",,多点突变或缺失mutation_code
+"D62C,K74C",,多点突变或缺失mutation_code
+"D23E,K128R",,多点突变或缺失mutation_code
+K24R,,ddg缺失或非数值
+"D23E,K128R,K24R",,多点突变或缺失mutation_code
+"D62C,K74C",,多点突变或缺失mutation_code
+"D23E,K128R",,多点突变或缺失mutation_code
+K24R,,ddg缺失或非数值
+"D23E,K128R,K24R",,多点突变或缺失mutation_code
+"D62C,K74C",,多点突变或缺失mutation_code
+"H21Y,L44F,H102Y,F108Y",1.642,多点突变或缺失mutation_code
+"H21Y,L44F,H102Y",1.405,多点突变或缺失mutation_code
+"H21Y,H102Y,F108Y",1.359,多点突变或缺失mutation_code
+"H21Y,L44F,H102Y,F108Y",1.283,多点突变或缺失mutation_code
+"H21Y,L44F,F108Y",1.268,多点突变或缺失mutation_code
+"H21Y,L44F,F108Y",1.153,多点突变或缺失mutation_code
+"H21Y,L44F",1.094,多点突变或缺失mutation_code
+"H21Y,H102Y",1.046,多点突变或缺失mutation_code
+"H21Y,L44F,H102Y",0.981,多点突变或缺失mutation_code
+"L44F,H102Y,F108Y",0.959,多点突变或缺失mutation_code
+"L44F,H102Y,F108Y",0.936,多点突变或缺失mutation_code
+"H21Y,L44F",0.89,多点突变或缺失mutation_code
+"H21Y,F108Y",0.815,多点突变或缺失mutation_code
+"H21Y,H102Y,F108Y",0.8079999999999999,多点突变或缺失mutation_code
+"L44F,F108Y",0.765,多点突变或缺失mutation_code
+"L44F,H102Y",0.752,多点突变或缺失mutation_code
+"H102Y,F108Y",0.6609999999999999,多点突变或缺失mutation_code
+"H21Y,F108Y",0.614,多点突变或缺失mutation_code
+"L44F,H102Y",0.614,多点突变或缺失mutation_code
+"L44F,F108Y",0.5760000000000001,多点突变或缺失mutation_code
+"H102Y,F108Y",0.5,多点突变或缺失mutation_code
+"H21Y,H102Y",0.42,多点突变或缺失mutation_code
+"Y23W,Q34Y,G47A,G49A",0.04,多点突变或缺失mutation_code
+"Y23W,G47A,G49A",0.04,多点突变或缺失mutation_code
+"Y23W,Q34Y,A38G",-0.06,多点突变或缺失mutation_code
+"Y23W,A64V",-0.1,多点突变或缺失mutation_code
+"D15A,Y23W,Q34Y,G47A,G49A",,多点突变或缺失mutation_code
+"D15A,Y23W,Q34Y,A38G,G47A,G49A,A50G",,多点突变或缺失mutation_code
+"Y23W,Q34Y,G47A,S46A,G49A",,多点突变或缺失mutation_code
+"Y23W,Q34Y,G47A,S46A,G49A,S80A",,多点突变或缺失mutation_code
+Y23W,,ddg缺失或非数值
+"Y23W,Q34Y",,多点突变或缺失mutation_code
+"Y23W,A38G",,多点突变或缺失mutation_code
+"Y23W,A38G,G47A,G49A,A50G",,多点突变或缺失mutation_code
+"Y23W,A38G,A50G",,多点突变或缺失mutation_code
+"Y23W,Q34Y,A38G,A50G,A82G",,多点突变或缺失mutation_code
+"Y23W,Q34Y,A38G,S50G",,多点突变或缺失mutation_code
+"Y23W,Q34Y,M43G,S46A,G47A,G49A,S80A",,多点突变或缺失mutation_code
+"I23L,V25I",-0.1,多点突变或缺失mutation_code
+"V92L,L99I",-0.6,多点突变或缺失mutation_code
+K641E,,ddg缺失或非数值
+K641F,,ddg缺失或非数值
+K641G,,ddg缺失或非数值
+K641I,,ddg缺失或非数值
+K641L,,ddg缺失或非数值
+K641M,,ddg缺失或非数值
+K641N,,ddg缺失或非数值
+K641Q,,ddg缺失或非数值
+K641S,,ddg缺失或非数值
+K641T,,ddg缺失或非数值
+K641V,,ddg缺失或非数值
+K641E,,ddg缺失或非数值
+K641F,,ddg缺失或非数值
+K641G,,ddg缺失或非数值
+K641I,,ddg缺失或非数值
+K641L,,ddg缺失或非数值
+K641M,,ddg缺失或非数值
+K641N,,ddg缺失或非数值
+K641Q,,ddg缺失或非数值
+K641S,,ddg缺失或非数值
+K641T,,ddg缺失或非数值
+K641V,,ddg缺失或非数值
+K641E,,ddg缺失或非数值
+K641F,,ddg缺失或非数值
+K641G,,ddg缺失或非数值
+K641I,,ddg缺失或非数值
+K641L,,ddg缺失或非数值
+K641M,,ddg缺失或非数值
+K641N,,ddg缺失或非数值
+K641Q,,ddg缺失或非数值
+K641S,,ddg缺失或非数值
+K641T,,ddg缺失或非数值
+K641V,,ddg缺失或非数值
+K641E,,ddg缺失或非数值
+K641F,,ddg缺失或非数值
+K641G,,ddg缺失或非数值
+K641I,,ddg缺失或非数值
+K641L,,ddg缺失或非数值
+K641M,,ddg缺失或非数值
+K641N,,ddg缺失或非数值
+K641Q,,ddg缺失或非数值
+K641S,,ddg缺失或非数值
+K641T,,ddg缺失或非数值
+K641V,,ddg缺失或非数值
+K641E,,ddg缺失或非数值
+K641F,,ddg缺失或非数值
+K641G,,ddg缺失或非数值
+K641I,,ddg缺失或非数值
+K641L,,ddg缺失或非数值
+K641M,,ddg缺失或非数值
+K641N,,ddg缺失或非数值
+K641Q,,ddg缺失或非数值
+K641S,,ddg缺失或非数值
+K641T,,ddg缺失或非数值
+K641V,,ddg缺失或非数值
+W140F,,ddg缺失或非数值
+W140Y,,ddg缺失或非数值
+W140H,,ddg缺失或非数值
+W24A,,ddg缺失或非数值
+F29W,,ddg缺失或非数值
+D13E,,ddg缺失或非数值
+D15E,,ddg缺失或非数值
+D75E,,ddg缺失或非数值
+E78D,,ddg缺失或非数值
+H97Q,,ddg缺失或非数值
+D149E,,ddg缺失或非数值
+D203E,,ddg缺失或非数值
+"N55S,Q59R",-0.167192,多点突变或缺失mutation_code
+"M1R,K65I,E66K",3.5588050000000004,多点突变或缺失mutation_code
+"M1R,E66K",2.627306,多点突变或缺失mutation_code
+"M1R,E3K,K65I,E66L",4.800805,多点突变或缺失mutation_code
+"M1R,E3K,K65I,E66K",3.367729,多点突变或缺失mutation_code
+"M1R,E3K,K65I",4.9918809999999985,多点突变或缺失mutation_code
+"M1R,E3K,E66K",1.552499,多点突变或缺失mutation_code
+"M1R,E3K",3.89319,多点突变或缺失mutation_code
+"E66L,A67P",2.149614,多点突变或缺失mutation_code
+"E43S,A46K,S48R",2.69896,多点突变或缺失mutation_code
+"E43S,A46K,S48K",2.603421,多点突变或缺失mutation_code
+"E43K,A46K,S48K",2.890037,多点突变或缺失mutation_code
+"E43G,A46K,S48R",2.8183830000000003,多点突变或缺失mutation_code
+"E3R,A46K,S48R,E66L",2.794498,多点突变或缺失mutation_code
+"E3R,A46K,S48R",3.367729,多点突变或缺失mutation_code
+"E3K,K65I,E66K",2.937806,多点突变或缺失mutation_code
+"E3K,E66K",1.910768,多点突变或缺失mutation_code
+"A46K,S48R,E66L",3.749882,多点突变或缺失mutation_code
+"A46K,S48R",2.651191,多点突变或缺失mutation_code
+H21F,,ddg缺失或非数值
+E6A,,ddg缺失或非数值
+K9A,,ddg缺失或非数值
+K9M,,ddg缺失或非数值
+E90A,,ddg缺失或非数值
+R92A,,ddg缺失或非数值
+R92M,,ddg缺失或非数值
+"L125F, V127F",0.9,多点突变或缺失mutation_code
+"L125A, V127A",-3.3,多点突变或缺失mutation_code
+"W92A, L125A, V127A",-4.2,多点突变或缺失mutation_code
+"W60F,W118F",-2.101845,多点突变或缺失mutation_code
+"T31A,T144A",-1.06,多点突变或缺失mutation_code
+W11A,,ddg缺失或非数值
+W11M,,ddg缺失或非数值
+W11R,,ddg缺失或非数值
+W11Y,,ddg缺失或非数值
+W11F,,ddg缺失或非数值
+D117A,,ddg缺失或非数值
+D117E,,ddg缺失或非数值
+"Q54A,Q143A",-0.35,多点突变或缺失mutation_code
+"R79A,M147A",-1.05,多点突变或缺失mutation_code
+"T16V,T18Y,T25S,V29W",2.579537,多点突变或缺失mutation_code
+"T16V,T18Y,T25E,V29Y",2.603421,多点突变或缺失mutation_code
+"T16V,T18F,V29Y",2.149614,多点突变或缺失mutation_code
+"T16L,T18Y,T25S,V29Y",2.054076,多点突变或缺失mutation_code
+"T16L,T18Y,T25Q,V29Y",2.340691,多点突变或缺失mutation_code
+"T16L,T18Y,T25E,V29Y",2.69896,多点突变或缺失mutation_code
+"T16L,T18V,V29F",2.483998,多点突变或缺失mutation_code
+"T16L,T18I,T25S,V29Y",2.794498,多点突变或缺失mutation_code
+"T16L,T18I,T25S,V29W",2.866152,多点突变或缺失mutation_code
+"T16L,T18I,T25E,V29Y",3.128883,多点突变或缺失mutation_code
+"T16I,T18Y,T25V,V29F",2.269037,多点突变或缺失mutation_code
+"T16I,T18Y,T25S,V29F",2.531768,多点突变或缺失mutation_code
+"T16I,T18Y,T25L,V29F",2.07796,多点突变或缺失mutation_code
+"T16I,T18V,T25S,V29W",2.69896,多点突变或缺失mutation_code
+"T16I,T18V,T25M,V29Y",2.675075,多点突变或缺失mutation_code
+"T16I,T18L,T25E,V29K",1.81523,多点突变或缺失mutation_code
+"T16I,T18L,T25E,V29F",2.436229,多点突变或缺失mutation_code
+"T16I,T18I,V29W",3.1766520000000003,多点突变或缺失mutation_code
+"T16I,T18I,T25S,V29Y",29.616904,多点突变或缺失mutation_code
+"T16I,T18I,T25Q,V29F",3.200536,多点突变或缺失mutation_code
+"T16I,T18I,T25E,V29Y",3.534921,多点突变或缺失mutation_code
+"T16I,T18I,T25E,V29K",2.460114,多点突变或缺失mutation_code
+"T16I,T18I,T25E,V29I",3.248306,多点突变或缺失mutation_code
+"T16I,T18I,T25E,V29F",3.5588050000000004,多点突变或缺失mutation_code
+"T16I,T18F,V29F",2.603421,多点突变或缺失mutation_code
+"T16I,T18F,T25E,V29F",2.866152,多点突变或缺失mutation_code
+"T16L,T18I,T25S,V29Y",2.364575,多点突变或缺失mutation_code
+"T16I,T18I,V29W",2.627306,多点突变或缺失mutation_code
+"T16I,T18I,T25E,V29Y",3.439382,多点突变或缺失mutation_code
+"T16I,T18I,T25E,V29I",2.460114,多点突变或缺失mutation_code
+"T16I,T18I,T25E,V29F",3.00946,多点突变或缺失mutation_code
+E1Q,,ddg缺失或非数值
+E1M,,ddg缺失或非数值
+E7Q,,ddg缺失或非数值
+E11L,,ddg缺失或非数值
+D14N,,ddg缺失或非数值
+E25A,,ddg缺失或非数值
+D37N,,ddg缺失或非数值
+"S9D,T27E",,多点突变或缺失mutation_code
+P28D,,ddg缺失或非数值
+"H21Y, Q40P, L44F, S47I, H93G, H102Y, F108Y",7.5,多点突变或缺失mutation_code
+"H21Y, Q40P, L44F, S47I, H93G, H102Y, F108Y",7.3,多点突变或缺失mutation_code
+"Q40P, S47I, H93G",5.9,多点突变或缺失mutation_code
+"Q40P, S47I, H93G",5.8,多点突变或缺失mutation_code
+"H21Y, Q40P, L44F, S47I, H102Y, F108Y",5.6,多点突变或缺失mutation_code
+"H21Y, Q40P, L44F, S47I, H102Y, F108Y",5.2,多点突变或缺失mutation_code
+"Q40P, L44F, S47I",4.4,多点突变或缺失mutation_code
+"H21Y, L44F, S47I, H102Y, F108Y",4.2,多点突变或缺失mutation_code
+"Q40P, L44F, S47I",4.1,多点突变或缺失mutation_code
+"H21Y, L44F, S47I, H102Y, F108Y",3.8,多点突变或缺失mutation_code
+"H21Y, Q40P, L44F, H102Y",3.7,多点突变或缺失mutation_code
+"H21Y, Q40P, L44F, H102Y",3.3,多点突变或缺失mutation_code
+"L44F, S47I",2.8,多点突变或缺失mutation_code
+"Q40P, L44F",2.3,多点突变或缺失mutation_code
+"L44F, S47I",2.3,多点突变或缺失mutation_code
+"H21Y, L44F, H102Y, F108Y",2.0,多点突变或缺失mutation_code
+"H21Y, L44F, H102Y, F108Y",1.9,多点突变或缺失mutation_code
+"Q40P, L44F",1.9,多点突变或缺失mutation_code
+P23A,,ddg缺失或非数值
+P24A,,ddg缺失或非数值
+"P23A,P24A",,多点突变或缺失mutation_code
+"S71L,L32I",0.5,多点突变或缺失mutation_code
+"L79C,T89C",2.7,多点突变或缺失mutation_code
+"L79C,T89C",2.2,多点突变或缺失mutation_code
+"T77C,V91C",2.1,多点突变或缺失mutation_code
+"T77C,V91C",2.1,多点突变或缺失mutation_code
+"L78C,K90C",-2.7,多点突变或缺失mutation_code
+"L78C,K90C",-2.9,多点突变或缺失mutation_code
+T16V,,ddg缺失或非数值
+F53L,,ddg缺失或非数值
+P56E,,ddg缺失或非数值
+R58L,,ddg缺失或非数值
+V61I,,ddg缺失或非数值
+L134N,,ddg缺失或非数值
+H179K,,ddg缺失或非数值
+V181T,,ddg缺失或非数值
+D184H,,ddg缺失或非数值
+S261N,,ddg缺失或非数值
+P324T,,ddg缺失或非数值
+A335E,,ddg缺失或非数值
+H41Y,,ddg缺失或非数值
+"E20K,E72K",0.35,多点突变或缺失mutation_code
+"E20K,E72K",0.5,多点突变或缺失mutation_code
+I40W,,ddg缺失或非数值
+A106W,,ddg缺失或非数值
+F136W,,ddg缺失或非数值
+L154W,,ddg缺失或非数值
+K326W,,ddg缺失或非数值
+I336W,,ddg缺失或非数值
+N341W,,ddg缺失或非数值
+R362W,,ddg缺失或非数值
+E40K,,ddg缺失或非数值
+G130R,,ddg缺失或非数值
+P327R,,ddg缺失或非数值
+K56E,,ddg缺失或非数值
+E40K,,ddg缺失或非数值
+G130R,,ddg缺失或非数值
+P327R,,ddg缺失或非数值
+K56E,,ddg缺失或非数值
+"R116V,K118A",-0.25,多点突变或缺失mutation_code
+"R160V,H162A",-0.5,多点突变或缺失mutation_code
+"E110A,E111A",-0.75,多点突变或缺失mutation_code
+"D102A,D103A",-1.05,多点突变或缺失mutation_code
+G334V,,ddg缺失或非数值
+"F56S,R81A",-0.7,多点突变或缺失mutation_code
+"I28L,I30L,I75L,I99L,I101L,I107L,I111L,I112L,I142L,V1L,V10L,V13L,V17L,V21L,V66L,V68L,V114L",2.4,多点突变或缺失mutation_code
+"I28L,I30L,I75L,I99L,I101L,I107L,I111L,I112L,I142L",1.7,多点突变或缺失mutation_code
+"I28V,V66I,L86V,I111V,V114L",1.5,多点突变或缺失mutation_code
+"I28L,V66I,I75L,I86V,I101L,I111V,L135I",1.5,多点突变或缺失mutation_code
+"I28L,L40V,V66L,I75V,L86V,I101V,I111V,V114I",0.7,多点突变或缺失mutation_code
+"I28V,L61I,V66I,I75L,L86I,I101V,I111V",0.0,多点突变或缺失mutation_code
+"H66E, S89K, M91K",,多点突变或缺失mutation_code
+"E82E, Q47K, E63K, Q84K, S89K",,多点突变或缺失mutation_code
+"L820K, D850K",,多点突变或缺失mutation_code
+"Q808K, L820K, D850K, T890K",,多点突变或缺失mutation_code
+"K27E, E66K, N85K, Q98K",,多点突变或缺失mutation_code
+"K27E, E66K, N85K, Q98K",,多点突变或缺失mutation_code
+"C87A,C104A",-7.643072,多点突变或缺失mutation_code
+"V21P,A23P",0.1,多点突变或缺失mutation_code
+"A2R,N71E",1.6,多点突变或缺失mutation_code
+"A2K,N71E",1.1,多点突变或缺失mutation_code
+"V11L,S77T,F89I",,多点突变或缺失mutation_code
+"V11L,S77T,T74N,A84L,F89I,G118A,D9L,N22S,W50A,N152G",,多点突变或缺失mutation_code
+"S77T,T72N,A84L,F89I,G118A,D9L,N22S,W50A",,多点突变或缺失mutation_code
+"V11L,S77T,F89I,N22S,W50A",,多点突变或缺失mutation_code
+"V11L,S77T,F89T,N22S,W50A",,多点突变或缺失mutation_code
+"V11L,S77T,F89I,N22S,W50H",,多点突变或缺失mutation_code
+"S77T,G127A,D9L,N22S,W50A",,多点突变或缺失mutation_code
+"V11L,S77T,T72N,A84P,F89I,G118A,D9L,N22S,W50A,N152G",,多点突变或缺失mutation_code
+"V11L,S77T,F89T,W50A",,多点突变或缺失mutation_code
+"V11L,S77T,T72N,A84P,F89I,G118A,D9L,W50A,N152G",,多点突变或缺失mutation_code
+"V11L,S77T,T72N,A84P,F89I,G118A,G24A,D9L,N22S,W50H,N152G",,多点突变或缺失mutation_code
+"V11L,S77T,T72N,A84P,F89I,G118A,D9L,W50H,N152G",,多点突变或缺失mutation_code
+"V11L,S77T,F89I",,多点突变或缺失mutation_code
+"V11L,S77T,T74N,A84L,F89I,G118A,D9L,N22S,W50A,N152G",,多点突变或缺失mutation_code
+"S77T,T72N,A84L,F89I,G118A,D9L,N22S,W50A",,多点突变或缺失mutation_code
+"V11L,S77T,F89I,N22S,W50A",,多点突变或缺失mutation_code
+"V11L,S77T,F89T,N22S,W50A",,多点突变或缺失mutation_code
+"V11L,S77T,F89I,N22S,W50H",,多点突变或缺失mutation_code
+"S77T,G127A,D9L,N22S,W50A",,多点突变或缺失mutation_code
+"V11L,S77T,T72N,A84P,F89I,G118A,D9L,N22S,W50A,N152G",,多点突变或缺失mutation_code
+"V11L,S77T,F89T,W50A",,多点突变或缺失mutation_code
+"V11L,S77T,T72N,A84P,F89I,G118A,D9L,W50A,N152G",,多点突变或缺失mutation_code
+"V11L,S77T,T72N,A84P,F89I,G118A,G24A,D9L,N22S,W50H,N152G",,多点突变或缺失mutation_code
+"V11L,S77T,T72N,A84P,F89I,G118A,D9L,W50H,N152G",,多点突变或缺失mutation_code
+"A26C,A334V,G348D,L380C",5.24,多点突变或缺失mutation_code
+"A26C,L380C",,多点突变或缺失mutation_code
+A334V,,ddg缺失或非数值
+G348D,,ddg缺失或非数值
+"A334V,G348D",,多点突变或缺失mutation_code
+"A26C,A334V,G348D,L380C",,多点突变或缺失mutation_code
+C190A,,ddg缺失或非数值
+"V181T,P324T,A335E",,多点突变或缺失mutation_code
+"L134N,V181T,P324T,A335E",,多点突变或缺失mutation_code
+"Q8R, T28D",0.24,多点突变或缺失mutation_code
+"H22L, T28D",-0.23,多点突变或缺失mutation_code
+"Q8R, T28D",0.47,多点突变或缺失mutation_code
+"H22L, T28D",0.23,多点突变或缺失mutation_code
+"F180P,S205G",,多点突变或缺失mutation_code
+"W66F, L44A",-2.2,多点突变或缺失mutation_code
+"W66F, L105A",-3.05,多点突变或缺失mutation_code
+"F5V,K12M",-2.44,多点突变或缺失mutation_code
+"F5A,K12M",-4.07,多点突变或缺失mutation_code
+"L254P,L257P,Y260P",0.2,多点突变或缺失mutation_code
+"Y42P,L254P",-2.3,多点突变或缺失mutation_code
+Y25F,,ddg缺失或非数值
+Y27F,,ddg缺失或非数值
+"H71Y, I20F",0.59,多点突变或缺失mutation_code
+"C3A,C26A",-6.8,多点突变或缺失mutation_code
+T101V,,ddg缺失或非数值
+"R1421I,V1426R,A1427V",10.02,多点突变或缺失mutation_code
+"R1371I,D1373I,",4.55,多点突变或缺失mutation_code
+"A1340C,L1408P,V1442C",0.54,多点突变或缺失mutation_code
+"R1371I,D1373I",-0.6,多点突变或缺失mutation_code
+"V24I,I33L",1.31,多点突变或缺失mutation_code
+"Y4W,V24I,I33L",,多点突变或缺失mutation_code
+"A1K,I23V",,多点突变或缺失mutation_code
+"A1K,L32I",,多点突变或缺失mutation_code
+"A1K,I23V,L32I",,多点突变或缺失mutation_code
+"A1K,W3Y,I23V,L32I",,多点突变或缺失mutation_code
+V23T,,ddg缺失或非数值
+V39T,,ddg缺失或非数值
+V51T,,ddg缺失或非数值
+V66T,,ddg缺失或非数值
+V74T,,ddg缺失或非数值
+V99T,,ddg缺失或非数值
+V104T,,ddg缺失或非数值
+V111T,,ddg缺失或非数值
+V114T,,ddg缺失或非数值
+V39S,,ddg缺失或非数值
+V51S,,ddg缺失或非数值
+V66S,,ddg缺失或非数值
+V114S,,ddg缺失或非数值
+Y27F,,ddg缺失或非数值
+Y54F,,ddg缺失或非数值
+Y85F,,ddg缺失或非数值
+Y91F,,ddg缺失或非数值
+Y93F,,ddg缺失或非数值
+Y113F,,ddg缺失或非数值
+Y115F,,ddg缺失或非数值
+Y54L,,ddg缺失或非数值
+Y85L,,ddg缺失或非数值
+Y91L,,ddg缺失或非数值
+Y113L,,ddg缺失或非数值
+Y115L,,ddg缺失或非数值
+S128A,,ddg缺失或非数值
+S141A,,ddg缺失或非数值
+S147A,,ddg缺失或非数值
+T13S,,ddg缺失或非数值
+T22S,,ddg缺失或非数值
+T33S,,ddg缺失或非数值
+T41S,,ddg缺失或非数值
+T44S,,ddg缺失或非数值
+T62S,,ddg缺失或非数值
+T82S,,ddg缺失或非数值
+T120S,,ddg缺失或非数值
+T13V,,ddg缺失或非数值
+T22V,,ddg缺失或非数值
+T33V,,ddg缺失或非数值
+T41V,,ddg缺失或非数值
+T44V,,ddg缺失或非数值
+T62V,,ddg缺失或非数值
+T82V,,ddg缺失或非数值
+T120V,,ddg缺失或非数值
+T13C,,ddg缺失或非数值
+T22C,,ddg缺失或非数值
+T33C,,ddg缺失或非数值
+T41C,,ddg缺失或非数值
+T44C,,ddg缺失或非数值
+T62C,,ddg缺失或非数值
+T82C,,ddg缺失或非数值
+T120C,,ddg缺失或非数值
+T22I,,ddg缺失或非数值
+T33I,,ddg缺失或非数值
+T41I,,ddg缺失或非数值
+T44I,,ddg缺失或非数值
+T62I,,ddg缺失或非数值
+T82I,,ddg缺失或非数值
+T120I,,ddg缺失或非数值
+D19F,,ddg缺失或非数值
+K28F,,ddg缺失或非数值
+G29F,,ddg缺失或非数值
+P47F,,ddg缺失或非数值
+K48F,,ddg缺失或非数值
+K49F,,ddg缺失或非数值
+E52F,,ddg缺失或非数值
+E57F,,ddg缺失或非数值
+M65F,,ddg缺失或非数值
+E67F,,ddg缺失或非数值
+E73F,,ddg缺失或非数值
+Q80F,,ddg缺失或非数值
+K84F,,ddg缺失或非数值
+G86F,,ddg缺失或非数值
+G96F,,ddg缺失或非数值
+E101F,,ddg缺失或非数值
+A112F,,ddg缺失或非数值
+K116F,,ddg缺失或非数值
+E122F,,ddg缺失或非数值
+Q123F,,ddg缺失或非数值
+K127F,,ddg缺失或非数值
+S128F,,ddg缺失或非数值
+E135F,,ddg缺失或非数值
+K136F,,ddg缺失或非数值
+D143F,,ddg缺失或非数值
+T62A,,ddg缺失或非数值
+T62F,,ddg缺失或非数值
+T62G,,ddg缺失或非数值
+T62H,,ddg缺失或非数值
+T62K,,ddg缺失或非数值
+T62L,,ddg缺失或非数值
+T62M,,ddg缺失或非数值
+T62N,,ddg缺失或非数值
+T62Q,,ddg缺失或非数值
+V23T,,ddg缺失或非数值
+V39T,,ddg缺失或非数值
+V51T,,ddg缺失或非数值
+V66T,,ddg缺失或非数值
+V74T,,ddg缺失或非数值
+V99T,,ddg缺失或非数值
+V104T,,ddg缺失或非数值
+Y54F,,ddg缺失或非数值
+Y85F,,ddg缺失或非数值
+Y93F,,ddg缺失或非数值
+Y113F,,ddg缺失或非数值
+Y115F,,ddg缺失或非数值
+Y54L,,ddg缺失或非数值
+Y85L,,ddg缺失或非数值
+Y91L,,ddg缺失或非数值
+Y113L,,ddg缺失或非数值
+Y115L,,ddg缺失或非数值
+S128A,,ddg缺失或非数值
+S141A,,ddg缺失或非数值
+S147A,,ddg缺失或非数值
+T13S,,ddg缺失或非数值
+T22S,,ddg缺失或非数值
+T33S,,ddg缺失或非数值
+T41S,,ddg缺失或非数值
+T44S,,ddg缺失或非数值
+T62S,,ddg缺失或非数值
+T82S,,ddg缺失或非数值
+T120S,,ddg缺失或非数值
+T13V,,ddg缺失或非数值
+T22V,,ddg缺失或非数值
+T33V,,ddg缺失或非数值
+T41V,,ddg缺失或非数值
+T44V,,ddg缺失或非数值
+T62V,,ddg缺失或非数值
+T82V,,ddg缺失或非数值
+T120V,,ddg缺失或非数值
+T13C,,ddg缺失或非数值
+T22C,,ddg缺失或非数值
+T33C,,ddg缺失或非数值
+T41C,,ddg缺失或非数值
+T44C,,ddg缺失或非数值
+T62C,,ddg缺失或非数值
+T82C,,ddg缺失或非数值
+T120C,,ddg缺失或非数值
+T22I,,ddg缺失或非数值
+T33I,,ddg缺失或非数值
+T41I,,ddg缺失或非数值
+T44I,,ddg缺失或非数值
+T62I,,ddg缺失或非数值
+T82I,,ddg缺失或非数值
+T120I,,ddg缺失或非数值
+D19F,,ddg缺失或非数值
+K28F,,ddg缺失或非数值
+G29F,,ddg缺失或非数值
+P47F,,ddg缺失或非数值
+K48F,,ddg缺失或非数值
+K49F,,ddg缺失或非数值
+E52F,,ddg缺失或非数值
+E57F,,ddg缺失或非数值
+M65F,,ddg缺失或非数值
+E67F,,ddg缺失或非数值
+E73F,,ddg缺失或非数值
+Q80F,,ddg缺失或非数值
+K84F,,ddg缺失或非数值
+G86F,,ddg缺失或非数值
+G96F,,ddg缺失或非数值
+E101F,,ddg缺失或非数值
+A112F,,ddg缺失或非数值
+K116F,,ddg缺失或非数值
+E122F,,ddg缺失或非数值
+Q123F,,ddg缺失或非数值
+K127F,,ddg缺失或非数值
+S128F,,ddg缺失或非数值
+E135F,,ddg缺失或非数值
+K136F,,ddg缺失或非数值
+D143F,,ddg缺失或非数值
+T62A,,ddg缺失或非数值
+T62F,,ddg缺失或非数值
+T62G,,ddg缺失或非数值
+T62H,,ddg缺失或非数值
+T62K,,ddg缺失或非数值
+T62L,,ddg缺失或非数值
+T62M,,ddg缺失或非数值
+T62N,,ddg缺失或非数值
+T62Q,,ddg缺失或非数值
+"S100C,N148C",3.0,多点突变或缺失mutation_code
+"S100C,N148C",1.505,多点突变或缺失mutation_code
+"V98C,A152C",1.3,多点突变或缺失mutation_code
+"V98C,A152C",0.345,多点突变或缺失mutation_code
+"S100C,N148C",,多点突变或缺失mutation_code
+"V98C,A152C",,多点突变或缺失mutation_code
+"S100C,N148C",,多点突变或缺失mutation_code
+"V98C,A152C",,多点突变或缺失mutation_code
+"S100C,N148C",,多点突变或缺失mutation_code
+"V98C,A152C",,多点突变或缺失mutation_code
+"S100C,N148C",,多点突变或缺失mutation_code
+"V98C,A152C",,多点突变或缺失mutation_code
+"S100C,N148C",,多点突变或缺失mutation_code
+"V98C,A152C",,多点突变或缺失mutation_code
+"W207F,W218F",-0.63,多点突变或缺失mutation_code
+"E3R,F15A,F27A",0.0,多点突变或缺失mutation_code
+"E21Q,E19Q",-0.477692,多点突变或缺失mutation_code
+"E3R,F15A,E19K,F27A",-0.501577,多点突变或缺失mutation_code
+"D25Q,E19Q",-1.08077825,多点突变或缺失mutation_code
+"E3R,F15A,D25K,F27A",-1.241999,多点突变或缺失mutation_code
+"D25K,E19Q",-1.4151625,多点突变或缺失mutation_code
+"V20Q,E3R",-1.73760475,多点突变或缺失mutation_code
+"V20K,E3R",-2.182455625,多点突变或缺失mutation_code
+"V20E,E3R",-3.3050315,多点突变或缺失mutation_code
+"R23A,E25A",-0.24,多点突变或缺失mutation_code
+"R47A,D58N",-0.41,多点突变或缺失mutation_code
+"D36A,R39A",-0.59,多点突变或缺失mutation_code
+"S9A,I132A",1.6,多点突变或缺失mutation_code
+F16A,,ddg缺失或非数值
+D89A,,ddg缺失或非数值
+F164A,,ddg缺失或非数值
+F214A,,ddg缺失或非数值
+D215A,,ddg缺失或非数值
+"S9A,I132A,S103A",,多点突变或缺失mutation_code
+"S9A,I132A,S103A,N13A",,多点突变或缺失mutation_code
+"S9A,I132A,S103A,N13A,Q235A",,多点突变或缺失mutation_code
+S9A,,ddg缺失或非数值
+N13A,,ddg缺失或非数值
+F15A,,ddg缺失或非数值
+F16A,,ddg缺失或非数值
+N64A,,ddg缺失或非数值
+D89A,,ddg缺失或非数值
+S103A,,ddg缺失或非数值
+I132A,,ddg缺失或非数值
+F164A,,ddg缺失或非数值
+N190A,,ddg缺失或非数值
+F214A,,ddg缺失或非数值
+D215A,,ddg缺失或非数值
+Q235A,,ddg缺失或非数值
+"S9A,I132A",,多点突变或缺失mutation_code
+"S9A,I132A,S103A",,多点突变或缺失mutation_code
+"S9A,I132A,S103A,N13A",,多点突变或缺失mutation_code
+"S9A,I132A,S103A,N13A,Q235A",,多点突变或缺失mutation_code
+K102Q,,ddg缺失或非数值
+K102Q,,ddg缺失或非数值
+M1775R,,ddg缺失或非数值
+M1699W,,ddg缺失或非数值
+V1833M,,ddg缺失或非数值
+I69C,,ddg缺失或非数值
+G70C,,ddg缺失或非数值
+S71C,,ddg缺失或非数值
+S72C,,ddg缺失或非数值
+I69C,,ddg缺失或非数值
+G70C,,ddg缺失或非数值
+S71C,,ddg缺失或非数值
+S72C,,ddg缺失或非数值
+"S126C,S265C",0.7,多点突变或缺失mutation_code
+"S126C,S265C",-0.9,多点突变或缺失mutation_code
+S126C,,ddg缺失或非数值
+S126C,,ddg缺失或非数值
+S126C,,ddg缺失或非数值
+S126C,,ddg缺失或非数值
+S265C,,ddg缺失或非数值
+S265C,,ddg缺失或非数值
+S265C,,ddg缺失或非数值
+S265C,,ddg缺失或非数值
+"S126C,S265C",,多点突变或缺失mutation_code
+"S126C,S265C",,多点突变或缺失mutation_code
+"S126C,S265C",,多点突变或缺失mutation_code
+"S126C,S265C",,多点突变或缺失mutation_code
+"Y168A,F170A",-1.2,多点突变或缺失mutation_code
+"F123A,W143A",-3.9,多点突变或缺失mutation_code
+"Y55A,W57A",-4.2,多点突变或缺失mutation_code
+"F123A,Y141A",-5.3,多点突变或缺失mutation_code
+"Y141A,W143A",-5.7,多点突变或缺失mutation_code
+"W7A,Y43A",-6.4,多点突变或缺失mutation_code
+"F123A,Y141A,W143A",-6.8,多点突变或缺失mutation_code
+"K12V, L46V, E87V, N95V, P134V",4.681382,多点突变或缺失mutation_code
+"K12V, P134V",3.964844,多点突变或缺失mutation_code
+"K12V, N95V",3.128883,多点突变或缺失mutation_code
+"L46V, E87V, P134V",1.862999,多点突变或缺失mutation_code
+"L46V, P134V",1.600268,多点突变或缺失mutation_code
+"E87V, P134V",1.600268,多点突变或缺失mutation_code
+A104L,,ddg缺失或非数值
+K164R,,ddg缺失或非数值
+S75C,,ddg缺失或非数值
+S75R,,ddg缺失或非数值
+"T16I, T18I",2.460114,多点突变或缺失mutation_code
+"T16I, T18L",1.934653,多点突变或缺失mutation_code
+"T18I, V29F",1.313653,多点突变或缺失mutation_code
+"T18L, V29K",-0.191077,多点突变或缺失mutation_code
+"R15H,E20S",1.4,多点突变或缺失mutation_code
+"R15H,E20S",,多点突变或缺失mutation_code
+"E53A, D287A",-6.787763000000001,多点突变或缺失mutation_code
+W47A,,ddg缺失或非数值
+W47V,,ddg缺失或非数值
+W47L,,ddg缺失或非数值
+W47E,,ddg缺失或非数值
+W47T,,ddg缺失或非数值
+"W47L,V37S",,多点突变或缺失mutation_code
+"W47L,W103R",,多点突变或缺失mutation_code
+G35H,,ddg缺失或非数值
+R39Q,,ddg缺失或非数值
+E45L,,ddg缺失或非数值
+S50R,,ddg缺失或非数值
+"W47L,G35H",,多点突变或缺失mutation_code
+"W47L,R39Q",,多点突变或缺失mutation_code
+"W47L,E45L",,多点突变或缺失mutation_code
+"W47L,S50R",,多点突变或缺失mutation_code
+"W47T,G35H",,多点突变或缺失mutation_code
+"W47T,R39Q",,多点突变或缺失mutation_code
+"W47T,E45L",,多点突变或缺失mutation_code
+"W47T,S50R",,多点突变或缺失mutation_code
+"H107N,E117A",1.8,多点突变或缺失mutation_code
+"H107A,E117N",12.4,多点突变或缺失mutation_code
+H107Y,,ddg缺失或非数值
+H107A,,ddg缺失或非数值
+H107F,,ddg缺失或非数值
+H107N,,ddg缺失或非数值
+E117A,,ddg缺失或非数值
+H107Y,,ddg缺失或非数值
+H107A,,ddg缺失或非数值
+H107F,,ddg缺失或非数值
+H107N,,ddg缺失或非数值
+E117A,,ddg缺失或非数值
+H107Y,,ddg缺失或非数值
+H107A,,ddg缺失或非数值
+H107F,,ddg缺失或非数值
+H107N,,ddg缺失或非数值
+E117A,,ddg缺失或非数值
+"G67A,G98A",,多点突变或缺失mutation_code
+"G67A,G98A,V230A,D322A",,多点突变或缺失mutation_code
+"G98A,D322A",,多点突变或缺失mutation_code
+"G67A,G98A,V230A",,多点突变或缺失mutation_code
+"Y227A,A234L,A282L,A334L",,多点突变或缺失mutation_code
+"R68S,Y227A,A234L,A282L",,多点突变或缺失mutation_code
+"R68S,A234L,A282L,A334L",,多点突变或缺失mutation_code
+"R68S,Y227A,A234L,A282L,A334L",,多点突变或缺失mutation_code
+"R68S,Y227A,A282L,A334L",,多点突变或缺失mutation_code
+"R68S,A282L,A334L",,多点突变或缺失mutation_code
+"M90V,A282L,F338M",,多点突变或缺失mutation_code
+"M90V,A282L",,多点突变或缺失mutation_code
+"M90V,Y227A",,多点突变或缺失mutation_code
+"M90V,I129V",,多点突变或缺失mutation_code
+"M90V,Y227A,F338M",,多点突变或缺失mutation_code
+"R68S,M90V,V230A,A334L",,多点突变或缺失mutation_code
+"R68S,M90V,V230A,F327A,A334L",,多点突变或缺失mutation_code
+"R68S,M90V,Y227A,V230A,F327A,A334L",,多点突变或缺失mutation_code
+"R68S,M90V,Y227A,F327A,F338M",,多点突变或缺失mutation_code
+"R68S,M90V,Y227A,V230A,F327A,F338M",,多点突变或缺失mutation_code
+"R68S,M90V,V230A,A282L,F327A,A334L",,多点突变或缺失mutation_code
+"R68S,M90V,Y227A,A282L,F327A,F338M",,多点突变或缺失mutation_code
+"R68S,M90V,Y227A,F327A,A334L",,多点突变或缺失mutation_code
+"K12V, P134V, C117V",2.149614,多点突变或缺失mutation_code
+"K112N, N114D",1.576384,多点突变或缺失mutation_code
+"K112D, N114D",0.334384,多点突变或缺失mutation_code
+"K112A, N114D",0.143308,多点突变或缺失mutation_code
+"L26N, D28N",0.0955384,多点突变或缺失mutation_code
+"K112N, N114A",-0.0955384,多点突变或缺失mutation_code
+"K112D, N114A",-0.191077,多点突变或缺失mutation_code
+"D68N, D70N",-0.3105,多点突变或缺失mutation_code
+"D68N, D70A",-0.382154,多点突变或缺失mutation_code
+"K112A, N114A",-0.501577,多点突变或缺失mutation_code
+"L26A, D28A",-0.525461,多点突变或缺失mutation_code
+"D68A, D70N",-0.8359610000000001,多点突变或缺失mutation_code
+"L26A, D28N",-1.098692,多点突变或缺失mutation_code
+"L26N, D28A",-1.265884,多点突变或缺失mutation_code
+"D68A, D70A",-1.624153,多点突变或缺失mutation_code
+"L26D, D28N",-2.221268,多点突变或缺失mutation_code
+"L26D, D28A",-2.985575,多点突变或缺失mutation_code
+"H254R,H257L",-5.7,多点突变或缺失mutation_code
+"L3I,G17A,D23K,K69R,G73S,D75S,Y103M,K105R,E114Q,D118E,V119E,S169T,Q180A,D184A,S187D,E188S,G190E,Y191V,A193V,Y205F,D210V,L211I,K217Q",,多点突变或缺失mutation_code
+"L3I,G17A,D23K,K69R,G73S,D75S,I99S,Y103M,K105R,E114Q,D118E,V119E,M121I,E122A,S169T,Q180A,D184A,S187D,E188S,G190E,Y191V,A193V,Y205F,D",,多点突变或缺失mutation_code
+"D23K,Y103M,E114Q,S169T,Q180A,S187D,A193V,V208L,D210V,K217Q",,多点突变或缺失mutation_code
+N53A,,ddg缺失或非数值
+N53I,,ddg缺失或非数值
+N53F,,ddg缺失或非数值
+N53K,,ddg缺失或非数值
+N53D,,ddg缺失或非数值
+N53S,,ddg缺失或非数值
+N53L,,ddg缺失或非数值
+N53V,,ddg缺失或非数值
+N53P,,ddg缺失或非数值
+N53Y,,ddg缺失或非数值
+N53H,,ddg缺失或非数值
+N53E,,ddg缺失或非数值
+N53T,,ddg缺失或非数值
+N53R,,ddg缺失或非数值
+N53Q,,ddg缺失或非数值
+N53M,,ddg缺失或非数值
+N53W,,ddg缺失或非数值
+N53G,,ddg缺失或非数值
+L3A,,ddg缺失或非数值
+F4A,,ddg缺失或非数值
+R40I,,ddg缺失或非数值
+T47I,,ddg缺失或非数值
+"L3A,N53A",,多点突变或缺失mutation_code
+"L3A,N53I",,多点突变或缺失mutation_code
+"F4A,N53A",,多点突变或缺失mutation_code
+"F4A,N53I",,多点突变或缺失mutation_code
+"R40I,N53I",,多点突变或缺失mutation_code
+"T47I,N53I",,多点突变或缺失mutation_code
+"A184L,R199A,L272A",,多点突变或缺失mutation_code
+"A184L,R199A,L272A,F79A,L208A",,多点突变或缺失mutation_code
+"A184L,R199A,L272A",,多点突变或缺失mutation_code
+"A184L,R199A,L272A,F79A,L208A",,多点突变或缺失mutation_code
+"A184L,R199A,L272A",,多点突变或缺失mutation_code
+"L167A,R199A,H230A",,多点突变或缺失mutation_code
+"L167A,A184L,R199A,L241A,L272A",,多点突变或缺失mutation_code
+"A184L,A203L,L272A",,多点突变或缺失mutation_code
+"L167A,A184L,A230L,L272A",,多点突变或缺失mutation_code
+"L167A,A184L,R199A,H230A;L241A",,多点突变或缺失mutation_code
+"A184L,A203L",,多点突变或缺失mutation_code
+"G114A,G118A",,多点突变或缺失mutation_code
+"Q210A,S213A",,多点突变或缺失mutation_code
+"Q210A,E219A",,多点突变或缺失mutation_code
+"S223A,T224A,Q226A,K227A",,多点突变或缺失mutation_code
+"P260A,S263A,L267A",,多点突变或缺失mutation_code
+"T279A,N284A",,多点突变或缺失mutation_code
+"A184L,R199A,L272A",,多点突变或缺失mutation_code
+"L167A,A184L,R199A,H230A,L241A",,多点突变或缺失mutation_code
+"P260A,S263A,L267A",,多点突变或缺失mutation_code
+"A54L,H75A,V239A",,多点突变或缺失mutation_code
+"A54L,T88A",,多点突变或缺失mutation_code
+"A54L,H75A,T88A,V239A",,多点突变或缺失mutation_code
+"A54L,T88A,V239A",,多点突变或缺失mutation_code
+"A54L,V239A",,多点突变或缺失mutation_code
+"T119A,K122A,G123A",,多点突变或缺失mutation_code
+"A203L,A204L",,多点突变或缺失mutation_code
+"A231L,L235A,V239A",,多点突变或缺失mutation_code
+"A54L,V57A",,多点突变或缺失mutation_code
+"K122A,L235A",,多点突变或缺失mutation_code
+"A54L,K122A,L235A",,多点突变或缺失mutation_code
+"A54L,T88A,A204L,V239A",,多点突变或缺失mutation_code
+"A54L,T88A,K122A,V239A",,多点突变或缺失mutation_code
+"A54L,K122A",,多点突变或缺失mutation_code
+"A54L,A204L",,多点突变或缺失mutation_code
+"A54L,L235A",,多点突变或缺失mutation_code
+"A54L,H75A,T88A,V239A",,多点突变或缺失mutation_code
+"A54L,T88A,V239A",,多点突变或缺失mutation_code
+"A54L,V239A",,多点突变或缺失mutation_code
+"A203L,A204L",,多点突变或缺失mutation_code
+"A54L,K122A,L235A",,多点突变或缺失mutation_code
+"A54L,T88A,A204L,V239A",,多点突变或缺失mutation_code
+"A54L,T88A,K122A,V239A",,多点突变或缺失mutation_code
+"A54L,K122A",,多点突变或缺失mutation_code
+"A54L,L235A",,多点突变或缺失mutation_code
+"F7A,V13M,V78I",2.2905330000000004,多点突变或缺失mutation_code
+"F7A,V13M,V78I",1.898826,多点突变或缺失mutation_code
+"F7A,V13M,F34Y,E43Y,V78I",4.781697,多点突变或缺失mutation_code
+"F7A,V13M,F34Y,E43Y,V78I",3.341456,多点突变或缺失mutation_code
+"F7A,V13M,F34Y,E43Y",2.386072,多点突变或缺失mutation_code
+"F7A,V13M,F34Y,E43Y",3.761824,多点突变或缺失mutation_code
+"F7A,V13M",1.92271,多点突变或缺失mutation_code
+"F7A,V13M",1.445018,多点突变或缺失mutation_code
+"F34Y,E43Y,V78I",2.94736,多点突变或缺失mutation_code
+"F34Y,E43Y,V78I",1.62893,多点突变或缺失mutation_code
+"F34Y,E43Y",2.266649,多点突变或缺失mutation_code
+"F34Y,E43Y",0.716538,多点突变或缺失mutation_code
+"K68M,E265Q",-4.95,多点突变或缺失mutation_code
+"K68E,E265K",-6.6,多点突变或缺失mutation_code
+"V43C,R85C",0.764307,多点突变或缺失mutation_code
+"R10C,R33C",-2.675075,多点突变或缺失mutation_code
+"M30C,N44C",-5.039651,多点突变或缺失mutation_code
+"I107C,A122C",-2.436229,多点突变或缺失mutation_code
+"H105C,V124C",-0.238846,多点突变或缺失mutation_code
+"A4C,V118C",1.7435759999999998,多点突变或缺失mutation_code
+"V43C,R85C",1.003153,多点突变或缺失mutation_code
+"R10C,R33C",-1.385307,多点突变或缺失mutation_code
+"I107C,A122C",-2.269037,多点突变或缺失mutation_code
+"H105C,V124C",-0.119423,多点突变或缺失mutation_code
+"A4C,V118C",1.122576,多点突变或缺失mutation_code
+N47A,,ddg缺失或非数值
+A56G,,ddg缺失或非数值
+A56E,,ddg缺失或非数值
+A56K,,ddg缺失或非数值
+N47A,,ddg缺失或非数值
+N47A,,ddg缺失或非数值
+N47A,,ddg缺失或非数值
+N47A,,ddg缺失或非数值
+N47A,,ddg缺失或非数值
+"F47L, F51L",-2.46,多点突变或缺失mutation_code
+"F47L, F51L, F58L",-3.98,多点突变或缺失mutation_code
+"F47L, F58L",-4.25,多点突变或缺失mutation_code
+"F51L, F58L",-4.28,多点突变或缺失mutation_code
+"K85A,R96H",-3.5,多点突变或缺失mutation_code
+"K85A,R96H",-3.6,多点突变或缺失mutation_code
+"D89A,R96H",-3.8,多点突变或缺失mutation_code
+"D89A,R96H",-4.3,多点突变或缺失mutation_code
+"H30A,H173A,H180A",3.98,多点突变或缺失mutation_code
+"H30A,H173A",3.7,多点突变或缺失mutation_code
+"H27A,H30A",3.46,多点突变或缺失mutation_code
+"H27A,H30A,H180A",3.41,多点突变或缺失mutation_code
+"H27A,H30A,H180A",3.11,多点突变或缺失mutation_code
+"H30A,H180A",3.06,多点突变或缺失mutation_code
+"H27A,H180A",2.57,多点突变或缺失mutation_code
+"H27A,H180A",2.06,多点突变或缺失mutation_code
+"H173A,H180A",1.71,多点突变或缺失mutation_code
+"H30A,H173A",1.53,多点突变或缺失mutation_code
+"H27A,H30A",1.42,多点突变或缺失mutation_code
+"H30A,H180A",1.0,多点突变或缺失mutation_code
+"H30A,H173A,H180A",0.87,多点突变或缺失mutation_code
+"H173A,H180A",-0.41,多点突变或缺失mutation_code
+A86L,,ddg缺失或非数值
+H103A,,ddg缺失或非数值
+F358A,,ddg缺失或非数值
+A86L,,ddg缺失或非数值
+H103A,,ddg缺失或非数值
+F358A,,ddg缺失或非数值
+A86L,,ddg缺失或非数值
+F358A,,ddg缺失或非数值
+"A86L,F358A",,多点突变或缺失mutation_code
+"A86L,I260A,F342A,F358A",,多点突变或缺失mutation_code
+A86L,,ddg缺失或非数值
+F358A,,ddg缺失或非数值
+"A86L,F358A",,多点突变或缺失mutation_code
+"A86L,I260A,F342A,F358A",,多点突变或缺失mutation_code
+"A86L,I260A,F342A,F358A",,多点突变或缺失mutation_code
+"A86L,I260A,F342A,F358A",,多点突变或缺失mutation_code
+"A86L,I260A,F342A,F358A",,多点突变或缺失mutation_code
+"A86L,I260A,F342A,F358A",,多点突变或缺失mutation_code
+"H26N,H33N,H39Q,C102S",-1.05,多点突变或缺失mutation_code
+"Y236F,T253I",,多点突变或缺失mutation_code
+"M133L,V203A,N239Y,N268D",,多点突变或缺失mutation_code
+"M133L,V203A,N239Y,N268D,Y236F,T253I",,多点突变或缺失mutation_code
+K256A,,ddg缺失或非数值
+Y257A,,ddg缺失或非数值
+Q258A,,ddg缺失或非数值
+K260A,,ddg缺失或非数值
+R262A,,ddg缺失或非数值
+R263A,,ddg缺失或非数值
+K264A,,ddg缺失或非数值
+K265A,,ddg缺失或非数值
+V65G,,ddg缺失或非数值
+V65A,,ddg缺失或非数值
+V65L,,ddg缺失或非数值
+V65S,,ddg缺失或非数值
+V65D,,ddg缺失或非数值
+L52P,,ddg缺失或非数值
+L134H,,ddg缺失或非数值
+"K12V, C117V",1.7435759999999998,多点突变或缺失mutation_code
+"C83I, K12V, C117V",-1.361422,多点突变或缺失mutation_code
+"L145V,V157L",-0.8,多点突变或缺失mutation_code
+"H115E,W146R,Q165K,Q167E,L206H,F212K,N268R",-0.3,多点突变或缺失mutation_code
+"M133L,C141V,Y236F,T253L",1.2,多点突变或缺失mutation_code
+"L145I,V157I",1.2,多点突变或缺失mutation_code
+"C124W,M133L",1.3,多点突变或缺失mutation_code
+"C124W,M133L,C135I,C141F",2.0,多点突变或缺失mutation_code
+"L44F,F132W",0.979269,多点突变或缺失mutation_code
+"K12V, C117V",1.862999,多点突变或缺失mutation_code
+"L44W,F132W",0.931499,多点突变或缺失mutation_code
+"L12V,C83T,C117V",0.453807,多点突变或缺失mutation_code
+"L44F,C83T,C117V,F132W",0.0955384,多点突变或缺失mutation_code
+"C83T,C117V",-1.456961,多点突变或缺失mutation_code
+K141E,,ddg缺失或非数值
+L13M,,ddg缺失或非数值
+R21W,,ddg缺失或非数值
+G58E,,ddg缺失或非数值
+R70W,,ddg缺失或非数值
+"C38A,C52V",-5.0,多点突变或缺失mutation_code
+"C38A,C52A",-8.3,多点突变或缺失mutation_code
+G41R,,ddg缺失或非数值
+G41R,,ddg缺失或非数值
+G41V,,ddg缺失或非数值
+F34C,,ddg缺失或非数值
+L36C,,ddg缺失或非数值
+L62C,,ddg缺失或非数值
+A188C,,ddg缺失或非数值
+"R40E,R63E,R65A,R68A,R69A",2.7,多点突变或缺失mutation_code
+"R40E,R63E",1.1,多点突变或缺失mutation_code
+"D1K,D17K,E41K,D25K,E74K",0.9,多点突变或缺失mutation_code
+"D1K,D17K,E41K",0.7,多点突变或缺失mutation_code
+"D1K,D17K,E41K,D25K,E74K,D79K",0.7,多点突变或缺失mutation_code
+"D1K,D17K,E41K,D25K,E74K,D79K",0.2,多点突变或缺失mutation_code
+"D1K,D17K,E41K,D25K,E74K,D79K,S31K",0.2,多点突变或缺失mutation_code
+"D1K,D17K,E41K,D25K,E74K,D79K,S31K",0.0,多点突变或缺失mutation_code
+"R40E,R63E,R65A",-0.5,多点突变或缺失mutation_code
+"R40E,R63E",-0.6,多点突变或缺失mutation_code
+"D1K,D17K,E41K,D25K,E74K",-0.7,多点突变或缺失mutation_code
+"R40E,R63E,R65A",-1.8,多点突变或缺失mutation_code
+"R40E,R63E,R65A,R68A,R69A",-2.5,多点突变或缺失mutation_code
+"D1K,D17K,E41K",-2.7,多点突变或缺失mutation_code
+"D25K,E74K,S31P,S42G,S48P,T76P,Q77G,D79F",7.7,多点突变或缺失mutation_code
+"D25K,E74K,S31P,S42G,S48P,T76P,Q77G,D79F",6.3,多点突变或缺失mutation_code
+"D25K,E74K,S31P,S42G,S48P,T76P,Q77G",5.3,多点突变或缺失mutation_code
+"D25K,E74K,S31P,S42G,S48P,T76P,Q77G,D79A",4.9,多点突变或缺失mutation_code
+"D25K,E74K,S31P,S42G,S48P,T76P,Q77G",3.9,多点突变或缺失mutation_code
+"D25K,E74K,S31P,S42G,S48P,T76P,Q77G,D79A",2.2,多点突变或缺失mutation_code
+"D25K,E74K,S31P,S42G,S48P,T76P,Q77G,D79F,I92A",1.9,多点突变或缺失mutation_code
+"D25K,E74K",0.8,多点突变或缺失mutation_code
+"D25K,E74K",0.8,多点突变或缺失mutation_code
+"D25K,E74K,S31P,S42G,S48P,T76P,Q77G,D79F,Y80A",0.1,多点突变或缺失mutation_code
+"D25K,E74K,S31P,S42G,S48P,T76P,Q77G,D79F,I92D",-2.2,多点突变或缺失mutation_code
+"D25K,E74K,S31P,S42G,S48P,T76P,Q77G,D79F,I92A",-3.2,多点突变或缺失mutation_code
+"D25K,E74K,S31P,S42G,S48P,T76P,Q77G,D79F,I70D",-3.6,多点突变或缺失mutation_code
+"D25K,E74K,S31P,S42G,S48P,T76P,Q77G,D79F,Y80A",-4.8,多点突变或缺失mutation_code
+"D25K,E74K,S31P,S42G,S48P,T76P,Q77G,I92D",-5.1,多点突变或缺失mutation_code
+"D25K,E74K,S31P,S42G,S48P,T76P,Q77G,D79F,I92D",-7.1,多点突变或缺失mutation_code
+"D25K,E74K,S31P,S42G,S48P,T76P,Q77G,D79F,I70D",-9.5,多点突变或缺失mutation_code
+"D25K,E74K,S31P,S42G,S48P,T76P,Q77G,I92D",-9.6,多点突变或缺失mutation_code
+"G48A,A51E",,多点突变或缺失mutation_code
+"T98K,Y99L,A100V,D101E",,多点突变或缺失mutation_code
+S317A,,ddg缺失或非数值
+"G48A,A51E,T98K,Y99L,A100V,D101E",,多点突变或缺失mutation_code
+"G48A,A51E,S317A",,多点突变或缺失mutation_code
+"T98K,Y99L,A100V,D101E,S317A",,多点突变或缺失mutation_code
+"G48A,A51E,T98K,Y99L,A100V,D101E,S317A",,多点突变或缺失mutation_code
+T172R,,ddg缺失或非数值
+G173Q,,ddg缺失或非数值
+"T172R,G173Q",,多点突变或缺失mutation_code
+L169K,,ddg缺失或非数值
+"V18I, L27I",-0.25,多点突变或缺失mutation_code
+"V34L, P58Y",-1.36,多点突变或缺失mutation_code
+"V18A, V54A",-3.74,多点突变或缺失mutation_code
+S165A,,ddg缺失或非数值
+S237A,,ddg缺失或非数值
+S321A,,ddg缺失或非数值
+"S165A, S321A",,多点突变或缺失mutation_code
+R143A,,ddg缺失或非数值
+"R143A, S321A",,多点突变或缺失mutation_code
+S165A,,ddg缺失或非数值
+S237A,,ddg缺失或非数值
+S321A,,ddg缺失或非数值
+"S165A, S321A",,多点突变或缺失mutation_code
+R143A,,ddg缺失或非数值
+"R143A, S321A",,多点突变或缺失mutation_code
+"P62A, W64L",-2.26,多点突变或缺失mutation_code
+C34A,,ddg缺失或非数值
+Y231N,,ddg缺失或非数值
+"A23L,I27Y,Y45W",,多点突变或缺失mutation_code
+"A23Q,I27W,Y45F",,多点突变或缺失mutation_code
+"A23K,I27K,Y45F",,多点突变或缺失mutation_code
+"A23T,I27Q",,多点突变或缺失mutation_code
+A23K,,ddg缺失或非数值
+"A23P,I27L,Y45L",,多点突变或缺失mutation_code
+"A23Y,I27Y,Y45T",,多点突变或缺失mutation_code
+"A23Y,I27S,Y45V",,多点突变或缺失mutation_code
+"A23I,I27S,Y45A",,多点突变或缺失mutation_code
+"A23I,I27A,Y45A",,多点突变或缺失mutation_code
+"A23G,I27K,Y45S",,多点突变或缺失mutation_code
+G93A,,ddg缺失或非数值
+G85R,,ddg缺失或非数值
+H46R,,ddg缺失或非数值
+V148I,,ddg缺失或非数值
+G85R,,ddg缺失或非数值
+E100G,,ddg缺失或非数值
+"S76T, F77P",0.4,多点突变或缺失mutation_code
+"H41Y, K70M",0.9,多点突变或缺失mutation_code
+"E90A, R92M",0.262731,多点突变或缺失mutation_code
+"E90A, R92M",0.262731,多点突变或缺失mutation_code
+"E90A, R92A",0.334384,多点突变或缺失mutation_code
+"E90A, R92M",0.406038,多点突变或缺失mutation_code
+"E90A, R92M",0.429923,多点突变或缺失mutation_code
+"E90A, R92M",0.453807,多点突变或缺失mutation_code
+"E90A, R92M",0.501577,多点突变或缺失mutation_code
+"E90A, R92A",0.597115,多点突变或缺失mutation_code
+"E90A, R92A",0.621,多点突变或缺失mutation_code
+"E90A, R92A",0.644884,多点突变或缺失mutation_code
+"E90A, R92A",0.716538,多点突变或缺失mutation_code
+"E90A, R92A",0.8837299999999999,多点突变或缺失mutation_code
+"E6A, R92M",1.122576,多点突变或缺失mutation_code
+"E6A, R92M",1.122576,多点突变或缺失mutation_code
+"E6A, R92M",1.170345,多点突变或缺失mutation_code
+"E6A, R92M",1.19423,多点突变或缺失mutation_code
+"E6A, R92M",1.241999,多点突变或缺失mutation_code
+"E6A, R92M",1.241999,多点突变或缺失mutation_code
+"E6A, R92A",1.337538,多点突变或缺失mutation_code
+"E6A, R92A",1.361422,多点突变或缺失mutation_code
+"E6A, R92A",1.480845,多点突变或缺失mutation_code
+"E6A, R92A",1.552499,多点突变或缺失mutation_code
+"E6A, R92A",1.552499,多点突变或缺失mutation_code
+"E6A, R92A",1.600268,多点突变或缺失mutation_code
+"E62A, K46M",1.695807,多点突变或缺失mutation_code
+"E62A, K46M",1.719691,多点突变或缺失mutation_code
+"E62A, K46M",1.7435759999999998,多点突变或缺失mutation_code
+"E62A, K46M",1.81523,多点突变或缺失mutation_code
+"E62A, K46A",1.886883,多点突变或缺失mutation_code
+"E62A, K46A",1.910768,多点突变或缺失mutation_code
+"E62A, K46M",1.910768,多点突变或缺失mutation_code
+"E62A, K46M",1.958537,多点突变或缺失mutation_code
+"E62A, K46A",2.006306,多点突变或缺失mutation_code
+"E62A, K46A",2.292922,多点突变或缺失mutation_code
+"E62A, K46A",2.890037,多点突变或缺失mutation_code
+"E62A, K46A",3.081113,多点突变或缺失mutation_code
+"A187C, K333C",,多点突变或缺失mutation_code
+"N194C, F329C",,多点突变或缺失mutation_code
+"Q181C, L188C",,多点突变或缺失mutation_code
+L20I,,ddg缺失或非数值
+R38K,,ddg缺失或非数值
+D86E,,ddg缺失或非数值
+M83A,,ddg缺失或非数值
+L86A,,ddg缺失或非数值
+Q67A,,ddg缺失或非数值
+"D163A, D164A, D165A, G166A, D167A, D168A",,多点突变或缺失mutation_code
+S247A,,ddg缺失或非数值
+"S258C, P279C",,多点突变或缺失mutation_code
+"P226C, A314C",,多点突变或缺失mutation_code
+"P226C, A314C, S258C, P279C",,多点突变或缺失mutation_code
+"R9K, R22K, R43K, R55K, R77K",,多点突变或缺失mutation_code
+"R9K, R22K, R43K, R55K, R77K",0.26,多点突变或缺失mutation_code
+V146A,,ddg缺失或非数值
+Q230E,,ddg缺失或非数值
+S237P,,ddg缺失或非数值
+K243E,,ddg缺失或非数值
+K243Q,,ddg缺失或非数值
+K275R,,ddg缺失或非数值
+S283F,,ddg缺失或非数值
+Q301L,,ddg缺失或非数值
+N304D,,ddg缺失或非数值
+S307T,,ddg缺失或非数值
+T320I,,ddg缺失或非数值
+Q321K,,ddg缺失或非数值
+Q321R,,ddg缺失或非数值
+"Q230E, Q301L",,多点突变或缺失mutation_code
+"K243Q, Q301L",,多点突变或缺失mutation_code
+"K243Q, Q321R",,多点突变或缺失mutation_code
+"K243Q, Q301L, Q321R",,多点突变或缺失mutation_code
+"K243Q, G329C",,多点突变或缺失mutation_code
+L427P,,ddg缺失或非数值
+C66S,,ddg缺失或非数值
+C66S,,ddg缺失或非数值
+"A4C, D83E, V118C",3.821536,多点突变或缺失mutation_code
+"A4C, V118C",2.006306,多点突变或缺失mutation_code
+G2385R,,ddg缺失或非数值
+A578D,,ddg缺失或非数值
+A578G,,ddg缺失或非数值
+Y61E,,ddg缺失或非数值
+Y65E,,ddg缺失或非数值
+Y74E,,ddg缺失或非数值
+Y75E,,ddg缺失或非数值
+Y81E,,ddg缺失或非数值
+F82E,,ddg缺失或非数值
+Y241E,,ddg缺失或非数值
+F244E,,ddg缺失或非数值
+G246R,,ddg缺失或非数值
+G252R,,ddg缺失或非数值
+R272G,,ddg缺失或非数值
+D273A,,ddg缺失或非数值
+E323K,,ddg缺失或非数值
+G364V,,ddg缺失或非数值
+G367R,,ddg缺失或非数值
+T377M,,ddg缺失或非数值
+D380A,,ddg缺失或非数值
+D384A,,ddg缺失或非数值
+E385A,,ddg缺失或非数值
+K423E,,ddg缺失或非数值
+V426F,,ddg缺失或非数值
+A427T,,ddg缺失或非数值
+C433R,,ddg缺失或非数值
+Y437H,,ddg缺失或非数值
+I477N,,ddg缺失或非数值
+I477S,,ddg缺失或非数值
+N480K,,ddg缺失或非数值
+P481L,,ddg缺失或非数值
+I499F,,ddg缺失或非数值
+S502P,,ddg缺失或非数值
+E208Q,,ddg缺失或非数值
+E210Q,,ddg缺失或非数值
+E153A,,ddg缺失或非数值
+S154A,,ddg缺失或非数值
+E155A,,ddg缺失或非数值
+K157A,,ddg缺失或非数值
+W159F,,ddg缺失或非数值
+Q160A,,ddg缺失或非数值
+K161A,,ddg缺失或非数值
+L162A,,ddg缺失或非数值
+C163A,,ddg缺失或非数值
+S164A,,ddg缺失或非数值
+E156A,,ddg缺失或非数值
+W159A,,ddg缺失或非数值
+D126A,,ddg缺失或非数值
+M69A,,ddg缺失或非数值
+M69H,,ddg缺失或非数值
+"T92E, T95E",-0.7,多点突变或缺失mutation_code
+A91V,,ddg缺失或非数值
+A25V,,ddg缺失或非数值
+V29S,,ddg缺失或非数值
+V29T,,ddg缺失或非数值
+M32F,,ddg缺失或非数值
+"A25F, M32I",,多点突变或缺失mutation_code
+"A25H, M32T",,多点突变或缺失mutation_code
+"V29F, Y70V",,多点突变或缺失mutation_code
+"V29F, M32I, Y70F",,多点突变或缺失mutation_code
+"A25S, Y70F",,多点突变或缺失mutation_code
+"V29I, M32L",,多点突变或缺失mutation_code
+"M32L, Y70F",,多点突变或缺失mutation_code
+"V29I, M32L, Y70F",,多点突变或缺失mutation_code
+"A25S, V29L, M32L, Y70F",,多点突变或缺失mutation_code
+M34H,,ddg缺失或非数值
+"F29W, M34A",,多点突变或缺失mutation_code
+"F29W, M34F",,多点突变或缺失mutation_code
+"A24S, F29H, M34F",,多点突变或缺失mutation_code
+"A24F, F29M, M34F",,多点突变或缺失mutation_code
+A24V,,ddg缺失或非数值
+F29L,,ddg缺失或非数值
+M34V,,ddg缺失或非数值
+M34I,,ddg缺失或非数值
+M774K,,ddg缺失或非数值
+D152A,,ddg缺失或非数值
+D152E,,ddg缺失或非数值
+D152I,,ddg缺失或非数值
+Y155A,,ddg缺失或非数值
+Y155F,,ddg缺失或非数值
+Y155N,,ddg缺失或非数值
+H195A,,ddg缺失或非数值
+H195C,,ddg缺失或非数值
+H195D,,ddg缺失或非数值
+H195F,,ddg缺失或非数值
+H195G,,ddg缺失或非数值
+H195I,,ddg缺失或非数值
+H195K,,ddg缺失或非数值
+H195L,,ddg缺失或非数值
+H195M,,ddg缺失或非数值
+H195N,,ddg缺失或非数值
+H195Q,,ddg缺失或非数值
+H195R,,ddg缺失或非数值
+H195S,,ddg缺失或非数值
+H195T,,ddg缺失或非数值
+H195V,,ddg缺失或非数值
+H195W,,ddg缺失或非数值
+H195Y,,ddg缺失或非数值
+F258A,,ddg缺失或非数值
+F258N,,ddg缺失或非数值
+F258Y,,ddg缺失或非数值
+R292D,,ddg缺失或非数值
+R292H,,ddg缺失或非数值
+R292K,,ddg缺失或非数值
+R292V,,ddg缺失或非数值
+H400A,,ddg缺失或非数值
+H400C,,ddg缺失或非数值
+H400E,,ddg缺失或非数值
+H400F,,ddg缺失或非数值
+H400G,,ddg缺失或非数值
+H400I,,ddg缺失或非数值
+H400K,,ddg缺失或非数值
+H400L,,ddg缺失或非数值
+H400M,,ddg缺失或非数值
+H400N,,ddg缺失或非数值
+H400P,,ddg缺失或非数值
+H400Q,,ddg缺失或非数值
+H400S,,ddg缺失或非数值
+H400T,,ddg缺失或非数值
+H400V,,ddg缺失或非数值
+H400W,,ddg缺失或非数值
+H400Y,,ddg缺失或非数值
+R454A,,ddg缺失或非数值
+R454E,,ddg缺失或非数值
+R454F,,ddg缺失或非数值
+D515A,,ddg缺失或非数值
+D515I,,ddg缺失或非数值
+R517A,,ddg缺失或非数值
+C426A,,ddg缺失或非数值
+N715A,,ddg缺失或非数值
+D595A,,ddg缺失或非数值
+"D595A, N715A",,多点突变或缺失mutation_code
+"H92D, I34N",2.9,多点突变或缺失mutation_code
+L261Q,,ddg缺失或非数值
+L272R,,ddg缺失或非数值
+L272P,,ddg缺失或非数值
+P11L,,ddg缺失或非数值
+I340M,,ddg缺失或非数值
+H83R,,ddg缺失或非数值
+F152I,,ddg缺失或非数值
+G170R,,ddg缺失或非数值
+R197Q,,ddg缺失或非数值
+I244T,,ddg缺失或非数值
+A295T,,ddg缺失或非数值
+P319L,,ddg缺失或非数值
+A368T,,ddg缺失或非数值
+"E22Q, E207Q, E217Q",,多点突变或缺失mutation_code
+"E22Q, E207Q, E217Q",,多点突变或缺失mutation_code
+S12R,,ddg缺失或非数值
+K13P,,ddg缺失或非数值
+S15P,,ddg缺失或非数值
+S15K,,ddg缺失或非数值
+A16R,,ddg缺失或非数值
+G18N,,ddg缺失或非数值
+A19K,,ddg缺失或非数值
+A20P,,ddg缺失或非数值
+D24R,,ddg缺失或非数值
+K26R,,ddg缺失或非数值
+I27M,,ddg缺失或非数值
+D33K,,ddg缺失或非数值
+D33R,,ddg缺失或非数值
+A41R,,ddg缺失或非数值
+A41S,,ddg缺失或非数值
+K42R,,ddg缺失或非数值
+E45K,,ddg缺失或非数值
+E45R,,ddg缺失或非数值
+D50P,,ddg缺失或非数值
+Y62W,,ddg缺失或非数值
+D65E,,ddg缺失或非数值
+A66P,,ddg缺失或非数值
+E68Q,,ddg缺失或非数值
+Q69R,,ddg缺失或非数值
+A72R,,ddg缺失或非数值
+T76A,,ddg缺失或非数值
+T76K,,ddg缺失或非数值
+T85I,,ddg缺失或非数值
+T85L,,ddg缺失或非数值
+T85P,,ddg缺失或非数值
+T85V,,ddg缺失或非数值
+N92K,,ddg缺失或非数值
+N92R,,ddg缺失或非数值
+L94F,,ddg缺失或非数值
+Y96F,,ddg缺失或非数值
+L106R,,ddg缺失或非数值
+K110R,,ddg缺失或非数值
+S111K,,ddg缺失或非数值
+S111R,,ddg缺失或非数值
+Q121V,,ddg缺失或非数值
+L122F,,ddg缺失或非数值
+E124D,,ddg缺失或非数值
+E124K,,ddg缺失或非数值
+E124R,,ddg缺失或非数值
+I127F,,ddg缺失或非数值
+A142R,,ddg缺失或非数值
+V102C,,ddg缺失或非数值
+"K4C, A82C",,多点突变或缺失mutation_code
+"I5C, E84C",,多点突变或缺失mutation_code
+"A17C, N92C",,多点突变或缺失mutation_code
+"A17C, L94C",,多点突变或缺失mutation_code
+"D24C, L122C",,多点突变或缺失mutation_code
+"M32C, V83C",,多点突变或缺失mutation_code
+"A40C, A72C",,多点突变或缺失mutation_code
+"I44C, E68C",,多点突变或缺失mutation_code
+"A48C, K126C",,多点突变或缺失mutation_code
+"M52C, G129C",,多点突变或缺失mutation_code
+"P57C, D135C",,多点突变或缺失mutation_code
+"G89C, S91C",,多点突变或缺失mutation_code
+"Y96C, Y96C",,多点突变或缺失mutation_code
+"A105C, V143C",,多点突变或缺失mutation_code
+"Y112C, A142C",,多点突变或缺失mutation_code
+D190A,,ddg缺失或非数值
+R283D,,ddg缺失或非数值
+L46P,,ddg缺失或非数值
+"L20M, A104Q",,多点突变或缺失mutation_code
+"P122E, P129D",,多点突变或缺失mutation_code
+L20M,,ddg缺失或非数值
+A104Q,,ddg缺失或非数值
+P122E,,ddg缺失或非数值
+P129D,,ddg缺失或非数值
+"S2C, N47C",,多点突变或缺失mutation_code
+"A5C, A185C",,多点突变或缺失mutation_code
+"R20C, D70C",,多点突变或缺失mutation_code
+"A22C, D68C",,多点突变或缺失mutation_code
+"I48C, G283C",,多点突变或缺失mutation_code
+"H51C, G283C",,多点突变或缺失mutation_code
+"S75C, E199C",,多点突变或缺失mutation_code
+"V268C, S278C",,多点突变或缺失mutation_code
+"S75C, R79C",,多点突变或缺失mutation_code
+"S183C, E186C",,多点突变或缺失mutation_code
+"A196C, A200C",,多点突变或缺失mutation_code
+"V106C, G114C",,多点突变或缺失mutation_code
+"S42C, A60C",,多点突变或缺失mutation_code
+L3S,,ddg缺失或非数值
+A5E,,ddg缺失或非数值
+A5L,,ddg缺失或非数值
+K6E,,ddg缺失或非数值
+E15T,,ddg缺失或非数值
+R20L,,ddg缺失或非数值
+E26H,,ddg缺失或非数值
+E26I,,ddg缺失或非数值
+E26Q,,ddg缺失或非数值
+E26R,,ddg缺失或非数值
+E26V,,ddg缺失或非数值
+D30A,,ddg缺失或非数值
+D30E,,ddg缺失或非数值
+D30H,,ddg缺失或非数值
+D30V,,ddg缺失或非数值
+Q35I,,ddg缺失或非数值
+Q35L,,ddg缺失或非数值
+Q35V,,ddg缺失或非数值
+S41Q,,ddg缺失或非数值
+S42A,,ddg缺失或非数值
+A53K,,ddg缺失或非数值
+A53L,,ddg缺失或非数值
+C61P,,ddg缺失或非数值
+D68H,,ddg缺失或非数值
+D68L,,ddg缺失或非数值
+D68N,,ddg缺失或非数值
+E78H,,ddg缺失或非数值
+E78T,,ddg缺失或非数值
+A81E,,ddg缺失或非数值
+A81K,,ddg缺失或非数值
+A81N,,ddg缺失或非数值
+A81P,,ddg缺失或非数值
+A83L,,ddg缺失或非数值
+A83N,,ddg缺失或非数值
+R86L,,ddg缺失或非数值
+D87K,,ddg缺失或非数值
+D87L,,ddg缺失或非数值
+A95H,,ddg缺失或非数值
+D97K,,ddg缺失或非数值
+D97N,,ddg缺失或非数值
+D97R,,ddg缺失或非数值
+D100T,,ddg缺失或非数值
+R101H,,ddg缺失或非数值
+V103I,,ddg缺失或非数值
+V105I,,ddg缺失或非数值
+V106L,,ddg缺失或非数值
+G114A,,ddg缺失或非数值
+E123S,,ddg缺失或非数值
+A129V,,ddg缺失或非数值
+A133V,,ddg缺失或非数值
+E139H,,ddg缺失或非数值
+E139K,,ddg缺失或非数值
+E139Q,,ddg缺失或非数值
+E139T,,ddg缺失或非数值
+D147H,,ddg缺失或非数值
+D147L,,ddg缺失或非数值
+D147M,,ddg缺失或非数值
+D147Y,,ddg缺失或非数值
+D149K,,ddg缺失或非数值
+D149Q,,ddg缺失或非数值
+Q152L,,ddg缺失或非数值
+A153K,,ddg缺失或非数值
+A153L,,ddg缺失或非数值
+D166K,,ddg缺失或非数值
+D166N,,ddg缺失或非数值
+G176A,,ddg缺失或非数值
+G176N,,ddg缺失或非数值
+S183D,,ddg缺失或非数值
+A185P,,ddg缺失或非数值
+A189F,,ddg缺失或非数值
+A189Y,,ddg缺失或非数值
+E192K,,ddg缺失或非数值
+E192L,,ddg缺失或非数值
+E192R,,ddg缺失或非数值
+A197P,,ddg缺失或非数值
+A200P,,ddg缺失或非数值
+A214G,,ddg缺失或非数值
+A218E,,ddg缺失或非数值
+A218P,,ddg缺失或非数值
+D219Q,,ddg缺失或非数值
+R225L,,ddg缺失或非数值
+D226K,,ddg缺失或非数值
+G229A,,ddg缺失或非数值
+G229D,,ddg缺失或非数值
+G229E,,ddg缺失或非数值
+G229H,,ddg缺失或非数值
+G229N,,ddg缺失或非数值
+G229Q,,ddg缺失或非数值
+G229R,,ddg缺失或非数值
+G229S,,ddg缺失或非数值
+G229T,,ddg缺失或非数值
+E233H,,ddg缺失或非数值
+E233Q,,ddg缺失或非数值
+E233S,,ddg缺失或非数值
+E233T,,ddg缺失或非数值
+E244I,,ddg缺失或非数值
+E244T,,ddg缺失或非数值
+E244V,,ddg缺失或非数值
+R254L,,ddg缺失或非数值
+D255A,,ddg缺失或非数值
+D255K,,ddg缺失或非数值
+D255Q,,ddg缺失或非数值
+C257A,,ddg缺失或非数值
+T264H,,ddg缺失或非数值
+T264L,,ddg缺失或非数值
+T264Q,,ddg缺失或非数值
+A269P,,ddg缺失或非数值
+Q275P,,ddg缺失或非数值
+P279A,,ddg缺失或非数值
+A296H,,ddg缺失或非数值
+A296R,,ddg缺失或非数值
+F169V,,ddg缺失或非数值
+Q172K,,ddg缺失或非数值
+Q210N,,ddg缺失或非数值
+V220M,,ddg缺失或非数值
+A247F,,ddg缺失或非数值
+L248F,,ddg缺失或非数值
+L248W,,ddg缺失或非数值
+T249L,,ddg缺失或非数值
+T249M,,ddg缺失或非数值
+T249V,,ddg缺失或非数值
+A271I,,ddg缺失或非数值
+A271V,,ddg缺失或非数值
+Q808K,,ddg缺失或非数值
+L820K,,ddg缺失或非数值
+D850K,,ddg缺失或非数值
+T890K,,ddg缺失或非数值
+A885V,,ddg缺失或非数值
+E887I,,ddg缺失或非数值
+I833F,,ddg缺失或非数值
+"E887I, T890K",,多点突变或缺失mutation_code
+"E887I, T890K, D850K",,多点突变或缺失mutation_code
+"E887I, T890K, D850K, I833F",,多点突变或缺失mutation_code
+"I3E, T103S",2.340691,多点突变或缺失mutation_code
+"E2I, S102T",-2.579537,多点突变或缺失mutation_code
+"E2I, G100A, S102T",-2.8183830000000003,多点突变或缺失mutation_code
+"C22A, C99V",,多点突变或缺失mutation_code
+Y59P,,ddg缺失或非数值
+S74A,,ddg缺失或非数值
+Y98A,,ddg缺失或非数值
+R163W,,ddg缺失或非数值
+R163Q,,ddg缺失或非数值
+"K27V, C132V, P149V",3.42,多点突变或缺失mutation_code
+H56V,,ddg缺失或非数值
+"Y155H, H187Y",1.170345,多点突变或缺失mutation_code
+"Y155H, H187Y",0.979269,多点突变或缺失mutation_code
+"Y155H, H187Y",0.644884,多点突变或缺失mutation_code
+"F198H, H187Y",-0.238846,多点突变或缺失mutation_code
+"F198H, H187Y",-1.170345,多点突变或缺失mutation_code
+"F198H, H187Y",-1.313653,多点突变或缺失mutation_code
+P11L,,ddg缺失或非数值
+I340M,,ddg缺失或非数值
+"P11L, I340M",,多点突变或缺失mutation_code
+"P11L, I340M, H83R",,多点突变或缺失mutation_code
+"P11L, I340M, G170R",,多点突变或缺失mutation_code
+"P11L, I340M, R197Q",,多点突变或缺失mutation_code
+"P11L, I340M, I244T",,多点突变或缺失mutation_code
+"P11L, I340M, A295T",,多点突变或缺失mutation_code
+"P11L, A368T",,多点突变或缺失mutation_code
+Q23R,,ddg缺失或非数值
+S48H,,ddg缺失或非数值
+S50H,,ddg缺失或非数值
+D52E,,ddg缺失或非数值
+V113A,,ddg缺失或非数值
+"S48H, I340M",,多点突变或缺失mutation_code
+"S48H, D52E",,多点突变或缺失mutation_code
+"D52E, I340M",,多点突变或缺失mutation_code
+"S48H, D52E, I340M",,多点突变或缺失mutation_code
+"S48H, D52E, V113A, I340M",,多点突变或缺失mutation_code
+"Q23R, S48H, D52E, I340M",,多点突变或缺失mutation_code
+"Q23R, S48H, D52E, V113A, I340M",,多点突变或缺失mutation_code
+"K36D, G47E",,多点突变或缺失mutation_code
+"K36D, G47E",,多点突变或缺失mutation_code
+Q110L,,ddg缺失或非数值
+Y137C,,ddg缺失或非数值
+K154D,,ddg缺失或非数值
+"Q110L, K154D",,多点突变或缺失mutation_code
+"U2D, L110Q, U2D, C137Y, U2D, D145N",,多点突变或缺失mutation_code
+C124S,,ddg缺失或非数值
+N82T,,ddg缺失或非数值
+F337S,,ddg缺失或非数值
+H93R,,ddg缺失或非数值
+Y176C,,ddg缺失或非数值
+E157G,,ddg缺失或非数值
+C124S,,ddg缺失或非数值
+N82T,,ddg缺失或非数值
+F337S,,ddg缺失或非数值
+H93R,,ddg缺失或非数值
+Y176C,,ddg缺失或非数值
+E157G,,ddg缺失或非数值
+K169P,,ddg缺失或非数值
+E233P,,ddg缺失或非数值
+R342S,,ddg缺失或非数值
+D91A,,ddg缺失或非数值
+A5V,,ddg缺失或非数值
+"I92A, I59A",-0.79,多点突变或缺失mutation_code
+"I92A, D100N",-1.16,多点突变或缺失mutation_code
+"I92A, A142V",-1.32,多点突变或缺失mutation_code
+I59A,,ddg缺失或非数值
+E61K,,ddg缺失或非数值
+G87V,,ddg缺失或非数值
+I92A,,ddg缺失或非数值
+Q99A,,ddg缺失或非数值
+D100N,,ddg缺失或非数值
+S121P,,ddg缺失或非数值
+D126K,,ddg缺失或非数值
+A142V,,ddg缺失或非数值
+R155L,,ddg缺失或非数值
+E20K,,ddg缺失或非数值
+E72K,,ddg缺失或非数值
+"I92A, I59A",,多点突变或缺失mutation_code
+"I92A, D100N",,多点突变或缺失mutation_code
+"I92A, A142V",,多点突变或缺失mutation_code
+"A142V, I59A",,多点突变或缺失mutation_code
+"A142V, G87V",,多点突变或缺失mutation_code
+"A142V, D100N",,多点突变或缺失mutation_code
+R376A,,ddg缺失或非数值
+D386A,,ddg缺失或非数值
+D398A,,ddg缺失或非数值
+R402A,,ddg缺失或非数值
+N277D,,ddg缺失或非数值
+N277F,,ddg缺失或非数值
+N277L,,ddg缺失或非数值
+N277V,,ddg缺失或非数值
+G24A,,ddg缺失或非数值
+G27A,,ddg缺失或非数值
+"G24A, G27A",,多点突变或缺失mutation_code
+T179A,,ddg缺失或非数值
+D27F,,ddg缺失或非数值
+T113V,,ddg缺失或非数值
+Q108D,,ddg缺失或非数值
+S138Y,,ddg缺失或非数值
+D116F,,ddg缺失或非数值
+T68N,,ddg缺失或非数值
+E120P,,ddg缺失或非数值
+V119F,,ddg缺失或非数值
+S135I,,ddg缺失或非数值
+C152I,,ddg缺失或非数值
+H114R,,ddg缺失或非数值
+S49E,,ddg缺失或非数值
+H141E,,ddg缺失或非数值
+E157F,,ddg缺失或非数值
+G15W,,ddg缺失或非数值
+L156Y,,ddg缺失或非数值
+E139V,,ddg缺失或非数值
+D87P,,ddg缺失或非数值
+G43P,,ddg缺失或非数值
+W74F,,ddg缺失或非数值
+G67H,,ddg缺失或非数值
+A6I,,ddg缺失或非数值
+"E120P, S138Y",,多点突变或缺失mutation_code
+H141F,,ddg缺失或非数值
+I115A,,ddg缺失或非数值
+I115V,,ddg缺失或非数值
+I155A,,ddg缺失或非数值
+I155L,,ddg缺失或非数值
+I155T,,ddg缺失或非数值
+I61V,,ddg缺失或非数值
+I91L,,ddg缺失或非数值
+I91V,,ddg缺失或非数值
+L112V,,ddg缺失或非数值
+"T113V, E120P, S138Y",,多点突变或缺失mutation_code
+"T68N, Q108D",,多点突变或缺失mutation_code
+"T68N, Q108D, E120P, S138Y",,多点突变或缺失mutation_code
+"T68N, Q108D, T113V, E120P, S138Y",,多点突变或缺失mutation_code
+V40A,,ddg缺失或非数值
+V75H,,ddg缺失或非数值
+V75I,,ddg缺失或非数值
+V88I,,ddg缺失或非数值
+W133F,,ddg缺失或非数值
+D74N,,ddg缺失或非数值
+Y311F,,ddg缺失或非数值
+D198N,,ddg缺失或非数值
+G322A,,ddg缺失或非数值
+"S201D, Q204T",,多点突变或缺失mutation_code
+"G120D, A172R",,多点突变或缺失mutation_code
+K49S,,ddg缺失或非数值
+K146S,,ddg缺失或非数值
+K194S,,ddg缺失或非数值
+P24A,,ddg缺失或非数值
+M1A,,ddg缺失或非数值
+G2A,,ddg缺失或非数值
+C3A,,ddg缺失或非数值
+T4A,,ddg缺失或非数值
+L5A,,ddg缺失或非数值
+S6A,,ddg缺失或非数值
+A7G,,ddg缺失或非数值
+E8A,,ddg缺失或非数值
+D9A,,ddg缺失或非数值
+K10A,,ddg缺失或非数值
+A11G,,ddg缺失或非数值
+A12G,,ddg缺失或非数值
+V13A,,ddg缺失或非数值
+E14A,,ddg缺失或非数值
+R15A,,ddg缺失或非数值
+S16A,,ddg缺失或非数值
+K17A,,ddg缺失或非数值
+M18A,,ddg缺失或非数值
+I19A,,ddg缺失或非数值
+D20A,,ddg缺失或非数值
+R21A,,ddg缺失或非数值
+N22A,,ddg缺失或非数值
+L23A,,ddg缺失或非数值
+R24A,,ddg缺失或非数值
+E25A,,ddg缺失或非数值
+D26A,,ddg缺失或非数值
+G27A,,ddg缺失或非数值
+E28A,,ddg缺失或非数值
+K29A,,ddg缺失或非数值
+A30G,,ddg缺失或非数值
+A31G,,ddg缺失或非数值
+R32A,,ddg缺失或非数值
+E33A,,ddg缺失或非数值
+V34A,,ddg缺失或非数值
+K35A,,ddg缺失或非数值
+L36A,,ddg缺失或非数值
+L37A,,ddg缺失或非数值
+L38A,,ddg缺失或非数值
+L39A,,ddg缺失或非数值
+G40A,,ddg缺失或非数值
+A41G,,ddg缺失或非数值
+G42A,,ddg缺失或非数值
+E43A,,ddg缺失或非数值
+S44A,,ddg缺失或非数值
+G45A,,ddg缺失或非数值
+K46A,,ddg缺失或非数值
+S47A,,ddg缺失或非数值
+T48A,,ddg缺失或非数值
+I49A,,ddg缺失或非数值
+V50A,,ddg缺失或非数值
+K51A,,ddg缺失或非数值
+Q52A,,ddg缺失或非数值
+M53A,,ddg缺失或非数值
+K54A,,ddg缺失或非数值
+I55A,,ddg缺失或非数值
+I56A,,ddg缺失或非数值
+H57A,,ddg缺失或非数值
+E58A,,ddg缺失或非数值
+A59G,,ddg缺失或非数值
+G60A,,ddg缺失或非数值
+Y61A,,ddg缺失或非数值
+S62A,,ddg缺失或非数值
+E63A,,ddg缺失或非数值
+E64A,,ddg缺失或非数值
+E65A,,ddg缺失或非数值
+C66A,,ddg缺失或非数值
+K67A,,ddg缺失或非数值
+Q68A,,ddg缺失或非数值
+Y69A,,ddg缺失或非数值
+K70A,,ddg缺失或非数值
+A71G,,ddg缺失或非数值
+V72A,,ddg缺失或非数值
+V73A,,ddg缺失或非数值
+Y74A,,ddg缺失或非数值
+S75A,,ddg缺失或非数值
+N76A,,ddg缺失或非数值
+T77A,,ddg缺失或非数值
+I78A,,ddg缺失或非数值
+Q79A,,ddg缺失或非数值
+S80A,,ddg缺失或非数值
+I81A,,ddg缺失或非数值
+I82A,,ddg缺失或非数值
+A83G,,ddg缺失或非数值
+I84A,,ddg缺失或非数值
+I85A,,ddg缺失或非数值
+R86A,,ddg缺失或非数值
+A87G,,ddg缺失或非数值
+M88A,,ddg缺失或非数值
+G89A,,ddg缺失或非数值
+R90A,,ddg缺失或非数值
+L91A,,ddg缺失或非数值
+K92A,,ddg缺失或非数值
+I93A,,ddg缺失或非数值
+D94A,,ddg缺失或非数值
+F95A,,ddg缺失或非数值
+G96A,,ddg缺失或非数值
+D97A,,ddg缺失或非数值
+S98A,,ddg缺失或非数值
+A99G,,ddg缺失或非数值
+R100A,,ddg缺失或非数值
+A101G,,ddg缺失或非数值
+D102A,,ddg缺失或非数值
+D103A,,ddg缺失或非数值
+A104G,,ddg缺失或非数值
+R105A,,ddg缺失或非数值
+Q106A,,ddg缺失或非数值
+L107A,,ddg缺失或非数值
+F108A,,ddg缺失或非数值
+V109A,,ddg缺失或非数值
+L110A,,ddg缺失或非数值
+A111G,,ddg缺失或非数值
+G112A,,ddg缺失或非数值
+A113G,,ddg缺失或非数值
+A114G,,ddg缺失或非数值
+E115A,,ddg缺失或非数值
+E116A,,ddg缺失或非数值
+G117A,,ddg缺失或非数值
+F118A,,ddg缺失或非数值
+M119A,,ddg缺失或非数值
+T120A,,ddg缺失或非数值
+A121G,,ddg缺失或非数值
+E122A,,ddg缺失或非数值
+L123A,,ddg缺失或非数值
+A124G,,ddg缺失或非数值
+G125A,,ddg缺失或非数值
+V126A,,ddg缺失或非数值
+I127A,,ddg缺失或非数值
+K128A,,ddg缺失或非数值
+R129A,,ddg缺失或非数值
+L130A,,ddg缺失或非数值
+W131A,,ddg缺失或非数值
+K132A,,ddg缺失或非数值
+D133A,,ddg缺失或非数值
+S134A,,ddg缺失或非数值
+G135A,,ddg缺失或非数值
+V136A,,ddg缺失或非数值
+Q137A,,ddg缺失或非数值
+A138G,,ddg缺失或非数值
+C139A,,ddg缺失或非数值
+F140A,,ddg缺失或非数值
+N141A,,ddg缺失或非数值
+S143A,,ddg缺失或非数值
+R144A,,ddg缺失或非数值
+E145A,,ddg缺失或非数值
+Y146A,,ddg缺失或非数值
+Q147A,,ddg缺失或非数值
+L148A,,ddg缺失或非数值
+N149A,,ddg缺失或非数值
+D150A,,ddg缺失或非数值
+S151A,,ddg缺失或非数值
+A152G,,ddg缺失或非数值
+A153G,,ddg缺失或非数值
+Y154A,,ddg缺失或非数值
+Y155A,,ddg缺失或非数值
+L156A,,ddg缺失或非数值
+N157A,,ddg缺失或非数值
+D158A,,ddg缺失或非数值
+L159A,,ddg缺失或非数值
+D160A,,ddg缺失或非数值
+R161A,,ddg缺失或非数值
+I162A,,ddg缺失或非数值
+A163G,,ddg缺失或非数值
+Q164A,,ddg缺失或非数值
+P165A,,ddg缺失或非数值
+N166A,,ddg缺失或非数值
+Y167A,,ddg缺失或非数值
+I168A,,ddg缺失或非数值
+P169A,,ddg缺失或非数值
+T170A,,ddg缺失或非数值
+Q171A,,ddg缺失或非数值
+Q172A,,ddg缺失或非数值
+D173A,,ddg缺失或非数值
+V174A,,ddg缺失或非数值
+L175A,,ddg缺失或非数值
+R176A,,ddg缺失或非数值
+T177A,,ddg缺失或非数值
+R178A,,ddg缺失或非数值
+V179A,,ddg缺失或非数值
+K180A,,ddg缺失或非数值
+T181A,,ddg缺失或非数值
+T182A,,ddg缺失或非数值
+G183A,,ddg缺失或非数值
+I184A,,ddg缺失或非数值
+V185A,,ddg缺失或非数值
+E186A,,ddg缺失或非数值
+T187A,,ddg缺失或非数值
+H188A,,ddg缺失或非数值
+F189A,,ddg缺失或非数值
+T190A,,ddg缺失或非数值
+F191A,,ddg缺失或非数值
+K192A,,ddg缺失或非数值
+D193A,,ddg缺失或非数值
+L194A,,ddg缺失或非数值
+H195A,,ddg缺失或非数值
+F196A,,ddg缺失或非数值
+K197A,,ddg缺失或非数值
+M198A,,ddg缺失或非数值
+F199A,,ddg缺失或非数值
+D200A,,ddg缺失或非数值
+V201A,,ddg缺失或非数值
+G202A,,ddg缺失或非数值
+G203A,,ddg缺失或非数值
+Q204A,,ddg缺失或非数值
+R205A,,ddg缺失或非数值
+S206A,,ddg缺失或非数值
+E207A,,ddg缺失或非数值
+R208A,,ddg缺失或非数值
+K209A,,ddg缺失或非数值
+K210A,,ddg缺失或非数值
+W211A,,ddg缺失或非数值
+I212A,,ddg缺失或非数值
+H213A,,ddg缺失或非数值
+C214A,,ddg缺失或非数值
+F215A,,ddg缺失或非数值
+E216A,,ddg缺失或非数值
+G217A,,ddg缺失或非数值
+V218A,,ddg缺失或非数值
+T219A,,ddg缺失或非数值
+A220G,,ddg缺失或非数值
+I221A,,ddg缺失或非数值
+I222A,,ddg缺失或非数值
+F223A,,ddg缺失或非数值
+C224A,,ddg缺失或非数值
+V225A,,ddg缺失或非数值
+A226G,,ddg缺失或非数值
+L227A,,ddg缺失或非数值
+S228A,,ddg缺失或非数值
+D229A,,ddg缺失或非数值
+D231A,,ddg缺失或非数值
+L232A,,ddg缺失或非数值
+V233A,,ddg缺失或非数值
+L234A,,ddg缺失或非数值
+A235G,,ddg缺失或非数值
+E236A,,ddg缺失或非数值
+D237A,,ddg缺失或非数值
+E238A,,ddg缺失或非数值
+E239A,,ddg缺失或非数值
+M240A,,ddg缺失或非数值
+N241A,,ddg缺失或非数值
+R242A,,ddg缺失或非数值
+M243A,,ddg缺失或非数值
+H244A,,ddg缺失或非数值
+E245A,,ddg缺失或非数值
+S246A,,ddg缺失或非数值
+M247A,,ddg缺失或非数值
+K248A,,ddg缺失或非数值
+L249A,,ddg缺失或非数值
+F250A,,ddg缺失或非数值
+D251A,,ddg缺失或非数值
+S252A,,ddg缺失或非数值
+I253A,,ddg缺失或非数值
+C254A,,ddg缺失或非数值
+N255A,,ddg缺失或非数值
+N256A,,ddg缺失或非数值
+K257A,,ddg缺失或非数值
+W258A,,ddg缺失或非数值
+F259A,,ddg缺失或非数值
+T260A,,ddg缺失或非数值
+D261A,,ddg缺失或非数值
+T262A,,ddg缺失或非数值
+S263A,,ddg缺失或非数值
+I264A,,ddg缺失或非数值
+I265A,,ddg缺失或非数值
+L266A,,ddg缺失或非数值
+F267A,,ddg缺失或非数值
+L268A,,ddg缺失或非数值
+N269A,,ddg缺失或非数值
+K271A,,ddg缺失或非数值
+L273A,,ddg缺失或非数值
+F274A,,ddg缺失或非数值
+E275A,,ddg缺失或非数值
+E276A,,ddg缺失或非数值
+K277A,,ddg缺失或非数值
+I278A,,ddg缺失或非数值
+K279A,,ddg缺失或非数值
+K280A,,ddg缺失或非数值
+S281A,,ddg缺失或非数值
+P282A,,ddg缺失或非数值
+L283A,,ddg缺失或非数值
+T284A,,ddg缺失或非数值
+I285A,,ddg缺失或非数值
+C286A,,ddg缺失或非数值
+Y287A,,ddg缺失或非数值
+P288A,,ddg缺失或非数值
+E289A,,ddg缺失或非数值
+Y290A,,ddg缺失或非数值
+A291G,,ddg缺失或非数值
+G292A,,ddg缺失或非数值
+S293A,,ddg缺失或非数值
+N294A,,ddg缺失或非数值
+T295A,,ddg缺失或非数值
+Y296A,,ddg缺失或非数值
+E297A,,ddg缺失或非数值
+E298A,,ddg缺失或非数值
+A299G,,ddg缺失或非数值
+A300G,,ddg缺失或非数值
+A301G,,ddg缺失或非数值
+Y302A,,ddg缺失或非数值
+I303A,,ddg缺失或非数值
+Q304A,,ddg缺失或非数值
+C305A,,ddg缺失或非数值
+Q306A,,ddg缺失或非数值
+F307A,,ddg缺失或非数值
+E308A,,ddg缺失或非数值
+D309A,,ddg缺失或非数值
+L310A,,ddg缺失或非数值
+N311A,,ddg缺失或非数值
+K312A,,ddg缺失或非数值
+R313A,,ddg缺失或非数值
+K314A,,ddg缺失或非数值
+D315A,,ddg缺失或非数值
+T316A,,ddg缺失或非数值
+K317A,,ddg缺失或非数值
+E318A,,ddg缺失或非数值
+I319A,,ddg缺失或非数值
+Y320A,,ddg缺失或非数值
+T321A,,ddg缺失或非数值
+H322A,,ddg缺失或非数值
+F323A,,ddg缺失或非数值
+T324A,,ddg缺失或非数值
+C325A,,ddg缺失或非数值
+A326G,,ddg缺失或非数值
+T327A,,ddg缺失或非数值
+D328A,,ddg缺失或非数值
+T329A,,ddg缺失或非数值
+K330A,,ddg缺失或非数值
+N331A,,ddg缺失或非数值
+V332A,,ddg缺失或非数值
+Q333A,,ddg缺失或非数值
+F334A,,ddg缺失或非数值
+V335A,,ddg缺失或非数值
+D337A,,ddg缺失或非数值
+A338G,,ddg缺失或非数值
+V339A,,ddg缺失或非数值
+T340A,,ddg缺失或非数值
+D341A,,ddg缺失或非数值
+V342A,,ddg缺失或非数值
+I343A,,ddg缺失或非数值
+I344A,,ddg缺失或非数值
+K345A,,ddg缺失或非数值
+N346A,,ddg缺失或非数值
+N347A,,ddg缺失或非数值
+L348A,,ddg缺失或非数值
+K349A,,ddg缺失或非数值
+D350A,,ddg缺失或非数值
+C351A,,ddg缺失或非数值
+G352A,,ddg缺失或非数值
+L353A,,ddg缺失或非数值
+F354A,,ddg缺失或非数值
+I107T,,ddg缺失或非数值
+L84F,,ddg缺失或非数值
+L172H,,ddg缺失或非数值
+L54R,,ddg缺失或非数值
+V126A,,ddg缺失或非数值
+F184L,,ddg缺失或非数值
+P250L,,ddg缺失或非数值
+A341S,,ddg缺失或非数值
+"V126A, F184L",,多点突变或缺失mutation_code
+"F184L, P250L, A341S",,多点突变或缺失mutation_code
+S11V,,ddg缺失或非数值
+E61V,,ddg缺失或非数值
+"S11V, E61V",,多点突变或缺失mutation_code
+T17K,,ddg缺失或非数值
+S48D,,ddg缺失或非数值
+"T17K, S48D",,多点突变或缺失mutation_code
+C39D,,ddg缺失或非数值
+S48K,,ddg缺失或非数值
+S48K,,ddg缺失或非数值
+H72K,,ddg缺失或非数值
+S82K,,ddg缺失或非数值
+S82R,,ddg缺失或非数值
+T88R,,ddg缺失或非数值
+Q87K,,ddg缺失或非数值
+"Q87K, T88R",,多点突变或缺失mutation_code
+S110R,,ddg缺失或非数值
+"S48K, H72K, S82K, Q87K, T88R",,多点突变或缺失mutation_code
+G1324A,,ddg缺失或非数值
+G1324S,,ddg缺失或非数值
+D468V,,ddg缺失或非数值
+D468A,,ddg缺失或非数值
+R62A,,ddg缺失或非数值
+D70N,,ddg缺失或非数值
+D70G,,ddg缺失或非数值
+D70Q,,ddg缺失或非数值
+L253P,,ddg缺失或非数值
+"S22E, N32D",1.218115,多点突变或缺失mutation_code
+A83D,,ddg缺失或非数值
+L364M,,ddg缺失或非数值
+E530K,,ddg缺失或非数值
+G554D,,ddg缺失或非数值
+R124Y,,ddg缺失或非数值
+D154A,,ddg缺失或非数值
+K270A,,ddg缺失或非数值
+S342A,,ddg缺失或非数值
+I381A,,ddg缺失或非数值
+"R124Y, D154A, K270A",,多点突变或缺失mutation_code
+"R124Y, K270A, S342A",,多点突变或缺失mutation_code
+"R124Y, D154A, K270A, S342A, I381A",,多点突变或缺失mutation_code
+T109V,,ddg缺失或非数值
+A132D,,ddg缺失或非数值
+R33P,,ddg缺失或非数值
+G111S,,ddg缺失或非数值
+A15S,,ddg缺失或非数值
+L114P,,ddg缺失或非数值
+N174T,,ddg缺失或非数值
+F17T,,ddg缺失或非数值
+M134E,,ddg缺失或非数值
+T47S,,ddg缺失或非数值
+M137P,,ddg缺失或非数值
+"E31Q, D32N, H94N",0.87,多点突变或缺失mutation_code
+"E31Q, D32N",0.46,多点突变或缺失mutation_code
+"D37S, R42A",-0.18,多点突变或缺失mutation_code
+"R40I, D41E",-1.47,多点突变或缺失mutation_code
+"T21K, V23K, K47E, K52E, K105E",-1.85,多点突变或缺失mutation_code
+"I91E, A95K",-2.36,多点突变或缺失mutation_code
+"T21K, V23K, K47E, K52E",-2.76,多点突变或缺失mutation_code
+"T21K, V23K, K47E",-2.88,多点突变或缺失mutation_code
+"D174C, D204C",,多点突变或缺失mutation_code
+"D204C, E253C",,多点突变或缺失mutation_code
+Q152H,,ddg缺失或非数值
+Q152N,,ddg缺失或非数值
+S386A,,ddg缺失或非数值
+T3D,,ddg缺失或非数值
+"T3D, A5V",,多点突变或缺失mutation_code
+"L108F, T189V",,多点突变或缺失mutation_code
+L108F,,ddg缺失或非数值
+T189V,,ddg缺失或非数值
+T191A,,ddg缺失或非数值
+T191V,,ddg缺失或非数值
+T191P,,ddg缺失或非数值
+S2K,,ddg缺失或非数值
+T3I,,ddg缺失或非数值
+T3V,,ddg缺失或非数值
+T7F,,ddg缺失或非数值
+T7M,,ddg缺失或非数值
+S17A,,ddg缺失或非数值
+S22A,,ddg缺失或非数值
+H26M,,ddg缺失或非数值
+H26Y,,ddg缺失或非数值
+T27L,,ddg缺失或非数值
+T27M,,ddg缺失或非数值
+T27V,,ddg缺失或非数值
+A29L,,ddg缺失或非数值
+C30V,,ddg缺失或非数值
+H31L,,ddg缺失或非数值
+E33P,,ddg缺失或非数值
+Q37D,,ddg缺失或非数值
+Q37E,,ddg缺失或非数值
+D39K,,ddg缺失或非数值
+D39E,,ddg缺失或非数值
+E42Q,,ddg缺失或非数值
+E42M,,ddg缺失或非数值
+A45H,,ddg缺失或非数值
+A45K,,ddg缺失或非数值
+A45L,,ddg缺失或非数值
+T47H,,ddg缺失或非数值
+T47S,,ddg缺失或非数值
+T47A,,ddg缺失或非数值
+T47K,,ddg缺失或非数值
+Y48F,,ddg缺失或非数值
+M54F,,ddg缺失或非数值
+S55P,,ddg缺失或非数值
+E56A,,ddg缺失或非数值
+E58N,,ddg缺失或非数值
+E58Q,,ddg缺失或非数值
+A60K,,ddg缺失或非数值
+A60L,,ddg缺失或非数值
+A60R,,ddg缺失或非数值
+A60Y,,ddg缺失或非数值
+E61K,,ddg缺失或非数值
+E61Q,,ddg缺失或非数值
+E61R,,ddg缺失或非数值
+E64A,,ddg缺失或非数值
+E64K,,ddg缺失或非数值
+E64Q,,ddg缺失或非数值
+E64R,,ddg缺失或非数值
+T67Q,,ddg缺失或非数值
+S68K,,ddg缺失或非数值
+S68N,,ddg缺失或非数值
+S68Q,,ddg缺失或非数值
+S68R,,ddg缺失或非数值
+A69H,,ddg缺失或非数值
+A69K,,ddg缺失或非数值
+A69L,,ddg缺失或非数值
+A69M,,ddg缺失或非数值
+A69R,,ddg缺失或非数值
+Y70F,,ddg缺失或非数值
+V75I,,ddg缺失或非数值
+V77I,,ddg缺失或非数值
+D80E,,ddg缺失或非数值
+D80V,,ddg缺失或非数值
+F82W,,ddg缺失或非数值
+A83M,,ddg缺失或非数值
+A83N,,ddg缺失或非数值
+A83Q,,ddg缺失或非数值
+E85K,,ddg缺失或非数值
+E85Y,,ddg缺失或非数值
+F86W,,ddg缺失或非数值
+Q87L,,ddg缺失或非数值
+Q87R,,ddg缺失或非数值
+D90E,,ddg缺失或非数值
+K91Q,,ddg缺失或非数值
+A93K,,ddg缺失或非数值
+A93N,,ddg缺失或非数值
+A93T,,ddg缺失或非数值
+V94L,,ddg缺失或非数值
+D96H,,ddg缺失或非数值
+R98I,,ddg缺失或非数值
+R98L,,ddg缺失或非数值
+G99A,,ddg缺失或非数值
+G99D,,ddg缺失或非数值
+G99H,,ddg缺失或非数值
+G99R,,ddg缺失或非数值
+E102M,,ddg缺失或非数值
+A103Q,,ddg缺失或非数值
+A103Y,,ddg缺失或非数值
+R107Q,,ddg缺失或非数值
+L111W,,ddg缺失或非数值
+N113H,,ddg缺失或非数值
+N113Q,,ddg缺失或非数值
+S117A,,ddg缺失或非数值
+S117K,,ddg缺失或非数值
+K123H,,ddg缺失或非数值
+H126V,,ddg缺失或非数值
+H126Y,,ddg缺失或非数值
+T134I,,ddg缺失或非数值
+T134L,,ddg缺失或非数值
+T134V,,ddg缺失或非数值
+T134W,,ddg缺失或非数值
+F136W,,ddg缺失或非数值
+K140P,,ddg缺失或非数值
+K140S,,ddg缺失或非数值
+E141Q,,ddg缺失或非数值
+S143A,,ddg缺失或非数值
+S143V,,ddg缺失或非数值
+T144I,,ddg缺失或非数值
+C153H,,ddg缺失或非数值
+C153I,,ddg缺失或非数值
+C153L,,ddg缺失或非数值
+C153N,,ddg缺失或非数值
+C153V,,ddg缺失或非数值
+T154I,,ddg缺失或非数值
+T154K,,ddg缺失或非数值
+T154L,,ddg缺失或非数值
+T154R,,ddg缺失或非数值
+T154V,,ddg缺失或非数值
+N157F,,ddg缺失或非数值
+N157H,,ddg缺失或非数值
+N157R,,ddg缺失或非数值
+N157W,,ddg缺失或非数值
+A158V,,ddg缺失或非数值
+S160A,,ddg缺失或非数值
+K161F,,ddg缺失或非数值
+E165A,,ddg缺失或非数值
+E165P,,ddg缺失或非数值
+D182F,,ddg缺失或非数值
+T189K,,ddg缺失或非数值
+E190L,,ddg缺失或非数值
+E190T,,ddg缺失或非数值
+K193L,,ddg缺失或非数值
+T194Q,,ddg缺失或非数值
+N195D,,ddg缺失或非数值
+N195H,,ddg缺失或非数值
+N195V,,ddg缺失或非数值
+E197K,,ddg缺失或非数值
+H198M,,ddg缺失或非数值
+H198Y,,ddg缺失或非数值
+V199I,,ddg缺失或非数值
+V199K,,ddg缺失或非数值
+A200Y,,ddg缺失或非数值
+V205L,,ddg缺失或非数值
+Q209H,,ddg缺失或非数值
+T213D,,ddg缺失或非数值
+T213N,,ddg缺失或非数值
+E219N,,ddg缺失或非数值
+S228K,,ddg缺失或非数值
+S228R,,ddg缺失或非数值
+C229A,,ddg缺失或非数值
+D230N,,ddg缺失或非数值
+V236I,,ddg缺失或非数值
+P244A,,ddg缺失或非数值
+E247P,,ddg缺失或非数值
+E247Y,,ddg缺失或非数值
+P253G,,ddg缺失或非数值
+P253S,,ddg缺失或非数值
+"E102K, M180T",1.5,多点突变或缺失mutation_code
+"A40S, M126T",13.5,多点突变或缺失mutation_code
+"A40S, E102K",0.3,多点突变或缺失mutation_code
+"A40G, E102K, M180T",4.3,多点突变或缺失mutation_code
+I189H,,ddg缺失或非数值
+A282P,,ddg缺失或非数值
+"H192P, A282P",,多点突变或缺失mutation_code
+S2P,,ddg缺失或非数值
+T50V,,ddg缺失或非数值
+T50V,,ddg缺失或非数值
+"Y68R, M81A",,多点突变或缺失mutation_code
+"Y68R, M81A",,多点突变或缺失mutation_code
+M81A,,ddg缺失或非数值
+M81A,,ddg缺失或非数值
+"Y68R, M81A",-3.25,多点突变或缺失mutation_code
+"Y68R, M81A",-2.8,多点突变或缺失mutation_code
+W59C,,ddg缺失或非数值
+W151C,,ddg缺失或非数值
+A18T,,ddg缺失或非数值
+E324R,,ddg缺失或非数值
+E324M,,ddg缺失或非数值
+E324F,,ddg缺失或非数值
+E324Y,,ddg缺失或非数值
+T116I,,ddg缺失或非数值
+E324P,,ddg缺失或非数值
+E324W,,ddg缺失或非数值
+E324C,,ddg缺失或非数值
+E324T,,ddg缺失或非数值
+T112K,,ddg缺失或非数值
+E324L,,ddg缺失或非数值
+E324V,,ddg缺失或非数值
+E324I,,ddg缺失或非数值
+"T112K, T116I",,多点突变或缺失mutation_code
+"T116I, E324I",,多点突变或缺失mutation_code
+"T112K, E324I",,多点突变或缺失mutation_code
+"T112K, T116I, E324I",,多点突变或缺失mutation_code
+"T112K, T116I, E324I, S150C, N157C",,多点突变或缺失mutation_code
+"T112K, T116I, E324I, V283C, D332C",,多点突变或缺失mutation_code
+"T112K, T116I, E324I, S150C, N157C, V283C, D332C",,多点突变或缺失mutation_code
+"W36F, F42W",-4.14,多点突变或缺失mutation_code
+"W101F, F42W",-4.18,多点突变或缺失mutation_code
+"W36A, F42W",-8.03,多点突变或缺失mutation_code
+"W36F, W101F, F42W",,多点突变或缺失mutation_code
+"E2A, D9A",-1.94,多点突变或缺失mutation_code
+E28K,,ddg缺失或非数值
+N65S,,ddg缺失或非数值
+A79D,,ddg缺失或非数值
+A79T,,ddg缺失或非数值
+L123V,,ddg缺失或非数值
+N130I,,ddg缺失或非数值
+K145Q,,ddg缺失或非数值
+W147C,,ddg缺失或非数值
+L165F,,ddg缺失或非数值
+M211I,,ddg缺失或非数值
+S236T,,ddg缺失或非数值
+M240T,,ddg缺失或非数值
+T246M,,ddg缺失或非数值
+"W12A, H195A, I217A, F404A",,多点突变或缺失mutation_code
+"W12A, I217A",,多点突变或缺失mutation_code
+D408W,,ddg缺失或非数值
+D408T,,ddg缺失或非数值
+D408K,,ddg缺失或非数值
+D408C,,ddg缺失或非数值
+E476T,,ddg缺失或非数值
+E476K,,ddg缺失或非数值
+S100A,,ddg缺失或非数值
+"T56R, Q101K, T103R",1.31,多点突变或缺失mutation_code
+"T56R, T103R",1.22,多点突变或缺失mutation_code
+"T56R, Q101K, T103M",1.1,多点突变或缺失mutation_code
+"T56R, Q101K, T103K",1.03,多点突变或缺失mutation_code
+"T56R, T103K",0.99,多点突变或缺失mutation_code
+"T56R, Q101K",0.88,多点突变或缺失mutation_code
+"Q101K, T103R",0.87,多点突变或缺失mutation_code
+"T56R, T103M",0.79,多点突变或缺失mutation_code
+"Q101K, T103M",0.49,多点突变或缺失mutation_code
+"Q101K, T103K",0.48,多点突变或缺失mutation_code
+"S492P, A534P, I539T",,多点突变或缺失mutation_code
+"S492P, A534P, I539T, M470V",,多点突变或缺失mutation_code
+"S492P, A534P, I539T, M470V, S495P",,多点突变或缺失mutation_code
+"S492P, A534P, I539T, M470V, S495P, R555K",,多点突变或缺失mutation_code
+"S492P, A534P, I539T, M470V, S495P, G550E, R555K",,多点突变或缺失mutation_code
+"S492P, A534P, I539T, S1359A",,多点突变或缺失mutation_code
+"S492P, A534P, I539T, M470V, S495P, G550E, R555K, S1359A",,多点突变或缺失mutation_code
+"S492P, A534P, I539T, S1255L, K1334G, S1359A, Q1411D",,多点突变或缺失mutation_code
+"V23E, L36K",9.3,多点突变或缺失mutation_code
+"V23K, L36E",11.3,多点突变或缺失mutation_code
+"I56F, L39A",-0.72,多点突变或缺失mutation_code
+"I56F, L39A, M107F",-0.48,多点突变或缺失mutation_code
+"F105L, L39A",-0.24,多点突变或缺失mutation_code
+"F105L, L39A, M107F",0.0,多点突变或缺失mutation_code
+C41Y,,ddg缺失或非数值
+G72A,,ddg缺失或非数值
+E104D,,ddg缺失或非数值
+G122R,,ddg缺失或非数值
+V154M,,ddg缺失或非数值
+I170V,,ddg缺失或非数值
+V231M,,ddg缺失或非数值
+F240L,,ddg缺失或非数值
+K308A,,ddg缺失或非数值
+K227A,,ddg缺失或非数值
+"K308A, K227A",,多点突变或缺失mutation_code
+"Q5N, V6Y, T7V",,多点突变或缺失mutation_code
+"Q5I, V6D, T7Q",,多点突变或缺失mutation_code
+"Q5Y, V6R, T7K",,多点突变或缺失mutation_code
+E138A,,ddg缺失或非数值
+E138K,,ddg缺失或非数值
+E138D,,ddg缺失或非数值
+"E138P, Q140A",,多点突变或缺失mutation_code
+E138P,,ddg缺失或非数值
+A65V,,ddg缺失或非数值
+A150V,,ddg缺失或非数值
+P174H,,ddg缺失或非数值
+L191S,,ddg缺失或非数值
+R36K,,ddg缺失或非数值
+R36A,,ddg缺失或非数值
+R36C,,ddg缺失或非数值
+A1V,,ddg缺失或非数值
+A7P,,ddg缺失或非数值
+R17H,,ddg缺失或非数值
+A33S,,ddg缺失或非数值
+H38N,,ddg缺失或非数值
+I58V,,ddg缺失或非数值
+F72L,,ddg缺失或非数值
+A79G,,ddg缺失或非数值
+V119I,,ddg缺失或非数值
+K124R,,ddg缺失或非数值
+P162S,,ddg缺失或非数值
+"P289A, P316A",-0.04,多点突变或缺失mutation_code
+D95N,,ddg缺失或非数值
+M154L,,ddg缺失或非数值
+"M154L, V88L",,多点突变或缺失mutation_code
+A233V,,ddg缺失或非数值
+"M154L,D130N",,多点突变或缺失mutation_code
+"M154L, D130G",,多点突变或缺失mutation_code
+E152K,,ddg缺失或非数值
+M154V,,ddg缺失或非数值
+"M154L, G222D",,多点突变或缺失mutation_code
+"M154L, D95N",,多点突变或缺失mutation_code
+D130G,,ddg缺失或非数值
+"M154L, A233V",,多点突变或缺失mutation_code
+"M154L, A233V, V88L",,多点突变或缺失mutation_code
+"M154L, V88L, E170K",,多点突变或缺失mutation_code
+"R269A, N270A",11.5,多点突变或缺失mutation_code
+"S21A, N22H, A23V",-3.9,多点突变或缺失mutation_code
+"R54E, E131R",-11.6,多点突变或缺失mutation_code
+"Q234R, R244E",3.3,多点突变或缺失mutation_code
+"L145G, F434I, T435I, L437T",,多点突变或缺失mutation_code
+"L145G, F434G, T435F, L437T",,多点突变或缺失mutation_code
+"L437A, W492Y",,多点突变或缺失mutation_code
+W492Y,,ddg缺失或非数值
+F248D,,ddg缺失或非数值
+L437A,,ddg缺失或非数值
+"G142E, G176E",1.2,多点突变或缺失mutation_code
+"W3C, S76Y",0.716538,多点突变或缺失mutation_code
+"W3C, R39G, S76Y",0.716538,多点突变或缺失mutation_code
+"W3C, R39G",4.060382,多点突变或缺失mutation_code
+"R39G, S76Y",20.540756,多点突变或缺失mutation_code
+"A130C, V146C",,多点突变或缺失mutation_code
+"Q133C, A143C",,多点突变或缺失mutation_code
+"A134C, K144C",,多点突变或缺失mutation_code
+"A130C, A143C",,多点突变或缺失mutation_code
+"V135C, S168C",,多点突变或缺失mutation_code
+"S160C, D189C",,多点突变或缺失mutation_code
+L184F,,ddg缺失或非数值
+A187F,,ddg缺失或非数值
+L360F,,ddg缺失或非数值
+"L184F, A187F",,多点突变或缺失mutation_code
+"L184F, L360F",,多点突变或缺失mutation_code
+"A187F, L360F",,多点突变或缺失mutation_code
+Q138A,,ddg缺失或非数值
+E184R,,ddg缺失或非数值
+Q110E,,ddg缺失或非数值
+N133D,,ddg缺失或非数值
+Q141E,,ddg缺失或非数值
+"Q138A, Q141E",,多点突变或缺失mutation_code
+N168D,,ddg缺失或非数值
+N168A,,ddg缺失或非数值
+Q209E,,ddg缺失或非数值
+Q123H,,ddg缺失或非数值
+N202H,,ddg缺失或非数值
+A260P,,ddg缺失或非数值
+E112P,,ddg缺失或非数值
+R307E,,ddg缺失或非数值
+A237D,,ddg缺失或非数值
+"A237D, R307E",,多点突变或缺失mutation_code
+W211F,,ddg缺失或非数值
+W131F,,ddg缺失或非数值
+W258F,,ddg缺失或非数值
+W154F,,ddg缺失或非数值
+W234F,,ddg缺失或非数值
+W277F,,ddg缺失或非数值
+W281F,,ddg缺失或非数值
+W211F,,ddg缺失或非数值
+W131F,,ddg缺失或非数值
+W258F,,ddg缺失或非数值
+W211F,,ddg缺失或非数值
+W131F,,ddg缺失或非数值
+W258F,,ddg缺失或非数值
+"S154A, Y217F, R235A",-14.0,多点突变或缺失mutation_code
+"S154A, Q215A, Y217F, R235A",-13.4,多点突变或缺失mutation_code
+"S154A, Q215A, R235A",-12.0,多点突变或缺失mutation_code
+"S154A, R235A",-11.7,多点突变或缺失mutation_code
+"Q215A, Y217F, R235A",-11.6,多点突变或缺失mutation_code
+"S154A, Q215A, Y217F",-10.4,多点突变或缺失mutation_code
+"S154A, Y217F",-9.8,多点突变或缺失mutation_code
+"Y217F, R235A",-8.8,多点突变或缺失mutation_code
+"Q215A, R235A",-8.0,多点突变或缺失mutation_code
+"S154A, Q215A",-6.1,多点突变或缺失mutation_code
+"Q215A, Y217F",-4.8,多点突变或缺失mutation_code
+E404V,,ddg缺失或非数值
+E404L,,ddg缺失或非数值
+E404F,,ddg缺失或非数值
+E404W,,ddg缺失或非数值
+E404I,,ddg缺失或非数值
+"L121G, C215S",8.1,多点突变或缺失mutation_code
+"P145A, C215S",6.7,多点突变或缺失mutation_code
+"L76G, C215S",5.2,多点突变或缺失mutation_code
+"F122D, C215S",4.9,多点突变或缺失mutation_code
+"F101D, C215S",4.0,多点突变或缺失mutation_code
+K4E,-1.2,温度异常(25.0K)
+D523K,-1.1,温度异常(25.0K)
+D473C,0.1,温度异常(25.0K)
+"I149A, F375A",,多点突变或缺失mutation_code
+"A307G, F375A",,多点突变或缺失mutation_code
+R175A,,ddg缺失或非数值
+G297A,,ddg缺失或非数值
+V247A,,ddg缺失或非数值
+F380A,,ddg缺失或非数值
+D303A,,ddg缺失或非数值
+"R66A, E341A, T304A, F375A",,多点突变或缺失mutation_code
+"R382A, E341A, T304A, F375A",,多点突变或缺失mutation_code
+"R171A, F380A, T304A, F375A",,多点突变或缺失mutation_code
+"D296A, F375A",,多点突变或缺失mutation_code
+A307G,,ddg缺失或非数值
+"F380A, F375A",,多点突变或缺失mutation_code
+"E341A, F380A, T304A, F375A",,多点突变或缺失mutation_code
+F13A,,ddg缺失或非数值
+"N374A, F375A",,多点突变或缺失mutation_code
+"R66A, F380A, T304A, F375A",,多点突变或缺失mutation_code
+"E341A, F375A",,多点突变或缺失mutation_code
+"T304A, F375A",,多点突变或缺失mutation_code
+R66A,,ddg缺失或非数值
+"R171A, E341A, T304A, F375A",,多点突变或缺失mutation_code
+"F380A, T304A, F375A",,多点突变或缺失mutation_code
+"D303A, E341A, T304A, F375A",,多点突变或缺失mutation_code
+"R66A, F375A",,多点突变或缺失mutation_code
+D296A,,ddg缺失或非数值
+G144A,,ddg缺失或非数值
+R171A,,ddg缺失或非数值
+V170A,,ddg缺失或非数值
+"V11A, E341A, T304A, F375A",,多点突变或缺失mutation_code
+T304A,,ddg缺失或非数值
+"V11A, F375A",,多点突变或缺失mutation_code
+"R291A, F380A, T304A, F375A",,多点突变或缺失mutation_code
+"R291A, E341A, T304A, F375A",,多点突变或缺失mutation_code
+"E341A, T304A, F375A",,多点突变或缺失mutation_code
+"F85A, F380A, T304A, F375A",,多点突变或缺失mutation_code
+L111A,,ddg缺失或非数值
+"K298A, F375A",,多点突变或缺失mutation_code
+"K298A, F380A, T304A, F375A",,多点突变或缺失mutation_code
+Y25A,,ddg缺失或非数值
+"K298A, E341A, T304A, F375A",,多点突变或缺失mutation_code
+"R382A, F375A",,多点突变或缺失mutation_code
+V11A,,ddg缺失或非数值
+R382A,,ddg缺失或非数值
+V376A,,ddg缺失或非数值
+"D303A, F375A",,多点突变或缺失mutation_code
+L173A,,ddg缺失或非数值
+"R291A, F375A",,多点突变或缺失mutation_code
+E341A,,ddg缺失或非数值
+R291A,,ddg缺失或非数值
+F375A,,ddg缺失或非数值
+V44A,,ddg缺失或非数值
+K298A,,ddg缺失或非数值
+F377A,,ddg缺失或非数值
+L198C,,ddg缺失或非数值
+L200C,,ddg缺失或非数值
+L203C,,ddg缺失或非数值
+A413T,,ddg缺失或非数值
+D336A,,ddg缺失或非数值
+I485F,,ddg缺失或非数值
+Y423H,,ddg缺失或非数值
+"I431V, T435I",,多点突变或缺失mutation_code
+I24K,,ddg缺失或非数值
+I24T,,ddg缺失或非数值
+D67P,,ddg缺失或非数值
+G100C,,ddg缺失或非数值
+G100Y,,ddg缺失或非数值
+V20L,,ddg缺失或非数值
+V33D,,ddg缺失或非数值
+I90E,,ddg缺失或非数值
+T123F,,ddg缺失或非数值
+T123W,,ddg缺失或非数值
+T123G,,ddg缺失或非数值
+R208G,,ddg缺失或非数值
+G171A,,ddg缺失或非数值
+T123H,,ddg缺失或非数值
+T123Y,,ddg缺失或非数值
+C147S,,ddg缺失或非数值
+C147V,,ddg缺失或非数值
+C147I,,ddg缺失或非数值
+C147F,,ddg缺失或非数值
+V120W,,ddg缺失或非数值
+"C147I, R208G",,多点突变或缺失mutation_code
+"T123W, C147I",,多点突变或缺失mutation_code
+"T123W, R208G",,多点突变或缺失mutation_code
+"T123H, C147I",,多点突变或缺失mutation_code
+"T123H, R208G",,多点突变或缺失mutation_code
+"T123Y, C147I",,多点突变或缺失mutation_code
+"T123Y, R208G",,多点突变或缺失mutation_code
+L81A,,ddg缺失或非数值
+L126W,,ddg缺失或非数值
+K154A,,ddg缺失或非数值
+G294A,,ddg缺失或非数值
+K14M,,ddg缺失或非数值
+H35L,,ddg缺失或非数值
+"K42N, K49R, E54V",,多点突变或缺失mutation_code
+"I60T, L62S",,多点突变或缺失mutation_code
+I60T,,ddg缺失或非数值
+L62S,,ddg缺失或非数值
+E105V,,ddg缺失或非数值
+"H35L, K42N, K49R, E54V, I60T, L62S, E105V",,多点突变或缺失mutation_code
+"K14M, K42N, K49R, E54V, I60T, L62S, E105V",,多点突变或缺失mutation_code
+"K14M, H35L, I60T, L62S, E105V",,多点突变或缺失mutation_code
+"K14M, H35L, K42N, K49R, E54V, E105V",,多点突变或缺失mutation_code
+"K14M, H35L, K42N, K49R, E54V, L62S, E105V",,多点突变或缺失mutation_code
+"K14M, H35L, K42N, K49R, E54V, I60T, E105V",,多点突变或缺失mutation_code
+"K14M, H35L, K42N, K49R, E54V, I60T, L62S",,多点突变或缺失mutation_code
+R75M,,ddg缺失或非数值
+N123E,,ddg缺失或非数值
+F169R,,ddg缺失或非数值
+A173W,,ddg缺失或非数值
+N27D,,ddg缺失或非数值
+R71I,,ddg缺失或非数值
+"N27D, R71I",,多点突变或缺失mutation_code
+Y191H,,ddg缺失或非数值
+S25I,,ddg缺失或非数值
+F29A,,ddg缺失或非数值
+F29L,,ddg缺失或非数值
+P55S,,ddg缺失或非数值
+Y59A,,ddg缺失或非数值
+Y59P,,ddg缺失或非数值
+R70A,,ddg缺失或非数值
+S74A,,ddg缺失或非数值
+A75R,,ddg缺失或非数值
+Y98A,,ddg缺失或非数值
+D102A,,ddg缺失或非数值
+D102R,,ddg缺失或非数值
+K104G,,ddg缺失或非数值
+M111A,,ddg缺失或非数值
+M111T,,ddg缺失或非数值
+"M111A, V107I",,多点突变或缺失mutation_code
+V116A,,ddg缺失或非数值
+V116Y,,ddg缺失或非数值
+"I170A, L230A",-1.8,多点突变或缺失mutation_code
+"K12G, E97A",-3.9,多点突变或缺失mutation_code
+I597F,,ddg缺失或非数值
+K622A,,ddg缺失或非数值
+L198C,,ddg缺失或非数值
+L200C,,ddg缺失或非数值
+L203C,,ddg缺失或非数值
+N142P,,ddg缺失或非数值
+I144P,,ddg缺失或非数值
+N377P,,ddg缺失或非数值
+T404P,,ddg缺失或非数值
+"N142P, I144P",,多点突变或缺失mutation_code
+"N142P, I144P, N377P",,多点突变或缺失mutation_code
+"N142P, I144P, T404P",,多点突变或缺失mutation_code
+"N142P, I144P, N377P, T404P",,多点突变或缺失mutation_code
+G86R,,ddg缺失或非数值
+"G86R, W94F",,多点突变或缺失mutation_code
+"G86R, W94L",,多点突变或缺失mutation_code
+C450A,,ddg缺失或非数值
+C450A,,ddg缺失或非数值
+C450A,,ddg缺失或非数值
+C450A,,ddg缺失或非数值
+L150F,,ddg缺失或非数值
+G149A,,ddg缺失或非数值
+M157K,,ddg缺失或非数值
+S197E,,ddg缺失或非数值
+V238L,,ddg缺失或非数值
+G159A,,ddg缺失或非数值
+N212R,,ddg缺失或非数值
+T194V,,ddg缺失或非数值
+V193L,,ddg缺失或非数值
+V217P,,ddg缺失或非数值
+"L150F, M157K",,多点突变或缺失mutation_code
+"L150F, M157K, S197E",,多点突变或缺失mutation_code
+"L150F, M157K, S197E, V238L",,多点突变或缺失mutation_code
+"L150F, M157K, S197E, V238L, N212R",,多点突变或缺失mutation_code
+"L150F, M157K, S197E, V238L, N212R, G149A",,多点突变或缺失mutation_code
+"L150F, M157K, S197E, V238L, N212R, G149A, G159A",,多点突变或缺失mutation_code
+"L150F, M157K, S197E, V238L, N212R, G149A, G159A, V193L, T194V",,多点突变或缺失mutation_code
+"L150F, M157K, S197E, V238L, N212R, G149A, G159A, V193L, T194V, V217P",,多点突变或缺失mutation_code
+"L150F, M157K, V238L, N212R, G149A, G159A, V193L, T194V, V217P",,多点突变或缺失mutation_code
+S39C,,ddg缺失或非数值
+N126D,,ddg缺失或非数值
+N126Y,,ddg缺失或非数值
+R387C,,ddg缺失或非数值
+"N126D, R387C",,多点突变或缺失mutation_code
+R113K,,ddg缺失或非数值
+D151S,,ddg缺失或非数值
+T132I,,ddg缺失或非数值
+A172T,,ddg缺失或非数值
+S121F,,ddg缺失或非数值
+K138A,,ddg缺失或非数值
+K138N,,ddg缺失或非数值
+H23R,,ddg缺失或非数值
+P224R,,ddg缺失或非数值
+"F47L, R55M",-2.985,多点突变或缺失mutation_code
+"D44N, R55M",-1.48,多点突变或缺失mutation_code
+"N68A,K70M",1.78,多点突变或缺失mutation_code
+N280W,,ddg缺失或非数值
+N358W,,ddg缺失或非数值
+T112W,,ddg缺失或非数值
+D332L,,ddg缺失或非数值
+D332R,,ddg缺失或非数值
+T112I,,ddg缺失或非数值
+D332F,,ddg缺失或非数值
+E314I,,ddg缺失或非数值
+D320L,,ddg缺失或非数值
+D332P,,ddg缺失或非数值
+D332W,,ddg缺失或非数值
+D332Y,,ddg缺失或非数值
+E314V,,ddg缺失或非数值
+S208Y,,ddg缺失或非数值
+S208V,,ddg缺失或非数值
+S208F,,ddg缺失或非数值
+N214L,,ddg缺失或非数值
+A102L,,ddg缺失或非数值
+N280L,,ddg缺失或非数值
+N321L,,ddg缺失或非数值
+N214R,,ddg缺失或非数值
+S208W,,ddg缺失或非数值
+Q327I,,ddg缺失或非数值
+"L110Q, C137Y, D145N",,多点突变或缺失mutation_code
+"W15D,L37S,L121R",-1.42,多点突变或缺失mutation_code
+T18R,,ddg缺失或非数值
+L37S,,ddg缺失或非数值
+A73E,,ddg缺失或非数值
+L121R,,ddg缺失或非数值
+L65K,,ddg缺失或非数值
+L78G,,ddg缺失或非数值
+V95K,,ddg缺失或非数值
+W15D,,ddg缺失或非数值
+R124D,,ddg缺失或非数值
+R128E,,ddg缺失或非数值

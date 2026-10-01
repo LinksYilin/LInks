@@ -1,0 +1,1095 @@
+pdb_id,mutation_code,reason
+1OH0,Y30S,残基不一致 PDB=Q vs WT=Y
+nan,S212C,pdb_id 无效
+1STN,A99G,残基不一致 PDB=V vs WT=A
+1STN,A99V,残基不一致 PDB=V vs WT=A
+1STN,A140G,残基不一致 PDB=W vs WT=A
+1STN,A140V,残基不一致 PDB=W vs WT=A
+1STN,A142G,残基号 142 未找到
+1STN,A142V,残基号 142 未找到
+1STN,A151G,残基号 151 未找到
+1STN,A151V,残基号 151 未找到
+1STN,A172G,残基号 172 未找到
+1STN,A172V,残基号 172 未找到
+1STN,A176G,残基号 176 未找到
+1STN,A176V,残基号 176 未找到
+1STN,A184G,残基号 184 未找到
+1STN,A184V,残基号 184 未找到
+1STN,A191G,残基号 191 未找到
+1STN,A191V,残基号 191 未找到
+1STN,A194G,残基号 194 未找到
+1STN,A194V,残基号 194 未找到
+1STN,A212G,残基号 212 未找到
+1STN,A212V,残基号 212 未找到
+1STN,A214G,残基号 214 未找到
+1STN,A214V,残基号 214 未找到
+1STN,P93G,残基不一致 PDB=Y vs WT=P
+1STN,P93A,残基不一致 PDB=Y vs WT=P
+1STN,P113G,残基不一致 PDB=Y vs WT=P
+1STN,P113A,残基不一致 PDB=Y vs WT=P
+1STN,P124G,残基不一致 PDB=H vs WT=P
+1STN,P124A,残基不一致 PDB=H vs WT=P
+1STN,P129G,残基不一致 PDB=E vs WT=P
+1STN,P129A,残基不一致 PDB=E vs WT=P
+1STN,P138G,残基不一致 PDB=N vs WT=P
+1STN,P138A,残基不一致 PDB=N vs WT=P
+1STN,P199G,残基号 199 未找到
+1STN,P199A,残基号 199 未找到
+1STN,G102A,残基不一致 PDB=A vs WT=G
+1STN,G102V,残基不一致 PDB=A vs WT=G
+1STN,G111A,残基不一致 PDB=V vs WT=G
+1STN,G111V,残基不一致 PDB=V vs WT=G
+1STN,G132A,残基不一致 PDB=A vs WT=G
+1STN,G132V,残基不一致 PDB=A vs WT=G
+1STN,G137A,残基不一致 PDB=L vs WT=G
+1STN,G137V,残基不一致 PDB=L vs WT=G
+1STN,G161A,残基号 161 未找到
+1STN,G161V,残基号 161 未找到
+1STN,G168A,残基号 168 未找到
+1STN,G168V,残基号 168 未找到
+1STN,G170A,残基号 170 未找到
+1STN,G170V,残基号 170 未找到
+1STN,G178A,残基号 178 未找到
+1STN,G178V,残基号 178 未找到
+1STN,G189A,残基号 189 未找到
+1STN,G189V,残基号 189 未找到
+1STN,N150G,残基号 150 未找到
+1STN,N150A,残基号 150 未找到
+1STN,N182G,残基号 182 未找到
+1STN,N182A,残基号 182 未找到
+1STN,N200G,残基号 200 未找到
+1STN,N200A,残基号 200 未找到
+1STN,N201G,残基号 201 未找到
+1STN,N201A,残基号 201 未找到
+1STN,N220G,残基号 220 未找到
+1STN,N220A,残基号 220 未找到
+1STN,Q112G,残基不一致 PDB=A vs WT=Q
+1STN,Q112A,残基不一致 PDB=A vs WT=Q
+1STN,Q162G,残基号 162 未找到
+1STN,Q162A,残基号 162 未找到
+1STN,Q188G,残基号 188 未找到
+1STN,Q188A,残基号 188 未找到
+1STN,Q205G,残基号 205 未找到
+1STN,Q205A,残基号 205 未找到
+1STN,Q213G,残基号 213 未找到
+1STN,Q213A,残基号 213 未找到
+1STN,S210G,残基号 210 未找到
+1STN,S210A,残基号 210 未找到
+1STN,S223G,残基号 223 未找到
+1STN,S223A,残基号 223 未找到
+1STN,T95G,残基不一致 PDB=D vs WT=T
+1STN,T95A,残基不一致 PDB=D vs WT=T
+1STN,T104G,残基不一致 PDB=V vs WT=T
+1STN,T104A,残基不一致 PDB=V vs WT=T
+1STN,T115G,残基不一致 PDB=Y vs WT=T
+1STN,T115A,残基不一致 PDB=Y vs WT=T
+1STN,T123G,残基不一致 PDB=Q vs WT=T
+1STN,T123A,残基不一致 PDB=Q vs WT=T
+1STN,T126G,残基不一致 PDB=R vs WT=T
+1STN,T126A,残基不一致 PDB=R vs WT=T
+1STN,T144G,残基号 144 未找到
+1STN,T144A,残基号 144 未找到
+1STN,T164G,残基号 164 未找到
+1STN,T164A,残基号 164 未找到
+1STN,T202G,残基号 202 未找到
+1STN,T202A,残基号 202 未找到
+1STN,T4A,残基号 4 未找到
+1JOK,A227V,残基号 227 未找到
+-,S28G,无结构文件
+1WQ5,P57A,残基号 57 未找到
+1WQ5,P62A,残基号 62 未找到
+1BGL,E461Q,无结构文件
+1BGL,E461Q,无结构文件
+1BGL,Y503F,无结构文件
+1BGL,Y503F,无结构文件
+nan,N57I,pdb_id 无效
+nan,C110A,pdb_id 无效
+nan,C110A,pdb_id 无效
+nan,C110S,pdb_id 无效
+nan,C110D,pdb_id 无效
+nan,C110S,pdb_id 无效
+nan,C110L,pdb_id 无效
+nan,C110D,pdb_id 无效
+1BNI,T53S,残基不一致 PDB=G vs WT=T
+1BNI,T53A,残基不一致 PDB=G vs WT=T
+1BNI,T53G,残基不一致 PDB=G vs WT=T
+1BNI,T53N,残基不一致 PDB=G vs WT=T
+1BNI,T53D,残基不一致 PDB=G vs WT=T
+1BNI,T53Q,残基不一致 PDB=G vs WT=T
+1BNI,T53E,残基不一致 PDB=G vs WT=T
+1BNI,T73S,残基不一致 PDB=E vs WT=T
+1BNI,T73V,残基不一致 PDB=E vs WT=T
+1BNI,T73A,残基不一致 PDB=E vs WT=T
+1BNI,T73G,残基不一致 PDB=E vs WT=T
+1BNI,T73N,残基不一致 PDB=E vs WT=T
+1BNI,T73Q,残基不一致 PDB=E vs WT=T
+1BNI,T73E,残基不一致 PDB=E vs WT=T
+nan,L106W,pdb_id 无效
+nan,L55W,pdb_id 无效
+nan,L48W,pdb_id 无效
+nan,L113W,pdb_id 无效
+nan,F34W,pdb_id 无效
+nan,I20W,pdb_id 无效
+nan,Y18W,pdb_id 无效
+1PGA,A252P,残基号 252 未找到
+1PGA,D248G,残基号 248 未找到
+1PGA,D248G,残基号 248 未找到
+1PGA,A252P,残基号 252 未找到
+2RN4,K95G,残基不一致 PDB=D vs WT=K
+2RN5,D134N,残基号 134 未找到
+nan,S28G,pdb_id 无效
+1ZNJ,H10D,残基不一致 PDB=I vs WT=H
+1ZNJ,H10E,残基不一致 PDB=I vs WT=H
+1ZNJ,H10D,残基不一致 PDB=I vs WT=H
+1ZNJ,H10T,残基不一致 PDB=I vs WT=H
+nan,L29A,pdb_id 无效
+nan,L104A,pdb_id 无效
+nan,L72A,pdb_id 无效
+nan,L29A,pdb_id 无效
+nan,L104A,pdb_id 无效
+nan,L72A,pdb_id 无效
+1AXB,R162H,残基不一致 PDB=L vs WT=R
+1AXB,R162H,残基不一致 PDB=L vs WT=R
+1AXB,R162H,残基不一致 PDB=L vs WT=R
+1AXB,R162H,残基不一致 PDB=L vs WT=R
+1AXB,E102K,残基不一致 PDB=L vs WT=E
+1AXB,G234S,残基不一致 PDB=K vs WT=G
+1AXB,R162H,残基不一致 PDB=L vs WT=R
+1AXB,R162H,残基不一致 PDB=L vs WT=R
+1AXB,R162S,残基不一致 PDB=L vs WT=R
+1AXB,G234S,残基不一致 PDB=K vs WT=G
+1AXB,R162H,残基不一致 PDB=L vs WT=R
+1STN,D101A,残基不一致 PDB=E vs WT=D
+1STN,D101G,残基不一致 PDB=E vs WT=D
+1STN,D103A,残基不一致 PDB=L vs WT=D
+1STN,D103G,残基不一致 PDB=L vs WT=D
+1STN,D122A,残基不一致 PDB=E vs WT=D
+1STN,D122G,残基不一致 PDB=E vs WT=D
+1STN,D159A,残基号 159 未找到
+1STN,D159G,残基号 159 未找到
+1STN,D165A,残基号 165 未找到
+1STN,D165G,残基号 165 未找到
+1STN,D177A,残基号 177 未找到
+1STN,D177G,残基号 177 未找到
+1STN,E92A,残基不一致 PDB=I vs WT=E
+1STN,E92G,残基不一致 PDB=I vs WT=E
+1STN,E125A,残基不一致 PDB=L vs WT=E
+1STN,E125G,残基不一致 PDB=L vs WT=E
+1STN,E134A,残基不一致 PDB=K vs WT=E
+1STN,E134G,残基不一致 PDB=K vs WT=E
+1STN,E139A,残基不一致 PDB=I vs WT=E
+1STN,E139G,残基不一致 PDB=I vs WT=E
+1STN,E149A,残基号 149 未找到
+1STN,E149G,残基号 149 未找到
+1STN,E155A,残基号 155 未找到
+1STN,E155G,残基号 155 未找到
+1STN,E157A,残基号 157 未找到
+1STN,E157G,残基号 157 未找到
+1STN,E183A,残基号 183 未找到
+1STN,E183G,残基号 183 未找到
+1STN,E204A,残基号 204 未找到
+1STN,E204G,残基号 204 未找到
+1STN,E211A,残基号 211 未找到
+1STN,E211G,残基号 211 未找到
+1STN,E217A,残基号 217 未找到
+1STN,E217G,残基号 217 未找到
+1STN,K88A,残基不一致 PDB=G vs WT=K
+1STN,K88G,残基不一致 PDB=G vs WT=K
+1STN,K91A,残基不一致 PDB=Y vs WT=K
+1STN,K91G,残基不一致 PDB=Y vs WT=K
+1STN,K98A,残基不一致 PDB=M vs WT=K
+1STN,K98G,残基不一致 PDB=M vs WT=K
+1STN,K106A,残基不一致 PDB=Q vs WT=K
+1STN,K106G,残基不一致 PDB=Q vs WT=K
+1STN,K130A,残基不一致 PDB=A vs WT=K
+1STN,K130G,残基不一致 PDB=A vs WT=K
+1STN,K131A,残基不一致 PDB=Q vs WT=K
+1STN,K131G,残基不一致 PDB=Q vs WT=K
+1STN,K135A,残基不一致 PDB=E vs WT=K
+1STN,K135G,残基不一致 PDB=E vs WT=K
+1STN,K145A,残基号 145 未找到
+1STN,K145G,残基号 145 未找到
+1STN,K146A,残基号 146 未找到
+1STN,K146G,残基号 146 未找到
+1STN,K152A,残基号 152 未找到
+1STN,K152G,残基号 152 未找到
+1STN,K153A,残基号 153 未找到
+1STN,K153G,残基号 153 未找到
+1STN,K160A,残基号 160 未找到
+1STN,K160G,残基号 160 未找到
+1STN,K166A,残基号 166 未找到
+1STN,K166G,残基号 166 未找到
+1STN,K179A,残基号 179 未找到
+1STN,K179G,残基号 179 未找到
+1STN,K192A,残基号 192 未找到
+1STN,K192G,残基号 192 未找到
+1STN,K198A,残基号 198 未找到
+1STN,K198G,残基号 198 未找到
+1STN,K209A,残基号 209 未找到
+1STN,K209G,残基号 209 未找到
+1STN,K215A,残基号 215 未找到
+1STN,K215G,残基号 215 未找到
+1STN,K216A,残基号 216 未找到
+1STN,K216G,残基号 216 未找到
+1STN,K218A,残基号 218 未找到
+1STN,K218G,残基号 218 未找到
+1STN,H90A,残基不一致 PDB=A vs WT=H
+1STN,H90G,残基不一致 PDB=A vs WT=H
+1STN,H128A,残基不一致 PDB=S vs WT=H
+1STN,H128G,残基不一致 PDB=S vs WT=H
+1STN,H203A,残基号 203 未找到
+1STN,H203G,残基号 203 未找到
+1STN,H206A,残基号 206 未找到
+1STN,H206G,残基号 206 未找到
+1STN,R117A,残基不一致 PDB=P vs WT=R
+1STN,R117G,残基不一致 PDB=P vs WT=R
+1STN,R163A,残基号 163 未找到
+1STN,R163G,残基号 163 未找到
+1STN,R169A,残基号 169 未找到
+1STN,R169G,残基号 169 未找到
+1STN,R187A,残基号 187 未找到
+1STN,R187G,残基号 187 未找到
+1STN,R208A,残基号 208 未找到
+1STN,R208G,残基号 208 未找到
+nan,P167T,pdb_id 无效
+nan,V92A,pdb_id 无效
+1WQ5,P57A,残基号 57 未找到
+1WQ5,P62A,残基号 62 未找到
+nan,W34A,pdb_id 无效
+nan,H31A,pdb_id 无效
+nan,W34A,pdb_id 无效
+nan,H31A,pdb_id 无效
+nan,Q40L,pdb_id 无效
+nan,K57E,pdb_id 无效
+1FKJ,V3A,残基不一致 PDB=Q vs WT=V
+1FKJ,V5A,残基不一致 PDB=E vs WT=V
+1FKJ,V25A,残基不一致 PDB=H vs WT=V
+1FKJ,F37A,残基不一致 PDB=D vs WT=F
+1FKJ,L51A,残基不一致 PDB=G vs WT=L
+1FKJ,V56A,残基不一致 PDB=I vs WT=V
+1FKJ,I57A,残基不一致 PDB=R vs WT=I
+1FKJ,I57D,残基不一致 PDB=R vs WT=I
+1FKJ,I57T,残基不一致 PDB=R vs WT=I
+1FKJ,V64A,残基不一致 PDB=A vs WT=V
+1FKJ,I77V,残基不一致 PDB=S vs WT=I
+1FKJ,I77A,残基不一致 PDB=S vs WT=I
+1FKJ,I92A,残基不一致 PDB=P vs WT=I
+1FKJ,I92V,残基不一致 PDB=P vs WT=I
+1FKJ,L98A,残基不一致 PDB=V vs WT=L
+1FKJ,V99A,残基不一致 PDB=F vs WT=V
+1FKJ,V102A,残基不一致 PDB=E vs WT=V
+1FKJ,L107A,残基不一致 PDB=E vs WT=L
+1FKJ,R58A,残基不一致 PDB=G vs WT=R
+1FKJ,R58G,残基不一致 PDB=G vs WT=R
+1FKJ,E62A,残基不一致 PDB=G vs WT=E
+1FKJ,E62G,残基不一致 PDB=G vs WT=E
+1FKJ,I8V,残基不一致 PDB=S vs WT=I
+1FKJ,T22S,残基不一致 PDB=C vs WT=T
+1FKJ,T22V,残基不一致 PDB=C vs WT=T
+1FKJ,T22A,残基不一致 PDB=C vs WT=T
+1FKJ,T28S,残基不一致 PDB=G vs WT=T
+1FKJ,T28V,残基不一致 PDB=G vs WT=T
+1FKJ,T28A,残基不一致 PDB=G vs WT=T
+1FKJ,T76V,残基不一致 PDB=I vs WT=T
+1FKJ,T76A,残基不一致 PDB=I vs WT=T
+1FKJ,V5A,残基不一致 PDB=E vs WT=V
+1FKJ,V110A,残基号 110 未找到
+1FKJ,T7A,残基不一致 PDB=I vs WT=T
+1JOK,D225F,残基号 225 未找到
+nan,E15G,pdb_id 无效
+nan,S27A,pdb_id 无效
+nan,I42V,pdb_id 无效
+1SHF,E24D,残基号 24 未找到
+1SHF,S41K,残基号 41 未找到
+1SHF,S41R,残基号 41 未找到
+1SHF,S41L,残基号 41 未找到
+1SHF,E24T,残基号 24 未找到
+1SHF,S41A,残基号 41 未找到
+1SHF,S41N,残基号 41 未找到
+1SHF,E24Q,残基号 24 未找到
+1SHF,E24K,残基号 24 未找到
+1SHF,E24H,残基号 24 未找到
+1SHF,S41V,残基号 41 未找到
+1SHF,S41H,残基号 41 未找到
+1SHF,E24A,残基号 24 未找到
+1SHF,S41I,残基号 41 未找到
+1SHF,E24F,残基号 24 未找到
+1SHF,E24S,残基号 24 未找到
+1SHF,S41T,残基号 41 未找到
+1SHF,S41G,残基号 41 未找到
+1SHF,E24P,残基号 24 未找到
+1SHF,S41F,残基号 41 未找到
+1SHF,E24V,残基号 24 未找到
+1SHF,S41D,残基号 41 未找到
+1SHF,S41Y,残基号 41 未找到
+1SHF,E24Y,残基号 24 未找到
+1SHF,E24I,残基号 24 未找到
+1SHF,E24L,残基号 24 未找到
+1SHF,E24R,残基号 24 未找到
+nan,D74N,pdb_id 无效
+nan,P81L,pdb_id 无效
+nan,D84N,pdb_id 无效
+nan,G41C,pdb_id 无效
+1cyo,S23C,残基不一致 PDB=L vs WT=S
+1AON,I48W,残基不一致 PDB=T vs WT=I
+1RGG,D49A,残基不一致 PDB=Y vs WT=D
+1RGG,D49Y,残基不一致 PDB=Y vs WT=D
+1RGG,D49F,残基不一致 PDB=Y vs WT=D
+1RGG,D49W,残基不一致 PDB=Y vs WT=D
+1RGG,D49H,残基不一致 PDB=Y vs WT=D
+nan,K7F,pdb_id 无效
+nan,E21I,pdb_id 无效
+nan,K27I,pdb_id 无效
+nan,A13V,pdb_id 无效
+nan,E32I,pdb_id 无效
+nan,G15A,pdb_id 无效
+nan,S25I,pdb_id 无效
+nan,G15V,pdb_id 无效
+nan,N14A,pdb_id 无效
+nan,T22I,pdb_id 无效
+1TEN,F88A,残基号 88 未找到
+1TEN,L34A,残基号 34 未找到
+1TEN,Y36A,残基号 36 未找到
+1TEN,L62A,残基号 62 未找到
+1TEN,Y57G,残基号 57 未找到
+1TEN,I20A,残基号 20 未找到
+1TEN,T90A,残基号 90 未找到
+1TEN,I32A,残基号 32 未找到
+1TEN,Y68F,残基号 68 未找到
+1TEN,L72A,残基号 72 未找到
+1TEN,L50A,残基号 50 未找到
+1TEN,I8A,残基号 8 未找到
+1TEN,S81A,残基号 81 未找到
+1TEN,V70A,残基号 70 未找到
+1TEN,A18G,残基号 18 未找到
+1TEN,P5A,残基号 5 未找到
+1TEN,I48A,残基号 48 未找到
+1TEN,L2A,残基号 2 未找到
+1TEN,I59A,残基号 59 未找到
+1TEN,T66A,残基号 66 未找到
+1TEN,T90S,残基号 90 未找到
+1TEN,P25A,残基号 25 未找到
+1TEN,I29A,残基号 29 未找到
+1TEN,Y57A,残基号 57 未找到
+1TEN,V10A,残基号 10 未找到
+1TEN,T66S,残基号 66 未找到
+1TEN,A84G,残基号 84 未找到
+1TEN,G77A,残基号 77 未找到
+1TEN,P64A,残基号 64 未找到
+1TEN,I59V,残基号 59 未找到
+1TEN,I32V,残基号 32 未找到
+1TEN,P42A,残基号 42 未找到
+1TEN,Y36F,残基号 36 未找到
+1TEN,G43A,残基号 43 未找到
+1TEN,E86G,残基号 86 未找到
+1TEN,I29V,残基号 29 未找到
+1TEN,I20V,残基号 20 未找到
+1TEN,I8V,残基号 8 未找到
+1TEN,P83A,残基号 83 未找到
+1TEN,L92A,残基号 92 未找到
+1TEN,Y68L,残基号 68 未找到
+1TEN,Y68A,残基号 68 未找到
+1TEN,F88G,残基号 88 未找到
+1TEN,S74A,残基号 74 未找到
+1TEN,E86A,残基号 86 未找到
+nan,W38F,pdb_id 无效
+nan,W45F,pdb_id 无效
+1CSP,Q2L,残基不一致 PDB=L vs WT=Q
+1CSP,R3E,残基不一致 PDB=E vs WT=R
+1CSP,N11S,残基不一致 PDB=S vs WT=N
+1C9O,E3R,残基不一致 PDB=R vs WT=E
+1C9O,E66L,残基不一致 PDB=L vs WT=E
+nan,A22L,pdb_id 无效
+nan,A22M,pdb_id 无效
+nan,A22I,pdb_id 无效
+nan,A22Y,pdb_id 无效
+nan,A22F,pdb_id 无效
+nan,A22V,pdb_id 无效
+nan,A22Q,pdb_id 无效
+nan,A22W,pdb_id 无效
+nan,A22N,pdb_id 无效
+nan,A22H,pdb_id 无效
+nan,A22T,pdb_id 无效
+nan,A22K,pdb_id 无效
+nan,A22S,pdb_id 无效
+nan,A22D,pdb_id 无效
+nan,A22E,pdb_id 无效
+nan,A22R,pdb_id 无效
+nan,A22G,pdb_id 无效
+1OTR,I36F,残基不一致 PDB=N vs WT=I
+1OTR,I36L,残基不一致 PDB=N vs WT=I
+1OTR,I36V,残基不一致 PDB=N vs WT=I
+1OTR,I30L,残基不一致 PDB=V vs WT=I
+1OH0,Y14S,残基不一致 PDB=A vs WT=Y
+1OH0,Y30S,残基不一致 PDB=Q vs WT=Y
+1OH0,Y55S,残基不一致 PDB=A vs WT=Y
+nan,A39F,pdb_id 无效
+nan,A39G,pdb_id 无效
+nan,A39L,pdb_id 无效
+nan,A39S,pdb_id 无效
+nan,A39V,pdb_id 无效
+nan,A6G,pdb_id 无效
+nan,A6S,pdb_id 无效
+nan,F20A,pdb_id 无效
+nan,F20L,pdb_id 无效
+nan,F20S,pdb_id 无效
+nan,F20V,pdb_id 无效
+nan,F26I,pdb_id 无效
+nan,F26L,pdb_id 无效
+nan,F26V,pdb_id 无效
+nan,F4A,pdb_id 无效
+nan,F4L,pdb_id 无效
+nan,F4S,pdb_id 无效
+nan,F4V,pdb_id 无效
+nan,I28A,pdb_id 无效
+nan,I28F,pdb_id 无效
+nan,I28L,pdb_id 无效
+nan,I28S,pdb_id 无效
+nan,I28V,pdb_id 无效
+nan,I50A,pdb_id 无效
+nan,I50F,pdb_id 无效
+nan,I50L,pdb_id 无效
+nan,I50V,pdb_id 无效
+nan,L18F,pdb_id 无效
+nan,L18I,pdb_id 无效
+nan,L18V,pdb_id 无效
+nan,V55A,pdb_id 无效
+nan,V55F,pdb_id 无效
+nan,V55I,pdb_id 无效
+nan,V55L,pdb_id 无效
+1C9O,L67AL,残基号 67A 未找到
+1C9O,L66LA,残基号 66L 未找到
+1LUC,H81A,残基不一致 PDB=A vs WT=H
+nan,D20A,pdb_id 无效
+nan,L3A,pdb_id 无效
+nan,W7M,pdb_id 无效
+nan,L10A,pdb_id 无效
+nan,L14A,pdb_id 无效
+nan,K15A,pdb_id 无效
+nan,A16G,pdb_id 无效
+nan,I17A,pdb_id 无效
+nan,E18A,pdb_id 无效
+nan,A20G,pdb_id 无效
+nan,A23G,pdb_id 无效
+nan,K27A,pdb_id 无效
+nan,K27G,pdb_id 无效
+nan,L30A,pdb_id 无效
+nan,M33A,pdb_id 无效
+nan,R34A,pdb_id 无效
+nan,R34G,pdb_id 无效
+nan,A36G,pdb_id 无效
+nan,A37G,pdb_id 无效
+nan,L38G,pdb_id 无效
+nan,A40G,pdb_id 无效
+nan,A41G,pdb_id 无效
+nan,L48A,pdb_id 无效
+nan,K51G,pdb_id 无效
+nan,M58A,pdb_id 无效
+nan,F61A,pdb_id 无效
+nan,F65A,pdb_id 无效
+nan,L68A,pdb_id 无效
+nan,V69G,pdb_id 无效
+nan,I72A,pdb_id 无效
+nan,D73A,pdb_id 无效
+nan,L76A,pdb_id 无效
+nan,V84A,pdb_id 无效
+nan,A87G,pdb_id 无效
+nan,A90G,pdb_id 无效
+nan,A91G,pdb_id 无效
+nan,L94A,pdb_id 无效
+nan,I98A,pdb_id 无效
+nan,Y101A,pdb_id 无效
+nan,Y105A,pdb_id 无效
+1OTR,Q41L,残基不一致 PDB=L vs WT=Q
+1OTR,Q41N,残基不一致 PDB=L vs WT=Q
+1OTR,Q41S,残基不一致 PDB=L vs WT=Q
+1OTR,Q41T,残基不一致 PDB=L vs WT=Q
+1OTR,Q41V,残基不一致 PDB=L vs WT=Q
+1OTR,V17A,残基不一致 PDB=M vs WT=V
+1OTR,V17N,残基不一致 PDB=M vs WT=V
+1OTR,V17T,残基不一致 PDB=M vs WT=V
+1SHF,E24D,残基号 24 未找到
+1SHF,E24Q,残基号 24 未找到
+1SHF,E24T,残基号 24 未找到
+1SHF,E24H,残基号 24 未找到
+1SHF,E24K,残基号 24 未找到
+1SHF,E24A,残基号 24 未找到
+1SHF,E24S,残基号 24 未找到
+1SHF,E24V,残基号 24 未找到
+1SHF,E24P,残基号 24 未找到
+1SHF,E24G,残基号 24 未找到
+1SHF,E24R,残基号 24 未找到
+1SHF,E24I,残基号 24 未找到
+1SHF,E24L,残基号 24 未找到
+1SHF,S41K,残基号 41 未找到
+1SHF,S41R,残基号 41 未找到
+1SHF,S41L,残基号 41 未找到
+1SHF,S41A,残基号 41 未找到
+1SHF,S41H,残基号 41 未找到
+1SHF,S41V,残基号 41 未找到
+1SHF,S41I,残基号 41 未找到
+1SHF,S41N,残基号 41 未找到
+1SHF,S41T,残基号 41 未找到
+1SHF,S41D,残基号 41 未找到
+1SHF,S41G,残基号 41 未找到
+1SHF,S41F,残基号 41 未找到
+1SHF,S41Y,残基号 41 未找到
+1SHF,T44A,残基号 44 未找到
+1SHF,G45A,残基号 45 未找到
+nan,S44E,pdb_id 无效
+nan,S44D,pdb_id 无效
+nan,N16V,pdb_id 无效
+nan,N16A,pdb_id 无效
+2CLR,H13F,残基不一致 PDB=S vs WT=H
+2CLR,H31F,残基不一致 PDB=T vs WT=H
+2CLR,H51F,残基不一致 PDB=W vs WT=H
+2CLR,H84A,残基不一致 PDB=Y vs WT=H
+1HME,S121H,残基号 121 未找到
+1STN,E92K,残基不一致 PDB=I vs WT=E
+1STN,E92Q,残基不一致 PDB=I vs WT=E
+1STN,D101K,残基不一致 PDB=E vs WT=D
+1STN,D101N,残基不一致 PDB=E vs WT=D
+1STN,D103K,残基不一致 PDB=L vs WT=D
+1STN,D103N,残基不一致 PDB=L vs WT=D
+1STN,K130E,残基不一致 PDB=A vs WT=K
+1STN,K130Q,残基不一致 PDB=A vs WT=K
+1STN,E139K,残基不一致 PDB=I vs WT=E
+1STN,E139Q,残基不一致 PDB=I vs WT=E
+1STN,K145E,残基号 145 未找到
+1STN,K145Q,残基号 145 未找到
+1STN,K146E,残基号 146 未找到
+1STN,K146Q,残基号 146 未找到
+1STN,E149Q,残基号 149 未找到
+1STN,K152E,残基号 152 未找到
+1STN,K152Q,残基号 152 未找到
+1STN,E155K,残基号 155 未找到
+1STN,E155Q,残基号 155 未找到
+1STN,E157K,残基号 157 未找到
+1STN,E157Q,残基号 157 未找到
+1STN,D159K,残基号 159 未找到
+1STN,D159N,残基号 159 未找到
+1STN,K160E,残基号 160 未找到
+1STN,K160Q,残基号 160 未找到
+1STN,K166E,残基号 166 未找到
+1STN,K166Q,残基号 166 未找到
+1STN,K179E,残基号 179 未找到
+1STN,K179Q,残基号 179 未找到
+1STN,E204K,残基号 204 未找到
+1STN,E204Q,残基号 204 未找到
+1STN,H206E,残基号 206 未找到
+1STN,H206Q,残基号 206 未找到
+1STN,K209E,残基号 209 未找到
+1STN,K209Q,残基号 209 未找到
+1STN,K215Q,残基号 215 未找到
+1STN,E217K,残基号 217 未找到
+1STN,E217Q,残基号 217 未找到
+1jok,D225K,残基号 225 未找到
+1jok,D225N,残基号 225 未找到
+1OTR,K11A,残基不一致 PDB=S vs WT=K
+nan,P26A,pdb_id 无效
+1RRO,P22A,残基不一致 PDB=D vs WT=P
+1RRO,P27A,残基不一致 PDB=Q vs WT=P
+1RTP,H27P,残基不一致 PDB=K vs WT=H
+1RTP,A22P,残基不一致 PDB=D vs WT=A
+1RTP,A22P,残基不一致 PDB=D vs WT=A
+1RTP,K81S,残基不一致 PDB=E vs WT=K
+1SHF,L18A,残基号 18 未找到
+1SHF,L18S,残基号 18 未找到
+1SHF,A6V,残基号 6 未找到
+1SHF,A6F,残基号 6 未找到
+1SHF,I50F,残基号 50 未找到
+1SHF,I50A,残基号 50 未找到
+1SHF,I28S,残基号 28 未找到
+1SHF,F20S,残基号 20 未找到
+1SHF,A6L,残基号 6 未找到
+1SHF,I28F,残基号 28 未找到
+1SHF,W37S,残基号 37 未找到
+1SHF,I28A,残基号 28 未找到
+1SHF,A39S,残基号 39 未找到
+1SHF,F20A,残基号 20 未找到
+1SHF,A39L,残基号 39 未找到
+1SHF,W37A,残基号 37 未找到
+1SHF,A39F,残基号 39 未找到
+1SHF,V55A,残基号 55 未找到
+1SHF,F26V,残基号 26 未找到
+1SHF,F4L,残基号 4 未找到
+1SHF,F26I,残基号 26 未找到
+1SHF,F4S,残基号 4 未找到
+1SHF,F20V,残基号 20 未找到
+1SHF,L18V,残基号 18 未找到
+1SHF,A6G,残基号 6 未找到
+1SHF,A39G,残基号 39 未找到
+1SHF,F4A,残基号 4 未找到
+1SHF,A6S,残基号 6 未找到
+1SHF,L18F,残基号 18 未找到
+1SHF,F20L,残基号 20 未找到
+1SHF,I28L,残基号 28 未找到
+1SHF,W37V,残基号 37 未找到
+1SHF,F26L,残基号 26 未找到
+1SHF,I50L,残基号 50 未找到
+1SHF,V55F,残基号 55 未找到
+1SHF,L18I,残基号 18 未找到
+1SHF,W37F,残基号 37 未找到
+1SHF,F4V,残基号 4 未找到
+1SHF,W37L,残基号 37 未找到
+1SHF,I28V,残基号 28 未找到
+1SHF,V55L,残基号 55 未找到
+1SHF,I50V,残基号 50 未找到
+1SHF,V55I,残基号 55 未找到
+1SHF,A39V,残基号 39 未找到
+nan,L33A,pdb_id 无效
+nan,L26A,pdb_id 无效
+nan,I30A,pdb_id 无效
+1GUA,L82I,残基不一致 PDB=Y vs WT=L
+1GUA,L82V,残基不一致 PDB=Y vs WT=L
+1GUA,L82A,残基不一致 PDB=Y vs WT=L
+1IMQ,T27TG,残基号 27T 未找到
+1ACB,V18A,残基不一致 PDB=N vs WT=V
+1ACB,L27A,残基不一致 PDB=W vs WT=L
+1ACB,V54A,残基不一致 PDB=T vs WT=V
+1ACB,V62A,残基不一致 PDB=T vs WT=V
+1AJ3,F1774L,残基号 1774 未找到
+1AJ3,F1774A,残基号 1774 未找到
+1AJ3,M1778A,残基号 1778 未找到
+1AJ3,I1785V,残基号 1785 未找到
+1AJ3,I1785A,残基号 1785 未找到
+1AJ3,K1788A,残基号 1788 未找到
+1AJ3,V1792A,残基号 1792 未找到
+1AJ3,V1804A,残基号 1804 未找到
+1AJ3,L1807A,残基号 1807 未找到
+1AJ3,H1811A,残基号 1811 未找到
+1AJ3,L1814A,残基号 1814 未找到
+1AJ3,L1818A,残基号 1818 未找到
+1AJ3,H1821A,残基号 1821 未找到
+1AJ3,I1825V,残基号 1825 未找到
+1AJ3,I1825A,残基号 1825 未找到
+1AJ3,V1828A,残基号 1828 未找到
+1AJ3,L1835A,残基号 1835 未找到
+1AJ3,I1846V,残基号 1846 未找到
+1AJ3,I1846A,残基号 1846 未找到
+1AJ3,L1850A,残基号 1850 未找到
+1AJ3,F1853L,残基号 1853 未找到
+1AJ3,F1853A,残基号 1853 未找到
+1AJ3,L1860A,残基号 1860 未找到
+1AJ3,A1864G,残基号 1864 未找到
+1AJ3,R1867A,残基号 1867 未找到
+1AJ3,Q1869L,残基号 1869 未找到
+1AJ3,H1772A,残基号 1772 未找到
+1AJ3,H1772G,残基号 1772 未找到
+1AJ3,R1776A,残基号 1776 未找到
+1AJ3,R1776G,残基号 1776 未找到
+1AJ3,D1779A,残基号 1779 未找到
+1AJ3,D1779G,残基号 1779 未找到
+1AJ3,S1783A,残基号 1783 未找到
+1AJ3,S1783G,残基号 1783 未找到
+1AJ3,E1787A,残基号 1787 未找到
+1AJ3,E1787G,残基号 1787 未找到
+1AJ3,T1802A,残基号 1802 未找到
+1AJ3,T1802G,残基号 1802 未找到
+1AJ3,N1806A,残基号 1806 未找到
+1AJ3,N1806G,残基号 1806 未找到
+1AJ3,K1809A,残基号 1809 未找到
+1AJ3,K1809G,残基号 1809 未找到
+1AJ3,R1813A,残基号 1813 未找到
+1AJ3,R1813G,残基号 1813 未找到
+1AJ3,A1816G,残基号 1816 未找到
+1AJ3,Q1826A,残基号 1826 未找到
+1AJ3,Q1826G,残基号 1826 未找到
+1AJ3,D1830A,残基号 1830 未找到
+1AJ3,D1830G,残基号 1830 未找到
+1AJ3,A1851G,残基号 1851 未找到
+1AJ3,D1855A,残基号 1855 未找到
+1AJ3,D1855G,残基号 1855 未找到
+1AJ3,K1858A,残基号 1858 未找到
+1AJ3,K1858G,残基号 1858 未找到
+1AJ3,Q1862A,残基号 1862 未找到
+nan,V23F,pdb_id 无效
+nan,I23L,pdb_id 无效
+nan,V25I,pdb_id 无效
+nan,V92L,pdb_id 无效
+nan,V99F,pdb_id 无效
+1yyx,M55A,残基不一致 PDB=S vs WT=M
+1yyx,A58G,残基不一致 PDB=M vs WT=A
+1yyx,L70A,残基不一致 PDB=G vs WT=L
+1yyx,M80A,残基不一致 PDB=N vs WT=M
+1yyx,F83A,残基不一致 PDB=K vs WT=F
+1yyx,F87A,残基不一致 PDB=A vs WT=F
+1yyx,L90A,残基不一致 PDB=A vs WT=L
+1yyx,I94A,残基不一致 PDB=L vs WT=I
+1yyx,L98A,残基不一致 PDB=I vs WT=L
+1yyx,V106A,残基不一致 PDB=G vs WT=V
+1yyx,A109G,残基号 109 未找到
+1yyx,A112G,残基号 112 未找到
+1yyx,L116A,残基号 116 未找到
+1AON,V95C,残基不一致 PDB=L vs WT=V
+1AON,I3C,残基不一致 PDB=A vs WT=I
+1AON,I3W,残基不一致 PDB=A vs WT=I
+1OTR,P37A,残基不一致 PDB=N vs WT=P
+1OTR,P38A,残基不一致 PDB=D vs WT=P
+1OTR,S19P,残基不一致 PDB=M vs WT=S
+2RN4,A33P,残基不一致 PDB=S vs WT=A
+2RN4,D35A,残基不一致 PDB=V vs WT=D
+2RN4,W40F,残基不一致 PDB=G vs WT=W
+3DV0,V129A,残基不一致 PDB=N vs WT=V
+3DV0,V129G,残基不一致 PDB=N vs WT=V
+3DV0,I130V,残基不一致 PDB=Q vs WT=I
+3DV0,I130A,残基不一致 PDB=Q vs WT=I
+3DV0,I130G,残基不一致 PDB=Q vs WT=I
+3DV0,A131G,残基不一致 PDB=I vs WT=A
+3DV0,Y138F,残基不一致 PDB=L vs WT=Y
+3DV0,A139G,残基不一致 PDB=P vs WT=A
+3DV0,E141Q,残基不一致 PDB=Q vs WT=E
+3DV0,E141A,残基不一致 PDB=Q vs WT=E
+3DV0,V144A,残基不一致 PDB=I vs WT=V
+3DV0,D145N,残基不一致 PDB=G vs WT=D
+3DV0,D145A,残基不一致 PDB=G vs WT=D
+3DV0,I146V,残基不一致 PDB=A vs WT=I
+3DV0,I146A,残基不一致 PDB=A vs WT=I
+3DV0,V149A,残基不一致 PDB=I vs WT=V
+3DV0,V149G,残基不一致 PDB=I vs WT=V
+3DV0,V158A,残基不一致 PDB=L vs WT=V
+3DV0,L159V,残基不一致 PDB=K vs WT=L
+3DV0,L159A,残基不一致 PDB=K vs WT=L
+3DV0,L159G,残基不一致 PDB=K vs WT=L
+3DV0,D162N,残基不一致 PDB=G vs WT=D
+3DV0,I163V,残基不一致 PDB=K vs WT=I
+3DV0,D164N,残基不一致 PDB=K vs WT=D
+3DV0,D164A,残基不一致 PDB=K vs WT=D
+3DV0,D164G,残基不一致 PDB=K vs WT=D
+3DV0,L167V,残基不一致 PDB=A vs WT=L
+3DV0,L167A,残基不一致 PDB=A vs WT=L
+3DV0,A168G,残基不一致 PDB=I vs WT=A
+nan,V55T,pdb_id 无效
+nan,V55M,pdb_id 无效
+nan,V55A,pdb_id 无效
+nan,V55G,pdb_id 无效
+nan,I28V,pdb_id 无效
+nan,I28L,pdb_id 无效
+nan,I28A,pdb_id 无效
+1av1,L254P,残基号 254 未找到
+1av1,Y42P,残基号 42 未找到
+1GUA,N56M,残基不一致 PDB=L vs WT=N
+1GUA,I58A,残基不一致 PDB=T vs WT=I
+1GUA,I58L,残基不一致 PDB=T vs WT=I
+1GUA,I58F,残基不一致 PDB=T vs WT=I
+1GUA,R59A,残基不一致 PDB=A vs WT=R
+1GUA,V60A,残基不一致 PDB=G vs WT=V
+1GUA,L62A,残基不一致 PDB=E vs WT=L
+1GUA,P63A,残基不一致 PDB=Q vs WT=P
+1GUA,N64A,残基不一致 PDB=F vs WT=N
+1GUA,Q66A,残基不一致 PDB=A vs WT=Q
+1GUA,T68A,残基不一致 PDB=R vs WT=T
+1GUA,V69A,残基不一致 PDB=D vs WT=V
+1GUA,V70A,残基不一致 PDB=L vs WT=V
+1GUA,V72A,残基不一致 PDB=M vs WT=V
+1GUA,V72I,残基不一致 PDB=M vs WT=V
+1GUA,M76A,残基不一致 PDB=Q vs WT=M
+1GUA,S77A,残基不一致 PDB=G vs WT=S
+1GUA,S77T,残基不一致 PDB=G vs WT=S
+1GUA,L78A,残基不一致 PDB=F vs WT=L
+1GUA,D80A,残基不一致 PDB=L vs WT=D
+1GUA,C81A,残基不一致 PDB=V vs WT=C
+1GUA,C81I,残基不一致 PDB=V vs WT=C
+1GUA,L82A,残基不一致 PDB=Y vs WT=L
+1GUA,A85G,残基不一致 PDB=T vs WT=A
+1GUA,L86A,残基不一致 PDB=A vs WT=L
+1GUA,R89L,残基不一致 PDB=T vs WT=R
+1GUA,L91A,残基不一致 PDB=N vs WT=L
+1GUA,P93A,残基不一致 PDB=L vs WT=P
+1GUA,C95A,残基不一致 PDB=D vs WT=C
+1GUA,C96A,残基不一致 PDB=L vs WT=C
+1GUA,C96L,残基不一致 PDB=L vs WT=C
+1GUA,C96M,残基不一致 PDB=L vs WT=C
+1GUA,A97G,残基不一致 PDB=R vs WT=A
+1GUA,V98A,残基不一致 PDB=E vs WT=V
+1GUA,R100A,残基不一致 PDB=I vs WT=R
+1GUA,E104A,残基不一致 PDB=K vs WT=E
+1GUA,K109A,残基不一致 PDB=V vs WT=K
+1GUA,L112A,残基不一致 PDB=I vs WT=L
+1GUA,D117A,残基不一致 PDB=K vs WT=D
+1GUA,A118G,残基不一致 PDB=C vs WT=A
+1GUA,A118L,残基不一致 PDB=C vs WT=A
+1GUA,L121A,残基不一致 PDB=E vs WT=L
+1GUA,E124A,残基不一致 PDB=R vs WT=E
+1GUA,E125A,残基不一致 PDB=V vs WT=E
+1GUA,L126A,残基不一致 PDB=V vs WT=L
+1GUA,V128A,残基不一致 PDB=K vs WT=V
+1GUA,D129A,残基不一致 PDB=E vs WT=D
+3bci,E114Q,残基不一致 PDB=H vs WT=E
+3bci,T171V,残基不一致 PDB=S vs WT=T
+nan,Y32W,pdb_id 无效
+nan,Y36W,pdb_id 无效
+nan,I697A,pdb_id 无效
+nan,F19D,pdb_id 无效
+nan,L53A,pdb_id 无效
+nan,L19A,pdb_id 无效
+nan,V16A,pdb_id 无效
+nan,L37A,pdb_id 无效
+nan,A78G,pdb_id 无效
+nan,V42A,pdb_id 无效
+nan,A77G,pdb_id 无效
+nan,K70G,pdb_id 无效
+nan,AVIG,pdb_id 无效
+nan,F41L,pdb_id 无效
+nan,A13G,pdb_id 无效
+nan,AIIG,pdb_id 无效
+nan,V69A,pdb_id 无效
+nan,I54V,pdb_id 无效
+nan,K24A,pdb_id 无效
+nan,K24G,pdb_id 无效
+nan,A52G,pdb_id 无效
+nan,T51S,pdb_id 无效
+nan,K70A,pdb_id 无效
+nan,E39G,pdb_id 无效
+nan,V33A,pdb_id 无效
+nan,D35G,pdb_id 无效
+nan,E39A,pdb_id 无效
+nan,D35A,pdb_id 无效
+1ACB,L27I,残基不一致 PDB=W vs WT=L
+1ACB,P58Y,残基不一致 PDB=C vs WT=P
+1ACB,V18A,残基不一致 PDB=N vs WT=V
+1ACB,V18I,残基不一致 PDB=N vs WT=V
+1ACB,V34L,残基不一致 PDB=Q vs WT=V
+1ACB,V54A,残基不一致 PDB=T vs WT=V
+1NFI,A127V,残基不一致 PDB=E vs WT=A
+1NFI,C186P,残基不一致 PDB=N vs WT=C
+1NFI,G194A,残基不一致 PDB=L vs WT=G
+1NFI,L117V,残基不一致 PDB=G vs WT=L
+1NFI,L131V,残基不一致 PDB=S vs WT=L
+1NFI,L163V,残基不一致 PDB=V vs WT=L
+1NFI,N122G,残基不一致 PDB=K vs WT=N
+1NFI,Q111G,残基不一致 PDB=H vs WT=Q
+1NFI,Q111G,残基不一致 PDB=H vs WT=Q
+1NFI,T113S,残基不一致 PDB=F vs WT=T
+1NFI,T146S,残基不一致 PDB=E vs WT=T
+1NFI,T185S,残基不一致 PDB=D vs WT=T
+1NFI,V160A,残基不一致 PDB=C vs WT=V
+1NFI,V203L,残基不一致 PDB=S vs WT=V
+1NFI,V203L,残基不一致 PDB=S vs WT=V
+1NFI,V93L,残基不一致 PDB=K vs WT=V
+1NFI,W258F,残基不一致 PDB=A vs WT=W
+2wzb,E252A,残基不一致 PDB=I vs WT=E
+2wzb,T378P,残基不一致 PDB=C vs WT=T
+5jxb,D332G,残基不一致 PDB=G vs WT=D
+5jxb,D332P,残基不一致 PDB=G vs WT=D
+1JQZ,C31A,残基不一致 PDB=V vs WT=C
+1JQZ,C31S,残基不一致 PDB=V vs WT=C
+1JQZ,C31T,残基不一致 PDB=V vs WT=C
+1JQZ,C31V,残基不一致 PDB=V vs WT=C
+1JQZ,C98A,残基不一致 PDB=I vs WT=C
+1JQZ,C98S,残基不一致 PDB=I vs WT=C
+1JQZ,C98T,残基不一致 PDB=I vs WT=C
+1JQZ,C98V,残基不一致 PDB=I vs WT=C
+1JQZ,C132A,残基不一致 PDB=F vs WT=C
+1JQZ,C132S,残基不一致 PDB=F vs WT=C
+1JQZ,C132T,残基不一致 PDB=F vs WT=C
+1JQZ,C132V,残基不一致 PDB=F vs WT=C
+1EW6,H56V,残基不一致 PDB=T vs WT=H
+nan,P406L,pdb_id 无效
+nan,R422Q,pdb_id 无效
+nan,R402Q,pdb_id 无效
+nan,R422W,pdb_id 无效
+1BTL,G234S,残基不一致 PDB=K vs WT=G
+1BTL,M180T,残基不一致 PDB=T vs WT=M
+1BTL,E102K,残基不一致 PDB=L vs WT=E
+1BTL,A40S,残基不一致 PDB=L vs WT=A
+4WAA,K49A,残基不一致 PDB=V vs WT=K
+4WAA,R11A,残基不一致 PDB=E vs WT=R
+4WAA,K51A,残基不一致 PDB=I vs WT=K
+1HRC,T50V,残基不一致 PDB=D vs WT=T
+1HRC,T50V,残基不一致 PDB=D vs WT=T
+1HRC,M81A,残基不一致 PDB=I vs WT=M
+1HRC,M81A,残基不一致 PDB=I vs WT=M
+4NC0,T103R,残基不一致 PDB=Y vs WT=T
+4NC0,T56R,残基不一致 PDB=Y vs WT=T
+4NC0,Q101K,残基不一致 PDB=I vs WT=Q
+4NC0,T103K,残基不一致 PDB=Y vs WT=T
+4NC0,T58K,残基不一致 PDB=I vs WT=T
+4NC0,T56I,残基不一致 PDB=Y vs WT=T
+4NC0,T103M,残基不一致 PDB=Y vs WT=T
+4NC0,N109R,残基不一致 PDB=Y vs WT=N
+4NC0,T103W,残基不一致 PDB=Y vs WT=T
+4NC0,D107R,残基不一致 PDB=F vs WT=D
+4NC0,D107N,残基不一致 PDB=F vs WT=D
+4NC0,E110Q,残基不一致 PDB=L vs WT=E
+4NC0,D107Y,残基不一致 PDB=F vs WT=D
+4NC0,R104W,残基不一致 PDB=Q vs WT=R
+4NC0,Q106L,残基不一致 PDB=R vs WT=Q
+4NC0,Q106W,残基不一致 PDB=R vs WT=Q
+4NC0,Q106Y,残基不一致 PDB=R vs WT=Q
+4NC0,Q106F,残基不一致 PDB=R vs WT=Q
+1SB0,S304A,残基号 304 未找到
+1SB0,N307V,残基号 307 未找到
+1SB0,N307A,残基号 307 未找到
+1SB0,G311A,残基号 311 未找到
+1SB0,N307G,残基号 307 未找到
+1SB0,E292D,残基号 292 未找到
+1SB0,L300A,残基号 300 未找到
+1SB0,S304G,残基号 304 未找到
+1SB0,K293H,残基号 293 未找到
+1SB0,L300V,残基号 300 未找到
+1SB0,K296H,残基号 296 未找到
+1SB0,N307P,残基号 307 未找到
+1SB0,S304V,残基号 304 未找到
+1SB0,L300G,残基号 300 未找到
+1SB0,S304P,残基号 304 未找到
+1SB0,L300P,残基号 300 未找到
+4BVM,F58A,残基不一致 PDB=K vs WT=F
+4BVM,P39G,残基不一致 PDB=T vs WT=P
+4BVM,I43N,残基不一致 PDB=S vs WT=I
+4BVM,T51P,残基不一致 PDB=I vs WT=T
+4BVM,I52T,残基不一致 PDB=R vs WT=I
+1R2Z,R54E,残基不一致 PDB=G vs WT=R
+1R2Y,S208A,残基不一致 PDB=V vs WT=S
+1R2Y,E131R,残基不一致 PDB=L vs WT=E
+1R2Y,Y170F,残基不一致 PDB=A vs WT=Y
+1R2Y,Q234R,残基不一致 PDB=T vs WT=Q
+nan,G142E,pdb_id 无效
+nan,G176E,pdb_id 无效
+3MON,W3C,残基不一致 PDB=E vs WT=W
+3MON,R39G,残基不一致 PDB=N vs WT=R
+nan,F101D,pdb_id 无效
+nan,C215S,pdb_id 无效
+4RE1,Y421H,残基号 421 未找到
+2KIU,H520A,残基号 520 未找到
+2KIU,H520A,残基号 520 未找到
+2KIU,H520A,残基号 520 未找到
+4BWQ,R153S,残基号 153 未找到
+4BWQ,K192S,残基号 192 未找到
+1PGA,T242S,残基号 242 未找到
+1PGA,E245D,残基号 245 未找到
+1PGA,V247T,残基号 247 未找到
+1PGA,D248A,残基号 248 未找到
+1PGA,T251S,残基号 251 未找到
+1PGA,E253D,残基号 253 未找到
+1PGA,K254I,残基号 254 未找到
+1PGA,V255T,残基号 255 未找到
+1PGA,F256E,残基号 256 未找到
+1PGA,K257I,残基号 257 未找到
+1PGA,Q258P,残基号 258 未找到
+1PGA,Y259V,残基号 259 未找到
+1PGA,N261M,残基号 261 未找到
+1PGA,D262A,残基号 262 未找到
+1PGA,N263M,残基号 263 未找到
+1PGA,G264F,残基号 264 未找到
+1PGA,V265I,残基号 265 未找到
+1PGA,V265T,残基号 265 未找到
+1PGA,D266A,残基号 266 未找到
+1PGA,G267F,残基号 267 未找到
+1PGA,E268D,残基号 268 未找到
+1PGA,T270S,残基号 270 未找到
+1PGA,Y271A,残基号 271 未找到
+1PGA,Y271V,残基号 271 未找到
+1PGA,D272A,残基号 272 未找到
+1PGA,T275S,残基号 275 未找到
+1PGA,K276I,残基号 276 未找到
+1PGA,T277S,残基号 277 未找到
+1PGA,F278E,残基号 278 未找到
+1PGA,T279S,残基号 279 未找到
+1PGA,V280T,残基号 280 未找到
+1PGA,T281S,残基号 281 未找到
+1PGA,E282Y,残基号 282 未找到
+1PGA,T281Y,残基号 281 未找到
+1PGA,V280Y,残基号 280 未找到
+1PGA,T279Y,残基号 279 未找到
+1PGA,F278Y,残基号 278 未找到
+1PGA,T277Y,残基号 277 未找到
+1PGA,K276Y,残基号 276 未找到
+1PGA,T275Y,残基号 275 未找到
+1PGA,A274Y,残基号 274 未找到
+1PGA,D273Y,残基号 273 未找到
+1PGA,T270Y,残基号 270 未找到
+1PGA,E268Y,残基号 268 未找到
+1PGA,G267Y,残基号 267 未找到
+1PGA,D266Y,残基号 266 未找到
+1PGA,V265Y,残基号 265 未找到
+1PGA,G264Y,残基号 264 未找到
+1PGA,N263Y,残基号 263 未找到
+1PGA,D262Y,残基号 262 未找到
+1PGA,N261Y,残基号 261 未找到
+1PGA,A260Y,残基号 260 未找到
+1PGA,Q258Y,残基号 258 未找到
+1PGA,K257Y,残基号 257 未找到
+1PGA,F256Y,残基号 256 未找到
+1PGA,V255Y,残基号 255 未找到
+1PGA,K254Y,残基号 254 未找到
+1PGA,E253T,残基号 253 未找到
+1PGA,E253V,残基号 253 未找到
+1PGA,E253Y,残基号 253 未找到
+1PGA,A252T,残基号 252 未找到
+1PGA,A252V,残基号 252 未找到
+1PGA,A252Y,残基号 252 未找到
+1PGA,T251V,残基号 251 未找到
+1PGA,T251Y,残基号 251 未找到
+1PGA,A250T,残基号 250 未找到
+1PGA,A250V,残基号 250 未找到
+1PGA,D248T,残基号 248 未找到
+1PGA,D248V,残基号 248 未找到
+1PGA,D248Y,残基号 248 未找到
+1PGA,V247Y,残基号 247 未找到
+1PGA,A246T,残基号 246 未找到
+1PGA,A246V,残基号 246 未找到
+1PGA,A246Y,残基号 246 未找到
+1PGA,E245T,残基号 245 未找到
+1PGA,E245V,残基号 245 未找到
+1PGA,E245Y,残基号 245 未找到
+1PGA,T244V,残基号 244 未找到
+1PGA,T244Y,残基号 244 未找到
+1PGA,T243Y,残基号 243 未找到
+1PGA,E241T,残基号 241 未找到
+1PGA,E241V,残基号 241 未找到
+1PGA,E241Y,残基号 241 未找到
+1PGA,G240T,残基号 240 未找到
+1PGA,G240V,残基号 240 未找到
+1PGA,G240Y,残基号 240 未找到
+1PGA,K239T,残基号 239 未找到
+1PGA,K239V,残基号 239 未找到
+1PGA,K239Y,残基号 239 未找到
+1PGA,L238S,残基号 238 未找到
+1PGA,L238T,残基号 238 未找到
+1PGA,L238V,残基号 238 未找到
+1PGA,L238Y,残基号 238 未找到
+1PGA,T237V,残基号 237 未找到
+1PGA,T237Y,残基号 237 未找到
+1PGA,K236S,残基号 236 未找到
+1PGA,K236T,残基号 236 未找到
+1PGA,K236V,残基号 236 未找到
+1PGA,K236Y,残基号 236 未找到
+1PGA,G235S,残基号 235 未找到
+1PGA,G235T,残基号 235 未找到
+1PGA,G235V,残基号 235 未找到
+1PGA,G235Y,残基号 235 未找到
+1PGA,N234S,残基号 234 未找到
+1PGA,N234T,残基号 234 未找到
+1PGA,N234V,残基号 234 未找到
+1PGA,N234Y,残基号 234 未找到
+1PGA,L233S,残基号 233 未找到
+1PGA,L233T,残基号 233 未找到
+1PGA,L233V,残基号 233 未找到
+1PGA,L233Y,残基号 233 未找到
+1PGA,I232S,残基号 232 未找到
+1PGA,I232T,残基号 232 未找到
+1PGA,I232V,残基号 232 未找到
+1PGA,I232Y,残基号 232 未找到
+1PGA,L231S,残基号 231 未找到
+1PGA,L231T,残基号 231 未找到
+1PGA,L231V,残基号 231 未找到
+1PGA,L231Y,残基号 231 未找到
+1PGA,K230S,残基号 230 未找到
+1PGA,K230T,残基号 230 未找到
+1PGA,K230V,残基号 230 未找到
+1PGA,K230Y,残基号 230 未找到
+1PGA,T228V,残基号 228 未找到
+1PGA,T228Y,残基号 228 未找到
+nan,Y191W,pdb_id 无效
+nan,Y191W,pdb_id 无效
+nan,Y191F,pdb_id 无效
+nan,Y191F,pdb_id 无效
+nan,Y191A,pdb_id 无效
+nan,Y191A,pdb_id 无效
+12CA,G144R,残基不一致 PDB=L vs WT=G
+1HRC,L95I,残基不一致 PDB=I vs WT=L
+1HRC,L95V,残基不一致 PDB=I vs WT=L
+1AJ3,Q1862G,残基号 1862 未找到
+1AJ3,Q1869A,残基号 1869 未找到
+1AJ3,Q1869G,残基号 1869 未找到

@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code or the processed data, please cite the manuscript below."
+title: "Mutation-sensitive residue contact graphs: a controlled benchmark of graph representations for ΔΔG prediction"
+type: software
+authors:
+  - family-names: "Huang"
+    given-names: "Yilin"
+    email: "Yilin.Huang24@student.xjtlu.edu.cn"
+    affiliation: "Xi'an Jiaotong-Liverpool University"
+# Uncomment and fill in when the manuscript is published:
+# preferred-citation:
+#   type: article
+#   title: "Mutation-sensitive residue contact graphs: a controlled benchmark of graph representations for ΔΔG prediction"
+#   authors:
+#     - family-names: "Huang"
+#       given-names: "Yilin"
+#   journal: "BMC Bioinformatics"
+#   year: 2026
+#   doi: "10.xxxx/xxxxx"
+repository-code: "https://github.com/【USER】/【REPO】"
+url: "https://github.com/【USER】/【REPO】"
+license: MIT
+keywords:
+  - protein stability
+  - ddG prediction
+  - contact graph
+  - graph neural network
+  - E(3)-equivariant network
+  - FoldX
+  - benchmark

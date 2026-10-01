@@ -1,0 +1,3 @@
+benchmark,model,delta_r,ci_low,ci_high,p,excludes_zero,max_excludable_effect,analysis
+s669,increment(ESM+Graph vs ESM-only),-0.0131757158950964,-0.0360012720881756,0.0094603089679672,0.274,False,0.0360012720881756,structure increment over sequence baseline
+ssym,increment(ESM+Graph vs ESM-only),0.0245886816240097,-0.0068720680577706,0.0701778364755278,0.138,False,0.0701778364755278,structure increment over sequence baseline

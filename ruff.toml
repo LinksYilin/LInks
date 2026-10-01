@@ -1,0 +1,67 @@
+# =====================================================================
+# Ruff 配置 — ΔΔG 接触图基准项目
+# =====================================================================
+# 说明：本文件只声明**经过判断的豁免**，不整体更换规则集。
+#       被 ignore 的规则均附理由，供审稿人核对。
+# =====================================================================
+
+line-length = 110
+target-version = "py311"
+
+exclude = [
+    ".venv",
+    "data",
+    "tools",          # 外部程序（FoldX / SCWRL4 / BLAST）
+    "figures",
+    "__pycache__",
+]
+
+[lint]
+ignore = [
+    # 解包中未使用的变量。科学代码里
+    #   residues, seq = extract_residues(...)
+    # 这种对称解包比 `residues, _ = ...` 更易读；右侧函数两个返回值都是有意义
+    # 的中间量（残基对象列表 + 序列字符串）。全项目 13 处均属此类，不构成 bug。
+    "RUF059",
+]
+
+[lint.per-file-ignores]
+# ---- 诊断/审计脚本 ----
+# 这些脚本需要逐个尝试解析任意第三方 PDB / parquet 文件；单条记录失败不应
+# 中断整体诊断，因此有意宽泛捕获异常并记录后跳过。
+"diag_*.py" = ["BLE001", "S110", "SIM115", "RUF015"]
+"diagnose_*.py" = ["BLE001", "S110"]
+"quantify_index_bug.py" = ["BLE001"]
+"data_flow_audit.py" = ["BLE001"]
+"case_study_analysis.py" = ["BLE001"]
+"complexity_report.py" = ["BLE001", "FURB192"]
+"check_submission.py" = ["SIM115", "BLE001"]
+"bootstrap_ci.py" = ["PERF102"]
+"edge_edit_signal*.py" = ["BLE001"]
+"mechanism_analysis.py" = ["BLE001", "B023"]
+"make_code_inventory.py" = ["SIM115", "S110", "BLE001"]
+"final_audit.py" = ["BLE001", "SIM115"]
+"seq2struct_map.py" = ["BLE001"]
+"download_pdbs.py" = ["BLE001"]
+
+# ---- 科学流程脚本中的有意豁免 ----
+# 门禁脚本自身必须容错：任一子检查失败要记录并继续，不能中断整体门禁。
+"submission_gate.py" = ["BLE001"]
+
+# 种子工具：为兼容不同 torch 版本而宽泛捕获
+# （缺少 TF32 开关对 CPU 训练的可复现性无影响）。
+"seed_utils.py" = ["BLE001", "S110"]
+
+# 解析原始 PDB 时容忍个别坏记录后跳过。
+"build_contact_graph.py" = ["BLE001"]
+"build_mutant_structure.py" = ["BLE001"]
+
+# 出版图脚本需在无 GUI 环境下容错，并跨语句持有图形句柄。
+"make_publication_figures.py" = ["BLE001", "SIM115"]
+
+# 科学流程中跨语句持有文件句柄（长流程，中途 return 会关闭句柄）。
+"foldx_energy_signal.py" = ["SIM115"]
+"test_ged.py" = ["SIM115"]
+
+# SCWRL4 机制验证脚本：返回值由调用方判断；单元素切片换取可读性。
+"test_scwrl4.py" = ["PLW1510", "RUF015"]

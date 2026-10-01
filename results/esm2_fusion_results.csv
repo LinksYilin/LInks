@@ -1,0 +1,9 @@
+benchmark,atom_def,model,n,r,ci_low,ci_high,p
+s669,centroid,ESM-only,508,0.3922435479428784,,,
+ssym,centroid,ESM-only,342,0.5158279333420732,,,
+s669,centroid,Graph-only,508,0.3681233594071779,,,
+ssym,centroid,Graph-only,342,0.46004667418608275,,,
+s669,centroid,ESM+Graph,508,0.379067832047782,,,
+ssym,centroid,ESM+Graph,342,0.540416614966083,,,
+s669,centroid,increment(ESM+Graph vs ESM-only),508,-0.013175715895096418,-0.0360012720881756,0.009460308967967283,0.274
+ssym,centroid,increment(ESM+Graph vs ESM-only),342,0.024588681624009734,-0.00687206805777067,0.07017783647552787,0.138

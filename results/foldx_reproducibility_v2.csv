@@ -1,0 +1,4 @@
+pdb_id,mut_info,n_runs,wt_edges,broken_mean,formed_mean,broken_intersection,broken_union,formed_intersection,formed_union,broken_agreement,formed_agreement
+1R2Y,R244E,3,664,25.0,6.333333333333333,24,26,4,10,0.9230769230769231,0.4
+3O39,L32P,3,296,25.333333333333332,5.333333333333333,25,26,4,7,0.9615384615384616,0.5714285714285714
+1XZO,W36A,3,434,8.0,7.0,8,8,7,7,1.0,1.0
