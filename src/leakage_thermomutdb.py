@@ -23,7 +23,7 @@ from filter_leakage import parse_blast
 
 from pathlib import Path as _P
 DATA = str(_P(__file__).resolve().parent.parent / 'data')
-BLAST_BIN = r'D:\GED_mutation\tools\blast\ncbi-blast-2.17.0+\bin'
+BLAST_BIN = os.environ.get('BLAST_BIN', str(__import__('pathlib').Path(__file__).resolve().parent.parent / 'tools' / 'blast' / 'ncbi-blast-2.17.0+' / 'bin'))
 
 
 def write_fasta(records, path):

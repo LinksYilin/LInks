@@ -4,15 +4,15 @@ import os
 from PIL import Image
 
 print('=== 图表状态 ===')
-for f in sorted(os.listdir(r'D:\GED_mutation\figures')):
+for f in sorted(os.listdir(str(__import__('pathlib').Path(__file__).resolve().parent.parent / 'figures'))):
     if f.endswith('.png'):
-        img = Image.open(os.path.join(r'D:\GED_mutation\figures', f))
+        img = Image.open(os.path.join(str(__import__('pathlib').Path(__file__).resolve().parent.parent / 'figures'), f))
         dpi = img.info.get('dpi', (72, 72))
         print(f'  {f}: {img.size[0]}x{img.size[1]}, DPI={dpi[0]:.0f}')
 
 print()
 print('=== 论文关键要素 ===')
-txt = open(r'D:\GED_mutation\manuscript_draft_v0.md', encoding='utf-8').read()
+txt = open(str(__import__('pathlib').Path(__file__).resolve().parent.parent / 'manuscript_draft_v0.md'), encoding='utf-8').read()
 checks = {
     '标题（诚实版）': 'Side-Chain-Centroid Contact Graphs Reveal' in txt,
     'Abstract': '## Abstract' in txt,
@@ -34,5 +34,5 @@ print('=== 交付物清单 ===')
 for f in ['manuscript_draft_v0.docx', 'cover_letter.md', '投稿材料清单.md',
           'requirements.lock', 'data_hashes.md', '审计报告.md', '修改报告.md',
           '统一交集统计结果.md', '数据流审计表.md']:
-    p = os.path.join(r'D:\GED_mutation', f)
+    p = os.path.join(str(__import__('pathlib').Path(__file__).resolve().parent.parent), f)
     print(f'  {"OK " if os.path.exists(p) else "MISS "}{f}')

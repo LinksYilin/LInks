@@ -10,7 +10,7 @@ import numpy as np
 from Bio.PDB import PDBParser
 
 parser = PDBParser(QUIET=True)
-ROOT = r'D:\GED_mutation\tools\scwrl4\runs'
+ROOT = str(__import__('pathlib').Path(__file__).resolve().parent.parent / 'tools' / 'scwrl4' / 'runs')
 
 
 def load(path, chain='A'):

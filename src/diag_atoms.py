@@ -3,8 +3,8 @@ import numpy as np
 from Bio.PDB import PDBParser
 from scipy.spatial import cKDTree
 
-WT = r'D:\GED_mutation\data\structures\pdb1bfm.ent'
-MT = r'D:\GED_mutation\data\mutant_structures_s669\1BFM\M35W\work\out\pdb1bfm_1.pdb'
+WT = str(__import__('pathlib').Path(__file__).resolve().parent.parent / 'data' / 'structures' / 'pdb1bfm.ent')
+MT = str(__import__('pathlib').Path(__file__).resolve().parent.parent / 'data' / 'mutant_structures_s669' / '1BFM' / 'M35W' / 'work' / 'out' / 'pdb1bfm_1.pdb')
 BACKBONE = {'N', 'CA', 'C', 'O', 'OXT'}
 
 parser = PDBParser(QUIET=True)

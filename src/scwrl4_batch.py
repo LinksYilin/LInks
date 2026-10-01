@@ -37,9 +37,9 @@ TOOLS_PATH = str(TOOLS)
 
 
 
-SCWRL = r'D:\GED_mutation\tools\scwrl4\Scwrl4.exe'
+SCWRL = str(__import__('pathlib').Path(__file__).resolve().parent.parent / 'tools' / 'scwrl4' / 'Scwrl4.exe')
 
-WORKROOT = r'D:\GED_mutation\tools\scwrl4\runs'
+WORKROOT = str(__import__('pathlib').Path(__file__).resolve().parent.parent / 'tools' / 'scwrl4' / 'runs')
 TH, MAXC = 8.0, 10.0
 BACKBONE = {'N', 'CA', 'C', 'O', 'OXT'}
 parser = PDBParser(QUIET=True)

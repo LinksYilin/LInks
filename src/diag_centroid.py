@@ -3,8 +3,8 @@ import numpy as np
 from Bio.PDB import PDBParser
 from scipy.spatial import cKDTree
 
-PDB = r'D:\GED_mutation\data\structures\pdb1bfm.ent'
-d = np.load(r'D:\GED_mutation\data\contact_graphs_s669_sc\1BFM.npz', allow_pickle=True)
+PDB = str(__import__('pathlib').Path(__file__).resolve().parent.parent / 'data' / 'structures' / 'pdb1bfm.ent')
+d = np.load(str(__import__('pathlib').Path(__file__).resolve().parent.parent / 'data' / 'contact_graphs_s669_sc' / '1BFM.npz'), allow_pickle=True)
 OLD = {(min(int(a), int(b)), max(int(a), int(b))) for a, b in d['edge_index'].T}
 print(f'既有 WT 边数: {len(OLD)}')
 

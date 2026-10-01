@@ -30,8 +30,8 @@ TOOLS_PATH = str(TOOLS)
 
 
 
-FOLDX = r'D:\GED_mutation\tools\foldx\foldx_1_20270131.exe'
-WORK = r'D:\GED_mutation\tools\foldx\repro_v2'
+FOLDX = os.environ.get('FOLDX_BIN', str(__import__('pathlib').Path(__file__).resolve().parent.parent / 'tools' / 'foldx' / 'foldx_1_20270131.exe'))
+WORK = str(__import__('pathlib').Path(__file__).resolve().parent.parent / 'tools' / 'foldx' / 'repro_v2')
 TH, MAXC = 8.0, 10.0
 
 # (pdb_id, mut_info, foldx_mut, chain, offset, length)

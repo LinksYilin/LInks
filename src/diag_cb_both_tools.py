@@ -43,7 +43,7 @@ align = pd.read_csv(os.path.join(DATA, 'alignment_map_s669.csv'))
 amap = {r['pdb_id']: r for _, r in align.iterrows()}
 
 res_foldx, res_scwrl = [], []
-scwrl_root = r'D:\GED_mutation\tools\scwrl4\runs'
+scwrl_root = str(__import__('pathlib').Path(__file__).resolve().parent.parent / 'tools' / 'scwrl4' / 'runs')
 
 for _, row in df.head(40).iterrows():
     pid, mut = row['pdb_id'], row['mut_info']

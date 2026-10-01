@@ -10,9 +10,9 @@ import subprocess
 from Bio.PDB import PDBParser
 from Bio.PDB.Polypeptide import is_aa, protein_letters_3to1
 
-SCWRL = r'D:\GED_mutation\tools\scwrl4\Scwrl4.exe'
-WORK = r'D:\GED_mutation\tools\scwrl4\test_mut'
-WT = r'D:\GED_mutation\data\structures\pdb1bfm.ent'
+SCWRL = str(__import__('pathlib').Path(__file__).resolve().parent.parent / 'tools' / 'scwrl4' / 'Scwrl4.exe')
+WORK = str(__import__('pathlib').Path(__file__).resolve().parent.parent / 'tools' / 'scwrl4' / 'test_mut')
+WT = str(__import__('pathlib').Path(__file__).resolve().parent.parent / 'data' / 'structures' / 'pdb1bfm.ent')
 CHAIN = 'A'
 MUT_POS_0 = 34          # 0-based，对应序列第 35 位（M）
 MUT_FROM, MUT_TO = 'M', 'W'

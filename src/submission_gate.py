@@ -230,8 +230,13 @@ def check_tests(run=True):
 
 def check_renders():
     """渲染 docx 首页，确认可打开且无缺字体。"""
-    cli = r'D:\新建文件夹\resources\app.asar.unpacked\dsh\node_modules\@deepseek-ai\libreoffice-kit\lib\cli.js'
-    node = r'D:\新建文件夹\resources\runtime\primary-runtime\dependencies\node\bin\node.exe'
+    cli = os.environ.get(
+        'DSH_LO_CLI',
+        r'D:\新建文件夹\resources\app.asar.unpacked\dsh\node_modules'
+        r'\@deepseek-ai\libreoffice-kit\lib\cli.js')
+    node = os.environ.get(
+        'DSH_NODE',
+        r'D:\新建文件夹\resources\runtime\primary-runtime\dependencies\node\bin\node.exe')
     if not (os.path.exists(cli) and os.path.exists(node)):
         record('render', 'docx 渲染', False, '渲染工具不可用')
         return
