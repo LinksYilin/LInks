@@ -14,7 +14,7 @@ We submit the enclosed manuscript for consideration as a Research Article in *BM
 
 **What we found.**
 
-1. **The description is highly definition-dependent.** With wild-type and modelled mutant structures processed identically, Cα graphs recorded no contact change in any of 505 quality-controlled pairs, whereas Cβ, side-chain-centroid and all-atom graphs changed in 9.9%, 90.7% and 81.6% of pairs. Broken contacts were strongly localised (mean 4.03 Å from the mutated residue, versus 15.70 Å for contacts that persisted). This pattern replicated on the development-independent ssym benchmark and across two side-chain modelling engines (FoldX and SCWRL4).
+1. **The description is highly definition-dependent.** With wild-type and modelled mutant structures processed identically, Cα graphs recorded no contact change in any of 505 quality-controlled pairs, whereas Cβ, side-chain-centroid and all-atom graphs changed in 9.9%, 90.7% and 81.6% of pairs. Broken contacts were strongly localised (mean 7.9 Å from the mutated residue versus 15.9 Å for contacts that persisted, excluding contacts incident on the mutated residue itself). This pattern replicated on the development-independent ssym benchmark and across two side-chain modelling engines (FoldX and SCWRL4).
 
 2. **The prediction is not.** We repeated the four-definition comparison at five encoder capacities spanning 5.8 k to 509 k parameters. Twelve of the thirteen paired definition comparisons were non-significant, and the mean absolute effect did not grow with capacity — the pattern that would be absent if limited encoder strength were the reason no effect was detected.
 
