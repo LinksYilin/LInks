@@ -30,7 +30,7 @@ Yilin Huang — Yilin.Huang24@student.xjtlu.edu.cn
 
 ## Abstract
 
-*See the manuscript. Structured abstract, 345 words (journal limit 350).*
+*See the manuscript. Structured abstract, 347 words (journal limit 350).*
 
 **Keywords**
 protein stability; mutation effect prediction; side-chain-centroid contact graphs; graph neural networks; FoldX; protein-cluster bootstrap
