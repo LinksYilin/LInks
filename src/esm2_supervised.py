@@ -29,7 +29,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 from paths import DATA
 from seed_utils import set_seed
 
-os.environ.setdefault('HF_HOME', r'D:\GED_mutation\.hf_cache')
+os.environ.setdefault('HF_HOME', str(__import__('pathlib').Path(__file__).resolve().parent.parent / '.hf_cache'))
 CACHE = os.path.join(str(DATA), 'esm_emb_cache')
 os.makedirs(CACHE, exist_ok=True)
 

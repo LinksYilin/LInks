@@ -21,8 +21,6 @@ TOOLS_PATH = str(TOOLS)
 
 
 
-DATA = r'D:\GED_mutation\data'
-
 
 def parse_dif(path):
     """解析 FoldX Dif 文件，返回 total energy 和各能量项。"""

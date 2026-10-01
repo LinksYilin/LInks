@@ -3,7 +3,7 @@
 import os
 
 for f in ['mechanism_analysis_corrected.py', 'locality_corrected.py']:
-    p = os.path.join(r'D:\GED_mutation\src', f)
+    p = os.path.join(os.path.dirname(os.path.abspath(__file__)), f)
     t = open(p, encoding='utf-8').read()
     print(f'== {f} ==')
     for i, l in enumerate(t.split('\n'), 1):

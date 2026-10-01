@@ -1,1 +1,2 @@
-
+stage,excluded_n,reason
+ssym_exclusion,0,"No ssym mutation was excluded at any pipeline stage. All 342 ssym mutations had a contact graph, a verified residue index, an ESM-2 embedding and a matched FoldX mutant structure. The S669 exclusion cascade (543 -> 512 -> 511 -> 508 -> 505) is recorded in data/data_flow_skip_log.csv and described in Supplementary S2."

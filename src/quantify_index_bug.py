@@ -7,9 +7,8 @@ import pandas as pd
 sys.path.insert(0, os.path.dirname(__file__))
 from contact_graph_defs import extract_residues
 
-DATA = r'D:\GED_mutation\data'
-
-
+from pathlib import Path as _P
+DATA = str(_P(__file__).resolve().parent.parent / 'data')
 def check(name, label_csv, align_csv):
     ss = pd.read_csv(os.path.join(DATA, label_csv))
     align = pd.read_csv(os.path.join(DATA, align_csv))

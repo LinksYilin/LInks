@@ -8,7 +8,8 @@ import pandas as pd
 sys.path.insert(0, os.path.dirname(__file__))
 from contact_graph_defs import extract_residues, pairwise_within, repr_coords
 
-DATA = r'D:\GED_mutation\data'
+from pathlib import Path as _P
+DATA = str(_P(__file__).resolve().parent.parent / 'data')
 TH, MAXC = 8.0, 10.0
 AA_VOL = {'A':88.6,'R':173.4,'N':114.1,'D':111.1,'C':108.5,'Q':143.8,'E':138.4,'G':60.1,'H':153.2,
           'I':166.7,'L':166.7,'K':168.6,'M':162.9,'F':189.9,'P':112.7,'S':89.0,'T':116.1,'W':227.8,'Y':193.6,'V':140.0}

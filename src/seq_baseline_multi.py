@@ -25,7 +25,7 @@ import torch
 sys.path.insert(0, os.path.dirname(__file__))
 from paths import DATA
 
-os.environ.setdefault('HF_HOME', r'D:\GED_mutation\.hf_cache')
+os.environ.setdefault('HF_HOME', str(__import__('pathlib').Path(__file__).resolve().parent.parent / '.hf_cache'))
 AA20 = 'ACDEFGHIKLMNPQRSTVWY'
 MODELS = {
     'esm2_150m': 'facebook/esm2_t30_150M_UR50D',

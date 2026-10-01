@@ -22,8 +22,9 @@ import zipfile
 
 import pandas as pd
 
-DATA = r'D:\GED_mutation\data'
-ROOT = r'D:\GED_mutation'
+from pathlib import Path as _P
+DATA = str(_P(__file__).resolve().parent.parent / 'data')
+ROOT = str(__import__('pathlib').Path(__file__).resolve().parent.parent)
 PUB = os.path.join(ROOT, 'figures', 'publication')
 
 # 稿件路径：优先最新润色稿，其次早期修正稿；也可用 --docx 指定

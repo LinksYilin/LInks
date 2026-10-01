@@ -11,7 +11,8 @@ import pandas as pd
 from Bio.PDB import PDBParser
 from scipy.spatial import cKDTree
 
-DATA = r'D:\GED_mutation\data'
+from pathlib import Path as _P
+DATA = str(_P(__file__).resolve().parent.parent / 'data')
 BACKBONE = {'N', 'CA', 'C', 'O', 'OXT'}
 parser = PDBParser(QUIET=True)
 

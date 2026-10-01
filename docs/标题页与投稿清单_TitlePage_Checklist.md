@@ -48,8 +48,8 @@ Not applicable.
 **Availability of data and materials**
 All datasets are publicly available: PDB structures (RCSB Protein Data Bank), MegaScale, ThermoMutDB, and the S669 and ssym benchmarks. Code, model configurations and the scripts that regenerate every table and figure are released under the MIT licence and archived at Zenodo.
 
-- Repository: *to be supplied at submission*
-- Archive DOI: *to be supplied at submission*
+- Repository: https://github.com/LinksYilin/LInks
+- Archive DOI: DOI to be assigned at acceptance
 
 The repository also contains exploratory graph-edit-distance code that is not differentiable and contributes to no result reported here.
 

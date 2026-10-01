@@ -11,7 +11,7 @@ import sys
 
 import numpy as np
 
-sys.path.insert(0, r"D:\GED_mutation\src")
+sys.path.insert(0, str(__import__('pathlib').Path(__file__).resolve().parent))
 from edit_cost import AA_INDEX, contact_type, node_substitution_cost
 from ged_module import (
     compute_edit_attribution,

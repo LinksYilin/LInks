@@ -24,7 +24,7 @@ FIG_PATH = str(FIGURES)
 PUB_PATH = str(PUB_FIGURES)
 TOOLS_PATH = str(TOOLS)
 
-DATA = r'D:\GED_mutation\data'
+
 AA_ORDER = ['A', 'R', 'N', 'D', 'C', 'Q', 'E', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V']
 
 

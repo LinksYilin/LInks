@@ -38,7 +38,7 @@ TOOLS_PATH = str(TOOLS)
 
 
 SCWRL = r'D:\GED_mutation\tools\scwrl4\Scwrl4.exe'
-DATA = r'D:\GED_mutation\data'
+
 WORKROOT = r'D:\GED_mutation\tools\scwrl4\runs'
 TH, MAXC = 8.0, 10.0
 BACKBONE = {'N', 'CA', 'C', 'O', 'OXT'}

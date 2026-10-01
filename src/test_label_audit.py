@@ -5,7 +5,7 @@ test_label_audit.py — 验证 label_audit 的纯逻辑函数
 """
 import sys
 
-sys.path.insert(0, r"D:\GED_mutation\src")
+sys.path.insert(0, str(__import__('pathlib').Path(__file__).resolve().parent))
 from label_audit import (
     classify_conflict,
     normalize_sign,

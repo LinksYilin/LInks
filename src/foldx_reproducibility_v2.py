@@ -29,7 +29,7 @@ TOOLS_PATH = str(TOOLS)
 
 
 
-DATA = r'D:\GED_mutation\data'
+
 FOLDX = r'D:\GED_mutation\tools\foldx\foldx_1_20270131.exe'
 WORK = r'D:\GED_mutation\tools\foldx\repro_v2'
 TH, MAXC = 8.0, 10.0

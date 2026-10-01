@@ -10,9 +10,8 @@ import pandas as pd
 from Bio.PDB import PDBParser
 
 parser = PDBParser(QUIET=True)
-DATA = r'D:\GED_mutation\data'
-
-
+from pathlib import Path as _P
+DATA = str(_P(__file__).resolve().parent.parent / 'data')
 def load_ids(path, chain='A'):
     st = parser.get_structure('p', path)
     chs = [c for c in st[0].get_chains() if c.id == chain]

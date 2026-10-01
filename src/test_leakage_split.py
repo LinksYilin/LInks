@@ -9,7 +9,7 @@ import os
 import sys
 import tempfile
 
-sys.path.insert(0, r"D:\GED_mutation\src")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 
 def test_parse_blast_7cols():

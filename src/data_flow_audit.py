@@ -16,8 +16,6 @@ FIG_PATH = str(FIGURES)
 PUB_PATH = str(PUB_FIGURES)
 TOOLS_PATH = str(TOOLS)
 
-DATA = r'D:\GED_mutation\data'
-
 
 def main():
     # 1. 原始 S669

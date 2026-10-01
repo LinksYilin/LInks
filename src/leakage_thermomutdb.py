@@ -21,7 +21,8 @@ import pandas as pd
 sys.path.insert(0, os.path.dirname(__file__))
 from filter_leakage import parse_blast
 
-DATA = r'D:\GED_mutation\data'
+from pathlib import Path as _P
+DATA = str(_P(__file__).resolve().parent.parent / 'data')
 BLAST_BIN = r'D:\GED_mutation\tools\blast\ncbi-blast-2.17.0+\bin'
 
 

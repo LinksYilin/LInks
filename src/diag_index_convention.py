@@ -12,7 +12,8 @@ import pandas as pd
 sys.path.insert(0, os.path.dirname(__file__))
 from contact_graph_defs import extract_residues
 
-DATA = r'D:\GED_mutation\data'
+from pathlib import Path as _P
+DATA = str(_P(__file__).resolve().parent.parent / 'data')
 ss = pd.read_csv(os.path.join(DATA, 'benchmarks_s669_clean.csv'))
 align = pd.read_csv(os.path.join(DATA, 'alignment_map_s669.csv'))
 amap = {r['pdb_id']: r for _, r in align.iterrows()}

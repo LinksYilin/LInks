@@ -173,11 +173,11 @@ def evaluate(model, loader):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--training_csv', default=r'D:\GED_mutation\data\training_merged.csv')
-    ap.add_argument('--ms_graph_dir', default=r'D:\GED_mutation\data\contact_graphs_megascale')
-    ap.add_argument('--tm_graph_dir', default=r'D:\GED_mutation\data\contact_graphs_thermomutdb')
-    ap.add_argument('--s669_graph_dir', default=r'D:\GED_mutation\data\contact_graphs_s669')
-    ap.add_argument('--s669_label', default=r'D:\GED_mutation\data\benchmarks_s669_clean.csv')
+    ap.add_argument('--training_csv', default=str(__import__('pathlib').Path(__file__).resolve().parent.parent / 'data' / 'training_merged.csv'))
+    ap.add_argument('--ms_graph_dir', default=str(__import__('pathlib').Path(__file__).resolve().parent.parent / 'data' / 'contact_graphs_megascale'))
+    ap.add_argument('--tm_graph_dir', default=str(__import__('pathlib').Path(__file__).resolve().parent.parent / 'data' / 'contact_graphs_thermomutdb'))
+    ap.add_argument('--s669_graph_dir', default=str(__import__('pathlib').Path(__file__).resolve().parent.parent / 'data' / 'contact_graphs_s669'))
+    ap.add_argument('--s669_label', default=str(__import__('pathlib').Path(__file__).resolve().parent.parent / 'data' / 'benchmarks_s669_clean.csv'))
     ap.add_argument('--epochs', type=int, default=5)
     ap.add_argument('--hid', type=int, default=64)
     ap.add_argument('--max_samples', type=int, default=0, help='0=不限制')

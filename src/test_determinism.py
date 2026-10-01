@@ -17,7 +17,8 @@ sys.path.insert(0, os.path.dirname(__file__))
 from gnn_local_baseline import GNNLocal
 from seed_utils import describe, make_generator, set_seed, worker_init_fn
 
-DATA = r'D:\GED_mutation\data'
+from pathlib import Path as _P
+DATA = str(_P(__file__).resolve().parent.parent / 'data')
 SEED = 42
 EPOCHS = 3
 

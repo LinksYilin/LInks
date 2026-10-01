@@ -27,7 +27,6 @@ TOOLS_PATH = str(TOOLS)
 
 
 
-DATA = r'D:\GED_mutation\data'
 
 for label_csv, align_csv, tag in [
     ('benchmarks_s669_clean.csv', 'alignment_map_s669.csv', 'S669'),

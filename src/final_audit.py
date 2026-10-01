@@ -7,7 +7,7 @@ import os
 
 import pandas as pd
 
-ROOT = r'D:\GED_mutation'
+ROOT = str(__import__('pathlib').Path(__file__).resolve().parent.parent)
 DATA = os.path.join(ROOT, 'data')
 
 print('=' * 70)

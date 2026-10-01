@@ -9,7 +9,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
 
-OUT = r'D:\GED_mutation\figures\publication'
+OUT = str(__import__('pathlib').Path(__file__).resolve().parent.parent / 'figures' / 'publication')
 os.makedirs(OUT, exist_ok=True)
 plt.rcParams.update({'font.size': 6.2, 'font.family': 'DejaVu Sans'})
 

@@ -11,7 +11,7 @@ import sys
 
 import numpy as np
 
-sys.path.insert(0, r"D:\GED_mutation\src")
+sys.path.insert(0, str(__import__('pathlib').Path(__file__).resolve().parent))
 from bootstrap_ci import (
     bootstrap_paired,
     group_by_protein,

@@ -16,7 +16,8 @@ from scipy.spatial import cKDTree
 sys.path.insert(0, os.path.dirname(__file__))
 from contact_graph_defs import extract_residues, repr_coords
 
-DATA = r'D:\GED_mutation\data'
+from pathlib import Path as _P
+DATA = str(_P(__file__).resolve().parent.parent / 'data')
 STRUCT = os.path.join(DATA, 'raw', 'megascale_structures', 'AlphaFold_model_PDBs.parquet')
 TMP = os.path.join(DATA, 'raw', '_tmp_audit.pdb')
 BACKBONE = {'N', 'CA', 'C', 'O', 'OXT'}

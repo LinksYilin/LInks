@@ -21,10 +21,9 @@ from gnn_edge_baseline import GNNEdge
 from gnn_local_baseline import GNNLocal
 from train_gnn_baseline import GNNRegressor
 
-DATA = r'D:\GED_mutation\data'
-OUT = r'D:\GED_mutation\数据与代码说明.md'
-
-
+from pathlib import Path as _P
+DATA = str(_P(__file__).resolve().parent.parent / 'data')
+OUT = str(__import__('pathlib').Path(__file__).resolve().parent.parent / '数据与代码说明.md')
 def count_params(m):
     return sum(p.numel() for p in m.parameters())
 
