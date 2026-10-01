@@ -108,7 +108,7 @@ The authors declare no competing interests.
 - [ ] `forensic_audit.py` — 0 confirmed internal errors
 - [ ] `audit_docx_images.py` — 0 stale or duplicated images
 - [ ] `audit_docx_health.py` — 0 structural defects
-- [ ] Render check — 16 pages, no missing fonts
+- [ ] Render check — 17 pages, no missing fonts (verified with LibreOffice)
 - [ ] Reference integrity — 17 references, all cited, none orphaned
 
 ## Statements to keep accurate at proof stage
