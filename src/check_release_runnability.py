@@ -58,7 +58,7 @@ def main():
     print('=== 论文关键流程脚本的存在性 ===')
     key = ['run_ladder.py', 'ladder_common.py', 'strong_backbones.py',
            'analyze_ladder_3seed.py', 'locality_no_self.py', 'esm2_fusion_fast.py',
-           'seed_utils.py', 'paths.py', 'contact_graph_defs.py', 'build_release.py']
+           'seed_utils.py', 'paths.py', 'contact_graph_defs.py']
     for k in key:
         print(f'  {"✅" if os.path.exists(os.path.join(SRC, k)) else "❌"} {k}')
 
