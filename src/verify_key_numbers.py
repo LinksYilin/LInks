@@ -180,6 +180,57 @@ def main():
     if ro is not None:
         results.append(check('FoldX 可复现性行数 3', '3', len(ro)))
 
+    # ---- 独立验证者发现的修正项（防回归）----
+    ed = rd('edits_corrected.csv')
+    if ed is not None:
+        s = ed[(ed.threshold == 8.0) & (ed.atom_def == 'cb')]
+        gs = s.gly_switch.astype(bool)
+        gly = s[gs]
+        ngly = s[~gs]
+        results.append(check('甘氨酸 Cβ 有编辑率 72.4%', '72.4',
+                             f'{100 * (gly.n_edit > 0).mean():.1f}', tol=0.06))
+        results.append(check('非甘氨酸 Cβ 有编辑率 1.8%', '1.8',
+                             f'{100 * (ngly.n_edit > 0).mean():.1f}', tol=0.06))
+
+    lo = rd('locality_corrected.csv')
+    if lo is not None:
+        for pid, mut, exp in [('1R2Y', 'R244E', '19.41'), ('3O39', 'L32P', '17.76'),
+                              ('1XZO', 'W36A', '6.78')]:
+            r = lo[(lo.pdb_id == pid) & (lo.mut_info.astype(str) == mut)]
+            if len(r):
+                results.append(check(f'案例 {pid} {mut} 距离', exp,
+                                     f'{r.mean_d_broken.iloc[0]:.2f}', tol=0.02))
+
+    sm2 = lad
+    if sm2 is not None:
+        dgc = sm2[(sm2.model == 'deep_gine') & (sm2.atom_def == 'cb')]
+        if len(dgc):
+            results.append(check('deep_gine Cβ 三种子均值 0.331', '0.331',
+                                 f'{dgc.seed_mean_r.iloc[0]:.3f}', tol=0.002))
+
+    ef2 = rd('ladder_paired_effects_audited.csv')
+    if ef2 is not None:
+        common = ef2[ef2.comparison.isin(['ca vs centroid', 'cb vs centroid'])]
+        for m, exp in [('gnn_global', '0.048'), ('gnn_local', '0.048'),
+                       ('gnn_edge', '0.021'), ('deep_gine', '0.043')]:
+            g2 = common[common.model == m]
+            if len(g2):
+                results.append(check(f'{m} 共有对平均|Δr|', exp,
+                                     f'{g2.delta_r.abs().mean():.3f}', tol=0.002))
+        eg2 = ef2[ef2.model == 'egnn']
+        if len(eg2):
+            results.append(check('EGNN 平均|Δr| 0.059', '0.059',
+                                 f'{eg2.delta_r.abs().mean():.3f}', tol=0.002))
+
+    tr2 = rd('training_merged_noleak_sc.csv')
+    if tr2 is not None:
+        ms2 = tr2[tr2.source == 'megascale']
+        tm2 = tr2[tr2.source == 'thermomutdb']
+        n2 = min(len(ms2), len(tm2))
+        v2 = pd.concat([ms2.sample(n=n2, random_state=42), tm2])
+        results.append(check('训练集 ThermoMutDB 蛋白数 191', '191',
+                             str(v2[v2.source == 'thermomutdb'].protein.nunique())))
+
     print()
     print('=' * 74)
     n_ok = sum(results)

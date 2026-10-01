@@ -20,7 +20,7 @@ During this study we identified and corrected two defects in our own processing 
 
 | Quantity | Before the hydrogen rebuild | After the rebuild |
 |---|---|---|
-| Edge-aware GINE, range across definitions (S669) | 0.289–0.354 (three seeds) | 0.340–0.373 (three seeds) |
+| Edge-aware GINE, range across definitions (S669) | 0.289–0.354 (three seeds, H-included training graphs) | 0.340–0.373 (means of three per-seed correlations) |
 | Mutation-site GCN, side-chain-centroid definition (S669) | 0.365–0.382 (three seeds) | 0.378 (three-seed ensemble) |
 | EGNN, side-chain-centroid definition (S669) | 0.393 / −0.081 (two seeds) | 0.393 / −0.081 / 0.079 (three seeds, same architecture) |
 | Physicochemical ridge baseline (S669) | 0.392 | 0.390 |
@@ -38,7 +38,7 @@ The values quoted before the rebuild are those in the superseded table, in which
 
 ## S2. Sample provenance
 
-The evaluation sets are nested subsets of the 543-mutation S669 benchmark.
+The S669 evaluation sets were built by successive filters from the 543-mutation benchmark. The filters are not strictly nested: the 505-pair contact-change set was constructed from the 538 modelled mutant structures independently of the 511- and 508-mutation predictive sets, so it contains four pairs that the predictive sets lack and omits seven that they contain.
 
 | Stage | n | Excluded | Reason |
 |---|---|---|---|
@@ -46,11 +46,11 @@ The evaluation sets are nested subsets of the 543-mutation S669 benchmark.
 | Residue-index verification passed | 512 | 31 | inconsistent structure (single protein, 3DV0) |
 | Contact graph available | 511 | 1 | graph could not be built (1G3P) |
 | ESM-2 embedding cached | 508 | 3 | sequence not representable (1O6X ×2, 2HBB ×1) |
-| Matching FoldX mutant structure | 505 | 3 | modelled mutant residue count differed |
+| FoldX output with matching residue count | 505 | 33 removed, 2 re-admitted | incomplete or mismatched FoldX output, measured against the 538 modelled pairs |
 
-Consequently: **505** mutations for contact-change statistics, **511** for predictive comparisons without sequence features, **508** for sequence and fusion comparisons. The ssym benchmark contributed **342** mutations with no losses at any stage.
+Consequently: **505** mutations for contact-change statistics, **511** for predictive comparisons without sequence features, **508** for sequence and fusion comparisons. The 505-pair set was built from the 538 modelled pairs (538 − 33 + 2 = 507 candidate pairs, of which 505 carry a complete graph). The ssym benchmark contributed **342** mutations with no losses at any stage.
 
-Training data came from MegaScale plus ThermoMutDB after BLAST leakage filtering, sampled 1:1 to 7,905 examples drawn from **420 proteins** (232 MegaScale, 188 ThermoMutDB). The leakage criterion was applied as implemented: sequence identity above 25% together with an E-value below 0.01 and query coverage above 0.5.
+Training data came from MegaScale plus ThermoMutDB after BLAST leakage filtering, sampled 1:1 to 7,905 examples drawn from **420 distinct proteins** (232 sampled from MegaScale and 191 from ThermoMutDB, with three proteins present in both sources). The leakage criterion was applied as implemented: sequence identity above 25% together with an E-value below 0.01 and query coverage above 0.5.
 
 ---
 
@@ -109,7 +109,7 @@ Thirteen paired definition comparisons (each non-reference definition against th
 
 ## S6. Threshold sensitivity
 
-Predictions under the side-chain-centroid definition as a function of the contact cutoff (GCN with mutation-site pooling, seeds 42 and 123, predictions averaged over the two seeds before correlating). The "mean edges" column is the mean number of contacts per mutation in the evaluated test graphs, not a graph size.
+Predictions under the side-chain-centroid definition as a function of the contact cutoff (GCN with mutation-site pooling, seeds 42 and 123, predictions averaged over the two seeds before correlating; the ladder in S5 uses three seeds for the same encoder). The "mean edges" column is the mean number of contacts per mutation in the evaluated test graphs, not a graph size.
 
 | Cutoff | S669 r | ssym r | S669 mean edges per mutation |
 |---|---|---|---|
@@ -132,7 +132,7 @@ The E(3)-equivariant encoder was unstable across seeds under every definition te
 | Original | 0.393 | −0.081 | 0.079 | 0.131 | 0.241 |
 | Coordinate update rescaled from zero at initialisation | −0.182 | 0.346 | 0.076 | 0.080 | 0.264 |
 
-The same pattern appears on the other definitions: Cα gives 0.343, −0.053 and −0.016, and Cβ gives −0.072, 0.358 and −0.014. Rescaling the coordinate update did not stabilise the encoder. We therefore report the highest capacity rung using the 460 k-parameter attention-pooled GINE network, which was stable across seeds, and report the equivariant results as an optimisation instability rather than as a representation effect.
+The same pattern appears on the other definitions: Cα gives 0.343, −0.053 and −0.016, and Cβ gives −0.072, 0.358 and −0.014. All three seeds share the same 508,934-parameter architecture. Rescaling the coordinate update did not stabilise the encoder. We therefore report the highest capacity rung using the 460 k-parameter attention-pooled GINE network, which was stable across seeds, and report the equivariant results as an optimisation instability rather than as a representation effect.
 
 ---
 
@@ -155,4 +155,4 @@ A matched-scope SCWRL4 comparison covered 507 of 543 S669 pairs. Cα conclusions
 | Audit records for S1 | `data/hydrogen_bias_audit.csv`, `data/data_flow_skip_log.csv` |
 | Figure source data | `figures/publication/*_source_data.csv` |
 
-Seed handling is stated per analysis. The capacity ladder used seeds 42, 123 and 2024 for the four stable encoders and the same three seeds for an architecture-matched equivariant encoder; the sequence-baseline and fusion models used seeds 42, 123 and 2024. Every reported correlation is computed on predictions averaged over the stated seeds, and every paired interval is computed on that seed-averaged prediction. `set_seed` fixes Python, NumPy, PyTorch and CUDA state and enables deterministic algorithms. Segmented softmax pooling uses a deterministic clamp/exp/`index_add_` formulation rather than `index_reduce_('amax')`.
+Seed handling is stated per analysis. The capacity ladder used seeds 42, 123 and 2024 for the four stable encoders and the same three seeds for an architecture-matched equivariant encoder; the sequence-baseline and fusion models used seeds 42, 123 and 2024. Two aggregations are used and are distinguished throughout. The correlation reported for each encoder and graph definition is the unweighted mean of the per-seed correlations (`seed_mean_r`). The paired definition effects reported in S5 are computed from the joint seed and protein bootstrap, in which the seed-averaged prediction enters the resampling. Averaging per-seed correlations and correlating seed-averaged predictions give different values; for the four stable encoders the difference is at most 0.033, and for the equivariant network it reaches 0.216 because its per-seed correlations are bimodal. `set_seed` fixes Python, NumPy, PyTorch and CUDA state and enables deterministic algorithms. Segmented softmax pooling uses a deterministic clamp/exp/`index_add_` formulation rather than `index_reduce_('amax')`.

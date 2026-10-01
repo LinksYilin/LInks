@@ -1,46 +1,46 @@
-pdb_id,mutation,reason,in_final_gnn_analysis
-1IV7,A173C,无FoldX突变体,True
-1IV7,F189C,无FoldX突变体,True
-1IV7,L162C,无FoldX突变体,True
-3DV0,A131G,无接触图; 无真实编辑,False
-3DV0,A139G,无接触图; 无真实编辑,False
-3DV0,A165G,无接触图; 无真实编辑,False
-3DV0,A168G,无接触图; 无真实编辑,False
-3DV0,D145A,无接触图; 无真实编辑,False
-3DV0,D145N,无接触图; 无真实编辑,False
-3DV0,D162N,无接触图; 无真实编辑,False
-3DV0,D164A,无接触图; 无真实编辑,False
-3DV0,D164G,无接触图; 无真实编辑,False
-3DV0,D164N,无接触图; 无真实编辑,False
-3DV0,E141A,无接触图; 无真实编辑,False
-3DV0,E141Q,无接触图; 无真实编辑,False
-3DV0,I130A,无接触图; 无真实编辑,False
-3DV0,I130G,无接触图; 无真实编辑,False
-3DV0,I130V,无接触图; 无真实编辑,False
-3DV0,I146A,无接触图; 无真实编辑,False
-3DV0,I146V,无接触图; 无真实编辑,False
-3DV0,I163V,无接触图; 无真实编辑,False
-3DV0,L159A,无接触图; 无真实编辑,False
-3DV0,L159G,无接触图; 无真实编辑,False
-3DV0,L159V,无接触图; 无真实编辑,False
-3DV0,L167A,无接触图; 无真实编辑,False
-3DV0,L167V,无接触图; 无真实编辑,False
-3DV0,V129A,无接触图,False
-3DV0,V129G,无接触图,False
-3DV0,V135A,无接触图; 无真实编辑,False
-3DV0,V144A,无接触图; 无真实编辑,False
-3DV0,V149A,无接触图; 无真实编辑,False
-3DV0,V149G,无接触图; 无真实编辑,False
-3DV0,V158A,无接触图; 无真实编辑,False
-3DV0,Y138F,无接触图; 无真实编辑,False
-1G3P,N138G,无接触图; 无真实编辑,False
-1BA3,H461D,idx越界,False
-1BA3,H489D,idx越界,False
-1BA3,H489K,idx越界,False
-1BA3,H489M,idx越界,False
-1F8I,F345A,idx越界,False
-1R2Y,R244E,idx越界,False
-3D2A,M134E,idx越界,False
-3D2A,M137P,idx越界,False
-3D2A,S163P,idx越界,False
-5OAQ,Y429H,idx越界,False
+pdb_id,mutation,reason_recorded_historically,in_543,in_511_predictive,in_505_contact_change,in_final_gnn_analysis
+1BA3,H461D,idx越界,True,True,True,True
+1BA3,H489D,idx越界,True,True,True,True
+1BA3,H489K,idx越界,True,True,True,True
+1BA3,H489M,idx越界,True,True,True,True
+1F8I,F345A,idx越界,True,True,True,True
+1G3P,N138G,无接触图; 无真实编辑,True,False,True,True
+1IV7,A173C,无FoldX突变体,True,True,False,True
+1IV7,F189C,无FoldX突变体,True,True,False,True
+1IV7,L162C,无FoldX突变体,True,True,False,True
+1R2Y,R244E,idx越界,True,True,True,True
+3D2A,M134E,idx越界,True,True,True,True
+3D2A,M137P,idx越界,True,True,True,True
+3D2A,S163P,idx越界,True,True,True,True
+5OAQ,Y429H,idx越界,True,True,True,True
+3DV0,A131G,无接触图; 无真实编辑,True,False,False,False
+3DV0,A139G,无接触图; 无真实编辑,True,False,False,False
+3DV0,A165G,无接触图; 无真实编辑,True,False,False,False
+3DV0,A168G,无接触图; 无真实编辑,True,False,False,False
+3DV0,D145A,无接触图; 无真实编辑,True,False,False,False
+3DV0,D145N,无接触图; 无真实编辑,True,False,False,False
+3DV0,D162N,无接触图; 无真实编辑,True,False,False,False
+3DV0,D164A,无接触图; 无真实编辑,True,False,False,False
+3DV0,D164G,无接触图; 无真实编辑,True,False,False,False
+3DV0,D164N,无接触图; 无真实编辑,True,False,False,False
+3DV0,E141A,无接触图; 无真实编辑,True,False,False,False
+3DV0,E141Q,无接触图; 无真实编辑,True,False,False,False
+3DV0,I130A,无接触图; 无真实编辑,True,False,False,False
+3DV0,I130G,无接触图; 无真实编辑,True,False,False,False
+3DV0,I130V,无接触图; 无真实编辑,True,False,False,False
+3DV0,I146A,无接触图; 无真实编辑,True,False,False,False
+3DV0,I146V,无接触图; 无真实编辑,True,False,False,False
+3DV0,I163V,无接触图; 无真实编辑,True,False,False,False
+3DV0,L159A,无接触图; 无真实编辑,True,False,False,False
+3DV0,L159G,无接触图; 无真实编辑,True,False,False,False
+3DV0,L159V,无接触图; 无真实编辑,True,False,False,False
+3DV0,L167A,无接触图; 无真实编辑,True,False,False,False
+3DV0,L167V,无接触图; 无真实编辑,True,False,False,False
+3DV0,V129A,无接触图,True,False,False,False
+3DV0,V129G,无接触图,True,False,False,False
+3DV0,V135A,无接触图; 无真实编辑,True,False,False,False
+3DV0,V144A,无接触图; 无真实编辑,True,False,False,False
+3DV0,V149A,无接触图; 无真实编辑,True,False,False,False
+3DV0,V149G,无接触图; 无真实编辑,True,False,False,False
+3DV0,V158A,无接触图; 无真实编辑,True,False,False,False
+3DV0,Y138F,无接触图; 无真实编辑,True,False,False,False
