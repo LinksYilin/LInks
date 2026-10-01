@@ -30,7 +30,7 @@ Yilin Huang — Yilin.Huang24@student.xjtlu.edu.cn
 
 ## Abstract
 
-*See the manuscript. Structured abstract, 347 words (journal limit 350).*
+*See the manuscript. Structured abstract, 343 words (journal limit 350).*
 
 **Keywords**
 protein stability; mutation effect prediction; side-chain-centroid contact graphs; graph neural networks; FoldX; protein-cluster bootstrap
@@ -46,10 +46,10 @@ Not applicable. This study used only publicly available protein structures and e
 Not applicable.
 
 **Availability of data and materials**
-All datasets are publicly available: PDB structures (RCSB Protein Data Bank), MegaScale, ThermoMutDB, and the S669 and ssym benchmarks. Code, model configurations and the scripts that regenerate every table and figure are released under the MIT licence and archived at Zenodo.
+All datasets are publicly available: PDB structures (RCSB Protein Data Bank), MegaScale, ThermoMutDB, and the S669 and ssym benchmarks. Code, model configurations and the scripts that regenerate every table and figure are released under the MIT licence and archived at Zenodo under DOI 10.5281/zenodo.23086956.
 
 - Repository: https://github.com/LinksYilin/LInks
-- Archive DOI: DOI to be assigned at acceptance
+- Archive DOI: 10.5281/zenodo.23086956 (concept DOI; version 10.5281/zenodo.23086957 -> https://zenodo.org/records/23086957)
 
 The repository also contains exploratory graph-edit-distance code that is not differentiable and contributes to no result reported here.
 
@@ -86,7 +86,7 @@ The authors declare no competing interests.
 
 - [ ] Author list, affiliations, ORCIDs and corresponding-author details inserted on this page and in the manuscript
 - [ ] GitHub repository created and made public (MIT licence), exact URL captured
-- [ ] Zenodo DOI minted from the release tag, both DOI and URL inserted in the Abstract Availability statement, Declarations, and Supplementary S9
+- [x] Zenodo DOI minted from release v1.0.1: concept DOI 10.5281/zenodo.23086956, version DOI 10.5281/zenodo.23086957; inserted in the Abstract Availability statement, the Data & Code Availability declaration and Supplementary S9
 - [ ] Funding statement finalised
 - [ ] Authors' contributions written (CRediT)
 - [ ] Acknowledgements finalised or removed

@@ -16,7 +16,7 @@ authors:
 #       given-names: "Yilin"
 #   journal: "BMC Bioinformatics"
 #   year: 2026
-#   doi: "10.xxxx/xxxxx"
+#   doi: "10.5281/zenodo.23086956"
 repository-code: "https://github.com/LinksYilin/LInks"
 url: "https://github.com/LinksYilin/LInks"
 license: MIT

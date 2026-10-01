@@ -439,7 +439,7 @@ def figure2(
         color = COLORS[label.lower()]
         ax.barh(ypos + (0.5 - j) * 0.34, agreement[col], height=0.32, color=color, label=label)
         for yp, v in zip(ypos + (0.5 - j) * 0.34, agreement[col]):
-            ax.text(v + 1.5, yp, f"{v:.0f}%", va="center", fontsize=6.2, color=color)
+            ax.text(v + 1.5, yp, f"{v:.1f}%", va="center", fontsize=6.2, color=color)
     ax.set_yticks(ypos, agreement["case"], fontsize=6.5)
     ax.set_xlim(0, 118)
     ax.set_xlabel("Three-run agreement (%)")

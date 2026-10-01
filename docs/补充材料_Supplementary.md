@@ -148,7 +148,7 @@ A matched-scope SCWRL4 comparison covered 507 of 543 S669 pairs. Cα conclusions
 
 | Resource | Location |
 |---|---|
-| Code, model configurations, analysis scripts | https://github.com/LinksYilin/LInks (MIT licence), archived at Zenodo (DOI and URL to be inserted at submission) |
+| Code, model configurations, analysis scripts | https://github.com/LinksYilin/LInks (MIT licence), archived at Zenodo (DOI 10.5281/zenodo.23086956) |
 | Per-sample predictions for every comparison | `data/*_predictions.csv` |
 | Ladder per-seed results and audited aggregates | `data/ladder_results.csv` (seeds 42, 123), `data/ladder_egnn_legacy_s2024_results.csv` (the architecture-matched 508,934-parameter EGNN seed 2024 run used in the audited aggregates), `data/ladder_seed_summary_audited.csv`. `data/ladder_s2024_results.csv` holds the rescaled 508,938-parameter variant and is excluded before aggregation. |
 | Paired effects with multiplicity correction | `data/ladder_paired_effects_audited.csv`, `data/ladder_paired_effects_audited_holm.csv` |

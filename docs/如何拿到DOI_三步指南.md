@@ -1,3 +1,13 @@
+# ✅ DOI 已完成
+
+> **已完成。** 概念 DOI：10.5281/zenodo.23086956（始终指向最新版）
+> 版本 DOI（v1.0.1）：10.5281/zenodo.23086957
+> 归档页：https://zenodo.org/records/23086957
+> 仓库：https://github.com/LinksYilin/LInks
+> 原始操作步骤保留在下方，仅供追溯。
+
+---
+
 # 如何拿到 DOI —— 只剩你点 3 下
 
 > **我已经完成的**：
