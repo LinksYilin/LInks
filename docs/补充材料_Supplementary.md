@@ -21,7 +21,7 @@ During this study we identified and corrected two defects in our own processing 
 | Quantity | Before the hydrogen rebuild | After the rebuild |
 |---|---|---|
 | Edge-aware GINE, range across definitions (S669) | 0.289–0.354 (three seeds, H-included training graphs) | 0.340–0.373 (means of three per-seed correlations) |
-| Mutation-site GCN, side-chain-centroid definition (S669) | 0.365–0.382 (three seeds) | 0.378 (three-seed ensemble) |
+| Mutation-site GCN, side-chain-centroid definition (S669) | 0.365–0.382 (three seeds) | 0.378 (mean of three per-seed correlations) |
 | EGNN, side-chain-centroid definition (S669) | 0.393 / −0.081 (two seeds) | 0.393 / −0.081 / 0.079 (three seeds, same architecture) |
 | Physicochemical ridge baseline (S669) | 0.392 | 0.390 |
 | Physicochemical ridge baseline (ssym) | 0.316 | 0.305 |
@@ -119,7 +119,7 @@ Predictions under the side-chain-centroid definition as a function of the contac
 | 9 Å | 0.353 | 0.359 | 465 |
 | 10 Å | 0.353 | 0.348 | 615 |
 
-The 8 Å row reproduces the mutation-site GCN value used in the main ladder (0.378 three-seed ensemble versus 0.382 two-seed). Shifts across cutoffs are small relative to the bootstrap uncertainty but are larger than the structure-increment interval, and the main text reports the increment as a bounded quantity rather than as a demonstrated equivalence for this reason.
+The 8 Å row reproduces the mutation-site GCN value used in the main ladder (0.378 mean of three per-seed correlations versus 0.382 two-seed mean). Shifts across cutoffs are small relative to the bootstrap uncertainty but are larger than the structure-increment interval, and the main text reports the increment as a bounded quantity rather than as a demonstrated equivalence for this reason.
 
 ---
 
