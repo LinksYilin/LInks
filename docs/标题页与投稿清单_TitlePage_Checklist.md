@@ -16,15 +16,20 @@ BMC Bioinformatics
 
 ## Authors
 
+> **Status: single author on record. Confirm before submission.**
+> The details below are taken from `CITATION.cff`. If the manuscript has
+> additional authors, add their rows and update `CITATION.cff` to match.
+
 | Order | Full name | Affiliation | ORCID | Email |
 |---|---|---|---|---|
-| 1 | *to be supplied* | *to be supplied* | *to be supplied* | *to be supplied* |
-| 2 | *to be supplied* | *to be supplied* | *to be supplied* | *to be supplied* |
+| 1 | Yilin Huang | Xi'an Jiaotong-Liverpool University | *to be supplied* (optional but recommended) | Yilin.Huang24@student.xjtlu.edu.cn |
 
 **Corresponding author**
 Yilin Huang — Yilin.Huang24@student.xjtlu.edu.cn
+Xi'an Jiaotong-Liverpool University
 
-*Replace the placeholder rows above with the final author list, affiliations and ORCIDs before submission.*
+*If this is a single-author manuscript, no further author information is needed.
+An ORCID iD is optional but recommended; add it above and in `CITATION.cff`.*
 
 ---
 
