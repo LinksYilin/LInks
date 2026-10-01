@@ -12,12 +12,24 @@ SUP = r'D:\GED_mutation\补充材料_Supplementary.md'
 
 def main():
     text = open(SUP, encoding='utf-8').read()
+    # 归一化 Unicode 减号/连字符，便于与正文匹配
+    norm = (text.replace('\u2212', '-').replace('\u2013', '-')
+                .replace('\u2014', '-').replace('\u00a0', ' '))
     results = []
+    print(f'  📄 补充材料已加载（{len(text)} 字符）')
+    print()
 
     def chk(label, expected, actual, tol=0.0015):
-        ok = abs(float(expected) - float(actual)) <= tol
-        results.append(ok)
-        print(f'  {"✅" if ok else "❌"} {label:<44} 补充材料 {expected:<10} 实测 {actual}')
+        """双向核验：数值须与源文件一致，且须真的出现在补充材料中。"""
+        try:
+            ok = abs(float(expected) - float(actual)) <= tol
+        except (TypeError, ValueError):
+            ok = str(expected) == str(actual)
+        in_text = str(expected) in norm
+        results.append(ok and in_text)
+        mark = '✅' if (ok and in_text) else ('📄' if ok else '❌')
+        note = '' if in_text else '  ← 未在补充材料中出现'
+        print(f'  {mark} {label:<44} 补充材料 {expected:<10} 实测 {actual}{note}')
 
     # S5：13 项比较
     holm = pd.read_csv(os.path.join(D, 'ladder_paired_effects_audited_holm.csv'))
