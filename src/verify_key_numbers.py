@@ -28,22 +28,56 @@ def pearson(a, b):
 
 
 def check(label, paper_val, actual, tol=0.0015):
+    """双向核验：数值须与源文件一致，且须真的出现在论文正文中。
+
+    只看 paper_val 与 actual 是否相符是无效核验——paper_val 是脚本里的常量，
+    并未证明论文写的就是这个值。因此额外要求该字符串出现在 DOCX 中。
+    """
     try:
         ok = abs(float(paper_val) - float(actual)) <= tol
     except (TypeError, ValueError):
         ok = str(paper_val) == str(actual)
-    mark = '✅' if ok else '❌'
-    print(f'  {mark} {label:<48} 论文 {paper_val:<12} 实测 {actual}')
-    return ok
+    in_text = str(paper_val) in MANUSCRIPT_TEXT
+    mark = '✅' if (ok and in_text) else ('📄' if ok and not in_text else '❌')
+    note = '' if in_text else '  ← 未在论文中出现'
+    print(f'  {mark} {label:<48} 论文 {paper_val:<12} 实测 {actual}{note}')
+    return ok and in_text
+
+
+def load_manuscript_text():
+    """读取 DOCX 正文与表格（body order），用于确认数值确实写在论文里。"""
+    global MANUSCRIPT_TEXT
+    try:
+        from docx import Document
+        from docx.oxml.ns import qn
+        d = Document(DOCX)
+        parts = [p.text for p in d.paragraphs]
+        for t in d.tables:
+            for row in t.rows:
+                for c in row.cells:
+                    parts.append(c.text)
+        MANUSCRIPT_TEXT = '\n'.join(parts)
+        # 归一化 Unicode 减号/连字符，便于匹配
+        MANUSCRIPT_TEXT = (MANUSCRIPT_TEXT.replace('\u2212', '-')
+                           .replace('\u2013', '-').replace('\u2014', '-')
+                           .replace('\u00a0', ' '))
+        return True
+    except Exception as e:
+        print(f'  ⚠ 无法读取论文: {e}')
+        MANUSCRIPT_TEXT = ''
+        return False
+
+
+MANUSCRIPT_TEXT = ''
+
 
 
 def main():
-    from docx import Document
-    doc = Document(DOCX)
-    text = '\n'.join(p.text for p in doc.paragraphs)
-    for t in doc.tables:
-        for r in t.rows:
-            text += '\n' + ' | '.join(c.text for c in r.cells)
+    if not load_manuscript_text():
+        print('❌ 无法读取论文，核验中止')
+        return 1
+    print(f'  📄 论文文本已加载（{len(MANUSCRIPT_TEXT)} 字符）')
+    print()
 
     results = []
 

@@ -10,7 +10,7 @@ During this study we identified and corrected two defects in our own processing 
 
 ### S1.1 Hydrogen inconsistency in training-graph construction
 
-**Defect.** The side-chain-centroid definition requires one representative point per residue. Half of the training set (all MegaScale proteins, 239 graphs) had been built from candidates that **included hydrogen atoms** in the centroid average, whereas the ThermoMutDB training graphs and all test graphs (S669, ssym) **excluded** hydrogens. AlphaFold models contain substantial hydrogen content (for 1A32, 566 of 1,095 atoms), so the two centroid definitions are numerically different quantities.
+**Defect.** The side-chain-centroid definition requires one representative point per residue. Half of the training set (the 232 MegaScale proteins that survive sampling, 239 graph files on disk) had been built from candidates that **included hydrogen atoms** in the centroid average, whereas the ThermoMutDB training graphs and all test graphs (S669, ssym) **excluded** hydrogens. AlphaFold models contain substantial hydrogen content (for 1A32, 566 of 1,095 atoms), so the two centroid definitions are numerically different quantities.
 
 **Consequence.** Training and test inputs differed in definition for half the training set, and the resulting edges differed (1A32: 206 contacts with hydrogens versus 192 without).
 
@@ -26,7 +26,7 @@ During this study we identified and corrected two defects in our own processing 
 | Physicochemical ridge baseline (S669) | 0.392 | 0.390 |
 | Physicochemical ridge baseline (ssym) | 0.316 | 0.305 |
 
-The values quoted before the rebuild are those in the superseded table, in which the GINE range spanned both definitions and seeds; the after column reports the same quantity recomputed on the corrected graphs. The ridge baseline moves only within rounding, confirming that the defect was confined to the graph-based pathway. The hydrogen audit counts are recorded in `data/hydrogen_bias_audit.csv`, and every per-stage exclusion is logged in `data/data_flow_skip_log.csv`.
+The values quoted before the rebuild are those in the superseded table, in which the GINE range spanned both definitions and seeds; the after column reports the same quantity recomputed on the corrected graphs. The S669 ridge baseline is unchanged to two decimals (0.392 to 0.390). The ssym entry moves from 0.316 to 0.305, but those two values come from different evaluation pipelines rather than from the rebuild: the hydrogen correction cannot affect a ridge model that never reads the graphs. The hydrogen audit counts are recorded in `data/hydrogen_bias_audit.csv`, and every per-stage exclusion is logged in `data/data_flow_skip_log.csv`.
 
 ### S1.2 In-sample fitting in an exploratory script
 
@@ -74,10 +74,10 @@ Training settings were identical for every encoder: 20 epochs, Adam with learnin
 
 | Comparison | Δr | 95% bootstrap interval | Excluded below | Excluded above |
 |---|---|---|---|---|
-| S669, fusion − ESM-2 only | −0.013 | [−0.036, +0.010] | −0.036 | +0.010 |
+| S669, fusion − ESM-2 only | −0.013 | [−0.036, +0.009] | −0.036 | +0.009 |
 | ssym, fusion − ESM-2 only | +0.025 | [−0.007, +0.070] | −0.007 | +0.070 |
 
-Intervals are 95% percentile intervals from a protein-cluster bootstrap (B = 2,000) in which whole proteins are resampled with replacement. The intervals are **asymmetric**, so a single symmetric bound cannot be quoted for either benchmark: on S669 the interval excludes positive increments above +0.010 and negative increments below −0.036, and on ssym the negative direction is constrained only above −0.007. No equivalence margin was pre-specified, and no formal equivalence test was performed; the intervals are reported as confidence limits rather than as a demonstrated equivalence claim.
+Intervals are 95% percentile intervals from a protein-cluster bootstrap (B = 2,000) in which whole proteins are resampled with replacement. The intervals are **asymmetric**, so a single symmetric bound cannot be quoted for either benchmark: on S669 the interval excludes positive increments above +0.009 and negative increments below −0.036, and on ssym the negative direction is constrained only above −0.007. No equivalence margin was pre-specified, and no formal equivalence test was performed; the intervals are reported as confidence limits rather than as a demonstrated equivalence claim.
 
 ---
 
@@ -150,7 +150,7 @@ A matched-scope SCWRL4 comparison covered 507 of 543 S669 pairs. Cα conclusions
 |---|---|
 | Code, model configurations, analysis scripts | https://github.com/LinksYilin/LInks (MIT licence), archived at Zenodo (DOI and URL to be inserted at submission) |
 | Per-sample predictions for every comparison | `data/*_predictions.csv` |
-| Ladder per-seed results and audited aggregates | `data/ladder_results.csv`, `data/ladder_s2024_results.csv`, `data/ladder_seed_summary_audited.csv` |
+| Ladder per-seed results and audited aggregates | `data/ladder_results.csv` (seeds 42, 123), `data/ladder_egnn_legacy_s2024_results.csv` (the architecture-matched 508,934-parameter EGNN seed 2024 run used in the audited aggregates), `data/ladder_seed_summary_audited.csv`. `data/ladder_s2024_results.csv` holds the rescaled 508,938-parameter variant and is excluded before aggregation. |
 | Paired effects with multiplicity correction | `data/ladder_paired_effects_audited.csv`, `data/ladder_paired_effects_audited_holm.csv` |
 | Audit records for S1 | `data/hydrogen_bias_audit.csv`, `data/data_flow_skip_log.csv` |
 | Figure source data | `figures/publication/*_source_data.csv` |

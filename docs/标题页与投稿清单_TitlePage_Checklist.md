@@ -30,7 +30,7 @@ Yilin Huang — Yilin.Huang24@student.xjtlu.edu.cn
 
 ## Abstract
 
-*See the manuscript. Structured abstract, 343 words (journal limit 350).*
+*See the manuscript. Structured abstract, 345 words (journal limit 350).*
 
 **Keywords**
 protein stability; mutation effect prediction; side-chain-centroid contact graphs; graph neural networks; FoldX; protein-cluster bootstrap
@@ -75,7 +75,7 @@ The authors declare no competing interests.
 | Figure 2 | Side-chain-centroid graphs expose reproducible contact rewiring | `figures/publication/figure2_contact_rewiring.png` |
 | Figure 3 | A capacity ladder: the representation effect does not grow with encoder size | `figures/publication/figure3_capacity_ladder.png` |
 | Figure 4 | Feature-block accounting for ΔΔG prediction | `figures/publication/figure4_information_budget.png` |
-| Figure 5 | Contact-edit diagnostics and cross-engine consistency | `figures/publication/figure5_contact_diagnostics.png` |
+| Figure 5 | Contact-edit diagnostics for the side-chain-centroid definition | `figures/publication/figure5_contact_diagnostics.png` |
 | Table 1 | Predictive performance on the common S669 intersection and on ssym | in manuscript |
 
 ---
@@ -93,17 +93,17 @@ The authors declare no competing interests.
 
 ## Manuscript files
 
-- [ ] Main manuscript (DOCX): 16 pages, 230 paragraphs, 5 figures, 1 table
+- [ ] Main manuscript (DOCX): 234 paragraphs, 5 figures, 1 table
 - [ ] Structured abstract within 350 words (currently 343)
 - [ ] Declarations complete (ethics, consent, availability, competing interests, funding, contributions)
-- [ ] Supplementary material (9 sections: S1 audit trail, S2 provenance, S3 encoder definitions, S4 increment bounds, S5 ladder and multiplicity, S6 threshold sensitivity, S7 EGNN instability, S8 cross-engine, S9 reproducibility)
+- [ ] Supplementary material (10 sections: S1 audit trail, S2 provenance, S3 encoder definitions, S4 increment bounds, S5 ladder and multiplicity, S6 threshold sensitivity, S7 EGNN instability, S8 cross-engine, S9 reproducibility, S10 locality statistic)
 - [ ] Cover letter
 - [ ] Figures supplied at submission resolution; source data files present
 
 ## Verification already performed
 
 - [ ] `submission_gate.py` — 55/55 checks pass (includes stale-value removal, test suite, LibreOffice render)
-- [ ] `verify_key_numbers.py` — 59/59 numbers trace to a named results file
+- [ ] `verify_key_numbers.py` — 75/75 checks pass, each value verified both against its source file and for presence in the manuscript text
 - [ ] `verify_supplementary.py` — 29/29 supplementary numbers trace to a named results file
 - [ ] `forensic_audit.py` — 0 confirmed internal errors
 - [ ] `audit_docx_images.py` — 0 stale or duplicated images
