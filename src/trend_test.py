@@ -24,7 +24,12 @@ STABLE = ['gnn_global', 'gnn_local', 'gnn_edge', 'deep_gine']
 
 
 def main():
-    eff = pd.read_csv(os.path.join(D, 'ladder_paired_effects.csv'))
+    # ★ 必须使用审计后的三种子集，且限定为所有稳定档共有的定义对
+    #   （Cα、Cβ 对质心）。使用旧的 ladder_paired_effects.csv 会得到
+    #   两种子、跨全部定义的值（0.071/0.054/0.025/0.039），与论文不符。
+    eff_all = pd.read_csv(os.path.join(D, 'ladder_paired_effects_audited.csv'))
+    COMMON = ['ca vs centroid', 'cb vs centroid']
+    eff = eff_all[eff_all['comparison'].isin(COMMON)]
     pred = pd.read_csv(os.path.join(D, 'ladder_predictions.csv'))
 
     # ---- 1) 每个骨架的平均 |Δr| ----
@@ -47,7 +52,7 @@ def main():
     # ---- 2) 容量 vs 平均 |Δr| 的置换检验 ----
     print()
     print('=' * 74)
-    print('2) 容量趋势置换检验（Spearman ρ，B=20000）')
+    print('2) 容量趋势置换检验（Spearman ρ，精确枚举全部排列）')
     print('=' * 74)
     x = np.log10(t['n_params'].values.astype(float))
     y = t['mean_abs_dr'].values.astype(float)
@@ -57,12 +62,14 @@ def main():
         return float(spearmanr(a, b).statistic)
 
     obs = spearman(x, y)
-    rng = np.random.default_rng(42)
-    B = 20000
-    null = np.array([spearman(x, rng.permutation(y)) for _ in range(B)])
-    p_two = float((np.abs(null) >= abs(obs)).mean())
+    # ★ 精确检验：枚举 n! 种排列（n=4 时为 24 种），与论文一致。
+    #   蒙特卡洛近似会引入随机性且与论文的 "exact" 表述不符。
+    import itertools
+    perms = list(itertools.permutations(range(len(y))))
+    null = np.array([spearman(x, np.asarray(y)[list(pp)]) for pp in perms])
+    p_two = float((np.abs(null) >= abs(obs) - 1e-12).mean())
     print(f'  观测 Spearman ρ = {obs:+.4f}  (n = {len(x)} 档)')
-    print(f'  置换 p（双侧） = {p_two:.3f}')
+    print(f'  精确双侧 p = {p_two:.3f}  （枚举 {len(perms)} 种排列）')
     print(f'  → {"未能检出容量趋势" if p_two > 0.05 else "检出容量趋势"}')
     print(f'  注：仅 {len(x)} 个稳定档，功效极低；此结果只能表述为"未检出趋势"。')
 

@@ -7,8 +7,13 @@ import os
 import re
 import sys
 
-REL = r'D:\GED_mutation\release'
-ROOT = str(__import__('pathlib').Path(__file__).resolve().parent.parent)
+_HERE = __import__('pathlib').Path(__file__).resolve().parent
+_ROOT = _HERE.parent
+# 两种布局都要支持：
+#   工作副本  <root>/src/validate_release.py，发布包在 <root>/release/
+#   发布包内  <root>/src/validate_release.py，本身就是发布包（无 <root>/release/）
+REL = str(_ROOT / 'release') if (_ROOT / 'release').is_dir() else str(_ROOT)
+ROOT = str(_ROOT)
 # 允许出现的路径引用（相对或环境变量）
 OK_PATTERNS = [
     r'os\.path\.dirname',
@@ -93,6 +98,59 @@ def main():
         if ref.startswith(('src/', 'results/', 'figures/', 'docs/')):
             if not os.path.exists(os.path.join(REL, ref)):
                 warnings.append(f'README 引用了不存在的文件: {ref}')
+
+    # 7) 路径解析：paths.py 必须能解析到一个存在的 DATA 目录
+    #    （发布包用 results/，完整工作副本用 data/）
+    try:
+        import importlib.util
+        src_paths = os.path.join(REL, 'src', 'paths.py')
+        if os.path.exists(src_paths):
+            spec = importlib.util.spec_from_file_location('_rel_paths', src_paths)
+            mod = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(mod)
+            if not mod.DATA.exists():
+                issues.append(f'paths.DATA 解析到不存在的目录: {mod.DATA}')
+            else:
+                n_in_data = len([f for f in os.listdir(mod.DATA) if f.endswith('.csv')])
+                if n_in_data == 0:
+                    issues.append(f'paths.DATA 目录中没有 CSV: {mod.DATA}')
+    except Exception as e:
+        issues.append(f'paths.py 无法导入: {type(e).__name__}: {e}')
+
+    # 8) 本地模块导入完整性（缺失的本地模块会使脚本无法运行）
+    import ast as _ast
+    local = {f[:-3] for f in os.listdir(os.path.join(REL, 'src')) if f.endswith('.py')}
+    KNOWN = set(getattr(sys, 'stdlib_module_names', ())) | {
+        'numpy', 'pandas', 'scipy', 'torch', 'torch_geometric', 'sklearn', 'docx',
+        'matplotlib', 'Bio', 'PIL', 'requests', 'statsmodels', 'networkx', 'lxml',
+        'openpyxl', 'joblib', 'tqdm', 'yaml', 'h5py', 'seaborn', 'transformers',
+        'edit_cost', 'ged_module', 'gnn_baseline', 'gnn_local_baseline',
+        'gnn_edge_baseline', 'train_gnn_baseline', 'contact_graph_defs', 'paths',
+        'seed_utils', 'strong_backbones', 'ladder_common', 'filter_leakage',
+    }
+    broken = []
+    for f in sorted(os.listdir(os.path.join(REL, 'src'))):
+        if not f.endswith('.py') or f.startswith(('fix_hardcoded', 'check_hardcoded')):
+            continue
+        p = os.path.join(REL, 'src', f)
+        try:
+            tree = _ast.parse(open(p, encoding='utf-8').read())
+        except SyntaxError:
+            continue
+        imported = set()
+        for n in _ast.walk(tree):
+            if isinstance(n, _ast.Import):
+                imported |= {a.name.split('.')[0] for a in n.names}
+            elif isinstance(n, _ast.ImportFrom) and n.module and n.level == 0:
+                imported.add(n.module.split('.')[0])
+        miss = sorted(m for m in imported
+                      if m not in local and m not in KNOWN and not m.startswith('_'))
+        if miss:
+            broken.append(f'{f} -> {miss}')
+    if broken:
+        issues.append(f'{len(broken)} 个脚本引用了缺失的本地模块')
+        for b in broken[:6]:
+            warnings.append(f'    {b}')
 
     print('=' * 74)
     print('发布包验证')

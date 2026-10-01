@@ -55,14 +55,28 @@ Separating these matters: a weak encoder can only threaten claim (B), never (A).
 │   ├── run_ladder.py           # capacity-ladder experiment
 │   ├── esm2_zeroshot.py        # ESM-2 masked-marginal scoring
 │   ├── esm2_supervised.py      # ESM-2 embeddings + regression head
-│   ├── submission_gate.py      # 51-check pre-submission quality gate
+│   ├── submission_gate.py      # 55-check pre-submission quality gate
 │   └── test_*.py               # test suite
-├── data/                       # processed results and per-sample predictions
+├── results/                    # 86 derived result tables + README.md describing each
 ├── figures/publication/        # figures plus per-figure source-data CSV
 ├── docs/                       # audit trail and internal notes
 ├── requirements.lock           # pinned environment
 └── ruff.toml                   # lint policy with documented exemptions
 ```
+
+**What this repository does and does not contain.** It ships the analysis code
+and every derived result table, so all reported numbers can be recomputed
+directly:
+
+```bash
+python src/reproduce_headline.py     # recomputes 29 reported values from results/
+```
+
+It does **not** ship the raw inputs — wild-type PDB structures, FoldX mutant
+structures, contact-graph `.npz` files or ESM embedding caches — which together
+total roughly 21 GB. Those are rebuilt from public sources by the scripts in
+`src/` (see "Rebuilding the inputs" below). Scripts that read only `results/`
+run immediately; scripts that rebuild from raw inputs need those inputs first.
 
 ## Quick start
 
@@ -80,9 +94,11 @@ pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
 pip install -r requirements.lock
 ```
 
-Paths resolve automatically from the repository location. Set the `GED_ROOT`
-environment variable only if the data live elsewhere. Model checkpoints for the
-external tools are expected at `tools/` by default and can be redirected with
+`src/paths.py` resolves the project root from its own location. It sets `DATA`
+to `data/` when that directory exists (the full working copy, where the large
+inputs live) and otherwise to `results/` (this release). Set `GED_DATA` to point
+at a data directory elsewhere, or `GED_ROOT` to relocate the project root
+entirely. External tools are expected under `tools/` and can be redirected with
 `FOLDX_BIN` and `SCWRL4_BIN`.
 
 ## Reproducing the analysis
@@ -132,8 +148,9 @@ hydrogen-including side-chain centroid**, whereas every test set used a
 hydrogen-excluding centroid. AlphaFold models do contain hydrogens (for example,
 1A32 has 566 of them among 1095 atoms), so this was a genuine train/test
 representation mismatch affecting half the training data. The affected graphs are
-preserved under
-`data/contact_graphs_megascale_sc_Hincluded_bug/` for audit, and every result in
+preserved in the full working copy under
+`data/contact_graphs_megascale_sc_Hincluded_bug/` for audit (not shipped here —
+this release contains result tables only), and every result in
 the manuscript was regenerated from the corrected graphs. The finding is written
 up in `docs/` alongside the other audit records. We report it here because it is
 exactly the kind of defect a reader should be able to check.

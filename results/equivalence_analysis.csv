@@ -1,3 +1,16 @@
-benchmark,model,delta_r,ci_low,ci_high,p,excludes_zero,max_excludable_effect,analysis
-s669,increment(ESM+Graph vs ESM-only),-0.0131757158950964,-0.0360012720881756,0.0094603089679672,0.274,False,0.0360012720881756,structure increment over sequence baseline
-ssym,increment(ESM+Graph vs ESM-only),0.0245886816240097,-0.0068720680577706,0.0701778364755278,0.138,False,0.0701778364755278,structure increment over sequence baseline
+benchmark,model,delta_r,ci_low,ci_high,p,excludes_zero,max_excludable_effect,analysis,comparison
+s669,increment(ESM+Graph vs ESM-only),-0.0131757158950964,-0.0360012720881756,0.0094603089679672,0.274,False,0.0360012720881756,structure increment over sequence baseline,
+ssym,increment(ESM+Graph vs ESM-only),0.0245886816240097,-0.0068720680577706,0.0701778364755278,0.138,False,0.0701778364755278,structure increment over sequence baseline,
+,deep_gine,-0.044262203354341,-0.1633494961900118,0.0672793481197855,0.38,False,0.1633494961900118,representation effect within backbone,ca vs centroid
+,deep_gine,-0.0414934300610949,-0.1393306001281765,0.0703932921201121,0.436,False,0.1393306001281765,representation effect within backbone,cb vs centroid
+,egnn,-0.0523585933899512,-0.1507136056874396,0.0857255796285732,0.439,False,0.1507136056874396,representation effect within backbone,ca vs centroid
+,egnn,-0.0647988512529486,-0.5484935424409138,0.5203533338539071,0.753,False,0.5484935424409138,representation effect within backbone,cb vs centroid
+,gnn_edge,-0.0134908958234655,-0.1088226193335483,0.0943156621508436,0.848,False,0.1088226193335483,representation effect within backbone,allatom vs centroid
+,gnn_edge,-0.0240565239552709,-0.1047355878706982,0.070360351574341,0.686,False,0.1047355878706982,representation effect within backbone,ca vs centroid
+,gnn_edge,0.0185522411643394,-0.09030918123796,0.1044266843227536,0.63,False,0.1044266843227536,representation effect within backbone,cb vs centroid
+,gnn_global,-0.1008736356259917,-0.1858554387651944,-0.001642976881208,0.045,True,0.1858554387651944,representation effect within backbone,allatom vs centroid
+,gnn_global,-0.078794554942401,-0.1635605186211235,0.033905436933852,0.153,False,0.1635605186211235,representation effect within backbone,ca vs centroid
+,gnn_global,-0.0178951131816929,-0.0864859100487415,0.0602870132565493,0.622,False,0.0864859100487415,representation effect within backbone,cb vs centroid
+,gnn_local,-0.0485346372580542,-0.1070891365536266,0.0309664620369843,0.176,False,0.1070891365536266,representation effect within backbone,allatom vs centroid
+,gnn_local,-0.0641612084834746,-0.1276154673669039,0.0162339282771939,0.107,False,0.1276154673669039,representation effect within backbone,ca vs centroid
+,gnn_local,-0.0309268114296383,-0.0853587122995336,0.028921520303749,0.283,False,0.0853587122995336,representation effect within backbone,cb vs centroid

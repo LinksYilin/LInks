@@ -18,11 +18,24 @@ _HERE = Path(__file__).resolve().parent
 ROOT = Path(os.environ.get('GED_ROOT', _HERE.parent))
 
 SRC = ROOT / 'src'
-DATA = ROOT / 'data'
 FIGURES = ROOT / 'figures'
 PUB_FIGURES = FIGURES / 'publication'
 TOOLS = ROOT / 'tools'
 DOCS = ROOT / 'docs'
+
+# ★ 数据目录解析
+#   完整工作副本用 data/（含结构文件与接触图，体积大，不随仓库分发）；
+#   发布包只含结果表，放在 results/。二者取其一，避免克隆后找不到目录。
+#   可用环境变量 GED_DATA 显式指定。
+_env_data = os.environ.get('GED_DATA')
+if _env_data:
+    DATA = Path(_env_data)
+elif (ROOT / 'data').is_dir():
+    DATA = ROOT / 'data'
+elif (ROOT / 'results').is_dir():
+    DATA = ROOT / 'results'
+else:
+    DATA = ROOT / 'data'   # 都不存在时保留原名，便于报错信息可读
 
 # 外部程序（可用环境变量覆盖，便于其他机器）
 FOLDX_BIN = os.environ.get('FOLDX_BIN', str(TOOLS / 'foldx' / 'foldx_1_20270131.exe'))

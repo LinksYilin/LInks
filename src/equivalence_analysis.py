@@ -63,12 +63,19 @@ def main():
             rows.append(t)
 
     # ---- 2) 阶梯的表示效应 ----
-    lad = os.path.join(OUT, 'ladder_paired_effects.csv')
+    # ★ 优先使用审计后的三种子文件；旧的 ladder_paired_effects.csv 是两种子、
+    #   跨全部定义的值，与论文不一致，仅作为回退。
+    lad = os.path.join(OUT, 'ladder_paired_effects_audited.csv')
+    if not os.path.exists(lad):
+        lad = os.path.join(OUT, 'ladder_paired_effects.csv')
     if os.path.exists(lad):
         try:
             l = pd.read_csv(lad)
             if len(l):
                 t = summarize(l, ['model', 'comparison'],
+                              dr_col='delta_r', lo='seed_aware_lo', hi='seed_aware_hi',
+                              pcol='seed_aware_p') if 'seed_aware_lo' in l.columns else \
+                    summarize(l, ['model', 'comparison'],
                               dr_col='delta_r', lo='ci_low', hi='ci_high', pcol='p')
                 t['analysis'] = 'representation effect within backbone'
                 rows.append(t)
