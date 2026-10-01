@@ -156,3 +156,20 @@ A matched-scope SCWRL4 comparison covered 507 of 543 S669 pairs. Cα conclusions
 | Figure source data | `figures/publication/*_source_data.csv` |
 
 Seed handling is stated per analysis. The capacity ladder used seeds 42, 123 and 2024 for the four stable encoders and the same three seeds for an architecture-matched equivariant encoder; the sequence-baseline and fusion models used seeds 42, 123 and 2024. Two aggregations are used and are distinguished throughout. The correlation reported for each encoder and graph definition is the unweighted mean of the per-seed correlations (`seed_mean_r`). The paired definition effects reported in S5 are computed from the joint seed and protein bootstrap, in which the seed-averaged prediction enters the resampling. Averaging per-seed correlations and correlating seed-averaged predictions give different values; for the four stable encoders the difference is at most 0.033, and for the equivariant network it reaches 0.216 because its per-seed correlations are bimodal. `set_seed` fixes Python, NumPy, PyTorch and CUDA state and enables deterministic algorithms. Segmented softmax pooling uses a deterministic clamp/exp/`index_add_` formulation rather than `index_reduce_('amax')`.
+
+---
+
+## S10. Locality statistic: definition and sensitivity
+
+The distance from a mutation to the contacts it loses admits more than one definition, and the reported value depends on the choice. For each mutation we measured, for each contact present in the wild-type graph and absent from the modelled mutant graph, the distance from the mutated residue to the nearest endpoint of that contact.
+
+A contact incident on the mutated residue itself is at distance zero under this rule, and such self-contacts account for **382 of the 1,068 broken contacts** and appear in **253 of the 358** mutation pairs with at least one broken contact. Averaging over mutations without removing them gives 4.03 Å; this value is a property of the self-contact convention rather than of how far the structural change propagates.
+
+| Definition | Broken contacts | Unchanged contacts |
+|---|---|---|
+| All broken contacts, per-mutation mean | 4.03 Å (95% CI 3.11–5.42) | 15.70 Å (13.95–18.18) |
+| **Self-contacts removed, per-mutation mean (n = 234)** | **7.93 Å (95% CI 6.63–10.11)** | **15.93 Å (13.93–18.86)** |
+| Self-contacts removed, per-contact mean | 11.93 Å | — |
+| Self-contacts removed, per-mutation median | 5.88 Å | — |
+
+The main text reports the self-contacts-removed per-mutation mean. The qualitative conclusion is unchanged under every definition: broken contacts lie markedly closer to the mutated residue than contacts that persist, and 30.1% of non-self broken contacts lie within 5 Å. The distance is not a sufficient statistic for the effect of a contact on ΔΔG, which is why the association analysis in Section 4.5 uses counts rather than distances.

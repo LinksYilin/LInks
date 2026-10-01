@@ -231,6 +231,18 @@ def main():
         results.append(check('训练集 ThermoMutDB 蛋白数 191', '191',
                              str(v2[v2.source == 'thermomutdb'].protein.nunique())))
 
+    # ---- 局域性（排除自身接触后的口径）----
+    ns = rd('locality_nonself.csv')
+    if ns is not None:
+        sub = ns.dropna(subset=['mean_nonself'])
+        results.append(check('局域性 非自身断边突变数 234', '234', str(len(sub))))
+        results.append(check('局域性 断裂接触平均 7.93 Å', '7.93',
+                             f'{sub.mean_nonself.mean():.2f}', tol=0.02))
+        results.append(check('局域性 保持接触平均 15.93 Å', '15.93',
+                             f'{sub.mean_kept.mean():.2f}', tol=0.02))
+        results.append(check('局域性 自身断边数 382', '382',
+                             str(int(ns.n_self_edges.sum()))))
+
     print()
     print('=' * 74)
     n_ok = sum(results)
