@@ -1,4 +1,4 @@
-# Mutation-sensitive residue contact graphs: a controlled benchmark of graph representations for ΔΔG prediction
+# Contact-graph definitions shape what a model describes but not what it predicts: a controlled comparison across five encoder capacities
 
 This repository contains the complete, reproducible analysis pipeline for a
 controlled benchmark of **residue-level contact-graph representations** used to

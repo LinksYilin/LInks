@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or the processed data, please cite the manuscript below."
-title: "Mutation-sensitive residue contact graphs: a controlled benchmark of graph representations for ΔΔG prediction"
+title: "Contact-graph definitions shape what a model describes but not what it predicts: a controlled comparison across five encoder capacities"
 type: software
 authors:
   - family-names: "Huang"
@@ -10,15 +10,15 @@ authors:
 # Uncomment and fill in when the manuscript is published:
 # preferred-citation:
 #   type: article
-#   title: "Mutation-sensitive residue contact graphs: a controlled benchmark of graph representations for ΔΔG prediction"
+#   title: "Contact-graph definitions shape what a model describes but not what it predicts: a controlled comparison across five encoder capacities"
 #   authors:
 #     - family-names: "Huang"
 #       given-names: "Yilin"
 #   journal: "BMC Bioinformatics"
 #   year: 2026
 #   doi: "10.xxxx/xxxxx"
-repository-code: "https://github.com/【USER】/【REPO】"
-url: "https://github.com/【USER】/【REPO】"
+repository-code: "https://github.com/LinksYilin/LInks"
+url: "https://github.com/LinksYilin/LInks"
 license: MIT
 keywords:
   - protein stability
