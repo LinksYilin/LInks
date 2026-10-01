@@ -48,9 +48,10 @@ def main():
 
     # 校验
     t2 = open(TP, encoding='utf-8').read()
+    affil = "Xi'an Jiaotong-Liverpool"
     print(f'  残留 "to be supplied" 作者行: {t2.count("| *to be supplied* |")}')
     print(f'  含作者名: {"Yilin Huang" in t2}')
-    print(f'  含单位: {"Xi\'an Jiaotong-Liverpool" in t2}')
+    print(f'  含单位: {affil in t2}')
 
     # 同步到发布包
     import shutil
