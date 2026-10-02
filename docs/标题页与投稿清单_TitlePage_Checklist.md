@@ -1,4 +1,4 @@
-﻿# Title Page
+# Title Page
 
 **Manuscript title**
 Contact-graph definitions shape what a model describes but not what it predicts: a controlled comparison across five encoder capacities
@@ -35,7 +35,7 @@ An ORCID iD is optional but recommended; add it above and in `CITATION.cff`.*
 
 ## Abstract
 
-*See the manuscript. Structured abstract, 343 words (journal limit 350).*
+*See the manuscript. Structured abstract, 347 whitespace-delimited words (journal limit 350; reconfirm in the submission portal's counter).*
 
 **Keywords**
 protein stability; mutation effect prediction; side-chain-centroid contact graphs; graph neural networks; FoldX; protein-cluster bootstrap
@@ -51,7 +51,7 @@ Not applicable. This study used only publicly available protein structures and e
 Not applicable.
 
 **Availability of data and materials**
-All datasets are publicly available: PDB structures (RCSB Protein Data Bank), MegaScale, ThermoMutDB, and the S669 and ssym benchmarks. Code, model configurations and the scripts that regenerate every table and figure are released under the MIT licence and archived at Zenodo under DOI 10.5281/zenodo.23086956.
+The cited PDB structures and experimental datasets (MegaScale, ThermoMutDB, S669 and ssym) have public sources. The repository and Zenodo archive (concept DOI 10.5281/zenodo.23086956) provide analysis code, per-sample predictions, derived tables and figure source data. They do not contain the large original or FoldX-modelled structures, graph files, embedding caches or trained checkpoints; raw-input reconstruction requires obtaining public sources and rebuilding intermediates.
 
 - Repository: https://github.com/LinksYilin/LInks
 - Archive DOI: 10.5281/zenodo.23086956 (concept DOI; version 10.5281/zenodo.23096229 -> https://zenodo.org/records/23096229)
@@ -59,7 +59,7 @@ All datasets are publicly available: PDB structures (RCSB Protein Data Bank), Me
 The repository also contains exploratory graph-edit-distance code that is not differentiable and contributes to no result reported here.
 
 **Competing interests**
-The authors declare no competing interests.
+AUTHOR CONFIRMATION REQUIRED: confirm the competing-interest declaration before submission; do not submit this line as an unverified declaration.
 
 **Funding**
 *To be supplied. If the work received no specific funding, state: "This research received no specific grant from any funding agency in the public, commercial or not-for-profit sectors."*
@@ -90,16 +90,19 @@ The authors declare no competing interests.
 ## Before upload
 
 - [ ] Author list, affiliations, ORCIDs and corresponding-author details inserted on this page and in the manuscript
-- [ ] GitHub repository created and made public (MIT licence), exact URL captured
+- [x] GitHub repository created and made public (MIT licence), exact URL captured
 - [x] Zenodo DOI minted from release v1.0.3: concept DOI 10.5281/zenodo.23086956, version DOI 10.5281/zenodo.23096229; inserted in the Abstract Availability statement, the Data & Code Availability declaration and Supplementary S9
-- [ ] Funding statement finalised
-- [ ] Authors' contributions written (CRediT)
-- [ ] Acknowledgements finalised or removed
+- [ ] AUTHOR CONFIRMATION: final author roster, spelling, affiliations, correspondence and any ORCIDs
+- [ ] AUTHOR CONFIRMATION: competing interests (do not assume "none")
+- [ ] AUTHOR CONFIRMATION: funding statement finalised
+- [ ] AUTHOR CONFIRMATION: authors' contributions written (CRediT)
+- [ ] AUTHOR CONFIRMATION: acknowledgements finalised or explicitly omitted
+- [ ] AUTHOR CONFIRMATION: originality, no simultaneous submission, all authors' approval
 
 ## Manuscript files
 
 - [ ] Main manuscript (DOCX): 234 paragraphs, 5 figures, 1 table
-- [ ] Structured abstract within 350 words (currently 343)
+- [x] Structured abstract: 347 whitespace-delimited words (350-word limit; verify journal portal counter)
 - [ ] Declarations complete (ethics, consent, availability, competing interests, funding, contributions)
 - [ ] Supplementary material (10 sections: S1 audit trail, S2 provenance, S3 encoder definitions, S4 increment bounds, S5 ladder and multiplicity, S6 threshold sensitivity, S7 EGNN instability, S8 cross-engine, S9 reproducibility, S10 locality statistic)
 - [ ] Cover letter
