@@ -1,4 +1,4 @@
-# Title Page
+﻿# Title Page
 
 **Manuscript title**
 Contact-graph definitions shape what a model describes but not what it predicts: a controlled comparison across five encoder capacities
@@ -54,7 +54,7 @@ Not applicable.
 All datasets are publicly available: PDB structures (RCSB Protein Data Bank), MegaScale, ThermoMutDB, and the S669 and ssym benchmarks. Code, model configurations and the scripts that regenerate every table and figure are released under the MIT licence and archived at Zenodo under DOI 10.5281/zenodo.23086956.
 
 - Repository: https://github.com/LinksYilin/LInks
-- Archive DOI: 10.5281/zenodo.23086956 (concept DOI; version 10.5281/zenodo.23087054 -> https://zenodo.org/records/23087054)
+- Archive DOI: 10.5281/zenodo.23086956 (concept DOI; version 10.5281/zenodo.23096229 -> https://zenodo.org/records/23096229)
 
 The repository also contains exploratory graph-edit-distance code that is not differentiable and contributes to no result reported here.
 
@@ -91,7 +91,7 @@ The authors declare no competing interests.
 
 - [ ] Author list, affiliations, ORCIDs and corresponding-author details inserted on this page and in the manuscript
 - [ ] GitHub repository created and made public (MIT licence), exact URL captured
-- [x] Zenodo DOI minted from release v1.0.2: concept DOI 10.5281/zenodo.23086956, version DOI 10.5281/zenodo.23087054; inserted in the Abstract Availability statement, the Data & Code Availability declaration and Supplementary S9
+- [x] Zenodo DOI minted from release v1.0.3: concept DOI 10.5281/zenodo.23086956, version DOI 10.5281/zenodo.23096229; inserted in the Abstract Availability statement, the Data & Code Availability declaration and Supplementary S9
 - [ ] Funding statement finalised
 - [ ] Authors' contributions written (CRediT)
 - [ ] Acknowledgements finalised or removed
@@ -124,3 +124,4 @@ The authors declare no competing interests.
 - [ ] No published structure-based predictor was reproduced
 - [ ] The training data contained a hydrogen-inconsistency defect that was found and corrected
 - [ ] The equivariant encoder is reported as unstable across seeds, not as a representation effect
+

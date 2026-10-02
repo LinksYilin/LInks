@@ -28,9 +28,9 @@ We submit the enclosed manuscript for consideration as a Research Article in *BM
 
 **Scope.** The conclusions are bounded by what was tested: five encoder families from 5.8 k to 509 k parameters, contact graphs built from FoldX-modelled mutants on fixed backbones, and an encoder family trained in this study rather than any published structure-based predictor. We state these boundaries explicitly in the Discussion rather than leaving them implicit.
 
-**Data and code.** All data are public (PDB, MegaScale, ThermoMutDB, S669, ssym). Code, model configurations and scripts that regenerate every table and figure are released under the MIT licence at https://github.com/LinksYilin/LInks. We have no competing interests, and the work involved no human or animal subjects.
+**Data and code.** The input datasets are publicly available (PDB, MegaScale, ThermoMutDB, S669, ssym). Code, per-sample predictions, derived tables and figure source data are released under the MIT licence at https://github.com/LinksYilin/LInks and archived at https://doi.org/10.5281/zenodo.23086956. The archive omits the large raw structures, contact graphs, embedding caches and trained checkpoints; rebuilding them requires obtaining the cited public inputs. The work involved no human or animal subjects.
 
-We confirm this manuscript is original, is not under consideration elsewhere, and has been approved by all authors.
+**Author confirmation required before submission:** confirm that the manuscript is original, is not under consideration elsewhere, the competing-interest declaration is accurate, and every named author has approved the final submitted version.
 
 Yours sincerely,
 
