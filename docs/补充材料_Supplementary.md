@@ -16,17 +16,21 @@ During this study we identified and corrected two defects in our own processing 
 
 **Correction.** All MegaScale training graphs were rebuilt with hydrogen exclusion, and the superseded directory is retained as `contact_graphs_megascale_sc_Hincluded_bug`. Every predictive number in this manuscript was regenerated from the corrected graphs.
 
-**Before/after for the affected quantities.** The hydrogen rebuild changes graph-derived predictions only, because the physicochemical ridge baseline never reads the graphs.
+**What the rebuild changed, and what it did not.** The hydrogen rebuild can affect graph-derived predictions only, because the physicochemical ridge baseline never reads a contact graph. Reporting ridge values in a before/after table for this correction would therefore be misleading, and we do not do so.
 
-| Quantity | Before the hydrogen rebuild | After the rebuild |
+A like-for-like before/after was not recoverable. The pre-rebuild runs were discarded when the corrected graphs replaced them, and the superseded summary table aggregated differently from the corrected one: its GINE entry spanned definitions and seeds together, whereas the corrected figures are means of per-seed correlations. Differencing those two aggregations would conflate the reconstruction with a change of summary statistic, so we report the corrected values alone and state that the pre-rebuild numbers are not comparable to them.
+
+| Quantity (after the rebuild) | Value | Evidence |
 |---|---|---|
-| Edge-aware GINE, range across definitions (S669) | 0.289–0.354 (three seeds, H-included training graphs) | 0.340–0.373 (means of three per-seed correlations) |
-| Mutation-site GCN, side-chain-centroid definition (S669) | 0.365–0.382 (three seeds) | 0.378 (mean of three per-seed correlations) |
-| EGNN, side-chain-centroid definition (S669) | 0.393 / −0.081 (two seeds) | 0.393 / −0.081 / 0.079 (three seeds, same architecture) |
-| Physicochemical ridge baseline (S669) | 0.392 | 0.390 |
-| Physicochemical ridge baseline (ssym) | 0.316 | 0.305 |
+| Edge-aware GINE, range across definitions, S669 | 0.340–0.373 | means of three per-seed correlations |
+| Mutation-site GCN, side-chain-centroid, S669 | 0.378 | mean of three per-seed correlations |
+| EGNN, side-chain-centroid, S669 (unstable) | 0.393 / −0.081 / 0.079 | three architecture-matched seeds, sample SD 0.241 |
+| Physicochemical ridge baseline, S669 | 0.390 | unaffected by the rebuild (reads no graph) |
+| Physicochemical ridge baseline, ssym | 0.305 | unaffected by the rebuild |
 
-The values quoted before the rebuild are those in the superseded table, in which the GINE range spanned both definitions and seeds; the after column reports the same quantity recomputed on the corrected graphs. The S669 ridge baseline is unchanged to two decimals (0.392 to 0.390). The ssym entry moves from 0.316 to 0.305, but those two values come from different evaluation pipelines rather than from the rebuild: the hydrogen correction cannot affect a ridge model that never reads the graphs. The hydrogen audit counts are recorded in `data/hydrogen_bias_audit.csv`, and every per-stage exclusion is logged in `data/data_flow_skip_log.csv`.
+Two further limits on what this correction can be said to have done. First, the rebuild's effect on absolute contact counts was not uniform: for the one protein reported in detail (1A32, 566 of 1,095 atoms hydrogenated) the side-chain-centroid graph carried 206 contacts with hydrogens against 192 without, a 7% difference, whereas the aggregate figure most often quoted is a change in mean broken contacts per mutation. Those two quantities are not interchangeable, and we do not present the aggregate as if it followed from the worked example. Second, no protein-cluster interval is available for the rebuild-induced change, because the pre-rebuild predictions were not retained. A reader who needs that interval would have to re-run the pre-rebuild configuration.
+
+The hydrogen audit counts are recorded in `data/hydrogen_bias_audit.csv`, and every per-stage exclusion is logged in `data/data_flow_skip_log.csv`.
 
 ### S1.2 In-sample fitting in an exploratory script
 
