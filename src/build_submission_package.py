@@ -131,7 +131,7 @@ def main():
             'SUBMISSION PACKAGE\n'
             '==================\n\n'
             'Manuscript title:\n'
-            '  Contact-graph definitions shape what a model describes but not what it\n'
+            '  Contact-graph definitions shape what a model describes more than what it\n'
             '  predicts: a controlled comparison across five encoder capacities\n\n'
             'Target journal: BMC Bioinformatics\n\n'
             'Files\n'

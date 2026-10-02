@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or the processed data, please cite the manuscript below."
-title: "Contact-graph definitions shape what a model describes but not what it predicts: a controlled comparison across five encoder capacities"
+title: "Contact-graph definitions shape what a model describes more than what it predicts: a controlled comparison across five encoder capacities"
 type: software
 authors:
   - family-names: "Huang"
@@ -10,7 +10,7 @@ authors:
 # Uncomment and fill in when the manuscript is published:
 # preferred-citation:
 #   type: article
-#   title: "Contact-graph definitions shape what a model describes but not what it predicts: a controlled comparison across five encoder capacities"
+#   title: "Contact-graph definitions shape what a model describes more than what it predicts: a controlled comparison across five encoder capacities"
 #   authors:
 #     - family-names: "Huang"
 #       given-names: "Yilin"

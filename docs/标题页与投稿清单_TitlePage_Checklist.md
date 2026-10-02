@@ -1,7 +1,7 @@
 # Title Page
 
 **Manuscript title**
-Contact-graph definitions shape what a model describes but not what it predicts: a controlled comparison across five encoder capacities
+Contact-graph definitions shape what a model describes more than what it predicts: a controlled comparison across five encoder capacities
 
 **Running title** (≤ 50 characters)
 Contact-graph definitions and ΔΔG prediction

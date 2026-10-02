@@ -1,6 +1,6 @@
 # Supplementary Material
 
-**Manuscript:** Contact-graph definitions shape what a model describes but not what it predicts: a controlled comparison across five encoder capacities
+**Manuscript:** Contact-graph definitions shape what a model describes more than what it predicts: a controlled comparison across five encoder capacities
 
 ---
 
