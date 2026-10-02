@@ -215,3 +215,50 @@ paired values are in `within_protein_by_definition.csv` and
 
 Both analyses are reproducible from released artefacts:
 `python src/cluster_level_typed_counts.py` and `python src/within_protein_metric.py`.
+
+---
+
+## S12. Does FoldX fidelity explain the structural null?
+
+Every structural descriptor in this study is derived from a FoldX-modelled mutant
+structure, and FoldX itself agrees with the experimental labels at only r = 0.26
+across the 538 available pairs. A null predictive increment is therefore open to
+two readings: the representation layer carries no information, or the structural
+stream carries none. This section tests the second reading directly, by merging
+`foldx_parsed_energy.csv` with the 505-pair contact-change table.
+
+**The contact features do not track FoldX error.** If the features were largely
+encoding the engine's own errors, they would correlate more strongly with the FoldX
+predictions than with the experimental values. The opposite holds for every one of
+the seven features examined: broken hydrophobic contacts correlate at r = 0.135
+with the experimental labels against r = 0.030 with the FoldX predictions; the
+broken, formed and total contact counts, the typed broken and formed counts and the
+electrostatic terms all show the same sign of difference.
+
+| Feature | r vs experimental | r vs FoldX | difference |
+|---|---|---|---|
+| Broken hydrophobic | 0.135 | 0.030 | -0.105 |
+| Number broken | 0.061 | -0.030 | -0.091 |
+| Number formed | 0.083 | -0.001 | -0.084 |
+| Total edits | 0.081 | -0.022 | -0.103 |
+| Broken electrostatic | 0.047 | 0.024 | -0.023 |
+| Broken other | 0.027 | -0.044 | -0.071 |
+| Formed hydrophobic | 0.096 | 0.035 | -0.061 |
+
+For reference, the FoldX predictions themselves correlate with the experimental
+labels at r = 0.254 over the same 505 pairs.
+
+**The association is stable across FoldX fidelity.** Splitting the pairs at the
+median FoldX absolute error (0.981 kcal mol-1) leaves the broken-hydrophobic
+association essentially unchanged: r = 0.130 in the better-predicted half (253
+pairs, 56 proteins) against r = 0.129 in the worse-predicted half (252 pairs, 72
+proteins). Within the better-predicted half alone the correlation still excludes
+zero under protein-cluster resampling (r = 0.130, 95% CI 0.002 to 0.225), as it
+does in the full sample (r = 0.135, 95% CI 0.043 to 0.201) and in the
+worse-predicted half (r = 0.129, 95% CI 0.031 to 0.208).
+
+This does not eliminate the bottleneck for the *predictive* comparison, which
+remains bounded to this structural stream, but it does argue that the one
+structural quantity with univariate signal is not an artefact of poor FoldX
+fidelity. Reproduce with `python src/foldx_bottleneck_stratified.py`; per-feature
+values are in `foldx_bottleneck_stratified.csv`.
