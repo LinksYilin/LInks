@@ -38,7 +38,7 @@ The values quoted before the rebuild are those in the superseded table, in which
 
 ## S2. Sample provenance
 
-The S669 evaluation sets were built by successive filters from the 543-mutation benchmark. The filters are not strictly nested: the 505-pair contact-change set was constructed from the 538 modelled mutant structures independently of the 511- and 508-mutation predictive sets, so it contains four pairs that the predictive sets lack and omits seven that they contain.
+The S669 evaluation sets have separate, auditable eligibility rules rather than one nested exclusion chain. The 505-pair contact-change set was constructed from the available FoldX mutant structures independently of the 511- and 508-mutation predictive intersections. Against the 508-mutation set, it contains four additional pairs and omits seven; against the 511-mutation set, it contains one additional pair and omits seven.
 
 | Stage | n | Excluded | Reason |
 |---|---|---|---|
@@ -46,9 +46,9 @@ The S669 evaluation sets were built by successive filters from the 543-mutation 
 | Residue-index verification passed | 512 | 31 | inconsistent structure (single protein, 3DV0) |
 | Contact graph available | 511 | 1 | graph could not be built (1G3P) |
 | ESM-2 embedding cached | 508 | 3 | sequence not representable (1O6X ×2, 2HBB ×1) |
-| FoldX output with matching residue count | 505 | 33 removed, 2 re-admitted | incomplete or mismatched FoldX output, measured against the 538 modelled pairs |
+| Contact-change quality-controlled set | 505 | independent of the 511/508 intersections | complete FoldX mutant and matched wild-type/mutant contact-change data |
 
-Consequently: **505** mutations for contact-change statistics, **511** for predictive comparisons without sequence features, **508** for sequence and fusion comparisons. The 505-pair set was built from the 538 modelled pairs (538 − 33 + 2 = 507 candidate pairs, of which 505 carry a complete graph). The ssym benchmark contributed **342** mutations with no losses at any stage.
+Consequently: **505** mutations for contact-change statistics, **511** for predictive comparisons without sequence features, and **508** for sequence and fusion comparisons. FoldX generated mutant structures for 538 S669 entries; the released 505-row contact-change analysis table is the authoritative quality-controlled set, not the arithmetic result of filtering the 511 or 508 prediction sets. The ssym benchmark contributed **342** mutations with no losses at any stage.
 
 Training data came from MegaScale plus ThermoMutDB after BLAST leakage filtering, sampled 1:1 to 7,905 examples drawn from **420 distinct proteins** (232 sampled from MegaScale and 191 from ThermoMutDB, with three proteins present in both sources). The leakage criterion was applied as implemented: sequence identity above 25% together with an E-value below 0.01 and query coverage above 0.5.
 
