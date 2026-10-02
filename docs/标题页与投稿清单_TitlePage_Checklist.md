@@ -54,7 +54,7 @@ Not applicable.
 The cited PDB structures and experimental datasets (MegaScale, ThermoMutDB, S669 and ssym) have public sources. The repository and Zenodo archive (concept DOI 10.5281/zenodo.23086956) provide analysis code, per-sample predictions, derived tables and figure source data. They do not contain the large original or FoldX-modelled structures, graph files, embedding caches or trained checkpoints; raw-input reconstruction requires obtaining public sources and rebuilding intermediates.
 
 - Repository: https://github.com/LinksYilin/LInks
-- Archive DOI: 10.5281/zenodo.23086956 (concept DOI; version 10.5281/zenodo.23096229 -> https://zenodo.org/records/23096229)
+- Archive DOI: 10.5281/zenodo.23086956 (concept DOI; version 10.5281/zenodo.23097211 -> https://zenodo.org/records/23097211)
 
 The repository also contains exploratory graph-edit-distance code that is not differentiable and contributes to no result reported here.
 
@@ -91,7 +91,7 @@ AUTHOR CONFIRMATION REQUIRED: confirm the competing-interest declaration before 
 
 - [ ] Author list, affiliations, ORCIDs and corresponding-author details inserted on this page and in the manuscript
 - [x] GitHub repository created and made public (MIT licence), exact URL captured
-- [x] Zenodo DOI minted from release v1.0.3: concept DOI 10.5281/zenodo.23086956, version DOI 10.5281/zenodo.23096229; inserted in the Abstract Availability statement, the Data & Code Availability declaration and Supplementary S9
+- [x] Zenodo DOI minted from release v1.0.4: concept DOI 10.5281/zenodo.23086956, version DOI 10.5281/zenodo.23097211; inserted in the Abstract Availability statement, the Data & Code Availability declaration and Supplementary S9
 - [ ] AUTHOR CONFIRMATION: final author roster, spelling, affiliations, correspondence and any ORCIDs
 - [ ] AUTHOR CONFIRMATION: competing interests (do not assume "none")
 - [ ] AUTHOR CONFIRMATION: funding statement finalised

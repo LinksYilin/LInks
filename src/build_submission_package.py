@@ -145,7 +145,7 @@ def main():
             '-------------\n'
             '  GitHub: https://github.com/LinksYilin/LInks\n'
             '  Zenodo concept DOI: 10.5281/zenodo.23086956 (always resolves to the latest)\n'
-            '  Zenodo version DOI: 10.5281/zenodo.23096229 (v1.0.3)\n'
+            '  Zenodo version DOI: 10.5281/zenodo.23097211 (v1.0.4)\n'
             '  The archive contains code, per-sample predictions, derived result tables and\n'
             '  figure source data. Raw structures, FoldX mutant structures, contact graphs,\n'
             '  embedding caches and trained checkpoints are NOT included.\n\n'
