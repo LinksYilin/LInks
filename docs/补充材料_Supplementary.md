@@ -168,8 +168,11 @@ A contact incident on the mutated residue itself is at distance zero under this 
 | Definition | Broken contacts | Unchanged contacts |
 |---|---|---|
 | All broken contacts, per-mutation mean | 4.03 Å (95% CI 3.11–5.42) | 15.70 Å (13.95–18.18) |
+| All broken contacts, per-mutation median | 2.70 Å | — |
+| All broken contacts, share within 5 Å | 65.8% | — |
 | **Self-contacts removed, per-mutation mean (n = 234)** | **7.93 Å (95% CI 6.63–10.11)** | **15.93 Å (13.93–18.86)** |
 | Self-contacts removed, per-contact mean | 11.93 Å | — |
 | Self-contacts removed, per-mutation median | 5.88 Å | — |
+| Self-contacts removed, share within 5 Å | 30.1% | — |
 
-The main text reports the self-contacts-removed per-mutation mean. The qualitative conclusion is unchanged under every definition: broken contacts lie markedly closer to the mutated residue than contacts that persist, and 30.1% of non-self broken contacts lie within 5 Å. The distance is not a sufficient statistic for the effect of a contact on ΔΔG, which is why the association analysis in Section 4.5 uses counts rather than distances.
+The main text reports the self-contacts-removed per-mutation mean. The qualitative conclusion is unchanged under every definition: broken contacts lie markedly closer to the mutated residue than contacts that persist. The distance is not a sufficient statistic for the effect of a contact on ΔΔG, which is why the association analysis in Section 4.5 uses counts rather than distances.

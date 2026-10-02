@@ -12,7 +12,7 @@ equivalence_analysis.py — 等价性检验（WS3）
   - 等价性判定：若 CI 完全落在 ±margin 内，则在该 margin 上"等价"
 
 输入：data/esm2_fusion_results.csv（含增量的 CI）
-      data/ladder_paired_effects.csv（若已生成）
+      data/ladder_paired_effects_audited.csv（优先；回退 data/ladder_paired_effects.csv）
 输出：data/equivalence_analysis.csv + 打印表
 """
 import os

@@ -27,19 +27,21 @@ def pearson(a, b):
     return float(np.corrcoef(a, b)[0, 1]) if a.std() > 0 and b.std() > 0 else float('nan')
 
 
-def check(label, paper_val, actual, tol=0.0015):
-    """双向核验：数值须与源文件一致，且须真的出现在论文正文中。
+def check(label, paper_val, actual, tol=0.0015, in_supplementary=False):
+    """双向核验：数值须与源文件一致，且须真的出现在论文（或指定为补充材料）中。
 
     只看 paper_val 与 actual 是否相符是无效核验——paper_val 是脚本里的常量，
-    并未证明论文写的就是这个值。因此额外要求该字符串出现在 DOCX 中。
+    并未证明论文写的就是这个值。因此额外要求该字符串出现在 DOCX 或补充材料中。
     """
     try:
         ok = abs(float(paper_val) - float(actual)) <= tol
     except (TypeError, ValueError):
         ok = str(paper_val) == str(actual)
-    in_text = str(paper_val) in MANUSCRIPT_TEXT
+    haystack = SUPPLEMENTARY_TEXT if in_supplementary else MANUSCRIPT_TEXT
+    where = '补充材料' if in_supplementary else '论文'
+    in_text = str(paper_val) in haystack
     mark = '✅' if (ok and in_text) else ('📄' if ok and not in_text else '❌')
-    note = '' if in_text else '  ← 未在论文中出现'
+    note = '' if in_text else f'  ← 未在{where}中出现'
     print(f'  {mark} {label:<48} 论文 {paper_val:<12} 实测 {actual}{note}')
     return ok and in_text
 
@@ -69,6 +71,23 @@ def load_manuscript_text():
 
 
 MANUSCRIPT_TEXT = ''
+SUPPLEMENTARY_TEXT = ''
+
+SUPPLEMENTARY_MD = os.path.join(str(ROOT), '补充材料_Supplementary.md')
+
+
+def load_supplementary_text():
+    """读取补充材料，供仅在其中出现的数值做归属核验。"""
+    global SUPPLEMENTARY_TEXT
+    try:
+        t = open(SUPPLEMENTARY_MD, encoding='utf-8').read()
+        SUPPLEMENTARY_TEXT = (t.replace('\u2212', '-').replace('\u2013', '-')
+                               .replace('\u2014', '-').replace('\u00a0', ' '))
+        return True
+    except Exception as e:
+        print(f'  ⚠ 无法读取补充材料: {e}')
+        SUPPLEMENTARY_TEXT = ''
+        return False
 
 
 
@@ -77,6 +96,8 @@ def main():
         print('❌ 无法读取论文，核验中止')
         return 1
     print(f'  📄 论文文本已加载（{len(MANUSCRIPT_TEXT)} 字符）')
+    load_supplementary_text()
+    print(f'  📄 补充材料已加载（{len(SUPPLEMENTARY_TEXT)} 字符）')
     print()
 
     results = []
@@ -101,15 +122,29 @@ def main():
                 rate = float((sub['n_edit'] > 0).mean() * 100)
                 results.append(check(f'{ad} 编辑率 % (8Å)', exp, round(rate, 1), tol=0.05))
 
-    # ---- 局部性 ----
+    # ---- 局部性（两种口径都要校验，见补充材料 S10）----
+    # 旧口径的 4.03 / 15.70 / 65.8 / 2.70 现在只出现在补充材料 S10（正文报告的是
+    # 排除自身接触后的 7.93 / 15.93），因此这些检查对照补充材料文本。
     loc = rd('locality_corrected.csv')
-    if loc is not None and 'dist_broken' in loc.columns:
-        results.append(check('断边距离 4.03 Å', '4.03',
-                             round(float(loc['dist_broken'].mean()), 2), tol=0.02))
-        col = 'dist_kept' if 'dist_kept' in loc.columns else None
-        if col:
-            results.append(check('保持边距离 15.70 Å', '15.70',
-                                 round(float(loc[col].mean()), 2), tol=0.02))
+    if loc is not None:
+        if 'mean_d_broken' in loc.columns:
+            results.append(check('局域性(含自身) 断裂 4.03 Å', '4.03',
+                                 round(float(loc['mean_d_broken'].mean()), 2),
+                                 tol=0.02, in_supplementary=True))
+        if 'mean_d_kept' in loc.columns:
+            results.append(check('局域性(含自身) 保持 15.70 Å', '15.70',
+                                 round(float(loc['mean_d_kept'].mean()), 2),
+                                 tol=0.02, in_supplementary=True))
+        # 注意：frac_broken_lt5 存的是 0–1 的小数；论文引用 65.8（百分比）
+        if 'frac_broken_lt5' in loc.columns:
+            results.append(check('局域性(含自身) <5 Å 比例 65.8%', '65.8',
+                                 round(float(loc['frac_broken_lt5'].mean()) * 100, 1),
+                                 tol=0.15, in_supplementary=True))
+        # 注意：论文的 2.70 是逐突变中位数的中位数，不是均值
+        if 'median_d_broken' in loc.columns:
+            results.append(check('局域性(含自身) 断裂中位数 2.70 Å', '2.70',
+                                 round(float(loc['median_d_broken'].median()), 2),
+                                 tol=0.02, in_supplementary=True))
 
     # ---- Ridge ----
     r = rd('ridge_fixed_results.csv')
