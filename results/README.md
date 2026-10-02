@@ -1,6 +1,6 @@
 # Released result tables
 
-86 CSV files. Generated 2026-10-02.
+89 CSV files. Generated 2026-10-02.
 
 These are the derived tables behind every number and figure in the manuscript.
 The repository does **not** ship the raw inputs (PDB structures, FoldX mutant
@@ -94,6 +94,7 @@ reported values.
 | `benchmarks_s669_excluded.csv` |
 | `ca_cb_edit_diagnosis.csv` |
 | `capacity_trend_test.csv` |
+| `cluster_level_typed_counts.csv` |
 | `edits_by_definition.csv` |
 | `edits_scwrl4_local_test50.csv` |
 | `edits_scwrl4_test50.csv` |
@@ -134,3 +135,5 @@ reported values.
 | `training_merged_noleak.csv` |
 | `true_edits_s669_preQA_backup.csv` |
 | `true_edits_s669_sc_preQA_backup.csv` |
+| `within_protein_by_definition.csv` |
+| `within_protein_paired.csv` |

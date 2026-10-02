@@ -176,3 +176,42 @@ A contact incident on the mutated residue itself is at distance zero under this 
 | Self-contacts removed, share within 5 Å | 30.1% | — |
 
 The main text reports the self-contacts-removed per-mutation mean. The qualitative conclusion is unchanged under every definition: broken contacts lie markedly closer to the mutated residue than contacts that persist. The distance is not a sufficient statistic for the effect of a contact on ΔΔG, which is why the association analysis in Section 4.5 uses counts rather than distances.
+
+---
+
+## S11. Cluster-level inference and an alternative aggregation metric
+
+Two analyses in the main text rest on the protein as the independent unit, and a
+reviewer could reasonably ask whether the reported conclusions survive when that
+structure is respected rather than assumed away. Both were recomputed directly from
+the released per-sample predictions and contact-edit tables.
+
+**Cluster-level test for the typed contact counts.** The six typed counts in
+Section 4.5 are computed over 505 mutation pairs drawn from 88 S669 proteins, so
+mutations within a protein are not independent. We therefore resampled whole
+proteins with replacement (B = 5,000) and recomputed the correlation on each
+resample, using the same bootstrap sign probability convention described in
+Section 3.6. Only the broken hydrophobic count has an interval excluding zero
+(r = 0.135, 95% cluster CI 0.045 to 0.200, uncorrected P = 0.006); it survives Holm
+correction across the six typed counts (corrected P = 0.034). Formed hydrophobic
+contacts reach a similar point estimate (r = 0.096) but their cluster interval
+includes zero. This reproduces the conclusion reached with unadjusted
+mutation-level tests while replacing the independence assumption those tests
+required. The per-count values are in `cluster_level_typed_counts.csv`.
+
+**Within-protein Fisher-z aggregation.** Section 4.1 notes that pooling within
+proteins rather than across mutations can invert architecture rankings. The
+definition comparison was therefore repeated under that metric: predictions were
+averaged across seeds, within-protein Pearson correlations were computed for the
+19 proteins carrying at least five benchmark mutations, and the correlations were
+pooled with Fisher z. Of eleven paired comparisons against the side-chain-centroid
+reference, one excluded zero before correction (edge-aware GINE, C-alpha versus
+centroid, delta z = -0.120, 95% CI -0.208 to -0.033, P = 0.008) and none survived
+Holm correction. The architecture ranking did invert, with global pooling reaching
+within-protein r = 0.456 against 0.414 for the same encoder on centroid graphs, but
+the definition effect itself is insensitive to the aggregation. Per-encoder and
+paired values are in `within_protein_by_definition.csv` and
+`within_protein_paired.csv`.
+
+Both analyses are reproducible from released artefacts:
+`python src/cluster_level_typed_counts.py` and `python src/within_protein_metric.py`.
