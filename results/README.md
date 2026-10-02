@@ -1,6 +1,6 @@
 # Released result tables
 
-90 CSV files. Generated 2026-10-02.
+93 CSV files. Generated 2026-10-02.
 
 These are the derived tables behind every number and figure in the manuscript.
 The repository does **not** ship the raw inputs (PDB structures, FoldX mutant
@@ -104,6 +104,7 @@ reported values.
 | `esm2_sup_esm2_650m_results.csv` |
 | `foldx_bottleneck_stratified.csv` |
 | `foldx_parsed_energy.csv` |
+| `formed_noise_robustness.csv` |
 | `increment_decomposition_s669.csv` |
 | `index_bug_audit_s669.csv` |
 | `index_bug_audit_ssym.csv` |
@@ -136,5 +137,7 @@ reported values.
 | `training_merged_noleak.csv` |
 | `true_edits_s669_preQA_backup.csv` |
 | `true_edits_s669_sc_preQA_backup.csv` |
+| `within_arch_ladder_predictions.csv` |
+| `within_arch_ladder_results.csv` |
 | `within_protein_by_definition.csv` |
 | `within_protein_paired.csv` |
