@@ -13,6 +13,14 @@
 
 每个档位 × 3 种子 × {ca, centroid}，其余训练设置（数据、划分、轮数）与原阶梯一致。
 输出：data/within_arch_ladder_results.csv / _predictions.csv
+
+
+STATUS: not run to completion. Only 10 of the 24 planned runs finished
+before this experiment was stopped, and no result from it appears in the
+manuscript, the supplementary material or any released table. The script is
+kept because it is the direct test of reviewer concern R2-M3 (the capacity
+ladder confounds capacity with architecture); running it to completion would
+settle that concern. Do not cite partial output of this script.
 """
 import argparse
 import os
