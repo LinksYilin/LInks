@@ -75,8 +75,9 @@ python src/reproduce_headline.py     # recomputes 29 reported values from result
 It does **not** ship the raw inputs — wild-type PDB structures, FoldX mutant
 structures, contact-graph `.npz` files or ESM embedding caches — which together
 total roughly 21 GB. Those are rebuilt from public sources by the scripts in
-`src/` (see "Rebuilding the inputs" below). Scripts that read only `results/`
-run immediately; scripts that rebuild from raw inputs need those inputs first.
+`src/` (see "Reproducing the analysis" below for the limitations and required
+inputs). Scripts that read only `results/` run immediately; scripts that
+rebuild from raw inputs need those inputs first.
 
 ## Quick start
 
@@ -103,14 +104,35 @@ entirely. External tools are expected under `tools/` and can be redirected with
 
 ## Reproducing the analysis
 
+The commands below are **not** executable end-to-end from this derived-results-only
+archive. Obtain the public sequences/labels and structures named in the Methods,
+install and configure FoldX separately, and build the `data/structures/`,
+`data/mutant_structures_*`, `data/contact_graphs_*`, and `data/esm_emb_cache/`
+intermediates before attempting training. No one-command downloader for the full
+input bundle or trained model checkpoints are supplied. The released per-sample
+predictions support numerical reproduction without retraining (see
+`src/reproduce_headline.py`). For example, the raw-input helper requires explicit
+arguments: `download_pdbs.py --ids <comma-separated-PDB-IDs> --out_dir
+<data/structures>`, and FoldX requires `--label_csv`, `--struct_dir`, `--foldx_bin`,
+and `--out_dir`; consult each script's `--help` before use.
+
+The following commands describe analysis **after** those prerequisites are met:
+
 ```bash
 # contact graphs for one definition (repeat for ca, cb, centroid, allatom)
 python src/build_graphs_atomdef.py --atom_def centroid
 
-# capacity ladder: 5 encoders x 4 definitions x N seeds
+# capacity ladder: three small encoders use four definitions
 python src/run_ladder.py \
-    --models gnn_global,gnn_local,gnn_edge,deep_gine,egnn \
+    --models gnn_global,gnn_local,gnn_edge \
     --defs ca,cb,centroid,allatom --seeds 42,123,2024 --epochs 20
+# the two largest rungs omit all-atom graphs
+python src/run_ladder.py \
+    --models deep_gine,egnn \
+    --defs ca,cb,centroid --seeds 42,123,2024 --epochs 20
+# NOTE: inspect --tag / output destinations first; results/ contains the
+# published, architecture-matched 508934-parameter EGNN run, and a separate
+# 508938-parameter stability-control run. Never aggregate them together.
 
 # sequence baselines
 python src/esm2_zeroshot.py  --model esm2_650m
@@ -127,11 +149,13 @@ python src/submission_gate.py
   and enables `torch.use_deterministic_algorithms`. `src/test_determinism.py`
   verifies empirically that two runs with the same seed produce bit-identical
   predictions, and reports the CPU-versus-GPU difference.
-- **Quality gate.** `src/submission_gate.py` derives every expected number *from
-  the result files* (nothing is hard-coded), searches the manuscript for those
-  values, asserts that superseded values are absent, runs the test suite, and
-  renders the document. It exits non-zero on any failure, so it can be used as a
-  commit hook or CI step.
+- **Quality checks.** `src/submission_gate.py` checks a defined set of manuscript
+  assertions, runs selected tests and attempts a DOCX render; it does **not**
+  prove the absence of every inconsistency. The local DOCX render requires a
+  separately configured LibreOffice-kit executable (`DSH_LO_CLI`, `DSH_NODE`),
+  and its absence may cause the gate to fail in other environments. The
+  independent `src/reproduce_headline.py` recalculates 29 reported quantities
+  from released tables. Neither check replaces full raw-input reconstruction.
 - **Linting.** `ruff check` passes on the analysis pipeline. The handful of
   exemptions in `ruff.toml` are declared per file with a written reason rather
   than by disabling whole rule families.

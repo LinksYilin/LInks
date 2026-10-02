@@ -124,9 +124,6 @@ def main():
         'numpy', 'pandas', 'scipy', 'torch', 'torch_geometric', 'sklearn', 'docx',
         'matplotlib', 'Bio', 'PIL', 'requests', 'statsmodels', 'networkx', 'lxml',
         'openpyxl', 'joblib', 'tqdm', 'yaml', 'h5py', 'seaborn', 'transformers',
-        'edit_cost', 'ged_module', 'gnn_baseline', 'gnn_local_baseline',
-        'gnn_edge_baseline', 'train_gnn_baseline', 'contact_graph_defs', 'paths',
-        'seed_utils', 'strong_backbones', 'ladder_common', 'filter_leakage',
     }
     broken = []
     for f in sorted(os.listdir(os.path.join(REL, 'src'))):

@@ -95,7 +95,7 @@ def main():
     out = os.path.join(D, 'capacity_trend_test.csv')
     t['spearman_rho'] = obs
     t['perm_p_two_sided'] = p_two
-    t['n_permutations'] = B
+    t['n_permutations'] = len(perms)
     t.to_csv(out, index=False)
     print(f'\n已保存 {out}')
 
