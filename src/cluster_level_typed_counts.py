@@ -15,8 +15,11 @@ import os
 import numpy as np
 import pandas as pd
 
-R = r'D:\GED_mutation\release\results'
-OUT = r'D:\GED_mutation\data'
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import paths
+R = str(paths.DATA)
+OUT = str(paths.DATA)
 D = pd.read_csv(os.path.join(R, 'directional_type_analysis.csv'))
 
 TYPED = ['broken_hydro', 'broken_elec', 'broken_other',

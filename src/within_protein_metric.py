@@ -14,8 +14,11 @@ import os
 import numpy as np
 import pandas as pd
 
-R = r'D:\GED_mutation\release\results'
-OUT = r'D:\GED_mutation\data'
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import paths
+R = str(paths.DATA)
+OUT = str(paths.DATA)
 P = pd.read_csv(os.path.join(R, 'ladder_predictions.csv'))
 
 # 只看 S669（与论文主分析一致）
